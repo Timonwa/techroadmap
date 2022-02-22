@@ -348,3 +348,7 @@ footer .quote {
   font-weight: 700;
 }
 /*! Javascript CSS (End) */
+
+.resource-section{
+  border: 1px solid #000;
+}
