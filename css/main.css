@@ -15,13 +15,17 @@ a:active,
 a:visited {
   color: var(--main-color);
 }
+
+.nav-space {
+  height: var(--nav-height);
+}
 /*! My variables (End) */
 
 /*! Main CSS (Start) */
 /** nav bar */
 nav {
   width: 100%;
-  background-color: var(--clear-bgc);
+  background-color: var(--nav-bgc);
   /* padding-top: 20px !important;
   padding-bottom: 20px !important; */
   position: fixed;
@@ -114,7 +118,7 @@ nav {
   position: absolute;
   top: 40px;
   width: 100%;
-  background-color: var(--clear-bgc);
+  background-color: var(--nav-bgc);
 }
 
 /* dropdown close arrow and dropdown links container */
@@ -137,7 +141,7 @@ nav {
     position: absolute;
     top: -50vh;
     left: 0;
-    background-color: var(--clear-bgc);
+    background-color: var(--nav-bgc);
     width: 100vw;
     height: 50vh;
     text-align: center;
@@ -203,8 +207,8 @@ footer {
 }
 @media screen and (min-width: 1441px) {
   .nav-wrapper {
-    width: 1100px; 
-	/*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
+    width: 1100px;
+    /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
     margin: 0 auto;
   }
   header {
@@ -295,8 +299,7 @@ footer {
 
 /** banner */
 .banner {
-  /* background-image: url("../assets/imgs/roadmap.jpg"); */
-  background: url("../assets/imgs/roadmap.jpg") rgba(136, 136, 136, 0.664);
+  background: url("../assets/imgs/roadmap.jpg") rgba(3, 3, 3, 0.253);
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -307,6 +310,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  text-align: center;
+  /* display: none; */
 }
 
 /** subsections in sections */
@@ -325,6 +331,7 @@ footer > div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -343,13 +350,13 @@ footer > div {
 .careers__card-link {
   padding: 20px;
   text-align: center;
-  background-color: hsl(0, 21%, 36%);
+  background-color: var(--card-bgc);
   border-radius: 10px;
 }
 
 /** footer */
 footer {
-  background: hsl(0, 21%, 6%);
+  background: var(--footer-bgc);
 }
 
 footer .sections {

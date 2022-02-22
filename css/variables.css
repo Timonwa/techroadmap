@@ -2,9 +2,11 @@
 /** root file */
 :root {
   /** variables */
-  --main-bgc: rgb(141, 92, 92);
-  --clear-bgc: rgba(0, 0, 0, 0.5);
-  --main-color: #ffa500;
+  --main-bgc: #21394f;
+  --nav-bgc: #04070a7e;
+  --card-bgc: #04070aa1;
+  --footer-bgc: #04070a;
+  --main-color: #d3dce6;
 
   /* dimensions */
   --nav-height: 60px;
