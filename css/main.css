@@ -19,10 +19,16 @@ a:visited {
 
 /*! Main CSS (Start) */
 /** nav bar */
-/* nav bar wrapper */
-.nav-wrapper {
+nav {
+  width: 100%;
+  background-color: var(--clear-bgc);
+  /* padding-top: 20px !important;
+  padding-bottom: 20px !important; */
   position: fixed;
   top: 0;
+}
+/* nav bar wrapper */
+.nav-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,25 +43,23 @@ a:visited {
   -ms-flex-pack: justify;
   justify-content: space-between;
   height: var(--nav-height);
-  padding: 20px 50px;
   color: var(--main-color);
-  background-color: var(--clear-bgc);
   z-index: 100000;
-  width: 100vw;
+  width: 100%;
 }
 
 /* logo */
 /* todo start: pick only one from these variations of nav bar logo */
-/*? p navbar logo */
+/*? p nav */
 .nav-wrapper > .nav-logo > a > p {
   font-weight: 700;
   margin-bottom: 0;
 }
-/*? h4 navbar logo */
+/*? h4 nav */
 /* .nav-wrapper > .nav-logo > a > h4 {
   margin-bottom: 0;
 } */
-/*?  img navbar logo */
+/*?  img nav */
 /* .nav-wrapper > .nav-logo > a > img {
   border: 1px solid #000;
 } */
@@ -80,6 +84,9 @@ a:visited {
 /* nav bar individual links */
 .nav-wrapper > .nav-links > ul > li {
   margin: 0 20px;
+}
+.nav-wrapper > .nav-links > ul > li:last-child {
+  margin-right: 0;
 }
 
 /* nav bar individual links */
@@ -176,6 +183,190 @@ a:visited {
   .dropdown-links > li {
     padding-bottom: 5px;
   }
+}
+
+/** sections */
+nav {
+  padding: 0 150px;
+}
+header {
+  padding: 0 150px;
+}
+main {
+  padding: 0 150px;
+}
+aside {
+  padding: 0 150px;
+}
+footer {
+  padding: 0 150px;
+}
+@media screen and (min-width: 1441px) {
+  .nav-wrapper {
+    width: 1100px; 
+	/*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
+    margin: 0 auto;
+  }
+  header {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  main {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  aside {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  footer {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 0 100px;
+  }
+  header {
+    padding: 0 100px;
+  }
+  main {
+    padding: 0 100px;
+  }
+  aside {
+    padding: 0 100px;
+  }
+  footer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    padding: 0 80px;
+  }
+  header {
+    padding: 0 80px;
+  }
+  main {
+    padding: 0 80px;
+  }
+  aside {
+    padding: 0 80px;
+  }
+  footer {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 786px) {
+  nav {
+    padding: 0 60px;
+  }
+  header {
+    padding: 0 60px;
+  }
+  main {
+    padding: 0 60px;
+  }
+  aside {
+    padding: 0 60px;
+  }
+  footer {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  nav {
+    padding: 0 40px;
+  }
+  header {
+    padding: 0 40px;
+  }
+  main {
+    padding: 0 40px;
+  }
+  aside {
+    padding: 0 40px;
+  }
+  footer {
+    padding: 0 40px;
+  }
+}
+
+/** banner */
+.banner {
+  /* background-image: url("../assets/imgs/roadmap.jpg"); */
+  background: url("../assets/imgs/roadmap.jpg") rgba(136, 136, 136, 0.664);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** subsections in sections */
+main > section {
+  margin: 40px auto;
+}
+aside > div {
+  margin: 40px auto;
+}
+footer > div {
+  padding: 40px 0;
+}
+
+/** careers section */
+.careers__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .careers__cards {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .careers__cards {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+.careers__card-link {
+  padding: 20px;
+  text-align: center;
+  background-color: hsl(0, 21%, 36%);
+  border-radius: 10px;
+}
+
+/** footer */
+footer {
+  background: hsl(0, 21%, 6%);
+}
+
+footer .sections {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  font-weight: bold;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+footer .quote {
+  max-width: 500px;
 }
 
 /** javascript css */
