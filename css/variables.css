@@ -1,0 +1,11 @@
+/*! My variables (Start) */
+/** root file */
+:root {
+  /** variables */
+  --main-bgc: rgb(141, 92, 92);
+  --clear-bgc: rgba(0, 0, 0, 0.5);
+  --main-color: #ffa500;
+
+  /* dimensions */
+  --nav-height: 60px;
+}

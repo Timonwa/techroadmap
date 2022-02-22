@@ -1,0 +1,53 @@
+/*! Timonwa CSS Reset */
+/*! ===== Resets for all pages (Start) ===== */
+/** all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/** any element that has part of its contents overflowing the body container, will have that part hidden on the screen */
+body {
+  overflow-x: hidden;
+}
+/** to ensure that when you click on an id link, the header will not cover the beginning of the content the id is pointing to */
+[id] {
+  scroll-margin-top: 5rem;
+}
+/** reset the link states to the page's main color and no decoration */
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+/** add pointer to inputs and make the font same as body*/
+input,
+select,
+textarea,
+button,
+optgroup {
+  cursor: pointer;
+  font-size: 100%;
+}
+/** removing the outline when inputs are on focus */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+/** remove italics style from the address text */
+address {
+  font-style: normal;
+}
+/** remove bullets from list items and position them well */
+ul {
+  list-style: none;
+  list-style-position: unset;
+}
+/*! ===== Resets for all pages (End) ===== */

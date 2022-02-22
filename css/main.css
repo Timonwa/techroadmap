@@ -1,0 +1,186 @@
+/*! My variables (Start) */
+/** body */
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  background-color: var(--main-bgc);
+  color: var(--main-color);
+}
+
+/** reset the links main color */
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: var(--main-color);
+}
+/*! My variables (End) */
+
+/*! Main CSS (Start) */
+/** nav bar */
+/* nav bar wrapper */
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: var(--nav-height);
+  padding: 20px 50px;
+  color: var(--main-color);
+  background-color: var(--clear-bgc);
+  z-index: 100000;
+  width: 100vw;
+}
+
+/* logo */
+/* todo start: pick only one from these variations of nav bar logo */
+/*? p navbar logo */
+.nav-wrapper > .nav-logo > a > p {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+/*? h4 navbar logo */
+/* .nav-wrapper > .nav-logo > a > h4 {
+  margin-bottom: 0;
+} */
+/*?  img navbar logo */
+/* .nav-wrapper > .nav-logo > a > img {
+  border: 1px solid #000;
+} */
+/* todo end */
+
+/* nav bar */
+.nav-wrapper > .nav-links {
+  text-align: right;
+}
+
+/* nav bar links */
+.nav-wrapper > .nav-links > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+/* nav bar individual links */
+.nav-wrapper > .nav-links > ul > li {
+  margin: 0 20px;
+}
+
+/* nav bar individual links */
+.nav-wrapper > .nav-links > ul > li > a {
+  color: var(--main-color);
+}
+
+/* burger menu */
+.nav-wrapper > .burger-menu {
+  display: none;
+}
+
+/* dropdown menu */
+.dropdown-menu {
+  position: relative;
+}
+
+/* dropdown open arrow */
+.dropdown-open {
+  display: inline-block;
+}
+
+/* dropdown links cntr */
+.dropdown-links {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  background-color: var(--clear-bgc);
+}
+
+/* dropdown close arrow and dropdown links container */
+.dropdown-close,
+.dropdown-links {
+  display: none;
+}
+
+/* individual dropdown links */
+.dropdown-links > li {
+  padding: 5px 0 10px;
+  text-align: center;
+}
+
+/** nav link styling on smaller screens where the burger menu becomes visible and the nav links hidden */
+/* 768px screen width and below */
+@media screen and (max-width: 768px) {
+  /* nav bar */
+  .nav-wrapper > .nav-links {
+    position: absolute;
+    top: -50vh;
+    left: 0;
+    background-color: var(--clear-bgc);
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    transition: top 500ms;
+    -webkit-transition: top 500ms;
+    -moz-transition: top 500ms;
+    -ms-transition: top 500ms;
+    -o-transition: top 500ms;
+  }
+
+  /* burger menu  */
+  .nav-wrapper > .burger-menu {
+    display: block;
+  }
+
+  /* burger menu close icon */
+  .nav-wrapper > .burger-menu > .burger-menu-toggle > span > .close {
+    display: none;
+  }
+
+  /* nav bar links */
+  .nav-wrapper > .nav-links > ul {
+    height: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  /* dropdown menu */
+  .dropdown-menu {
+    position: static;
+  }
+  /* dropdown links cntr */
+  .dropdown-links {
+    position: static;
+    background-color: transparent;
+  }
+
+  /* individual dropdown links */
+  .dropdown-links > li {
+    padding-bottom: 5px;
+  }
+}
+
+/** javascript css */
+/* active state for the webpage link that is currently viewed by the user */
+.active {
+  font-weight: 700;
+}
+/*! Main CSS (End) */
