@@ -89,6 +89,7 @@ nav {
 .nav-wrapper > .nav-links > ul > li {
   margin: 0 20px;
 }
+
 .nav-wrapper > .nav-links > ul > li:last-child {
   margin-right: 0;
 }
@@ -96,6 +97,10 @@ nav {
 /* nav bar individual links */
 .nav-wrapper > .nav-links > ul > li > a {
   color: var(--main-color);
+}
+
+.nav-wrapper > .nav-links > ul > li:last-child {
+  margin-right: 20px;
 }
 
 /* burger menu */
@@ -150,6 +155,10 @@ nav {
     -moz-transition: top 500ms;
     -ms-transition: top 500ms;
     -o-transition: top 500ms;
+  }
+
+  .nav-wrapper > .nav-links > ul > li:last-child {
+    margin-right: 20px;
   }
 
   /* burger menu  */
