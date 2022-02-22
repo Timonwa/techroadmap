@@ -216,8 +216,8 @@ footer {
 }
 @media screen and (min-width: 1441px) {
   .nav-wrapper {
-    width: 1100px;
     /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
+    width: 1100px;
     margin: 0 auto;
   }
   header {
@@ -321,7 +321,6 @@ footer {
   align-items: center;
   color: white;
   text-align: center;
-  /* display: none; */
 }
 
 /** subsections in sections */
@@ -361,6 +360,11 @@ footer > div {
   text-align: center;
   background-color: var(--card-bgc);
   border-radius: 10px;
+}
+
+/** aside */
+aside {
+  border-top: 1px solid var(--main-color);
 }
 
 /** footer */
