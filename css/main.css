@@ -1,4 +1,4 @@
-/*! My variables (Start) */
+/*! Variables (Start) */
 /** body */
 body {
   font-family: sans-serif;
@@ -19,7 +19,76 @@ a:visited {
 .nav-space {
   height: var(--nav-height);
 }
-/*! My variables (End) */
+/*! Variables (End) */
+
+/*! Sections and Subsections paddings (Start) */
+/** sections */
+nav,
+header,
+main,
+aside,
+footer {
+  padding: 0 150px;
+}
+@media screen and (min-width: 1441px) {
+  .nav-wrapper {
+    /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
+    width: 1100px;
+    margin: 0 auto;
+  }
+  header,
+  main,
+  aside,
+  footer {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 786px) {
+  nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 40px;
+  }
+}
+
+/** subsections in sections */
+header.intro > div,
+main > section,
+aside > div,
+footer > div {
+  padding: 40px 0;
+}
+/*! Sections and Sub-sections paddings (End) */
 
 /*! Main CSS (Start) */
 /** nav bar */
@@ -31,6 +100,7 @@ nav {
   position: fixed;
   top: 0;
 }
+
 /* nav bar wrapper */
 .nav-wrapper {
   display: -webkit-box;
@@ -198,114 +268,6 @@ nav {
   }
 }
 
-/** sections */
-nav {
-  padding: 0 150px;
-}
-header {
-  padding: 0 150px;
-}
-main {
-  padding: 0 150px;
-}
-aside {
-  padding: 0 150px;
-}
-footer {
-  padding: 0 150px;
-}
-@media screen and (min-width: 1441px) {
-  .nav-wrapper {
-    /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
-    width: 1100px;
-    margin: 0 auto;
-  }
-  header {
-    width: 1400px;
-    margin: 0 auto;
-  }
-  main {
-    width: 1400px;
-    margin: 0 auto;
-  }
-  aside {
-    width: 1400px;
-    margin: 0 auto;
-  }
-  footer {
-    width: 1400px;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 1024px) {
-  nav {
-    padding: 0 100px;
-  }
-  header {
-    padding: 0 100px;
-  }
-  main {
-    padding: 0 100px;
-  }
-  aside {
-    padding: 0 100px;
-  }
-  footer {
-    padding: 0 100px;
-  }
-}
-@media screen and (max-width: 900px) {
-  nav {
-    padding: 0 80px;
-  }
-  header {
-    padding: 0 80px;
-  }
-  main {
-    padding: 0 80px;
-  }
-  aside {
-    padding: 0 80px;
-  }
-  footer {
-    padding: 0 80px;
-  }
-}
-@media screen and (max-width: 786px) {
-  nav {
-    padding: 0 60px;
-  }
-  header {
-    padding: 0 60px;
-  }
-  main {
-    padding: 0 60px;
-  }
-  aside {
-    padding: 0 60px;
-  }
-  footer {
-    padding: 0 60px;
-  }
-}
-@media screen and (max-width: 560px) {
-  nav {
-    padding: 0 40px;
-  }
-  header {
-    padding: 0 40px;
-  }
-  main {
-    padding: 0 40px;
-  }
-  aside {
-    padding: 0 40px;
-  }
-  footer {
-    padding: 0 40px;
-  }
-}
-
 /** banner */
 .banner {
   background: url("../assets/imgs/roadmap.jpg") rgba(3, 3, 3, 0.253);
@@ -321,17 +283,6 @@ footer {
   align-items: center;
   color: white;
   text-align: center;
-}
-
-/** subsections in sections */
-main > section {
-  margin: 40px auto;
-}
-aside > div {
-  margin: 40px auto;
-}
-footer > div {
-  padding: 40px 0;
 }
 
 /** careers section */
@@ -385,13 +336,15 @@ footer .sections {
   display: inline-block;
   margin-right: 10px;
 }
+
 footer .quote {
   max-width: 500px;
 }
+/*! Main CSS (End) */
 
-/** javascript css */
-/* active state for the webpage link that is currently viewed by the user */
+/*! Javascript CSS (Start) */
+/** active state for the webpage link that is currently viewed by the user */
 .active {
   font-weight: 700;
 }
-/*! Main CSS (End) */
+/*! Javascript CSS (End) */
