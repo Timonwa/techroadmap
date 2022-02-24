@@ -95,7 +95,7 @@ body::-webkit-scrollbar {
   width: 10px;
 }
 body::-webkit-scrollbar-track {
- box-shadow: inset 0 0 10px var(--main-color);
+  box-shadow: inset 0 0 10px var(--main-color);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
@@ -293,6 +293,11 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 400px;
+  }
+}
 
 /** careers section */
 .careers__cards {
@@ -415,7 +420,7 @@ footer .quote {
   width: 5px;
 }
 .sidebar-links::-webkit-scrollbar-track {
- box-shadow: inset 0 0 6px white;
+  box-shadow: inset 0 0 6px white;
 }
 .sidebar-links::-webkit-scrollbar-thumb {
   background-color: var(--main-bgc);
