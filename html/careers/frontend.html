@@ -96,8 +96,9 @@
     <!--* container/body wrapper for every content in the body -->
     <div class="flex">
       <div class="nav-space"></div>
-      <!-- nav bar -->
-      <nav>
+
+      <!--* nav bar -->
+      <nav class="main-nav">
         <div class="nav-wrapper">
           <!-- website logo -->
           <div class="nav-logo">
@@ -115,22 +116,6 @@
               <li>
                 <a class="nav-link" href="/html/careers.html">Careers</a>
               </li>
-              <!-- <li>
-                <a class="nav-link" href="/html/contact.html">Contact</a>
-              </li> -->
-              <!-- <li class="dropdown-menu"
-                >Dropdown
-                <i class="fas fa-chevron-down fa-sm fa-fw dropdown-open"></i>
-                <i class="dropdown-close fas fa-chevron-up fa-sm fa-fw"></i>
-                <ul class="dropdown-links">
-                  <li>
-                    <a class="nav-link dropdown-link" href="#">Link 1</a>
-                  </li>
-                  <li>
-                    <a class="nav-link dropdown-link" href="#">Link 2</a>
-                  </li>
-                </ul>
-              </li> -->
             </ul>
           </div>
 
@@ -145,6 +130,241 @@
         </div>
       </nav>
 
+      <!--* side bar -->
+      <nav class="sidebar-nav">
+        <div class="sidebar-wrapper">
+          <!-- side bar toggle -->
+          <div class="sidebar-toggle">
+            <p id="open-sidebar"
+              >Open Menu <i class="fa fa-chevron-down" aria-hidden="true"></i
+            ></p>
+            <p id="close-sidebar"
+              >Close Menu <i class="fa fa-chevron-up" aria-hidden="true"></i
+            ></p>
+          </div>
+
+          <!--* links in side bar -->
+          <ul class="sidebar-links">
+            <!-- what is frontend -->
+            <li class="sidebar-title">
+              <a href="#what-is">What is Frontend Dev.</a>
+            </li>
+
+            <!-- frontend roadmap -->
+            <li class="sidebar-title">
+              <a href="#roadmap">Frontend Dev. Roadmap</a>
+            </li>
+
+            <!-- bootcamps and internships -->
+            <li class="sidebar-title">
+              <a href="#bootcamps-and-internships">Bootcamps and Internships</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#bootcamps">Bootcamps</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#internships">Internships</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- tools and editors -->
+            <li class="sidebar-title">
+              <a href="#tools">Tools and Editors</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#desktop-apps">Desktop Apps</a>
+                  <ul class="sidebar-sublinks">
+                    <li class="sidebar-subtitle">
+                      <a href="#vscode">VsCode</a>
+                    </li>
+                    <li class="sidebar-subtitle">
+                      <a href="#sublime">Sublime</a>
+                    </li>
+                    <li class="sidebar-subtitle">
+                      <a href="#atom">Atom</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#online-editors">Online Editors</a>
+                  <ul class="sidebar-sublinks">
+                    <li class="sidebar-subtitle">
+                      <a href="#codepen">Codepen</a>
+                    </li>
+                    <li class="sidebar-subtitle">
+                      <a href="#codesandbox">CodeSandbox</a>
+                    </li>
+                    <li class="sidebar-subtitle">
+                      <a href="#vscode-online">VsCode Online</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#mobile-apps">Mobile Apps</a>
+                  <ul class="sidebar-sublinks">
+                    <li class="sidebar-subtitle">
+                      <a href="#vscode-mobile">VsCode Mobile</a>
+                    </li>
+                    <li class="sidebar-subtitle">
+                      <a href="#dcoder">Dcoder</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- html and css (beginner's level) -->
+            <li class="sidebar-title">
+              <a href="#css-beginners">Html and Css - Beginner</a>
+            </li>
+
+            <!-- html and css (advanced level) -->
+            <li class="sidebar-title">
+              <a href="#css-advanced">Html and Css - Advanced</a>
+              </li>
+
+            <!-- javascript -->
+            <li class="sidebar-title">
+              <a href="#javascript">Javascript</a>
+            </li>
+
+            <!-- javascript advanced -->
+            <li class="sidebar-title" >
+              <a href="#javascript-advanced">Javascript Advanced</a>
+            </li>
+
+            <!-- version control -->
+            <li class="sidebar-title">
+              <a href="#version-control">Version Control</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#git">Git</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#github">GitHub</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#git-desktop">Git Desktop</a>
+                  </li>
+                <li class="sidebar-subtitle">
+                  <a href="#bitbucket">BitBucket</a>
+                  </li>
+              </ul>
+            </li>
+
+            <!-- deployment services -->
+            <li class="sidebar-title">
+              <a href="#deployment">Deployment Services</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#vercel">Vercel</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#netlify">Netlify</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- css frameworks and libraries -->
+            <li class="sidebar-title" 
+            ><a href="#css-frameworks">Css Frameworks and Libraries</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#bootstrap">Bootstrap</a>
+                  </li>
+                <li class="sidebar-subtitle">
+                  <a href="#tailwind">Tailwind</a>
+                  </li>
+                <li class="sidebar-subtitle">
+                  <a href="#bulma">Bulma</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- css pre-processors -->
+            <li class="sidebar-title">
+              <a href="#css-frameworks">Css PreProcessors</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#less">Less</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#sass">Sass</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#postcss">PostCSS</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- json and json server -->
+            <li class="sidebar-title">
+              <a href="#json">Json and Json Server</a
+                ></li>
+
+            <!-- apis -->
+            <li class="sidebar-title">
+              <a href="#apis">APIs</a>
+            </li>
+
+            <!-- js frameworks and libraries -->
+            <li class="sidebar-title">
+              
+              <a href="#js-frameworks">Javascript Frameworks</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#react">React</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#vue">Vue</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#angular">Angular</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- design resources -->
+            <li class="sidebar-title"><a href="#design">Design Resources</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#fonts">Fonts</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#icons">Icons</a>
+                </li>
+                <li class="sidebar-subtitle" >
+                  <a href="#photos">Stock Photos</a>
+                  </li>
+                <li class="sidebar-subtitle">
+                  <a href="#graphics">Graphics and Vectors</a>
+                  </li>
+                <li class="sidebar-subtitle">
+                  <a href="#others">Others</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- cheatsheet -->
+            <li class="sidebar-title">
+              <a href="#cheatsheets">Cheatsheets</a>
+              </li>
+
+            <!-- others -->
+            <li class="sidebar-title">
+              <a href="#other-resource">Other Useful Resource</a>
+            </li>
+
+            <!-- what next -->
+            <li class="sidebar-title">
+              <a href="#what-next">What Next</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--* intro -->
       <header class="intro">
         <div class="intro-wrapper">
           <h2 class="heading">Begin Your Frontend Developer Journey!</h2>
@@ -167,9 +387,10 @@
         </div>
       </header>
 
+      <!--* main content -->
       <main class="resources">
         <!--* What is Frontend Development? -->
-        <section class="resource-section">
+        <section id="what-is" class="resource-section">
           <h2 class="resource-section__heading"
             >What is Frontend Development?</h2
           >
@@ -237,7 +458,7 @@
         </section>
 
         <!--* Frontend Development Roadmap -->
-        <section class="resource-section">
+        <section id="roadmap" class="resource-section">
           <h2 class="resource-section__heading"
             >Frontend Development Roadmap</h2
           >
@@ -330,7 +551,7 @@
         </section>
 
         <!--* Bootcamps and Internships -->
-        <section class="resource-section">
+        <section id="bootcamps-and-internships" class="resource-section">
           <h2 class="resource-section__heading">Bootcamps and Internships</h2>
 
           <div class="resource-section__body">
@@ -344,7 +565,7 @@
 
           <div class="resource-section__links">
             <!-- bootcamps -->
-            <div class="resource-card">
+            <div id="bootcamps" class="resource-card">
               <h3 class="resource-card-title">Bootcamps</h3>
               <ul class="resource-card-links">
                 <li class="resource-link">
@@ -381,7 +602,7 @@
             </div>
 
             <!-- internships -->
-            <div class="resource-card">
+            <div id="internships" class="resource-card">
               <h3 class="resource-card-title">Internships</h3>
               <ul class="resource-card-links">
                 <li class="resource-link">
@@ -420,7 +641,7 @@
         </section>
 
         <!--* Tools and Editors -->
-        <section class="resource-section">
+        <section id="tools" class="resource-section">
           <h2 class="resource-section__heading">Tools and Editors</h2>
 
           <div class="resource-section__body">
@@ -434,10 +655,10 @@
 
           <div class="resource-section__links">
             <!--* Desktop Apps -->
-            <div class="resource-category">
+            <div id="desktop-apps" class="resource-category">
               <h3 class="resource-section__title">Desktop Apps</h3>
               <!--* vscode -->
-              <div class="resource-subsection">
+              <div id="vscode" class="resource-subsection">
                 <h4 class="resource-section__heading">VsCode</h4>
 
                 <div class="resource-section__body">
@@ -549,7 +770,7 @@
               </div>
 
               <!--* sublime -->
-              <div class="resource-subsection">
+              <div id="sublime" class="resource-subsection">
                 <h4 class="resource-section__heading">Sublime</h4>
 
                 <div class="resource-section__body">
@@ -661,7 +882,7 @@
               </div>
 
               <!--*Atom -->
-              <div class="resource-subsection">
+              <div id="atom" class="resource-subsection">
                 <h4 class="resource-section__heading">Atom</h4>
 
                 <div class="resource-section__body">
@@ -774,12 +995,12 @@
             </div>
 
             <!--* Online Editors (Playgrounds) -->
-            <div class="resource-category">
+            <div id="online-editors" class="resource-category">
               <h3 class="resource-section__title"
                 >Online Editors (Playgrounds)</h3
               >
               <!--* Codepen -->
-              <div class="resource-subsection">
+              <div id="codepen" class="resource-subsection">
                 <h4 class="resource-section__heading">Codepen</h4>
 
                 <div class="resource-section__body">
@@ -891,7 +1112,7 @@
               </div>
 
               <!--* CodeSandbox -->
-              <div class="resource-subsection">
+              <div id="codesandbox" class="resource-subsection">
                 <h4 class="resource-section__heading">CodeSandbox</h4>
 
                 <div class="resource-section__body">
@@ -1003,7 +1224,7 @@
               </div>
 
               <!--* VsCode online -->
-              <div class="resource-subsection">
+              <div id="vscode-online" class="resource-subsection">
                 <h4 class="resource-section__heading">VsCode online</h4>
 
                 <div class="resource-section__body">
@@ -1116,10 +1337,10 @@
             </div>
 
             <!--* Mobile Apps -->
-            <div class="resource-category">
+            <div id="mobile-apps" class="resource-category">
               <h3 class="resource-section__title">Mobile Apps</h3>
               <!--* vscode mobile -->
-              <div class="resource-subsection">
+              <div id="vscode-mobile" class="resource-subsection">
                 <h4 class="resource-section__heading">VsCode mobile</h4>
 
                 <div class="resource-section__body">
@@ -1231,7 +1452,7 @@
               </div>
 
               <!--* Dcoder -->
-              <div class="resource-subsection">
+              <div id="dcoder" class="resource-subsection">
                 <h4 class="resource-section__heading">Dcoder</h4>
 
                 <div class="resource-section__body">
@@ -1346,7 +1567,7 @@
         </section>
 
         <!--* Html and Css (Beginner's Level) -->
-        <section class="resource-section">
+        <section id="css-beginners" class="resource-section">
           <h2 class="resource-section__heading"
             >Html and Css (Beginner's Level)</h2
           >
@@ -1587,7 +1808,7 @@
         </section>
 
         <!--* Html and Css (Advanced Level) -->
-        <section class="resource-section">
+        <section id="css-advanced" class="resource-section">
           <h2 class="resource-section__heading"
             >Html and Css (Advanced Level)</h2
           >
@@ -1823,7 +2044,7 @@
         </section>
 
         <!--* Javascript -->
-        <section class="resource-section">
+        <section id="javascript" class="resource-section">
           <h2 class="resource-section__heading">Javascript</h2>
 
           <div class="resource-section__body">
@@ -2062,7 +2283,7 @@
         </section>
 
         <!--* Javascript (Advanced) -->
-        <section class="resource-section">
+        <section id="javascript-advanced" class="resource-section">
           <h2 class="resource-section__heading">Javascript (Advanced)</h2>
 
           <div class="resource-section__body">
@@ -2301,7 +2522,7 @@
         </section>
 
         <!--* Version Control -->
-        <section class="resource-section">
+        <section id="version-control" class="resource-section">
           <h2 class="resource-section__heading">Version Control</h2>
 
           <div class="resource-section__body">
@@ -2315,7 +2536,7 @@
 
           <div class="resource-section__links">
             <!--* git -->
-            <div class="resource-subsection">
+            <div id="git" class="resource-subsection">
               <h3 class="resource-section__heading">Git</h3>
 
               <div class="resource-section__body">
@@ -2426,7 +2647,7 @@
             </div>
 
             <!--* github -->
-            <div class="resource-subsection">
+            <div id="github" class="resource-subsection">
               <h3 class="resource-section__heading">GitHub</h3>
 
               <div class="resource-section__body">
@@ -2537,7 +2758,7 @@
             </div>
 
             <!--* git desktop -->
-            <div class="resource-subsection">
+            <div id="git-desktop" class="resource-subsection">
               <h3 class="resource-section__heading">Git Desktop</h3>
 
               <div class="resource-section__body">
@@ -2648,7 +2869,7 @@
             </div>
 
             <!--* bit bucket -->
-            <div class="resource-subsection">
+            <div id="bitbucket" class="resource-subsection">
               <h3 class="resource-section__heading">BitBucket</h3>
 
               <div class="resource-section__body">
@@ -2762,7 +2983,7 @@
         </section>
 
         <!--* Deployment Services -->
-        <section class="resource-section">
+        <section id="deployment" class="resource-section">
           <h2 class="resource-section__heading">Deployment Services</h2>
 
           <div class="resource-section__body">
@@ -2776,7 +2997,7 @@
 
           <div class="resource-section__links">
             <!--* Vercel -->
-            <div class="resource-subsection">
+            <div id="vercel" class="resource-subsection">
               <h3 class="resource-section__heading">Vercel</h3>
 
               <div class="resource-section__body">
@@ -2874,9 +3095,9 @@
               </div>
             </div>
 
-            <!--* Heroku -->
-            <div class="resource-subsection">
-              <h3 class="resource-section__heading">Heroku</h3>
+            <!--* Netlify -->
+            <div id="netlify" class="resource-subsection">
+              <h3 class="resource-section__heading">Netlify</h3>
 
               <div class="resource-section__body">
                 <p
@@ -2972,251 +3193,11 @@
                 </div>
               </div>
             </div>
-
-          </div>
-        </section>
-
-        <!--* APIs -->
-        <section class="resource-section">
-          <h2 class="resource-section__heading">APIs</h2>
-
-          <div class="resource-section__body">
-            <p
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
-              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
-              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
-              dolorem impedit voluptatum numquam!</p
-            >
-          </div>
-
-          <div class="resource-section__links">
-            <!-- videos -->
-            <div class="resource-card">
-              <h3 class="resource-card-title"> Videos</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Youtube</span>
-                  <span class="resource-link-badge">Html</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Youtube</span>
-                  <span class="resource-link-badge">Html</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Other</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Curated Playlist -->
-            <div class="resource-card">
-              <h3 class="resource-card-title"> Curated Playlist</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Youtube</span>
-                  <span class="resource-link-badge">Html</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Youtube</span>
-                  <span class="resource-link-badge">Html</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Other</span>
-                  <span class="resource-link-badge">Html</span>
-                  <span class="resource-link-badge">Css</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Paid Courses -->
-            <div class="resource-card">
-              <h3 class="resource-card-title">Paid Courses</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Udemy</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Coursera</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Skillshare</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- articles -->
-            <div class="resource-card">
-              <h3 class="resource-card-title">Articles</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <!-- documents -->
-            <div class="resource-card">
-              <h3 class="resource-card-title">Documents</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <!-- Practice Projects -->
-            <div class="resource-card">
-              <h3 class="resource-card-title">Practice Projects</h3>
-              <p
-                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
-              >
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <!-- others -->
-            <div class="resource-card">
-              <h3 class="resource-card-title">Others</h3>
-              <p>Tips, Tricks, Concepts, etc.</p>
-              <ul class="resource-card-links">
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Video</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Article</span>
-                </li>
-                <li class="resource-link">
-                  <a href="#"
-                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
-                    elit.</a
-                  >
-                  <span class="resource-link-badge">Document</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </section>
 
         <!--* CSS Frameworks and Libraies -->
-        <section class="resource-section">
+        <section id="css-frameworks" class="resource-section">
           <h2 class="resource-section__heading">CSS Frameworks and Libraies</h2>
 
           <div class="resource-section__body">
@@ -3230,7 +3211,7 @@
 
           <div class="resource-section__links">
             <!--* bootstrap -->
-            <div class="resource-subsection">
+            <div id="bootstrap" class="resource-subsection">
               <h3 class="resource-section__heading">Bootstrap</h3>
 
               <div class="resource-section__body">
@@ -3470,7 +3451,7 @@
             </div>
 
             <!--* tailwind -->
-            <div class="resource-subsection">
+            <div id="tailwind" class="resource-subsection">
               <h3 class="resource-section__heading">Tailwind</h3>
 
               <div class="resource-section__body">
@@ -3710,7 +3691,7 @@
             </div>
 
             <!--* Bulma -->
-            <div class="resource-subsection">
+            <div id="bulma" class="resource-subsection">
               <h3 class="resource-section__heading">Bulma</h3>
 
               <div class="resource-section__body">
@@ -3951,8 +3932,1097 @@
           </div>
         </section>
 
+        <!--* CSS PreProcessors -->
+        <section id="css-preprocessors" class="resource-section">
+          <h2 class="resource-section__heading">CSS PreProcessors</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
+              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
+              dolorem impedit voluptatum numquam!</p
+            >
+          </div>
+
+          <div class="resource-section__links">
+            <!--* Less -->
+            <div id="less" class="resource-subsection">
+              <h3 class="resource-section__heading">Less</h3>
+
+              <div class="resource-section__body">
+                <p
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempore eum reprehenderit incidunt laudantium a dolores,
+                  deleniti nihil totam corrupti ex explicabo placeat? Magni
+                  omnis, blanditiis quam dolorem impedit voluptatum numquam!</p
+                ><a class="download-link" href="#">Website</a>
+                <span class="resource-link-badge">Css and Javascript</span>
+              </div>
+
+              <div class="resource-section__links">
+                <!-- videos -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Videos</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Curated Playlist -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Curated Playlist</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- articles -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Articles</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- documents -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Documents</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- others -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Others</h3>
+                  <p>Tips, Tricks, Concepts, etc.</p>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Article</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Document</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--* sass -->
+            <div id="sass" class="resource-subsection">
+              <h3 class="resource-section__heading">Sass</h3>
+
+              <div class="resource-section__body">
+                <p
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempore eum reprehenderit incidunt laudantium a dolores,
+                  deleniti nihil totam corrupti ex explicabo placeat? Magni
+                  omnis, blanditiis quam dolorem impedit voluptatum numquam!</p
+                ><a class="download-link" href="#">Website</a>
+                <span class="resource-link-badge">Only Css</span>
+              </div>
+
+              <div class="resource-section__links">
+                <!-- videos -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Videos</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Curated Playlist -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Curated Playlist</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- articles -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Articles</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- documents -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Documents</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Practice Projects -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Practice Projects</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- others -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Others</h3>
+                  <p>Tips, Tricks, Concepts, etc.</p>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Article</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Document</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--* postCSS -->
+            <div id="postcss" class="resource-subsection">
+              <h3 class="resource-section__heading">PostCSS</h3>
+
+              <div class="resource-section__body">
+                <p
+                  >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Tempore eum reprehenderit incidunt laudantium a dolores,
+                  deleniti nihil totam corrupti ex explicabo placeat? Magni
+                  omnis, blanditiis quam dolorem impedit voluptatum numquam!</p
+                ><a class="download-link" href="#">Website</a>
+                <span class="resource-link-badge">Only Css</span>
+              </div>
+
+              <div class="resource-section__links">
+                <!-- videos -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Videos</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Curated Playlist -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title"> Curated Playlist</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Youtube</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Other</span>
+                      <span class="resource-link-badge">Html</span>
+                      <span class="resource-link-badge">Css</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- articles -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Articles</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- documents -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Documents</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Practice Projects -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Practice Projects</h3>
+                  <p
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+                  >
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- others -->
+                <div class="resource-card">
+                  <h3 class="resource-card-title">Others</h3>
+                  <p>Tips, Tricks, Concepts, etc.</p>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Article</span>
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                      <span class="resource-link-badge">Document</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--* JSON and JSON Server -->
+        <section id="json" class="resource-section">
+          <h2 class="resource-section__heading">JSON and JSON Server</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
+              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
+              dolorem impedit voluptatum numquam!</p
+            >
+          </div>
+
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title"> Videos</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Other</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Curated Playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title"> Curated Playlist</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Other</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Paid Courses -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Paid Courses</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Udemy</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Coursera</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Skillshare</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- documents -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Documents</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Practice Projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- others -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <p>Tips, Tricks, Concepts, etc.</p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Document</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* APIs -->
+        <section id="apis"class="resource-section">
+          <h2 class="resource-section__heading">APIs</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
+              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
+              dolorem impedit voluptatum numquam!</p
+            >
+          </div>
+
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title"> Videos</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Other</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Curated Playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title"> Curated Playlist</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Youtube</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Other</span>
+                  <span class="resource-link-badge">Html</span>
+                  <span class="resource-link-badge">Css</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Paid Courses -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Paid Courses</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Udemy</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Coursera</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Skillshare</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- documents -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Documents</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Practice Projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti dolorem hic recusandae deleniti, vel nulla!</p
+              >
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- others -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <p>Tips, Tricks, Concepts, etc.</p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#"
+                    >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                    elit.</a
+                  >
+                  <span class="resource-link-badge">Document</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <!--* Javascript Frameworks -->
-        <section class="resource-section">
+        <section id="js-frameworks" class="resource-section">
           <h2 class="resource-section__heading">Javascript Frameworks</h2>
 
           <div class="resource-section__body">
@@ -3966,7 +5036,7 @@
 
           <div class="resource-section__links">
             <!--* reactjs -->
-            <div class="resource-subsection">
+            <div id="react" class="resource-subsection">
               <h3 class="resource-section__heading">ReactJs</h3>
 
               <div class="resource-section__body">
@@ -4205,7 +5275,7 @@
             </div>
 
             <!--* vue -->
-            <div class="resource-subsection">
+            <div id="vue" class="resource-subsection">
               <h3 class="resource-section__heading">Vue</h3>
 
               <div class="resource-section__body">
@@ -4444,7 +5514,7 @@
             </div>
 
             <!--* angular -->
-            <div class="resource-subsection">
+            <div id="angular" class="resource-subsection">
               <h3 class="resource-section__heading">Angular</h3>
 
               <div class="resource-section__body">
@@ -4684,8 +5754,239 @@
           </div>
         </section>
 
+        <!--* Design Resources -->
+        <section id="design" class="resource-section">
+          <h2 class="resource-section__heading">Design Resources</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
+              nostrum dolore natus similique in repellat debitis, pariatur vel
+              praesentium iusto odio enim deleniti autem doloremque velit
+              reprehenderit dolorem itaque sequi.</p
+            >
+          </div>
+
+          <div class="resource-section__links">
+            <!-- Fonts -->
+            <div id="fonts" class="resource-card">
+              <h3 class="resource-card-title">Fonts</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!-- icons -->
+            <div id="icons" class="resource-card">
+              <h3 class="resource-card-title">Icons</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="resource-link">
+                  <h4><a href="#">Link 1</a></h4>
+                  <span class="resource-link-badge">Free</span>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                    <li class="resource-link">
+                      <a href="#"
+                        >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                        elit.</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!-- stock photos -->
+            <div id="photos" class="resource-card">
+              <h3 class="resource-card-title">Stock Photos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Vectors and Graphics -->
+            <div id="graphics" class="resource-card">
+              <h3 class="resource-card-title">Vectors and Graphics</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Others -->
+            <div id="others" class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a href="#">Link 1</a>
+                  <span class="resource-link-badge">Free</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <!--*Cheatsheets -->
-        <section class="resource-section">
+        <section id="cheatsheets" class="resource-section">
           <h2 class="resource-section__heading">Cheatsheets</h2>
 
           <div class="resource-section__body">
@@ -4722,6 +6023,61 @@
                 </ul>
               </div>
             </div>
+          </div>
+        </section>
+
+        <!--* Other useful resource -->
+        <section id="other-resource" class="resource-section">
+          <h2 class="resource-section__heading">Other Useful Resource</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
+              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
+              dolorem impedit voluptatum numquam!</p
+            >
+          </div>
+
+          <div class="resource-section__links">
+            <div class="resource-section__links">
+              <div class="resource-card">
+                <ul class="resource-card-links">
+                  <li class="resource-link">
+                    <a href="#"
+                      >Link 1, ipsum dolor sit, amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </li>
+                  <li class="resource-link">
+                    <a href="#"
+                      >Link 2, ipsum dolor sit, amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </li>
+                  <li class="resource-link">
+                    <a href="#"
+                      >Link 3, ipsum dolor sit, amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--* What next -->
+        <section id="what-next" class="resource-section">
+          <h2 class="resource-section__heading">What Next?</h2>
+
+          <div class="resource-section__body">
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              eum reprehenderit incidunt laudantium a dolores, deleniti nihil
+              totam corrupti ex explicabo placeat? Magni omnis, blanditiis quam
+              dolorem impedit voluptatum numquam!</p
+            >
           </div>
         </section>
       </main>

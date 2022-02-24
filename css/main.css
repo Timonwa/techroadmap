@@ -23,7 +23,7 @@ a:visited {
 
 /*! Sections and Subsections paddings (Start) */
 /** sections */
-nav,
+.main-nav,
 header,
 main,
 aside,
@@ -45,7 +45,7 @@ footer {
   }
 }
 @media screen and (max-width: 1024px) {
-  nav,
+  .main-nav,
   header,
   main,
   aside,
@@ -54,7 +54,7 @@ footer {
   }
 }
 @media screen and (max-width: 900px) {
-  nav,
+  .main-nav,
   header,
   main,
   aside,
@@ -63,7 +63,7 @@ footer {
   }
 }
 @media screen and (max-width: 786px) {
-  nav,
+  .main-nav,
   header,
   main,
   aside,
@@ -72,7 +72,7 @@ footer {
   }
 }
 @media screen and (max-width: 560px) {
-  nav,
+  .main-nav,
   header,
   main,
   aside,
@@ -92,7 +92,7 @@ footer > div {
 
 /*! Main CSS (Start) */
 /** nav bar */
-nav {
+.main-nav {
   width: 100%;
   background-color: var(--nav-bgc);
   /* padding-top: 20px !important;
@@ -340,6 +340,55 @@ footer .sections {
 footer .quote {
   max-width: 500px;
 }
+
+/** sidebar for careers page */
+.sidebar-nav {
+  width: 200px;
+  position: fixed;
+  background: var(--main-color);
+  color: var(--main-bgc);
+}
+.sidebar-toggle {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px dashed var(--main-bgc);
+}
+.sidebar-toggle > p {
+  margin-bottom: 0;
+}
+.sidebar-toggle > #close-sidebar {
+  display: none;
+}
+.sidebar-links {
+  font-size: 80%;
+  padding: 0 10px;
+  color: var(--main-bgc);
+  scroll-behavior: auto;
+  overflow-y: scroll;
+  height: calc(100vh - 100px);
+  padding-bottom: 50px;
+}
+.sidebar-links a,
+.sidebar-links a:link,
+.sidebar-links a:hover,
+.sidebar-links a:active,
+.sidebar-links a:visited {
+  color: var(--main-bgc);
+}
+.sidebar-links i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.sidebar-title {
+  padding: 7px 5px;
+  border-bottom: 1px solid var(--main-bgc);
+}
+.sidebar-subtitle {
+  margin: 5px;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: 1px solid var(--main-bgc);
+}
 /*! Main CSS (End) */
 
 /*! Javascript CSS (Start) */
@@ -349,6 +398,6 @@ footer .quote {
 }
 /*! Javascript CSS (End) */
 
-.resource-section{
+.resource-section {
   border: 1px solid #000;
 }
