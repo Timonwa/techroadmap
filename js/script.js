@@ -71,3 +71,18 @@ sidebar.addEventListener("click", function () {
     sidebarLinkOpenMenu();
   }
 });
+
+// * individual nav links
+// todo function 1
+// when you click on any of the links, the dropdown menu should close
+
+const sidebarLinks = document.querySelectorAll(".sidebar-title");
+for (let link of sidebarLinks) {
+  // function 1
+  link.addEventListener("click", sidebarLinkCloseMenu);
+}
+const sidebarSubLinks = document.querySelectorAll(".sidebar-subtitle");
+for (let link of sidebarSubLinks) {
+  // function 1
+  link.addEventListener("click", sidebarLinkCloseMenu);
+}
