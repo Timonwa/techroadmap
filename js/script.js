@@ -1,4 +1,4 @@
-// * function to close the dropdown menu on smaller screens
+// * function to close the dropdown menu in main nav on smaller screens
 function navLinkCloseMenu() {
   document.querySelector(".open").style.display = "block";
   document.querySelector(".close").style.display = "none";
@@ -8,7 +8,7 @@ function navLinkCloseMenu() {
   document.querySelector(".dropdown-links").style.display = "none";
 }
 
-// * function to open the dropdown menu on smaller screens
+// * function to open the dropdown menu in main nav on smaller screens
 function navLinkOpenMenu() {
   document.querySelector(".open").style.display = "none";
   document.querySelector(".close").style.display = "block";
@@ -46,18 +46,28 @@ for (let link of navLinks) {
   link.addEventListener("click", navLinkCloseMenu);
 }
 
-// * dropdown menu toggle
-// select dropdown menu
-const dropdownMenu = document.querySelector(".dropdown-menu");
-// add event listener to toggle dropdown menu
-dropdownMenu.addEventListener("click", function () {
-  if (document.querySelector(".dropdown-open").style.display == "none") {
-    document.querySelector(".dropdown-open").style.display = "inline-block";
-    document.querySelector(".dropdown-close").style.display = "none";
-    document.querySelector(".dropdown-links").style.display = "none";
+// * function to close the slide-in menu in sidebar nav on smaller screens
+function sidebarLinkCloseMenu() {
+  document.querySelector(".open-sidebar").style.display = "block";
+  document.querySelector(".close-sidebar").style.display = "none";
+  document.querySelector(".sidebar-links").style.left = "-120%";
+}
+
+// * function to open the slide-in menu in sidebar nav on smaller screens
+function sidebarLinkOpenMenu() {
+  document.querySelector(".open-sidebar").style.display = "none";
+  document.querySelector(".close-sidebar").style.display = "block";
+  document.querySelector(".sidebar-links").style.left = "0%";
+}
+
+// * burger menu toggle
+// select burger menu
+const sidebar = document.querySelector(".sidebar-toggle");
+// add event listener to toggle sidebar menu
+sidebar.addEventListener("click", function () {
+  if (document.querySelector(".open-sidebar").style.display === "none") {
+    sidebarLinkCloseMenu();
   } else {
-    document.querySelector(".dropdown-open").style.display = "none";
-    document.querySelector(".dropdown-close").style.display = "inline-block";
-    document.querySelector(".dropdown-links").style.display = "block";
+    sidebarLinkOpenMenu();
   }
 });

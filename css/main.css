@@ -347,26 +347,33 @@ footer .quote {
   position: fixed;
   background: var(--main-color);
   color: var(--main-bgc);
+  font-size: 80%;
 }
 .sidebar-toggle {
   text-align: center;
   padding: 10px;
-  border-bottom: 1px dashed var(--main-bgc);
+  height: 40px;
 }
 .sidebar-toggle > p {
   margin-bottom: 0;
 }
-.sidebar-toggle > #close-sidebar {
+.sidebar-toggle > .close-sidebar {
   display: none;
 }
 .sidebar-links {
-  font-size: 80%;
+  border-top: 1px dashed var(--main-bgc);
   padding: 0 10px;
   color: var(--main-bgc);
   scroll-behavior: auto;
   overflow-y: scroll;
   height: calc(100vh - 100px);
+  padding-top: 10px;
   padding-bottom: 50px;
+  position: absolute;
+  background-color: var(--main-color);
+  top: 40px;
+  left: -120%;
+  transition: left 500ms;
 }
 .sidebar-links a,
 .sidebar-links a:link,
