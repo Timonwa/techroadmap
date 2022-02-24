@@ -91,6 +91,15 @@ footer > div {
 /*! Sections and Sub-sections paddings (End) */
 
 /*! Main CSS (Start) */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+ box-shadow: inset 0 0 10px var(--main-color);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
 /** nav bar */
 .main-nav {
   width: 100%;
@@ -345,10 +354,12 @@ footer .quote {
 .sidebar-nav {
   width: 200px;
   position: fixed;
+  right: 0;
   background: var(--main-color);
   color: var(--main-bgc);
   font-size: 80%;
 }
+/* sidebar menu toggle */
 .sidebar-toggle {
   text-align: center;
   padding: 10px;
@@ -360,6 +371,8 @@ footer .quote {
 .sidebar-toggle > .close-sidebar {
   display: none;
 }
+
+/* sidebar links */
 .sidebar-links {
   border-top: 1px dashed var(--main-bgc);
   padding: 0 10px;
@@ -372,7 +385,7 @@ footer .quote {
   position: absolute;
   background-color: var(--main-color);
   top: 40px;
-  left: -120%;
+  right: -120%;
   transition: left 500ms;
 }
 .sidebar-links a,
@@ -395,6 +408,17 @@ footer .quote {
   margin-left: 10px;
   padding-left: 5px;
   border-left: 1px solid var(--main-bgc);
+}
+
+/* scrollbar */
+.sidebar-links::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar-links::-webkit-scrollbar-track {
+ box-shadow: inset 0 0 6px white;
+}
+.sidebar-links::-webkit-scrollbar-thumb {
+  background-color: var(--main-bgc);
 }
 /*! Main CSS (End) */
 

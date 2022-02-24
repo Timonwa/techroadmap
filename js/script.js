@@ -50,14 +50,14 @@ for (let link of navLinks) {
 function sidebarLinkCloseMenu() {
   document.querySelector(".open-sidebar").style.display = "block";
   document.querySelector(".close-sidebar").style.display = "none";
-  document.querySelector(".sidebar-links").style.left = "-120%";
+  document.querySelector(".sidebar-links").style.right = "-120%";
 }
 
 // * function to open the slide-in menu in sidebar nav on smaller screens
 function sidebarLinkOpenMenu() {
   document.querySelector(".open-sidebar").style.display = "none";
   document.querySelector(".close-sidebar").style.display = "block";
-  document.querySelector(".sidebar-links").style.left = "0%";
+  document.querySelector(".sidebar-links").style.right = "0%";
 }
 
 // * burger menu toggle
