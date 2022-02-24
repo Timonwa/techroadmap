@@ -326,7 +326,25 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--card-bgc);
   border-radius: 10px;
 }
-
+.careers__card-link.disabled {
+  position: relative;
+}
+.careers__card-link.disabled  > .coming-soon{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.527);
+  display: flex;
+  border-radius: 10px;
+}
+.careers__card-link.disabled  > .coming-soon > span{
+ margin: auto;
+ background-color: var(--main-bgc);
+ padding: 10px;
+border-radius: 10px;
+}
 /** aside */
 aside {
   border-top: 1px solid var(--main-color);
