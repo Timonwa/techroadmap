@@ -329,7 +329,7 @@ body::-webkit-scrollbar-thumb {
 .careers__card-link.disabled {
   position: relative;
 }
-.careers__card-link.disabled  > .coming-soon{
+.careers__card-link.disabled > .coming-soon {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -339,11 +339,11 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   border-radius: 10px;
 }
-.careers__card-link.disabled  > .coming-soon > span{
- margin: auto;
- background-color: var(--main-bgc);
- padding: 10px;
-border-radius: 10px;
+.careers__card-link.disabled > .coming-soon > span {
+  margin: auto;
+  background-color: var(--main-bgc);
+  padding: 10px;
+  border-radius: 10px;
 }
 /** aside */
 aside {
@@ -452,6 +452,38 @@ footer .quote {
 }
 /*! Javascript CSS (End) */
 
+/** resource sections */
 .resource-section {
-  border: 1px solid #000;
+  border-bottom: 1px solid var(--main-color);
+}
+.resource-card {
+  margin-top: 20px;
+}
+.resource-card-title {
+  text-align: left;
+}
+.resource-link {
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+.resource-link:last-child {
+  margin-bottom: 0px;
+}
+.resource-link > a {
+  border-bottom: 1px solid var(--main-color);
+}
+.resource-link-badge {
+  border: 1px solid rgba(12, 37, 51, 0.904);
+  padding: 5px 10px;
+  font-size: 50%;
+  font-weight: bold;
+  background-color: rgba(21, 68, 95, 0.651);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.resource-link-sublinks > .resource-link {
+  margin-left: 30px;
+  margin-top: 10px;
+  list-style-type: circle;
 }
