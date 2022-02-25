@@ -48,7 +48,7 @@ for (let link of navLinks) {
 
 // * function to close the slide-in menu in sidebar nav on smaller screens
 function sidebarLinkCloseMenu() {
-  document.querySelector(".open-sidebar").style.display = "block";
+  document.querySelector(".open-sidebar").style.display = "flex";
   document.querySelector(".close-sidebar").style.display = "none";
   document.querySelector(".sidebar-links").style.right = "-120%";
 }
@@ -56,7 +56,7 @@ function sidebarLinkCloseMenu() {
 // * function to open the slide-in menu in sidebar nav on smaller screens
 function sidebarLinkOpenMenu() {
   document.querySelector(".open-sidebar").style.display = "none";
-  document.querySelector(".close-sidebar").style.display = "block";
+  document.querySelector(".close-sidebar").style.display = "flex";
   document.querySelector(".sidebar-links").style.right = "0%";
 }
 

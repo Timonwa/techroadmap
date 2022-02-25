@@ -42,13 +42,14 @@
     <link rel="preconnect" href="" />
 
     <!--* Icons -->
+    <!-- Google Icons -->
+    <!-- online -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
     <!-- FontAwesome offline -->
-    <link rel="stylesheet" href="/fontawesome5.15/css/all.css" />
-    <!-- FontAwesome online -->
-    <script
-      src="https://kit.fontawesome.com/dfede42a17.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- <link rel="stylesheet" href="/fontawesome5.15/Css/all.css" /> -->
 
     <!--* CSS -->
     <!--* CSS (resets) -->
@@ -116,8 +117,12 @@
           <div class="burger-menu">
             <!-- burger menu toggle -->
             <div class="burger-menu-toggle">
-              <span><i class="fas fa-bars open"></i></span>
-              <span><i class="fas fa-times close"></i></span>
+              <span
+                ><span class="material-icons-outlined open"> menu </span>
+              </span>
+              <span
+                ><span class="material-icons-outlined close"> close </span>
+              </span>
             </div>
           </div>
         </div>
@@ -229,13 +234,14 @@
           <h2 class="heading">Open Source</h2>
           <div class="opensource__body">
             <p>
-              This <a href="#">project</a> is OpenSource. All contributions are
-              welcome to grow this <a href="#">project</a> and don't need to
+              This <a class="para-links" href="#">project</a> is OpenSource. All
+              contributions are welcome to grow this project and don't need to
               know how to code to contribute.</p
             >
             <p
-              >You can contribute as a <a href="#">developer here</a> or a
-              <a href="#">non-developer here</a>.</p
+              >You can contribute as a
+              <a class="para-links" href="#">developer here</a> or a
+              <a class="para-links" href="#">non-developer here</a>.</p
             >
             <p style="display: none">
               A considerable amount of my time is spent doing unpaid community
@@ -252,20 +258,26 @@
         <div class="footer-wrapper">
           <div class="sections">
             <ul class="footer-links">
-              <li><a class="footer-link" href="/">Home</a></li>
+              <li><a class="footer-link para-link" href="/">Home</a></li>
               <li>
-                <a class="footer-link" href="/html/careers.html">Careers</a>
+                <a class="footer-link para-link" href="/html/careers.html"
+                  >Careers</a
+                >
               </li>
               <li>
-                <a class="nav-link" href="/html/contribute.html">Contribute</a>
+                <a class="footer-link para-link" href="/html/contribute.html"
+                  >Contribute</a
+                >
               </li>
             </ul>
           </div>
 
           <div class="sections attribution">
             <p
-              ><a href="/">Tech Roadmap</a> is created by
-              <a href="https://github.com/timonwa">Timonwa</a></p
+              ><a class="para-links" href="/">Tech Roadmap</a> is created by
+              <a class="para-links" href="https://github.com/timonwa"
+                >Timonwa</a
+              ></p
             >
           </div>
 

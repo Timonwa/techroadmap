@@ -108,6 +108,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 20px !important; */
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 /* nav bar wrapper */
@@ -185,6 +186,9 @@ body::-webkit-scrollbar-thumb {
 /* burger menu */
 .nav-wrapper > .burger-menu {
   display: none;
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
 }
 
 /* dropdown menu */
@@ -292,6 +296,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   color: white;
   text-align: center;
+  font-weight: 600;
 }
 @media screen and (max-width: 768px) {
   .banner {
@@ -350,9 +355,21 @@ aside {
   border-top: 1px solid var(--main-color);
 }
 
+.para-links {
+  border-bottom: 1px solid currentColor;
+}
+
 /** footer */
 footer {
   background: var(--footer-bgc);
+  color: var(--footer-color);
+}
+footer a,
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  color: var(--footer-color);
 }
 
 footer .sections {
@@ -384,12 +401,14 @@ footer .quote {
 }
 /* sidebar menu toggle */
 .sidebar-toggle {
-  text-align: center;
-  padding: 10px;
   height: 40px;
 }
-.sidebar-toggle > p {
-  margin-bottom: 0;
+.sidebar-toggle > div {
+  width: initial;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .sidebar-toggle > .close-sidebar {
   display: none;
