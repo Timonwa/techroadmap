@@ -77,7 +77,7 @@ footer {
   main,
   aside,
   footer {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 }
 
@@ -461,6 +461,9 @@ footer .quote {
 }
 .resource-card-title {
   text-align: left;
+}
+.resource-card-links {
+  margin-left: 30px;
 }
 .resource-link {
   list-style-type: disc;
