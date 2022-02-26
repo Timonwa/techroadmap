@@ -265,12 +265,18 @@ body::-webkit-scrollbar-thumb {
   color: white;
   text-align: center;
   font-weight: 600;
+  font-size: 120%;
 }
 
 @media screen and (max-width: 768px) {
   .banner {
     height: 500px;
   }
+}
+
+/* main */
+main {
+  background-image: linear-gradient(to bottom right, #215b92, #21394f, #215b92);
 }
 
 /** careers section */
@@ -324,11 +330,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /** aside */
-aside {
-  border-top: 1px solid var(--main-color);
-}
-
-.paragraph-links {
+aside .paragraph-links {
   border-bottom: 1px solid currentColor;
 }
 
