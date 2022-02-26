@@ -282,42 +282,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 /** banner */
-.banner {
-  background: url("../assets/imgs/roadmap.jpg") rgba(3, 3, 3, 0.253);
-  background-blend-mode: overlay;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  font-weight: 600;
+.home-page-image {
+  background: url("https://i.ibb.co/h1PwkQw/roadmap.jpg") rgba(3, 3, 3, 0.5);
 }
 
 .career-page-image{
-  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg") rgba(3, 3, 3, 0.253);
-  background-blend-mode: overlay;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 400px;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  font-weight: 600;
+  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg") rgba(3, 3, 3, 0.5);
 }
 
 .contribute-page-image{
-  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg") rgba(3, 3, 3, 0.253);
+  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg") rgba(3, 3, 3, 0.5);
+}
+
+.banner{
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -335,7 +312,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 768px) {
   .banner {
-    height: 400px;
+    height: 500px;
   }
 }
 
