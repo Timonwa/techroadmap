@@ -364,6 +364,14 @@ footer .quote {
   max-width: 500px;
 }
 
+footer .copyright p {
+  display: flex;
+  align-items: center;
+}
+footer .copyright span {
+  margin-right: 10px;
+}
+
 /** sidebar for careers page */
 /* side bar */
 .sidebar-nav {
