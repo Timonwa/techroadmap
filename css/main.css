@@ -91,15 +91,19 @@ footer > div {
 /*! Sections and Sub-sections paddings (End) */
 
 /*! Main CSS (Start) */
+/** scrollbar */
 body::-webkit-scrollbar {
   width: 10px;
 }
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 10px var(--main-color);
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
+
 /** nav bar */
 .main-nav {
   width: 100%;
@@ -149,12 +153,11 @@ body::-webkit-scrollbar-thumb {
 } */
 /* todo end */
 
-/* nav bar */
+/* nav bar links */
 .nav-wrapper > .nav-links {
   text-align: right;
 }
 
-/* nav bar links */
 .nav-wrapper > .nav-links > ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,54 +174,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-wrapper > .nav-links > ul > li:last-child {
-  margin-right: 0;
+  margin-right: 0px;
 }
 
-/* nav bar individual links */
 .nav-wrapper > .nav-links > ul > li > a {
   color: var(--main-color);
 }
 
-.nav-wrapper > .nav-links > ul > li:last-child {
-  margin-right: 20px;
-}
-
 /* burger menu */
 .nav-wrapper > .burger-menu {
-  display: none;
-  border: 1px solid #000;
   width: 30px;
   height: 30px;
-}
-
-/* dropdown menu */
-.dropdown-menu {
-  position: relative;
-}
-
-/* dropdown open arrow */
-.dropdown-open {
-  display: inline-block;
-}
-
-/* dropdown links cntr */
-.dropdown-links {
-  position: absolute;
-  top: 40px;
-  width: 100%;
-  background-color: var(--nav-bgc);
-}
-
-/* dropdown close arrow and dropdown links container */
-.dropdown-close,
-.dropdown-links {
   display: none;
-}
-
-/* individual dropdown links */
-.dropdown-links > li {
-  padding: 5px 0 10px;
-  text-align: center;
 }
 
 /** nav link styling on smaller screens where the burger menu becomes visible and the nav links hidden */
@@ -238,10 +205,6 @@ body::-webkit-scrollbar-thumb {
     -moz-transition: top 500ms;
     -ms-transition: top 500ms;
     -o-transition: top 500ms;
-  }
-
-  .nav-wrapper > .nav-links > ul > li:last-child {
-    margin-right: 20px;
   }
 
   /* burger menu  */
@@ -265,36 +228,30 @@ body::-webkit-scrollbar-thumb {
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
-  /* dropdown menu */
-  .dropdown-menu {
-    position: static;
-  }
-  /* dropdown links cntr */
-  .dropdown-links {
-    position: static;
-    background-color: transparent;
-  }
 
-  /* individual dropdown links */
-  .dropdown-links > li {
-    padding-bottom: 5px;
+  /* nav bar links */
+  .nav-wrapper > .nav-links > ul > li:last-child {
+    margin-right: 20px;
   }
 }
 
 /** banner */
-.home-page-image {
+.home-page-banner {
   background: url("https://i.ibb.co/h1PwkQw/roadmap.jpg") rgba(3, 3, 3, 0.5);
 }
 
-.career-page-image{
-  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg") rgba(3, 3, 3, 0.5);
+.career-page-banner {
+  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
 }
 
-.contribute-page-image{
-  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg") rgba(3, 3, 3, 0.5);
+.contribute-page-banner {
+  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
 }
 
-.banner{
+/* all the banners */
+.banner {
   background-blend-mode: overlay;
   background-position: center;
   background-size: cover;
@@ -343,9 +300,11 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--card-bgc);
   border-radius: 10px;
 }
+
 .careers__card-link.disabled {
   position: relative;
 }
+
 .careers__card-link.disabled > .coming-soon {
   position: absolute;
   width: 100%;
@@ -356,18 +315,20 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   border-radius: 10px;
 }
+
 .careers__card-link.disabled > .coming-soon > span {
   margin: auto;
   background-color: var(--main-bgc);
   padding: 10px;
   border-radius: 10px;
 }
+
 /** aside */
 aside {
   border-top: 1px solid var(--main-color);
 }
 
-.para-links {
+.paragraph-links {
   border-bottom: 1px solid currentColor;
 }
 
@@ -376,6 +337,7 @@ footer {
   background: var(--footer-bgc);
   color: var(--footer-color);
 }
+
 footer a,
 footer a:link,
 footer a:hover,
@@ -403,6 +365,7 @@ footer .quote {
 }
 
 /** sidebar for careers page */
+/* side bar */
 .sidebar-nav {
   width: 200px;
   position: fixed;
@@ -411,10 +374,13 @@ footer .quote {
   color: var(--main-bgc);
   font-size: 80%;
 }
+
 /* sidebar menu toggle */
 .sidebar-toggle {
   height: 40px;
 }
+
+/* open and close cntrs */
 .sidebar-toggle > div {
   width: initial;
   height: inherit;
@@ -422,6 +388,7 @@ footer .quote {
   justify-content: center;
   align-items: center;
 }
+
 .sidebar-toggle > .close-sidebar {
   display: none;
 }
@@ -442,6 +409,7 @@ footer .quote {
   right: -120%;
   transition: left 500ms;
 }
+
 .sidebar-links a,
 .sidebar-links a:link,
 .sidebar-links a:hover,
@@ -449,14 +417,12 @@ footer .quote {
 .sidebar-links a:visited {
   color: var(--main-bgc);
 }
-.sidebar-links i {
-  font-size: 10px;
-  margin-right: 10px;
-}
+
 .sidebar-title {
   padding: 7px 5px;
   border-bottom: 1px solid var(--main-bgc);
 }
+
 .sidebar-subtitle {
   margin: 5px;
   margin-left: 10px;
@@ -468,44 +434,46 @@ footer .quote {
 .sidebar-links::-webkit-scrollbar {
   width: 5px;
 }
+
 .sidebar-links::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px white;
 }
+
 .sidebar-links::-webkit-scrollbar-thumb {
   background-color: var(--main-bgc);
 }
-/*! Main CSS (End) */
-
-/*! Javascript CSS (Start) */
-/** active state for the webpage link that is currently viewed by the user */
-.active {
-  font-weight: 700;
-}
-/*! Javascript CSS (End) */
 
 /** resource sections */
 .resource-section {
   border-bottom: 1px solid var(--main-color);
 }
+
 .resource-card {
   margin-top: 20px;
 }
+
 .resource-card-title {
   text-align: left;
 }
+
 .resource-card-links {
   margin-left: 30px;
 }
+
 .resource-link {
   list-style-type: disc;
   margin-bottom: 15px;
 }
+
 .resource-link:last-child {
   margin-bottom: 0px;
 }
+
 .resource-link > a {
   border-bottom: 1px solid var(--main-color);
 }
+
+/* badges for some of the links */
 .resource-link-badge {
   border: 1px solid rgba(12, 37, 51, 0.904);
   padding: 5px 10px;
@@ -516,8 +484,18 @@ footer .quote {
   margin-left: 5px;
   margin-top: 10px;
 }
+
+/* sub sections in the resource  card */
 .resource-link-sublinks > .resource-link {
   margin-left: 30px;
   margin-top: 10px;
   list-style-type: circle;
 }
+/*! Main CSS (End) */
+
+/*! Javascript CSS (Start) */
+/** active state for the webpage link that is currently viewed by the user */
+.active {
+  font-weight: 700;
+}
+/*! Javascript CSS (End) */
