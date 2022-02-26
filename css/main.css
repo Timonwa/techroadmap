@@ -298,6 +298,15 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-weight: 600;
 }
+
+.banner.career-page-image{
+  background: url("https://i.ibb.co/6mMXKGX/austin-chan-ukz-Hlkoz1-IE-unsplash-3.jpg") rgba(3, 3, 3, 0.253);
+}
+
+.banner.contribute-page-image{
+  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg") rgba(3, 3, 3, 0.253);
+}
+
 @media screen and (max-width: 768px) {
   .banner {
     height: 400px;
