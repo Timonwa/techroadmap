@@ -274,7 +274,13 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-/* main */
+
+/** Links in paragraphs */
+.paragraph-links {
+  border-bottom: 1px solid currentColor;
+}
+
+/** main */
 main {
   background-image: linear-gradient(to bottom right, #215b92, #21394f, #215b92);
 }
@@ -327,11 +333,6 @@ main {
   background-color: var(--main-bgc);
   padding: 10px;
   border-radius: 10px;
-}
-
-/** aside */
-aside .paragraph-links {
-  border-bottom: 1px solid currentColor;
 }
 
 /** footer */
