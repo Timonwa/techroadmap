@@ -19,9 +19,13 @@ You can read more about what inspired Tech Roadmap in my [article](https://blog.
 
 ## Project Status
 Tech Roadmap is live with the first roadmap created ([Frontend Development Roadmap](https://techroadmap.netlify.app/html/careers/frontend.html)).
+
 I am working on adding more quality roadmaps on other Tech Careers. Anticipate! 😁
 
-The project is currently built with HTML, CSS and JavaScript. Soon all data will be removed from the html pages and placed into corresponding Json files to have cleaner html documents. 
+The project is currently built with HTML, CSS, and JavaScript. Soon all data will be removed from the html pages and placed into corresponding Json files to have cleaner html documents.
+
+Readmes will also be created for each roadmaps so that one can also have copies to the resources on GitHub by forking the repo.
+ 
 It will also be migrated to the React Framework in the later future.
 
- 
+
