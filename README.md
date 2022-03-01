@@ -14,7 +14,7 @@ So if you are looking for resources either for yourself or someone else about th
 
 The roadmaps or step-by-step guides are carefully curated for the different Tech Careers listed on our websites. And the collections of resources are carefully arranged so that the learner has a guided learning path.
 
-You can read more about what inspired Tech Roadmap in my [article](https://blog.timonwa.com/tech-roadmap-everything-you-need-to-help-you-choose-and-learn-a-career-in-tech).
+<!-- You can read more about what inspired Tech Roadmap in my [article](https://blog.timonwa.com/tech-roadmap-everything-you-need-to-help-you-choose-and-learn-a-career-in-tech). -->
 
 ## Project Status
 Tech Roadmap is live with the first roadmap created ([Frontend Development Roadmap](https://techroadmap.netlify.app/html/careers/frontend.html)).
