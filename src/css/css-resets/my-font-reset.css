@@ -1,0 +1,87 @@
+/*! Timonwa font CSS Reset */
+/*! ===== Default h1-h6 and p styling and body font-size (Start) ===== */
+/* ===== SMALL SCREEN FIRST RWD ===== */
+/* the ffg queries determine the font size and line height of the elements in the file */
+
+/** small screen of 0px to 608px */
+/* body */
+body {
+  font-size: 16px;
+}
+/* text elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 130%;
+  text-align: center;
+}
+p {
+  line-height: 130%;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  margin-bottom: 0.8rem;
+}
+h2 {
+  margin-bottom: 0.75rem;
+}
+h3 {
+  margin-bottom: 0.6rem;
+}
+h4 {
+  margin-bottom: 0.5rem;
+}
+h5 {
+  margin-bottom: 0.4rem;
+}
+h6 {
+  margin-bottom: 0.3rem;
+}
+
+/** medium screen width of 608px to 960px */
+@media screen and (min-width: 608px) {
+  /* body */
+  body {
+    font-size: 17px;
+  }
+  /* text elements */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    line-height: 140%;
+  }
+}
+
+/** large screen width of 960px to 1024px */
+@media screen and (min-width: 960px) {
+  /* body */
+  body {
+    font-size: 18px;
+  }
+  /* text elements */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    line-height: 150%;
+  }
+}
+
+/** extra large screen width of 1024px and above */
+@media screen and (min-width: 1024px) {
+  /* body */
+  body {
+    font-size: 19px;
+  }
+}
+/*! ===== Default h1-h6 and p styling and body font-size (End) ===== */

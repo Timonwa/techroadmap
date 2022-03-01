@@ -1,0 +1,524 @@
+/*! Variables (Start) */
+/** body */
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  background-color: var(--main-bgc);
+  color: var(--main-color);
+}
+
+/** reset the links main color */
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: var(--main-color);
+}
+
+.nav-space {
+  height: var(--nav-height);
+}
+/*! Variables (End) */
+
+/*! Sections and Subsections paddings (Start) */
+/** sections */
+.main-nav,
+header,
+main,
+aside,
+footer {
+  padding: 0 150px;
+}
+@media screen and (min-width: 1441px) {
+  .nav-wrapper {
+    /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
+    width: 1100px;
+    margin: 0 auto;
+  }
+  header,
+  main,
+  aside,
+  footer {
+    width: 1400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .main-nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main-nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .main-nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .main-nav,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 20px;
+  }
+}
+
+/** subsections in sections */
+header.intro > div,
+main > section,
+aside > div,
+footer > div {
+  padding: 40px 0;
+}
+/*! Sections and Sub-sections paddings (End) */
+
+/*! Main CSS (Start) */
+/** scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px var(--main-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+/** nav bar */
+.main-nav {
+  width: 100%;
+  background-color: var(--nav-bgc);
+  /* padding-top: 20px !important;
+  padding-bottom: 20px !important; */
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+/* nav bar wrapper */
+.nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: var(--nav-height);
+  color: var(--main-color);
+  z-index: 100000;
+  width: 100%;
+}
+
+/* logo */
+/* todo start: pick only one from these variations of nav bar logo */
+/*? p nav */
+.nav-wrapper > .nav-logo > a > p {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+/*? h4 nav */
+/* .nav-wrapper > .nav-logo > a > h4 {
+  margin-bottom: 0;
+} */
+/*?  img nav */
+/* .nav-wrapper > .nav-logo > a > img {
+  border: 1px solid #000;
+} */
+/* todo end */
+
+/* nav bar links */
+.nav-wrapper > .nav-links {
+  text-align: right;
+}
+
+.nav-wrapper > .nav-links > ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+/* nav bar individual links */
+.nav-wrapper > .nav-links > ul > li {
+  margin: 0 20px;
+}
+
+.nav-wrapper > .nav-links > ul > li:last-child {
+  margin-right: 0px;
+}
+
+.nav-wrapper > .nav-links > ul > li > a {
+  color: var(--main-color);
+}
+
+/* burger menu */
+.nav-wrapper > .burger-menu {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+/** nav link styling on smaller screens where the burger menu becomes visible and the nav links hidden */
+/* 768px screen width and below */
+@media screen and (max-width: 768px) {
+  /* nav bar */
+  .nav-wrapper > .nav-links {
+    position: absolute;
+    top: -50vh;
+    left: 0;
+    background-color: var(--nav-bgc);
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    transition: top 500ms;
+    -webkit-transition: top 500ms;
+    -moz-transition: top 500ms;
+    -ms-transition: top 500ms;
+    -o-transition: top 500ms;
+  }
+
+  /* burger menu  */
+  .nav-wrapper > .burger-menu {
+    display: block;
+  }
+
+  /* burger menu close icon */
+  .nav-wrapper > .burger-menu > .burger-menu-toggle > span > .close {
+    display: none;
+  }
+
+  /* nav bar links */
+  .nav-wrapper > .nav-links > ul {
+    height: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+
+  /* nav bar links */
+  .nav-wrapper > .nav-links > ul > li:last-child {
+    margin-right: 20px;
+  }
+}
+
+/** banner */
+.home-page-banner {
+  background: url("https://i.ibb.co/h1PwkQw/roadmap.jpg") rgba(3, 3, 3, 0.5);
+}
+
+.career-page-banner {
+  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+.contribute-page-banner {
+  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+.frontend-page-banner {
+  background: url("https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+/* all the banners */
+.banner {
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 500px;
+  }
+}
+
+/** Links in paragraphs */
+.paragraph-links {
+  border-bottom: 1px solid currentColor;
+}
+
+/** main */
+main {
+  background-image: linear-gradient(to bottom right, #215b92, #21394f, #215b92);
+}
+
+/** careers section */
+.careers__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .careers__cards {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .careers__cards {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+.careers__card-link {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--card-bgc);
+  border-radius: 10px;
+}
+
+.careers__card-link.disabled {
+  position: relative;
+}
+
+.careers__card-link.disabled > .coming-soon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.527);
+  display: flex;
+  border-radius: 10px;
+}
+
+.careers__card-link.disabled > .coming-soon > span {
+  margin: auto;
+  background-color: var(--main-bgc);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/** contribute page */
+.contributing-list {
+  list-style-type: disc;
+  /* list-style-position: inside; */
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/** footer */
+footer {
+  background: var(--footer-bgc);
+  color: var(--footer-color);
+}
+
+footer a,
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited {
+  color: var(--footer-color);
+}
+
+footer .sections {
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  font-weight: bold;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .quote {
+  max-width: 500px;
+}
+
+footer .copyright p {
+  display: flex;
+  align-items: center;
+}
+footer .copyright span {
+  margin-right: 10px;
+}
+
+/** sidebar for careers page */
+/* side bar */
+.sidebar-nav {
+  width: 200px;
+  position: fixed;
+  right: 0;
+  background: var(--main-color);
+  color: var(--main-bgc);
+  font-size: 80%;
+}
+
+/* sidebar menu toggle */
+.sidebar-toggle {
+  height: 40px;
+}
+
+/* open and close cntrs */
+.sidebar-toggle > div {
+  width: initial;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-toggle > .close-sidebar {
+  display: none;
+}
+
+/* sidebar links */
+.sidebar-links {
+  border-top: 1px dashed var(--main-bgc);
+  padding: 0 10px;
+  color: var(--main-bgc);
+  scroll-behavior: auto;
+  overflow-y: scroll;
+  height: calc(100vh - 100px);
+  padding-top: 10px;
+  padding-bottom: 50px;
+  position: absolute;
+  background-color: var(--main-color);
+  top: 40px;
+  right: -120%;
+  transition: left 500ms;
+}
+
+.sidebar-links a,
+.sidebar-links a:link,
+.sidebar-links a:hover,
+.sidebar-links a:active,
+.sidebar-links a:visited {
+  color: var(--main-bgc);
+}
+
+.sidebar-title {
+  padding: 7px 5px;
+  border-bottom: 1px solid var(--main-bgc);
+}
+
+.sidebar-subtitle {
+  margin: 5px;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: 1px solid var(--main-bgc);
+}
+
+/* scrollbar */
+.sidebar-links::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-links::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px white;
+}
+
+.sidebar-links::-webkit-scrollbar-thumb {
+  background-color: var(--main-bgc);
+}
+
+/** resource sections */
+.resource-section {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.resource-card {
+  margin-top: 20px;
+}
+
+.resource-card-title {
+  text-align: left;
+}
+
+.resource-card-links {
+  margin-left: 30px;
+}
+
+.resource-link {
+  list-style-type: disc;
+  margin-bottom: 15px;
+}
+
+.resource-link:last-child {
+  margin-bottom: 0px;
+}
+
+.resource-link > a {
+  border-bottom: 1px solid var(--main-color);
+}
+
+/* badges for some of the links */
+.resource-link-badge {
+  border: 1px solid rgba(12, 37, 51, 0.904);
+  padding: 5px 10px;
+  font-size: 50%;
+  font-weight: bold;
+  background-color: rgba(21, 68, 95, 0.651);
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+/* sub sections in the resource  card */
+.resource-link-sublinks > .resource-link {
+  margin-left: 30px;
+  margin-top: 10px;
+  list-style-type: circle;
+}
+/*! Main CSS (End) */
+
+/*! Javascript CSS (Start) */
+/** active state for the webpage link that is currently viewed by the user */
+.active {
+  font-weight: 700;
+}
+/*! Javascript CSS (End) */
