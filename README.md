@@ -130,3 +130,11 @@ If you need more help, feel free to send me an email to <a href="mailto:pelumisk
 
 ## Contributing
 Remember, we encourage public contributions to this repository! So please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) on how to go about it.
+
+## License
+
+This project is licensed under the MIT License - see [LICENSE.md](https://github.com/Timonwa/techroadmap/blob/main/LICENSE) file for details.
+
+<!-- ## Authors
+Timonwa 
+Also see the list of contributors who participated in this project. -->
