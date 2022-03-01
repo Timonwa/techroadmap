@@ -250,6 +250,11 @@ body::-webkit-scrollbar-thumb {
     rgba(3, 3, 3, 0.5);
 }
 
+.frontend-page-banner {
+  background: url("https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
 /* all the banners */
 .banner {
   background-blend-mode: overlay;
