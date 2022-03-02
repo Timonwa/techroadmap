@@ -126,7 +126,7 @@ Now submit the pull request.
 Your changes or contributions will be reviewed and if ok, merged into the main branch of this project. You will get a notification email once the changes have been merged.
 
 ## How to Get Help
-If you need more help, feel free to send me an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>
+If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>
 
 ## Contributing
 Remember, we encourage public contributions to this repository! So please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) on how to go about it.
