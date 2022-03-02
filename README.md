@@ -96,7 +96,7 @@ git add .
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Descripitive commit message on the changes you made."
+git commit -m "Descriptive commit message on the changes you made."
 ```
 
 ### Push changes to GitHub
@@ -107,7 +107,7 @@ Please before you push your codes to the repository make sure you pull from the 
 git pull upstream main
 ```
 
-and fix any merge conflits you might have before pushing your changes.
+and fix any merge conflicts you might have before pushing your changes.
 
 Now push your changes using the command `git push`:
 
