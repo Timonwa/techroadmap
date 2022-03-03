@@ -378,11 +378,6 @@ main {
   margin-bottom: 10px;
 }
 
-.mvp .link {
-  /* margin-left: 5px; */
-  transform: rotateZ(-45deg);
-}
-
 /** footer */
 footer {
   background: var(--footer-bgc);
