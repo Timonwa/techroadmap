@@ -11,4 +11,12 @@
 
   /* dimensions */
   --nav-height: 60px;
+
+  /* border colors */
+  --pink: hsl(350, 89%, 74%);
+  --green: hsl(120, 50%, 50%);
+  --red: hsl(0, 50%, 50%);
+  --orange: orange;
+  --purple: hsl(271, 46%, 53%);
+  --grey: hsl(0, 0%, 87%);
 }
