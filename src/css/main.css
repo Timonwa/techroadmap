@@ -281,7 +281,7 @@ body::-webkit-scrollbar-thumb {
 
 /** Links in paragraphs */
 .paragraph-links {
-  color: var(--red);
+  color: var(--red) !important;
 }
 
 .paragraph-links.footer {
