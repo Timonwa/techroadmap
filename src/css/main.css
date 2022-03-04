@@ -281,11 +281,11 @@ body::-webkit-scrollbar-thumb {
 
 /** Links in paragraphs */
 .paragraph-links {
-  border-bottom: 1px solid var(--red);
+  background-color: var(--red);
 }
 
 .paragraph-links.footer {
-  border-bottom: 1px solid var(--purple);
+  background-color: var(--purple);
 }
 .heading {
   color: #ddd;
