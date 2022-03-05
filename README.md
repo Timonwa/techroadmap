@@ -8,6 +8,8 @@ can use these resources to choose and define their career path and learn about t
 
 <img src="https://i.ibb.co/KVJWT3L/download-1.jpg" alt="download-1" border="0">
 
+## Table of Content
+
 ## About The Project
 Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs. 
 So if you are looking for resources either for yourself or someone else about the beginning and growing a tech career, then Tech Roadmap is definitely the place to start.
