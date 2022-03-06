@@ -17,7 +17,7 @@ function displayCareers(careers) {
     }" class="careers__card-link ${career.comingSoon ? "disabled" : ""} ">
         ${
           career.comingSoon
-            ? '<p class="coming-soon"><span>Coming Soon</span></p>'
+            ? `<p class="coming-soon"><span>${career.inProgress ? "In progress" : "Coming soon"}</span></p>`
             : ""
         }
         <div class="careers__card">
