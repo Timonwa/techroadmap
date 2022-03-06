@@ -12,7 +12,7 @@ function displayCareers(careers) {
   //* individual card
   for (let career of careers) {
     careersCntr.innerHTML += `
-      <a href="${career.comingSoon ? "" : "./html/careers/"}${
+      <a href="${career.comingSoon ? "" : "../html/careers/"}${
       career.link
     }" class="careers__card-link ${career.comingSoon ? "disabled" : ""} ">
         ${

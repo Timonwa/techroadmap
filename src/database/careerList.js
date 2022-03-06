@@ -3,7 +3,7 @@ export const careerList = [
     title: "Frontend",
     body: "Curated guide and resources to becoming a frontend developer.",
     comingSoon: false,
-    link: "https://techroadmap.netlify.app/html/careers/frontend.html",
+    link: "frontend.html",
   },
   {
     title: "Backend",
