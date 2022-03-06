@@ -372,7 +372,7 @@ main {
   margin-bottom: 10px;
 }
 
-.mvp-list {
+.mvp-list, .contribution-form-list {
   list-style-type: decimal;
   margin-left: 30px;
   margin-bottom: 10px;
