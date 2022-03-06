@@ -91,7 +91,7 @@ footer > div {
 /*! Sections and Sub-sections paddings (End) */
 
 /*! Main CSS (Start) */
-/** scrollbar */
+/** body scrollbar */
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -279,16 +279,14 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-/** Links in paragraphs */
-.paragraph-links {
-  color: var(--pink) !important;
-}
-
-.paragraph-links.footer {
-  color: var(--purple) !important;
-}
+/** all headings */
 .heading {
   color: #ddd;
+}
+
+/** all links in paragraphs */
+.paragraph-links {
+  color: var(--pink) !important;
 }
 
 /** main */
@@ -365,14 +363,15 @@ main {
   border-radius: 10px;
 }
 
-/** contribute page */
+/** lists in the contribute page */
 .contributing-list {
   list-style-type: disc;
   margin-left: 30px;
   margin-bottom: 10px;
 }
 
-.mvp-list, .contribution-form-list {
+.mvp-list,
+.contribution-form-list {
   list-style-type: decimal;
   margin-left: 30px;
   margin-bottom: 10px;
@@ -414,7 +413,24 @@ footer .copyright p {
   display: flex;
   align-items: center;
 }
+
 footer .copyright span {
+  margin-right: 10px;
+}
+
+/* all links in footer */
+.paragraph-links.footer {
+  color: var(--purple) !important;
+}
+
+/* social links in footer */
+.social-links {
+  display: flex;
+}
+
+.social-link img {
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
 }
 
