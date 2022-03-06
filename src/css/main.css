@@ -322,22 +322,23 @@ main {
   border-radius: 10px;
   box-shadow: 0px 0px 1px 4px var(--card-bgc);
 }
-.pink {
+
+.careers__card-link:nth-child(1) {
   border: 2px solid var(--pink);
 }
-.green {
+.careers__card-link:nth-child(2) {
   border: 2px solid var(--green);
 }
-.red {
+.careers__card-link:nth-child(3) {
   border: 2px solid var(--red);
 }
-.orange {
+.careers__card-link:nth-child(4) {
   border: 2px solid var(--orange);
 }
-.purple {
+.careers__card-link:nth-child(5) {
   border: 2px solid var(--purple);
 }
-.grey {
+.careers__card-link:nth-child(6) {
   border: 2px solid var(--grey);
 }
 
