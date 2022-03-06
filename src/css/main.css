@@ -323,7 +323,8 @@ main {
   box-shadow: 0px 0px 1px 4px var(--card-bgc);
 }
 
-.careers__card-link:nth-child(1) {
+.careers__card-link:nth-child(1),
+.careers__card-link:nth-child(7) {
   border: 2px solid var(--pink);
 }
 .careers__card-link:nth-child(2) {
