@@ -1,0 +1,26 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: ''
+        pr-message: '## Welcome and thank you for creating a Pull Request!
+<br>
+If your pull request gets merged, and you would like to be added to our MVPs list(contributors list) please reply to this comment with your details using the format below:
+<br>
+<br>Name:
+<br>What you do:
+<br>Twitter handle:
+<br>Link (either to your website, blog, portfolio, GitHub, etc):
+<br>
+Don't forget to Star this repo if you haven't. ⭐
+<br>Thank you. 😊'
