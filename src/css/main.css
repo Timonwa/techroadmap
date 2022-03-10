@@ -3,8 +3,8 @@
 body {
   font-family: sans-serif;
   font-weight: normal;
-  background-color: var(--main-bgc);
   color: var(--main-color);
+  background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
 }
 
 /** reset the links main color */
@@ -23,29 +23,25 @@ a:visited {
 
 /*! Sections and Subsections paddings (Start) */
 /** sections */
-.main-nav,
+@media screen and (min-width: 1441px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+.nav-wrapper,
 header,
 main,
 aside,
 footer {
   padding: 0 150px;
 }
-@media screen and (min-width: 1441px) {
-  .nav-wrapper {
-    /*? 1400 minus 150 padding on left an right since its the wrapper that is getting the width and not the section itself.*/
-    width: 1100px;
-    margin: 0 auto;
-  }
-  header,
-  main,
-  aside,
-  footer {
-    width: 1400px;
-    margin: 0 auto;
-  }
-}
 @media screen and (max-width: 1024px) {
-  .main-nav,
+  .nav-wrapper,
   header,
   main,
   aside,
@@ -54,7 +50,7 @@ footer {
   }
 }
 @media screen and (max-width: 900px) {
-  .main-nav,
+  .nav-wrapper,
   header,
   main,
   aside,
@@ -63,7 +59,7 @@ footer {
   }
 }
 @media screen and (max-width: 786px) {
-  .main-nav,
+  .nav-wrapper,
   header,
   main,
   aside,
@@ -72,7 +68,7 @@ footer {
   }
 }
 @media screen and (max-width: 560px) {
-  .main-nav,
+  .nav-wrapper,
   header,
   main,
   aside,
@@ -107,9 +103,6 @@ body::-webkit-scrollbar-thumb {
 /** nav bar */
 .main-nav {
   width: 100%;
-  background-color: var(--nav-bgc);
-  /* padding-top: 20px !important;
-  padding-bottom: 20px !important; */
   position: fixed;
   top: 0;
   z-index: 10;
@@ -117,6 +110,7 @@ body::-webkit-scrollbar-thumb {
 
 /* nav bar wrapper */
 .nav-wrapper {
+  background-color: var(--nav-bgc);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -134,6 +128,7 @@ body::-webkit-scrollbar-thumb {
   color: var(--main-color);
   z-index: 100000;
   width: 100%;
+  max-width: 1440px;
 }
 
 /* logo */
@@ -263,7 +258,9 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   min-height: 400px;
   height: 100vh;
+  max-height: 400px;
   width: 100vw;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,12 +268,6 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   font-weight: 600;
   font-size: 120%;
-}
-
-@media screen and (max-width: 768px) {
-  .banner {
-    height: 500px;
-  }
 }
 
 /** all headings */
@@ -287,11 +278,6 @@ body::-webkit-scrollbar-thumb {
 /** all links in paragraphs */
 .paragraph-links {
   color: var(--pink) !important;
-}
-
-/** main */
-main {
-  background-image: linear-gradient(to bottom right, #215b92, #21394f, #215b92);
 }
 
 /** careers section */
@@ -363,6 +349,11 @@ main {
   background-color: var(--main-bgc);
   padding: 10px;
   border-radius: 10px;
+}
+
+/** aside (open source) */
+aside {
+  background-color: rgba(3, 3, 3, 0.5);
 }
 
 /** lists in the contribute page */
@@ -518,6 +509,9 @@ footer .copyright span {
 /** resource sections */
 .resource-section {
   border-bottom: 1px solid var(--main-color);
+}
+.resource-section:last-child {
+  border-bottom: none;
 }
 
 .resource-card {
