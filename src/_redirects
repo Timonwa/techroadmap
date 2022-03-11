@@ -1,4 +1,4 @@
 https://techroadmap.netlify.app/* https://careerroadmap.tech/:splat 301!
 /html/careers.html /careers 301!
 /html/contribute.html /contribute 301!
-/html/careers/frontend.html /careers/frontend 301!
+/html/careers/frontend.html /frontend 301!
