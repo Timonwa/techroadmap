@@ -9,6 +9,12 @@ can use these resources to choose and define their career path and learn about t
 <img src="https://i.ibb.co/KVJWT3L/download-1.jpg" alt="download-1" border="0">
 
 ## Table of Content
+- [About The Project](#about-the-project)
+- [Project Status](#project-status)
+- [Getting Started](#getting-started)
+- [How to Get Help](#how-to-get-help)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## About The Project
 Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs. 
