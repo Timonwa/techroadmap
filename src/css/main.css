@@ -370,6 +370,10 @@ aside {
   margin-bottom: 10px;
 }
 
+.contributors{
+  display: none;
+}
+
 /** footer */
 footer {
   background: var(--footer-bgc);
