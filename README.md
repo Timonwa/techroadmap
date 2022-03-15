@@ -24,6 +24,8 @@ The roadmaps or step-by-step guides are carefully curated for the different Tech
 
 <!-- You can read more about what inspired Tech Roadmap in my [article](https://blog.timonwa.com/tech-roadmap-everything-you-need-to-help-you-choose-and-learn-a-career-in-tech). -->
 
+[⬆ Back to Top](#table-of-content)
+
 ## Project Status
 Tech Roadmap is live with the first roadmap created ([Frontend Development Roadmap](https://techroadmap.netlify.app/html/careers/frontend.html)).
 
@@ -35,12 +37,16 @@ Readmes will also be created for each roadmap so that one can also have copies o
  
 It will also be migrated to the React Framework in the later future.
 
+[⬆ Back to Top](#table-of-content)
+
 ## Getting Started
 Getting started is easy. Our [website](https://techroadmap.netlify.app) is easy to navigate with simplicity but quality as part of our goals.
 
 But if you would like to fork the repository instead either for personal learning or contributing to the project, then please follow the steps below:
 
 *Note: For contributing to this repo, please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) before making any contributions.* 
+
+[⬆ Back to Top](#table-of-content)
 
 ### Fork this repository
 
@@ -133,15 +139,23 @@ Now submit the pull request.
 
 Your changes or contributions will be reviewed and if ok, merged into the main branch of this project. You will get a notification email once the changes have been merged.
 
+[⬆ Back to Top](#table-of-content)
+
 ## How to Get Help
 If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>
+
+[⬆ Back to Top](#table-of-content)
 
 ## Contributing
 Remember, we encourage public contributions to this repository! So please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) on how to go about it.
 
+[⬆ Back to Top](#table-of-content)
+
 ## License
 
 This project is licensed under the MIT License - see [LICENSE.md](https://github.com/Timonwa/techroadmap/blob/main/LICENSE) file for details.
+
+[⬆ Back to Top](#table-of-content)
 
 <!-- ## Authors
 Timonwa 
