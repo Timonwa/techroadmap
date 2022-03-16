@@ -2,7 +2,7 @@
 Before making any contributions, read first our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md), and this Contributing Guidlines. Then checkout our [Readme File](https://github.com/Timonwa/techroadmap#getting-started) for how to fork this repo.
 
 ## The Goal
-- Our goal is not to have the largest list of resources but to have a relevant list of resources that are most relevant to the career path today.
+- The goal is not to have the largest list of resources but to have a relevant list of resources that are most relevant to the career path today.
 - These lists are highly opinionated and curated. so understand that your opinion might not match the opinion of the curator.
 
 ## Makng Commits
