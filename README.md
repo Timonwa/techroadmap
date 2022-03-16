@@ -6,7 +6,7 @@
 Anyone who wants to break or transition into the tech industry or has already broken into it, 
 can use these resources to choose and define their career path and learn about the skills needed to build themselves in the chosen career.
 
-<img src="https://i.ibb.co/KVJWT3L/download-1.jpg" alt="download-1" border="0">
+<img src="https://github.com/Timonwa/techroadmap/blob/main/src/assets/seo-image.png" alt="download-1" border="0">
 
 ## Table of Content
 - [About The Project](#about-the-project)
