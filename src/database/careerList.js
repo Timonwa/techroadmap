@@ -15,8 +15,8 @@ export const careerList = [
   {
     title: "Backend",
     body: "Curated guide and resources to becoming a backend developer.",
-    comingSoon: true,
-    link: "#",
+    comingSoon: false,
+    link: "backend.html",
   },
   {
     title: "Ui/Ux Designer",
