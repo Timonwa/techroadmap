@@ -6,16 +6,17 @@ export const careerList = [
     link: "frontend.html",
   },
   {
-    title: "Technical Writing",
-    body: "Curated guide and resources to becoming a technical writer.",
+    title: "Backend",
+    body: "Curated guide and resources to becoming a backend developer.",
     comingSoon: true,
     inProgress: true,
     link: "#",
   },
   {
-    title: "Backend",
-    body: "Curated guide and resources to becoming a backend developer.",
+    title: "Technical Writing",
+    body: "Curated guide and resources to becoming a technical writer.",
     comingSoon: true,
+    inProgress: true,
     link: "#",
   },
   {
