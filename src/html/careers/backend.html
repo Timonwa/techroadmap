@@ -48,7 +48,7 @@
   <!--* Css (resets) -->
   <!-- Normalize.Css -->
   <!-- This comes first -->
-  <link rel="stylesheet" href="../../css/css-resets/normalise.css" />
+  <link rel="stylesheet" href="../../css/css-resets/normalize.css" />
   <!-- My Css reset -->
   <!-- This comes second -->
   <link rel="stylesheet" href="../../css/css-resets/my-css-reset.css" />
@@ -193,13 +193,16 @@
             <a href="#deployment">Deployment Services</a>
             <ul class="sidebar-sublinks">
               <li class="sidebar-subtitle">
-                <a href="#netlify">Netlify</a>
+                <a href="#heroku">Heroku</a>
               </li>
               <li class="sidebar-subtitle">
-                <a href="#vercel">Vercel</a>
+                <a href="#deploy-digital-ocean">DigitalOcean</a>
               </li>
               <li class="sidebar-subtitle">
-                <a href="#github-pages">GitHub Pages</a>
+                <a href="#aws">Amazon Web Services</a>
+              </li>
+              <li class="sidebar-subtitle">
+                <a href="#gcp">Google Cloud Platform</a>
               </li>
             </ul>
           </li>
@@ -377,7 +380,7 @@
             <h3 class="resource-card-title">Videos</h3>
             <ul class="resource-card-links">
               <li class="resource-link">
-                <a target="_blank" href="#"></a>
+                <a target="_blank" href="https://youtu.be/cbSrsYiRamo">Backend Development explained in 2 minutes</a>
               </li>
             </ul>
           </div>
@@ -470,7 +473,7 @@
               </li>
               <li class="resource-link">
                 <a target="_blank" href="https://enyata.com/academy">Enyata</a>
-                <span class="resource-link-badge"></span>
+                <span class="resource-link-badge">Free</span>
               </li>
             </ul>
           </div>
@@ -894,41 +897,92 @@
             </ul>
           </div> -->
 
-          <!--* Vercel -->
-          <div id="vercel" class="resource-card">
-            <h3 class="resource-card-title">Vercel</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://vercel.com">Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://vercel.com/docs">Documentation</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/mP8KIAros70">Deploy a website to vercel. - WebDemystified</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/6YRymPx1-4s">Deploying an application with vercel. - Caleb
-                  Barger</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
-          </div>
-
-          <!--*  GitHub pages -->
+          <!--*  Heroku -->
           <div id="heroku" class="resource-card">
             <h3 class="resource-card-title">Heroku</h3>
             <ul class="resource-card-links">
               <li class="resource-link">
                 <a target="_blank" href="https://www.heroku.com/platform">The Heroku Platform ~ Heroku</a>
-                <span class="resource-link-badge">Article</span>
+                <!-- <span class="resource-link-badge">Article</span> -->
               </li>
               <li class="resource-link">
                 <a target="_blank" href="https://devcenter.heroku.com/start">Getting Started on Heroku.</a>
-                <span class="resource-link-badge">Article</span>
+                <!-- <span class="resource-link-badge">Article</span> -->
+              </li>
+              <!-- <li class="resource-link">
+                <a target="_blank" href="https://youtu.be/8hrJ4oN1u_8">How to host a website on GitHub . ~
+                  Programmingknowledge</a>
+                <span class="resource-link-badge">Video</span>
+              </li> -->
+            </ul>
+          </div>
+          <!--*  Digital Ocean -->
+          <div id="deploy-digital-ocean" class="resource-card">
+            <h3 class="resource-card-title">DigitalOcean</h3>
+            <p>
+              Build applications by managing your own infrastructure with Droplets, implement modern container-based
+              methodology with Kubernetes, or use a fully-managed Platform-as-a-Service (PaaS) environment with App
+              Platform.
+            </p>
+            <ul class="resource-card-links">
+              <li class="resource-link">
+                <a target="_blank" href=https://www.digitalocean.com />Home Page</a>
+              </li>
+              <li class="resource-link">
+                <a target="_blank" href=https://docs.digitalocean.com/products />Getting Started with DigitalOcean.</a>
+              </li>
+              <!-- <li class="resource-link">
+                <a target="_blank" href="https://youtu.be/8hrJ4oN1u_8">How to host a website on GitHub . ~
+                  Programmingknowledge</a>
+                <span class="resource-link-badge">Video</span>
+              </li> -->
+            </ul>
+          </div>
+          <!--*  Amazon Web Services -->
+          <div id="aws" class="resource-card">
+            <h3 class="resource-card-title">Amazon Web Services (AWS)</h3>
+            <p>Whether you're looking for compute power, database storage, content delivery, or other functionality, AWS
+              has the services to help you build sophisticated applications with increased flexibility, scalability and
+              reliability</p>
+            <ul class="resource-card-links">
+              <li class="resource-link">
+                <a target="_blank" href=https://aws.amazon.com />Home Page</a>
+              </li>
+              <li class="resource-link">
+                <a target="_blank" href=https://aws.amazon.com/getting-started />Getting Started with AWS</a>
+                <!-- <span class="resource-link-badge">Article</span> -->
+              </li>
+              <!-- <li class="resource-link">
+                <a target="_blank" href="https://youtu.be/8hrJ4oN1u_8">How to host a website on GitHub . ~
+                  Programmingknowledge</a>
+                <span class="resource-link-badge">Video</span>
+              </li> -->
+            </ul>
+          </div>
+          <!--* Google Cloud Platform -->
+          <div id="gcp" class="resource-card">
+            <h3 class="resource-card-title">Google Cloud Platform</h3>
+            <p>
+              Google Cloud protects your data, applications, infrastructure, and customers from fraudulent activity,
+              spam, and abuse with the same infrastructure and security services Google uses. Google Cloud's networking,
+              data storage, and compute services provide data encryption at rest, in transit, and in use. Advanced
+              security tools support compliance and data confidentiality.</p>
+            <p>
+              Develop and run applications anywhere, using cloud-native technologies like containers, serverless, and
+              service mesh.
+            </p>
+            <ul class="resource-card-links">
+              <li class="resource-link">
+                <a target="_blank" href=https://cloud.google.com />Home Page</a>
+                <!-- <span class="resource-link-badge">Article</span> -->
+              </li>
+              <li class="resource-link">
+                <a target="_blank" href=https://cloud.google.com/why-google-cloud>Why Google Cloud</a>
+                <!-- <span class="resource-link-badge">Article</span> -->
+              </li>
+              <li class="resource-link">
+                <a target="_blank" href=https://cloud.google.com/solutions>Google Cloud solutions</a>
+                <!-- <span class="resource-link-badge">Article</span> -->
               </li>
               <!-- <li class="resource-link">
                 <a target="_blank" href="https://youtu.be/8hrJ4oN1u_8">How to host a website on GitHub . ~
