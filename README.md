@@ -3,7 +3,7 @@
 
 # Tech Roadmap
 
-⭐ Please click the star above on our repo, it keeps me motivated.
+⭐ Please click the star above on our repo, it keeps me motivated. You can also follow us on [Twitter](https://twitter.com/techroadmap__).🙂
 
 [Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry. 
 Anyone who wants to break or transition into the tech industry or has already broken into it, 
