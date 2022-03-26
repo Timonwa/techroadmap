@@ -19,7 +19,7 @@ Before making any contributions, read first our [Code of Conduct](https://github
 - All changes made should be commited.
 - Ensure all important changes are commited seperately (i.e. one relevant change per commit).
 
-## Issues and Pull Requests
+## Opening Issues and Pull Requests
 - Before creating an Issue or Pull Request, ensure that there are no existing ones.
 - Give only one item per Issue or Pull Request.
 - The title of an Issue and Pull Request should be as descriptive as possible.
@@ -31,7 +31,7 @@ Before making any contributions, read first our [Code of Conduct](https://github
 - Do not add new codes without first discussing it with the curator.
 - Follow the templates avilable or look at existing codes when adding new resources.
 
-## Links/Resource
+## Adding Links or Resources
 - Before adding a new Link or Resource, ensure that there are no existing ones.
 - Add only Links or Resources relevant to a particular career path.
 - All Links or Resources should be arranged sequentially. For example, in the Frontend Roadmap, the CSS section can not come before the Html section because one has to learn Html first before moving on to CSS, then Javascript. This is because beginners learning a new career do not have any knowledge on the skills to acqiure first nor the skill to learn next. Our goal is to ease their learning journey not confuse or stress them.
@@ -40,8 +40,9 @@ Before making any contributions, read first our [Code of Conduct](https://github
 - Always confirm that every Link or Resource you add directs you to the right page, i.e. the link should not be broken or give an error stauts of `404 page Not Found`.
 - Do not add any Link or Resource you are no sure of or evaluated/used personally.
 
-## Roadmaps
-- Before suggesting any Roadmap, ensure that there are no existing ones.
-- Discuss the addition of a Roadmap with the maintainer first before creating an Issue/Pull Request. You can do that in Tech Roadmap [Discussions Page](https://github.com/Timonwa/techroadmap/discussions/categories/ideas) or send an email to [techcareerroadmap@gmail.com](mailto:techcareerroadmap@gmail.com).
+## Adding Roadmaps
+- Before suggesting or adding any Roadmap, ensure that there are no existing ones.
+- Discuss any changes, updates or additions to the resources of pre-existing Roadmaps with the curator first before creating an Issue or Pull Request. You can do that in Tech Roadmap [Discussions Page](https://github.com/Timonwa/techroadmap/discussions/categories/ideas) or send an email to [techcareerroadmap@gmail.com](mailto:techcareerroadmap@gmail.com).
+- Discuss the addition of a Roadmap with the curator first before creating an Issue or Pull Request. You can do that in Tech Roadmap [Discussions Page](https://github.com/Timonwa/techroadmap/discussions/categories/ideas) or send an email to [techcareerroadmap@gmail.com](mailto:techcareerroadmap@gmail.com).
 
 Thank you and Welcome!
