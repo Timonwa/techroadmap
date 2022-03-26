@@ -3,6 +3,9 @@ Before making any contributions, read first our [Code of Conduct](https://github
 
 ## Table of Content
 
+## No Code Contributions
+If you are a non-developer or do not want to contribute as a developer, you can do that by filling any of the form on the [contribute page](https://careerroadmap.tech/html/contribute) on our website.
+
 ## The Goal
 - The goal is not to have the largest list of resources but to have a relevant list of resources that are most relevant to the career path today.
 - These lists are highly opinionated and curated. so understand that your opinion might not match the opinion of the curator.
