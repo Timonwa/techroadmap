@@ -13,7 +13,7 @@ Before making any contributions, read first our [Code of Conduct](https://github
 - Contributing to the UI design of the site,
 - Refactoring our codebase, etc.
 
-## Makng Commits
+## Making Commits
 - Commit messages should be meaningful.
 - Commit messages should be as descriptive as possible.
 - All changes made should be commited.
