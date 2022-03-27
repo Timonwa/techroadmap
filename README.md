@@ -1,6 +1,9 @@
+<a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
+![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
+
 # Tech Roadmap
 
-⭐ Please click the star above on our repo, it keeps me motivated.
+⭐ Please click the star above on our repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
 [Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry. 
 Anyone who wants to break or transition into the tech industry or has already broken into it, 

@@ -8,8 +8,9 @@ export const careerList = [
   {
     title: "Backend",
     body: "Curated guide and resources to becoming a backend developer.",
-    comingSoon: false,
-    link: "backend.html",
+    comingSoon: true,
+    inProgress: true,
+    link: "#",
   },
   {
     title: "Technical Writing",
