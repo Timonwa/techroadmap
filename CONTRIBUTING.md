@@ -2,6 +2,14 @@
 Before making any contributions, read first our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md), and this Contributing Guidlines. Then checkout our [Readme File](https://github.com/Timonwa/techroadmap#getting-started) for how to fork this repo.
 
 ## Table of Content
+- [No Code Contributions](#no-code-contributions)
+- [The Goal](#the-goal)
+- [Contributions Allowed](#contributions-allowed)
+- [Making Commits](#making-commits)
+- [Opening Issues and Pull Requests](#opening-issues-and-pull-requests)
+- [Contributing Codes](#contributing-codes)
+- [Adding Links or Resources](#adding-links-or-resources)
+- [Adding Roadmaps](#adding-roadmaps)
 
 ## No Code Contributions
 If you are a non-developer or do not want to contribute as a developer, you can do that by filling any of the form on the [contribute page](https://careerroadmap.tech/html/contribute) on our website.

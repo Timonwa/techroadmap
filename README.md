@@ -1,9 +1,27 @@
 <a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
+<a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
+
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-blue.svg)](mailto:techcareerroadmap@gmail.com)
+[![GitHub license](https://badgen.net/github/license/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/blob/main/LICENSE)
+[![GitHub forks](https://badgen.net/github/forks/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/network/members)
+[![GitHub stars](https://badgen.net/github/stars/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/stargazers/)
+[![GitHub contributors](https://badgen.net/github/contributors/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Timonwa/techroadmap.svg)](https://GitHub.com/Timonwa/techroadmap/pull/)
+![codiga code quality score](https://api.codiga.io/project/32583/score/svg)
+![codiga codegrade](https://api.codiga.io/project/32583/status/svg)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Timonwa/techroadmap/)
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-blue.svg)](https://github.com/Timonwa/techroadmap)
+[![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](http://www.buymeacoffee.com/timonwa)
+<!--[![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)]()-->
+
+<!--[![Whatsapp](https://img.shields.io/badge/Whatsapp%20-Group-blue)]()-->
+<!--[![Telegram](https://img.shields.io/badge/Join-Telegram-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)]()-->
 
 # Tech Roadmap
 
-⭐ Please click the star above on our repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
+⭐ Please click the star above on this repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
 [Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry. 
 Anyone who wants to break or transition into the tech industry or has already broken into it, 
