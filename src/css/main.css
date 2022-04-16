@@ -313,19 +313,24 @@ body::-webkit-scrollbar-thumb {
 .careers__card-link:nth-child(7) {
   border: 2px solid var(--pink);
 }
-.careers__card-link:nth-child(2) {
+.careers__card-link:nth-child(2),
+.careers__card-link:nth-child(8) {
   border: 2px solid var(--green);
 }
-.careers__card-link:nth-child(3) {
+.careers__card-link:nth-child(3),
+.careers__card-link:nth-child(9) {
   border: 2px solid var(--red);
 }
-.careers__card-link:nth-child(4) {
+.careers__card-link:nth-child(4),
+.careers__card-link:nth-child(10) {
   border: 2px solid var(--orange);
 }
-.careers__card-link:nth-child(5) {
+.careers__card-link:nth-child(5),
+.careers__card-link:nth-child(11) {
   border: 2px solid var(--purple);
 }
-.careers__card-link:nth-child(6) {
+.careers__card-link:nth-child(6),
+.careers__card-link:nth-child(12) {
   border: 2px solid var(--grey);
 }
 
@@ -370,7 +375,7 @@ aside {
   margin-bottom: 10px;
 }
 
-.contributors{
+.contributors {
   display: none;
 }
 

@@ -26,6 +26,18 @@ export const careerList = [
     link: "#",
   },
   {
+    title: "Blockchain Developer",
+    body: "Curated guide and resources to becoming a blockchain developer.",
+    comingSoon: true,
+    link: "#",
+  },
+  {
+    title: "Machine Learning developer",
+    body: "Curated guide and resources to becoming a machine learning developer.",
+    comingSoon: true,
+    link: "#",
+  },
+  {
     title: "Android/Mobile",
     body: "Curated guide and resources to becoming an android/mobile developer.",
     comingSoon: true,
