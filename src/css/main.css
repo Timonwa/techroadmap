@@ -548,10 +548,6 @@ footer .copyright span {
   margin-bottom: 15px;
 }
 
-.resource-link:last-child {
-  margin-bottom: 0px;
-}
-
 .resource-link > a {
   border-bottom: 1px solid var(--main-color);
 }
