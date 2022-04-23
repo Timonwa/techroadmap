@@ -12,13 +12,17 @@ function displayCareers(careers) {
   //* individual card
   for (let career of careers) {
     careersCntr.innerHTML += `
-      <a href="${career.comingSoon ? "" : "../html/careers/"}${
-      career.link
-    }" class="careers__card-link ${career.comingSoon ? "disabled" : ""} ">
+      <a href="${
+        career.comingSoon && !career.inProgress ? "" : "./careers/"
+      }${career.link}" class="careers__card-link ${
+      career.comingSoon ? "disabled" : ""
+    } ">
         ${
           career.comingSoon
             ? `<p class="coming-soon"><span>${
-                career.inProgress ? "In progress" : "Coming soon"
+                career.inProgress
+                  ? "In progress <span class='material-icons-outlined'> open_in_new </span>"
+                  : "Coming soon"
               }</span></p>`
             : ""
         }

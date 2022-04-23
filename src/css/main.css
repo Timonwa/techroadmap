@@ -362,6 +362,13 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--main-bgc);
   padding: 10px;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.careers__card-link.disabled > .coming-soon > span > .material-icons-outlined {
+  font-size: 0.8rem;
+  margin-left: 5px;
 }
 
 /** aside (open source) */
