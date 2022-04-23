@@ -1,1696 +1,2163 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!--* The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--* Title -->
+    <title>Backend Development Roadmap | Tech Roadmap.</title>
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.ico"
+      type="image/x-icon"
+    />
 
-  <!--* Title -->
-  <title>Backend Development Roadmap | Tech Roadmap.</title>
-  <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+    <!-- * SEO Meta Tags -->
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Backend Development Roadmap | Tech Roadmap." />
+    <meta name="type" content="website" />
+    <meta name="author" content="Pelumi Akintokun, Timonwa, Peter" />
+    <meta
+      name="description"
+      content="Free videos, articles, guides and other resources to help you become a backend developer."
+    />
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://careerroadmap.tech" />
+    <meta
+      property="og:title"
+      content="Backend Development Roadmap | Tech Roadmap."
+    />
+    <meta
+      property="og:description"
+      content="Free videos, articles, guides and other resources to help you become a backend developer."
+    />
+    <meta
+      property="og:image"
+      content="https://careerroadmap.tech/assets/seo-image.png"
+    />
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:careers__card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://careerroadmap.tech" />
+    <meta
+      property="twitter:title"
+      content="Backend Development Roadmap | Tech Roadmap."
+    />
+    <meta
+      property="twitter:description"
+      content="Free videos, articles, guides and other resources to help you become a backend developer."
+    />
+    <meta
+      property="twitter:image"
+      content="https://careerroadmap.tech/assets/seo-image.png"
+    />
 
-  <!-- * SEO Meta Tags -->
-  <!-- Primary Meta Tags -->
-  <meta name="title" content="Backend Development Roadmap | Tech Roadmap." />
-  <meta name="type" content="website" />
-  <meta name="author" content="Pelumi Akintokun, Timonwa, Peter" />
-  <meta name="description"
-    content="Free videos, articles, guides and other resources to help you become a backend developer." />
-  <!-- Open Graph / Facebook Meta Tags -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://careerroadmap.tech" />
-  <meta property="og:title" content="Backend Development Roadmap | Tech Roadmap." />
-  <meta property="og:description"
-    content="Free videos, articles, guides and other resources to help you become a backend developer." />
-  <meta property="og:image" content="https://careerroadmap.tech/assets/seo-image.png" />
-  <!-- Twitter Meta Tags -->
-  <meta property="twitter:careers__card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://careerroadmap.tech" />
-  <meta property="twitter:title" content="Backend Development Roadmap | Tech Roadmap." />
-  <meta property="twitter:description"
-    content="Free videos, articles, guides and other resources to help you become a backend developer." />
-  <meta property="twitter:image" content="https://careerroadmap.tech/assets/seo-image.png" />
+    <!--* Fonts -->
+    <!-- Google fonts offline -->
+    <link rel="preload" href="" as="fonts" />
+    <!-- Google fonts online -->
+    <link rel="preconnect" href="" />
 
-  <!--* Fonts -->
-  <!-- Google fonts offline -->
-  <link rel="preload" href="" as="fonts" />
-  <!-- Google fonts online -->
-  <link rel="preconnect" href="" />
+    <!--* Icons -->
+    <!-- Google Icons -->
+    <!-- online -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
 
-  <!--* Icons -->
-  <!-- Google Icons -->
-  <!-- online -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" />
+    <!--* Css -->
+    <!--* Css (resets) -->
+    <!-- Normalize.Css -->
+    <!-- This comes first -->
+    <link rel="stylesheet" href="../../css/css-resets/normalize.css" />
+    <!-- My Css reset -->
+    <!-- This comes second -->
+    <link rel="stylesheet" href="../../css/css-resets/my-css-reset.css" />
+    <!-- My Font reset -->
+    <!-- This comes third -->
+    <link rel="stylesheet" href="../../css/css-resets/my-font-reset.css" />
 
-  <!--* Css -->
-  <!--* Css (resets) -->
-  <!-- Normalize.Css -->
-  <!-- This comes first -->
-  <link rel="stylesheet" href="../../css/css-resets/normalize.css" />
-  <!-- My Css reset -->
-  <!-- This comes second -->
-  <link rel="stylesheet" href="../../css/css-resets/my-css-reset.css" />
-  <!-- My Font reset -->
-  <!-- This comes third -->
-  <link rel="stylesheet" href="../../css/css-resets/my-font-reset.css" />
+    <!--* Css (My codes) -->
+    <!-- My Css Variables -->
+    <!-- This comes first -->
+    <link rel="stylesheet" href="../../css/variables.css" />
+    <!-- main Css styles -->
+    <!-- This comes second -->
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
 
-  <!--* Css (My codes) -->
-  <!-- My Css Variables -->
-  <!-- This comes first -->
-  <link rel="stylesheet" href="../../css/variables.css" />
-  <!-- main Css styles -->
-  <!-- This comes second -->
-  <link rel="stylesheet" href="../../css/main.css" />
-</head>
+  <body>
+    <!--* container/body wrapper for every content in the body -->
+    <div class="flex">
+      <div class="nav-space"></div>
 
-<body>
-  <!--* container/body wrapper for every content in the body -->
-  <div class="flex">
-    <div class="nav-space"></div>
+      <!--* nav bar -->
+      <nav class="main-nav">
+        <div class="nav-wrapper">
+          <!-- website logo -->
+          <div class="nav-logo">
+            <a href="../../index.html">
+              <p>TECH ROAD MAP</p>
+            </a>
+            <!-- <a href="#"><h4>NavBar</h4></a> -->
+            <!-- <a href="#"><img src="" alt="brand image"></a> -->
+          </div>
 
-    <!--* nav bar -->
-    <nav class="main-nav">
-      <div class="nav-wrapper">
-        <!-- website logo -->
-        <div class="nav-logo">
-          <a href="../../index.html">
-            <p>TECH ROAD MAP</p>
-          </a>
-          <!-- <a href="#"><h4>NavBar</h4></a> -->
-          <!-- <a href="#"><img src="" alt="brand image"></a> -->
+          <!-- menu on large screen -->
+          <div class="nav-links">
+            <!-- nav link cntr -->
+            <ul class="nav-link-wrapper">
+              <!-- nav links -->
+              <li><a class="nav-link" href="../../index.html">Home</a></li>
+              <li>
+                <a class="nav-link" href="../../html/careers.html">Careers</a>
+              </li>
+              <li>
+                <a class="nav-link" href="../../html/contribute.html"
+                  >Contribute</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- burger menu on small screen -->
+          <div class="burger-menu">
+            <!-- burger menu toggle -->
+            <div class="burger-menu-toggle">
+              <span
+                ><span class="material-icons-outlined open"> menu </span>
+              </span>
+              <span
+                ><span class="material-icons-outlined close"> close </span>
+              </span>
+            </div>
+          </div>
         </div>
+      </nav>
 
-        <!-- menu on large screen -->
-        <div class="nav-links">
-          <!-- nav link cntr -->
-          <ul class="nav-link-wrapper">
-            <!-- nav links -->
-            <li><a class="nav-link" href="../../index.html">Home</a></li>
-            <li>
-              <a class="nav-link" href="../../html/careers.html">Careers</a>
+      <!--* side bar -->
+      <nav class="sidebar-nav">
+        <div class="sidebar-wrapper">
+          <!-- side bar toggle -->
+          <div class="sidebar-toggle">
+            <div class="open-sidebar">
+              <span>Open Menu</span>
+              <span class="material-icons-outlined"> keyboard_arrow_down </span>
+            </div>
+            <div class="close-sidebar">
+              <span>Close Menu</span>
+              <span class="material-icons-outlined"> keyboard_arrow_up </span>
+            </div>
+          </div>
+
+          <!--* links in side bar -->
+          <ul class="sidebar-links">
+            <!-- what is frontend -->
+            <li class="sidebar-title">
+              <a href="#what-is">What is Backend Dev.</a>
             </li>
-            <li>
-              <a class="nav-link" href="../../html/contribute.html">Contribute</a>
+
+            <!-- frontend roadmap -->
+            <li class="sidebar-title">
+              <a href="#roadmap">Backend Dev. Roadmap</a>
+            </li>
+
+            <!-- networking -->
+            <li class="sidebar-title">
+              <a href="#networking">Networking</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#communities">Tech Communities</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#bootcamps">Bootcamps</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#internships">Internship/Mentorship</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- code editors -->
+            <li class="sidebar-title">
+              <a href="#editor">Code Editors</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#desktop-apps">Desktop Apps</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#online-editors">Online Editors</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#mobile-apps">Mobile Apps</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- javascript -->
+            <li class="sidebar-title">
+              <a href="#frontend">Frontend Basics</a>
+            </li>
+
+            <!-- languages -->
+            <li class="sidebar-title">
+              <a href="#backend-lang">Backend Languages</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#nodejs">Nodejs</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#python">Python</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- version control -->
+            <li class="sidebar-title">
+              <a href="#version-control">Version Control</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#git">Git</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#github">GitHub</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#git-desktop">Git Desktop</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#gitlab">GitLab</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#bitbucket">BitBucket</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- deployment services -->
+            <li class="sidebar-title">
+              <a href="#deployment">Deployment Services</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#heroku">Heroku</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#vercel">Vercel</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#deploy-digital-ocean">DigitalOcean</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#aws">Amazon Web Services</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#gcp">Google Cloud Platform</a>
+                </li>
+                <li class="sidebar-subtitle">
+                  <a href="#azure">Azure</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- databases -->
+            <li class="sidebar-title">
+              <a href="#databases">Databases</a>
+              <ul class="sidebar-sublinks">
+                <!-- relational database -->
+                <li class="sidebar-subtitle">
+                  <a href="#relational-db">Relational DB</a>
+                  <ul class="sidebar-sublinks">
+                    <li class="sidebar-subtitle">
+                      <a href="#mysql">MySQL</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- nonrelational database -->
+                <li class="sidebar-subtitle">
+                  <a href="#nonrelational-db">Non-Relational DB</a>
+                  <ul class="sidebar-sublinks">
+                    <li class="sidebar-subtitle">
+                      <a href="#mongodb">MongoDB</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+            <!-- backend frameworks -->
+            <li class="sidebar-title">
+              <a href="#js-frameworks">Backend Frameworks</a>
+              <ul class="sidebar-sublinks">
+                <li class="sidebar-subtitle">
+                  <a href="#expressjs">Express JS</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- cheatsheet -->
+            <li class="sidebar-title">
+              <a href="#cheatsheets">Cheatsheets</a>
+            </li>
+
+            <!-- others -->
+            <li class="sidebar-title">
+              <a href="#other-resource">Other Useful Resource</a>
+            </li>
+
+            <!-- what next -->
+            <li class="sidebar-title">
+              <a href="#what-next">What Next</a>
             </li>
           </ul>
         </div>
+      </nav>
 
-        <!-- burger menu on small screen -->
-        <div class="burger-menu">
-          <!-- burger menu toggle -->
-          <div class="burger-menu-toggle">
-            <span><span class="material-icons-outlined open"> menu </span>
-            </span>
-            <span><span class="material-icons-outlined close"> close </span>
-            </span>
-          </div>
+      <!-- * banner -->
+      <header class="banner frontend-page-banner">
+        <div class="banner-wrapper">
+          <p>
+            "Websites promote you 24/7: No employee will do that." – Paul
+            Cookson
+          </p>
         </div>
-      </div>
-    </nav>
+      </header>
 
-    <!--* side bar -->
-    <nav class="sidebar-nav">
-      <div class="sidebar-wrapper">
-        <!-- side bar toggle -->
-        <div class="sidebar-toggle">
-          <div class="open-sidebar">
-            <span>Open Menu</span>
-            <span class="material-icons-outlined"> keyboard_arrow_down </span>
+      <!--* main content -->
+      <main class="resources">
+        <!--* intro -->
+        <section class="intro">
+          <div class="intro-wrapper">
+            <h2 class="heading">Begin Your Backend Developer Journey!</h2>
+            <div class="intro__body">
+              <p>
+                Congratulations on choosing this career path. You are one step
+                closer to becoming a backend developer. This guide is specially
+                to help you have a smooth learning, with easy access to the
+                right resources and data.
+              </p>
+              <p>
+                You will find here vast resources on backend development from
+                who exactly is backend developer, the backend development
+                roadmap, backend career paths, backend development skills, tools
+                to use, projects to build, communities to help you grow and
+                network, videos, articles, etc.
+              </p>
+              <p>Congrats once again.</p>
+            </div>
           </div>
-          <div class="close-sidebar">
-            <span>Close Menu</span>
-            <span class="material-icons-outlined"> keyboard_arrow_up </span>
-          </div>
-        </div>
+        </section>
 
-        <!--* links in side bar -->
-        <ul class="sidebar-links">
-          <!-- what is frontend -->
-          <li class="sidebar-title">
-            <a href="#what-is">What is Backend Dev.</a>
-          </li>
+        <!--* What is Backend Development? -->
+        <section id="what-is" class="resource-section">
+          <h2 class="resource-section__heading">
+            What is Backend Development?
+          </h2>
 
-          <!-- frontend roadmap -->
-          <li class="sidebar-title">
-            <a href="#roadmap">Backend Dev. Roadmap</a>
-          </li>
-
-           <!-- networking -->
-          <li class="sidebar-title">
-            <a href="#networking">Networking</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#communities">Tech Communities</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#bootcamps">Bootcamps</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#internships">Internship/Mentorship</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- code editors -->
-          <li class="sidebar-title">
-            <a href="#editor">Code Editors</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#desktop-apps">Desktop Apps</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#online-editors">Online Editors</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#mobile-apps">Mobile Apps</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- version control -->
-          <li class="sidebar-title">
-            <a href="#version-control">Version Control</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#git">Git</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#github">GitHub</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#git-desktop">Git Desktop</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#gitlab">GitLab</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#bitbucket">BitBucket</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- deployment services -->
-          <li class="sidebar-title">
-            <a href="#deployment">Deployment Services</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#heroku">Heroku</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#deploy-digital-ocean">DigitalOcean</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#aws">Amazon Web Services</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#gcp">Google Cloud Platform</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- python -->
-          <li class="sidebar-title">
-            <a href="#python">Python</a>
-          </li>
-          <!-- javascript -->
-          <li class="sidebar-title">
-            <a href="#javascript">Javascript</a>
-          </li>
-
-          <!-- json and json server -->
-          <li class="sidebar-title">
-            <a href="#json">Json</a>
-          </li>
-          
-          <!-- apis -->
-          <li class="sidebar-title">
-            <a href="#apis">APIs</a>
-          </li>
-
-          <!-- databases -->
-          <li class="sidebar-title">
-            <a href="#databases">Databases</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#mysql">MySQL</a>
-              </li>
-              <li class="sidebar-subtitle">
-                <a href="#mongodb">MongoDB</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- js frameworks and libraries -->
-          <li class="sidebar-title">
-            <a href="#js-frameworks">Javascript Frameworks</a>
-            <ul class="sidebar-sublinks">
-              <li class="sidebar-subtitle">
-                <a href="#expressjs">Express JS</a>
-              </li>
-            </ul>
-          </li>
-
-          <!-- Community -->
-          <li class="sidebar-title">
-            <a href="#community">Community</a>
-          </li>
-
-          <!-- cheatsheet -->
-          <li class="sidebar-title">
-            <a href="#cheatsheets">Cheatsheets</a>
-          </li>
-
-          <!-- others -->
-          <li class="sidebar-title">
-            <a href="#other-resource">Other Useful Resource</a>
-          </li>
-
-          <!-- what next -->
-          <li class="sidebar-title">
-            <a href="#what-next">What Next</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- * banner -->
-    <header class="banner frontend-page-banner">
-      <div class="banner-wrapper">
-        <p>
-          "Websites promote you 24/7: No employee will do that." – Paul
-          Cookson
-        </p>
-      </div>
-    </header>
-
-    <!--* main content -->
-    <main class="resources">
-      <!--* intro -->
-      <section class="intro">
-        <div class="intro-wrapper">
-          <h2 class="heading">Begin Your Backend Developer Journey!</h2>
-          <div class="intro__body">
+          <div class="resource-section__body">
             <p>
-              Congratulations on choosing this career path. You are one step
-              closer to becoming a backend developer. This guide is specially
-              to help you have a smooth learning, with easy access to the
-              right resources and data.
+              Backend development, also called server-side development, is the
+              process of creating everything that the users don't see and
+              contains behind-the-scenes activities that occur when performing
+              any action on a website. It focuses primarily on databases,
+              backend logic, APIs, and Servers. Backend development can be done
+              in almost any programming language such as JavaScript (using the
+              NodeJS runtime engine), Python, C, C# and C++, PHP, etc.
             </p>
             <p>
-              You will find here vast resources on backend development from
-              who exactly is backend developer, the backend development
-              roadmap, backend career paths, backend development skills,
-              tools to use, projects to build, communities to help you grow and
-              network, videos, articles, etc.
+              Learn more about what backend development is by clicking the links
+              below.
             </p>
-            <p>Congrats once again.</p>
-          </div>
-        </div>
-      </section>
-
-      <!--* What is Backend Development? -->
-      <section id="what-is" class="resource-section">
-        <h2 class="resource-section__heading">
-          What is Backend Development?
-        </h2>
-
-        <div class="resource-section__body">
-          <p>
-            Backend development, also called server-side development, is the
-            process of creating everything that the users don't see and contains behind-the-scenes activities that occur
-            when performing any action on a website. It focuses primarily on databases, backend logic, APIs, and
-            Servers. Backend development can be done in almost any programming language such as JavaScript (using the
-            NodeJS runtime engine), Python, C, C# and C++, PHP, etc.
-          </p>
-          <p>
-            Learn more about what backend development is by clicking the
-            links below.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://learntocodewith.me/posts/backend-development/">The Beginner's Guide to
-                  Backend Development (2022 Guide) ~ Krystal Tolani
-                </a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.interviewbit.com/blog/backend-developer-skills/">Backend Developer
-                  Skills You Must Have - InterviewBit.com</a>
-              </li>
-            </ul>
           </div>
 
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/cbSrsYiRamo">Backend Development explained in 2 minutes ~ Mayuko</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/5qocqWSdpSI">Backend development explained in 10 minutes ~ Simplilearn</a>
-              </li>
-            </ul>
+          <div class="resource-section__links">
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://learntocodewith.me/posts/backend-development/"
+                    >The Beginner's Guide to Backend Development (2022 Guide) ~
+                    Krystal Tolani
+                  </a>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.interviewbit.com/blog/backend-developer-skills/"
+                    >Backend Developer Skills You Must Have -
+                    InterviewBit.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/cbSrsYiRamo"
+                    >Backend Development explained in 2 minutes ~ Mayuko</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/5qocqWSdpSI"
+                    >Backend development explained in 10 minutes ~
+                    Simplilearn</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!--* Backend Development Roadmap -->
-      <section id="roadmap" class="resource-section">
-        <h2 class="resource-section__heading">
-          Backend Development Roadmap.
-        </h2>
+        <!--* Backend Development Roadmap -->
+        <section id="roadmap" class="resource-section">
+          <h2 class="resource-section__heading">
+            Backend Development Roadmap.
+          </h2>
 
-        <div class="resource-section__body">
-          <p>
-            A roadmap is a visualization of a strategic plan. You will need
-            one if you want to actualize becoming a backend developer. The
-            resources below will guide you as to how to create/use your
-            roadmap.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.decipherzone.com/blog-detail/backend-developer-roadmap-2021">The 2022 RoadMap For Backend Developer ~ decipherzone.com
-                </a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://dev.to/creativetim_official/the-complete-roadmap-for-becoming-a-backend-developer-step-by-step-instructions-d4j">
-                  The Complete Roadmap for Becoming a Backend Developer: Step-By-Step Instructions ~ Creative Tim
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=Q0prVO3DCtU">2022 Backend Developer Roadmap | Begin your journey as a Backend Developer ~ Coding with Lewis</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/-Cy-1PqrcKI">Backend Developer learning Guide Roadmap 2021 ~ AdoraHack</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* networking -->
-      <section id="networking" class="resource-section">
-        <h2 class="resource-section__heading">Networking</h2>
-
-        <div class="resource-section__links">
-          <!-- community -->
-          <div id="communities" class="resource-card">
-            <h3 class="resource-card-title">Tech Communities</h3>
-          <p>
-            Joining a Tech Community is the easiest way to network with and learn from other techies in the industry for free. You get to connect to other techies with different levels of expertise, network and socialize, attend tech events, ask questions and get answers from experts and professionals, share and learn from other people's experiences, etc. Below are a few of the most popular tech communities:
-          </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://developers.google.com/community/gdg">Google Developers Group (GDG)</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=" https://developers.google.com/community/dsc/clubs">Google Developer Student Club (DSC)</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://shecodeafrica.org/">She Code Africa (SCA)</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://oscafrica.org/">Open Source Community Africa (OSCA)</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=" https://devcareer.io/">Developer Career</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- bootcamps -->
-          <div id="bootcamps" class="resource-card">
-            <h3 class="resource-card-title">Bootcamps</h3>
-          <p>
-            Bootcamps are created to help one with little to no experience in
-            coding gain programming skills by offering them technical training
-            on the relevant skills. They focus on the most important aspects
-            of coding while allowing one apply this new skills to solve
-            real-life problems. They are like schools and some of them offer Certificates/Diplomas upon completion. Most of them are not free. Below are a few of the most popular bootcamps:
-          </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://decagon.institute/">Decagon</a>
-                <span class="resource-link-badge">Not free</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://enyata.com/academy">Enyata</a>
-                <span class="resource-link-badge">Free</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://altschoolafrica.com">AltSchool Africa</a>
-                <span class="resource-link-badge">Not free</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- internships and mentoring -->
-          <div id="internships" class="resource-card">
-            <h3 class="resource-card-title">Internships and Mentoring</h3>
-          <p>
-            Internships are a period of work often taken to gain professional learning experience relating to a field of study
-            or career interest. You also get to be mentored by seniors and experts in your field from different parts of the world, sometimes even working on real-life projects. It can be a paid or unpaid. You can find
-            below, a list of organizations that offer coding internships and
-            run bootcamps in the tech field.
-          </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.outreachy.org/">Outreachy</a>
-                <span class="resource-link-badge">Paid</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://the-collab-lab.codes/">The Collab Lab</a>
-                <span class="resource-link-badge">Paid</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://internshala.com/">Internshala</a>
-                <span class="resource-link-badge">Paid</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://twitter.com/hnginternship?t=FNo8Fg7sQj53daEh0mCuew&s=09">HNG
-                  Internship</a>
-                <span class="resource-link-badge">Unpaid</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://internship.sidehustle.ng/">SideHustle.ng</a>
-                <span class="resource-link-badge">Unpaid</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://internship.zuri.team/">Zuri Team</a>
-                <span class="resource-link-badge">Unpaid</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Code Editors -->
-      <section id="editor" class="resource-section">
-        <h2 class="resource-section__heading">Code Editors</h2>
-
-        <div class="resource-section__body">
-          <p>
-            For you to start coding, you will need a place to write and run
-            your code. This is where code editors come in. A code editor is a
-            text editor specifically designed for writing and editing source
-            codes. You can find the editors used by most front-end developers
-            below, with the most popular being VsCode.
-          </p>
-          <p>
-            But before diving in, check this video out;
-            <a class="resource-link paragraph-links" href="https://youtu.be/kCZQPL8u_YI">Best 3 editors for coding and
-              why. ~ Tutmo</a>
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!--* Desktop Apps -->
-          <div id="desktop-apps" class="resource-card">
-            <h3 class="resource-card-title">Desktop Apps</h3>
-            <ul class="resource-card-links">
-              <!-- vscode -->
-              <li class="resource-link">
-                VsCode
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://code.visualstudio.com/download">Download link</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://code.visualstudio.com/docs">Documentation</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/fWzp5lZ5CEA">VsCode setup for Html, Css and Javascript ~
-                      Norbert BM
-                      Web Development</a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/LdF2RcelRg0">15 VsCode extensions for frontend developers
-                      ~ Traversy
-                      Media
-                    </a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank"
-                      href="https://www.freecodecamp.org/news/create-your-own-custom-code-snippets/">Create your own
-                      custom code snippets ~ Timonwa</a>
-                    <span class="resource-link-badge">Article</span>
-                  </li>
-                </ul>
-              </li>
-              <!-- sublime -->
-              <li class="resource-link">
-                Sublime
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://www.sublimetext.com/download">Download link</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/-6ikAMmu3Nc">The best Sublime settings and packages ~ Tech
-                      With
-                      Tim</a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                </ul>
-              </li>
-              <!-- atom -->
-              <li class="resource-link">
-                Atom
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://atom.io/">Website</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/3UMIlcqThj8">Atom editor HTML and CSS setup ~ Daniel
-                      Soriano</a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/HPhn12OBUpQ">Top 10 Atom extensions ~ CodeWithWebDev</a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/aiXNKHKWlmY">10 Atom essential packages ~ Traversy
-                      Media</a>
-                    <span class="resource-link-badge">Video</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-          <!--* Online Editors (Playgrounds) -->
-          <div id="online-editors" class="resource-card">
-            <h3 class="resource-card-title">Online Editors (Playgrounds)</h3>
-            <ul class="resource-card-links">
-               <!-- vscode online -->
-              <li class="resource-link">
-                VsCode Online
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://vscode.dev/">Website</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://code.visualstudio.com/docs/editor/vscode-web">Documentation</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-               <!-- replit  -->
-              <li class="resource-link">
-                Replit
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://repl.it">Website</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/SDlrhS8O3kI">Introduction to Replit ~ Ritza</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                  <li class="resource-link">
-                    <a target="_blank" href="https://youtu.be/ZAC0TQEU5gI">Getting started with Replit ~ Replit</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-          <!--* Mobile Apps -->
-          <div id="mobile-apps" class="resource-card">
-            <h3 class="resource-card-title">Mobile Apps</h3>
-            <ul class="resource-card-links">
-              <!-- Dcoder -->
-              <li class="resource-link">
-                Dcoder
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder">Download
-                      here</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-              <!-- Code Editor -->
-              <li class="resource-link">
-                Code Editor
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rhmsoft.code">Download
-                      here</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-              <!-- visual code editor -->
-              <li class="resource-link">
-                Visual Code
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank"
-                      href="https://play.google.com/store/apps/details?id=lk.visual.code.mobile">Download here</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-              
-              <!-- pydroid 3 editor -->
-              <li class="resource-link">
-                Pydroid 3 - IDE for Python 3
-                <ul class="resource-link-sublinks">
-                  <li class="resource-link">
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">Download
-                      here</a>
-                    <span class="resource-link-badge">Link</span>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Html and Css (Beginner's Level) -->
-      <section id="frotend" class="resource-section">
-        <h2 class="resource-section__heading">
-          Basics of Frontend Development
-        </h2>
-
-        <div class="resource-section__body">
-          <p>
-            Learning the basics of frontend development is not compulsory, but it does help to understand how the frontend works since your code will be interacting with the frontend most of the time. The languages used in frontend development are Html, CSS and Javascript. You can learn more about these below:            
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/UB1O30fR-EE">Html crash course for absolute beginners. ~
-                  Traversy
-                  Media</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/yfoY53QXEnI">Css crash course for absolute beginners. ~
-                  Traversy
-                  Media</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/mU6anWqZJcc">Html and Css full course from scratch. ~
-                  FreeCodeCamp</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/PkZNo7MFNFg">Learn JavaScript. Full course for beginners. ~
-                  FreeCodeCamp</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/ResWVWI333o">Javascript for web designers. ~ Envato Tuts</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- playlist -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Curated Playlist</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G">Html and
-                  Css Crash course tutorial. ~ The Net Ninja</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK">Css3 Full
-                  Tutorial. ~ Dev Dreamer</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV">
-                  JavaScript Tutorials for beginners. ~ Telusko</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- practical projects -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Practice Projects</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank"
-                  href="https://www.frontendmentor.io/challenges">Frontend
-                  Challenges - Improve your front-end coding skills by building real projects
-Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/c5SIG7Ie0dM">15 vanilla JavaScript projects. ~ Coding
-                  Addict</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Version Control -->
-      <section id="version-control" class="resource-section">
-        <h2 class="resource-section__heading">Version Control</h2>
-
-        <div class="resource-section__body">
-          <p>
-            Version Control also known as Source Control is a way of managing
-            and tracking the changes made to your code over time. This allows
-            you to easily compare changes made and revert to old versions if
-            the need arises. You can find different tools below that help you
-            do that.
-          </p>
-          <p>
-            If you are finding Git hard to understand, you can learn Git
-            Desktop created by GitHub which makes using Git less complicated.
-            Use it for a while and then come back to Git. After that, you can choose
-            which ever version control service you prefer among GitHub, GitLab
-            and BitBucket.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!--* git -->
-          <div id="git" class="resource-card">
-            <h3 class="resource-card-title">Git</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://git-scm.com/">Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://git-scm.com/downloads">
-                  Download here
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://git-scm.com/book/en/v2">
-                  Documentation
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PL_euSNU_eLbegnt7aR8I1gXfLhKZbxnYX">Git
-                  complete course tutorial. ~ Leela Web Dev</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
-          </div>
-
-
-          <!--* github -->
-          <div id="github" class="resource-card">
-            <h3 class="resource-card-title">GitHub</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://github.com/">
-                  Website
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://desktop.github.com/">
-                  Download here
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://docs.github.com/en">
-                  Documentation
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/RGOj5yH7evk">Git and GitHub for beginners. ~ FreeCodeCamp</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/GqNAD4XoZ6k">Using Git Desktop for beginners. ~ Kevin
-                  Powell</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
-          </div>
-
-          <!--* Git lab -->
-          <div id="gitlab" class="resource-card">
-            <h3 class="resource-card-title">GitLab</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://about.gitlab.com/">
-                  Website
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://docs.gitlab.com/">
-                  Documentation
-                </a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PLu-nSsOS6FRIg52MWrd7C_qSnQp3ZoHwW">Git and
-                  GitLab tutorial. ~ GitSchoolDude</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
-          </div>
-
-          <!--* bitbucket -->
-          <div id="bitbucket" class="resource-card">
-            <h3 class="resource-card-title">BitBucket</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://bitbucket.org/">Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/1tC6Z57AOkY">Git Crash Course using BitBucket ~AHT Cloud</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Deployment Services -->
-      <section id="deployment" class="resource-section">
-        <h2 class="resource-section__heading">Deployment Services</h2>
-
-        <div class="resource-section__body">
-          <p>
-            Now that you have successfully hosted your codes on GitHub, GitLab or
-            BitBucket, you would want a server to host your backend
-            applications either temporarily or permanently and also have
-            testable links which you can share with friends and potential
-            clients so they can admire and see the hard work you have done.
-            You can choose any of the services below.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!--*  Heroku -->
-          <div id="heroku" class="resource-card">
-            <h3 class="resource-card-title">Heroku</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.heroku.com/platform">Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://devcenter.heroku.com/start">Documentation</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-            </ul>
-          </div>
-          <!--*  Digital Ocean -->
-          <div id="deploy-digital-ocean" class="resource-card">
-            <h3 class="resource-card-title">DigitalOcean</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href=https://www.digitalocean.com />Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=https://docs.digitalocean.com/products />Documentation</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-            </ul>
-          </div>
-          <!--*  Amazon Web Services -->
-          <div id="aws" class="resource-card">
-            <h3 class="resource-card-title">Amazon Web Services (AWS)</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href=https://aws.amazon.com />Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=https://aws.amazon.com/getting-started />Getting Started with AWS</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-            </ul>
-          </div>
-          <!--* Google Cloud Platform -->
-          <div id="gcp" class="resource-card">
-            <h3 class="resource-card-title">Google Cloud Platform</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href=https://cloud.google.com />Home Page</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=https://cloud.google.com/why-google-cloud>Why Google Cloud</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href=https://cloud.google.com/solutions>Google Cloud solutions</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Python -->
-      <section id="python" class="resource-section">
-        <h2 class="resource-section__heading">Python</h2>
-
-        <div class="resource-section__body">
-          <p>
-            Python is a powerful multi-purpose programming language. It is very easy to learn as it features a syntax
-            more similar to English Language than other programming languages.
-          </p>
-          <p>
-            Python is a very fun and beginner-friendly programming language with a pretty shallow learning curve.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=_uQrJ0TkZlc">Python Tutorial - Python Full
-                  Course for Beginners ~
-                  Programming with Mosh</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=rfscVS0vtbw">Learn Python - Full Course for
-                  Beginners [Tutorial] ~ freeCodeCamp.org</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=zuxzE7--RYM">Python Web Development | Web
-                  Development Using Djano | Python Django Tutorial | Edureka ~ edureka!</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=jBzwzrDvZ18">Python Backend Web Development
-                  Course (with Django) ~ freeCodeCamp.org</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=Z1RJmh_OqeA">Learn Flask for Python - Full
-                  Tutorial ~ freeCodeCamp.org</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- playlist -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Curated Playlist</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3">
-                  Python Tutorials ~ Telusko</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-kQkZp-j9PNyKq7Yw5VYjq9">
-                  Python Django Tutorials ~ Tech with Tim</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH">
-                  Flask Tutorials ~ Corey Schafer</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX">Flask
-                  Tutorials ~ Tech with Tim</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- courses -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Courses</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.w3schools.com/python/">Python Tutorial ~ W3Schools</a>
-                <span class="resource-link-badge">Free</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://dev.to/javinpaul/10-python-articles-you-can-read-this-weekend-2df8">10
-                  Python Articles you can read this weekend</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- practical projects -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Practice Projects</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.freecodecamp.org/news/python-projects-junior-developers/">11 Python
-                  Projects Junior Developers Can Build for Coding Practice</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://realpython.com/intermediate-python-project-ideas/">13 Project Ideas for
-                  Intermediate Python Developers</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- others -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Others</h3>
-            <p class="resource-card-body">
-              Tips and tricks, tools, cool examples etc.
+          <div class="resource-section__body">
+            <p>
+              A roadmap is a visualization of a strategic plan. You will need
+              one if you want to actualize becoming a backend developer. The
+              resources below will guide you as to how to create/use your
+              roadmap.
             </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="#"></a>
-                <span class="resource-link-badge"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* Javascript -->
-      <section id="javascript" class="resource-section">
-        <h2 class="resource-section__heading">Javascript (Node.js)</h2>
-
-        <div class="resource-section__body">
-          <p>
-            With the introduction of the Node.js runtime engine, JavaScript has transformed into a powerful programming
-            language capable of developing server-side applications.
-          </p>
-          <p>
-            Javascript used to be just for creating interactive web pages but now can also be used to develop
-            server-side applications for a wide range of purposes. Javascript can even also be used in Robotics, IoT,
-            Data Science, Analysis and Visualization, Machine Learning, etc.
-          </p>
-          <p>
-            Here are some resources to help you get started with JavaScript for backend development.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=TlB_eWDSMt4">Node.js tutorial for Beginners:
-                  Learn Node in 1 Hour ~
-                  Mosh Hamedani</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=ENrzD9HAZK4">Node.js Ultimate Beginner's Guide
-                  in 7 Easy Steps ~ Fireship</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=Oe421EPjeBE">Node.js and Express.js - Full
-                  Course
-                  ~
-                  freeCodeCamp.org</a>
-              </li>
-            </ul>
           </div>
 
-          <!-- playlist -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Curated Playlist</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET">
-                  JavaScript Tutorials for beginners. ~ The Net Ninja</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank"
-                  href="https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU">Node.js
-                  Crash Course Tutorial ~ The Net Ninja</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX">
-                  Everything Vanilla JavaScript tutorials plus projects to
-                  build. ~ Traversy Media</a>
-              </li>
-            </ul>
-          </div>
+          <div class="resource-section__links">
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.decipherzone.com/blog-detail/backend-developer-roadmap-2021"
+                    >The 2022 RoadMap For Backend Developer ~ decipherzone.com
+                  </a>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://dev.to/creativetim_official/the-complete-roadmap-for-becoming-a-backend-developer-step-by-step-instructions-d4j"
+                  >
+                    The Complete Roadmap for Becoming a Backend Developer:
+                    Step-By-Step Instructions ~ Creative Tim
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-          <!-- courses -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Courses</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank"
-                  href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">JavaScript
-                  Algorithms and Data Structures. ~
-                  FreeCodeCamp</a>
-                <span class="resource-link-badge">Free</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.w3schools.com/nodejs/default.asp">Node.js Tutorial ~ W3Schools</a>
-                <span class="resource-link-badge">Free</span>
-              </li>
-            </ul>
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=Q0prVO3DCtU"
+                    >2022 Backend Developer Roadmap | Begin your journey as a
+                    Backend Developer ~ Coding with Lewis</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/-Cy-1PqrcKI"
+                    >Backend Developer learning Guide Roadmap 2021 ~
+                    AdoraHack</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
+        </section>
 
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">Var,
-                  Let and Const - What's the difference? ~ FreeCodeCamp</a>
-              </li>
-            </ul>
+        <!--* networking -->
+        <section id="networking" class="resource-section">
+          <h2 class="resource-section__heading">Networking</h2>
+
+          <div class="resource-section__links">
+            <!-- community -->
+            <div id="communities" class="resource-card">
+              <h3 class="resource-card-title">Tech Communities</h3>
+              <p>
+                Joining a Tech Community is the easiest way to network with and
+                learn from other techies in the industry for free. You get to
+                connect to other techies with different levels of expertise,
+                network and socialize, attend tech events, ask questions and get
+                answers from experts and professionals, share and learn from
+                other people's experiences, etc. Below are a few of the most
+                popular tech communities:
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://developers.google.com/community/gdg"
+                    >Google Developers Group (GDG)</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href=" https://developers.google.com/community/dsc/clubs"
+                    >Google Developer Student Club (DSC)</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://shecodeafrica.org/"
+                    >She Code Africa (SCA)</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://oscafrica.org/"
+                    >Open Source Community Africa (OSCA)</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href=" https://devcareer.io/"
+                    >Developer Career</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- bootcamps -->
+            <div id="bootcamps" class="resource-card">
+              <h3 class="resource-card-title">Bootcamps</h3>
+              <p>
+                Bootcamps are created to help one with little to no experience
+                in coding gain programming skills by offering them technical
+                training on the relevant skills. They focus on the most
+                important aspects of coding while allowing one apply this new
+                skills to solve real-life problems. They are like schools and
+                some of them offer Certificates/Diplomas upon completion. Most
+                of them are not free. Below are a few of the most popular
+                bootcamps:
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://decagon.institute/"
+                    >Decagon</a
+                  >
+                  <span class="resource-link-badge">Not free</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://enyata.com/academy"
+                    >Enyata</a
+                  >
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://altschoolafrica.com"
+                    >AltSchool Africa</a
+                  >
+                  <span class="resource-link-badge">Not free</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- internships and mentoring -->
+            <div id="internships" class="resource-card">
+              <h3 class="resource-card-title">Internships and Mentoring</h3>
+              <p>
+                Internships are a period of work often taken to gain
+                professional learning experience relating to a field of study or
+                career interest. You also get to be mentored by seniors and
+                experts in your field from different parts of the world,
+                sometimes even working on real-life projects. It can be a paid
+                or unpaid. You can find below, a list of organizations that
+                offer coding internships and run bootcamps in the tech field.
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://www.outreachy.org/"
+                    >Outreachy</a
+                  >
+                  <span class="resource-link-badge">Paid</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://the-collab-lab.codes/"
+                    >The Collab Lab</a
+                  >
+                  <span class="resource-link-badge">Paid</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://internshala.com/"
+                    >Internshala</a
+                  >
+                  <span class="resource-link-badge">Paid</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/hnginternship?t=FNo8Fg7sQj53daEh0mCuew&s=09"
+                    >HNG Internship</a
+                  >
+                  <span class="resource-link-badge">Unpaid</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://internship.sidehustle.ng/"
+                    >SideHustle.ng</a
+                  >
+                  <span class="resource-link-badge">Unpaid</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://internship.zuri.team/"
+                    >Zuri Team</a
+                  >
+                  <span class="resource-link-badge">Unpaid</span>
+                </li>
+              </ul>
+            </div>
           </div>
+        </section>
 
-          <!-- practical projects -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Practice Projects</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.blog.duomly.com/node-js-project-ideas-for-beginners/">7 Node JS
-                  project ideas for Beginners! [Solutions Provided!] ~
-                  Jsbeginners.com</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.interviewbit.com/blog/node-js-projects/">Top 10 Node JS Projects
-                  Ideas (With Source Code)</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-            </ul>
-          </div>
+        <!--* Code Editors -->
+        <section id="editor" class="resource-section">
+          <h2 class="resource-section__heading">Code Editors</h2>
 
-          <!-- others -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Others</h3>
-            <p class="resource-card-body">
-              Tips and tricks, tools, cool examples etc.
+          <div class="resource-section__body">
+            <p>
+              For you to start coding, you will need a place to write and run
+              your code. This is where code editors come in. A code editor is a
+              text editor specifically designed for writing and editing source
+              codes. You can find the editors used by most front-end developers
+              below, with the most popular being VsCode.
             </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="#"></a>
-                <span class="resource-link-badge"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* JSON -->
-      <section id="json" class="resource-section">
-        <h2 class="resource-section__heading">JSON</h2>
-
-        <div class="resource-section__body">
-          <p>
-            JSON which stands for JavaScript Object Notation is a text-based
-            data exchange format. Commonly used for transmitting data in web
-            applications like sending data to and fro between the server and
-            client, so it can be displayed on a web page, or vice versa.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/iiADhChRriM">Learn JSON in 10 minutes. ~ Web Dev
-                  Simplified</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/mAqYJF-yxO8">Full JSON tutorial for beginners. ~ Techcode</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://blog.siddu.tech/secret-json-features">5 Secret features of JSON you
-                  didn't know about. ~
-                  Siddharth Shyniben</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- others -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Others</h3>
-            <p class="resource-card-body">
-              Tips and tricks, tools, cool examples etc.
+            <p>
+              But before diving in, check this video out; class="resource-link
+              paragraph-links"<a href="https://youtu.be/kCZQPL8u_YI"
+                >Best 3 editors for coding and why. ~ Tutmo</a
+              >
             </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href=""></a>
-                <span class="resource-link-badge"></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--* APIs -->
-      <section id="apis" class="resource-section">
-        <h2 class="resource-section__heading">APIs</h2>
-
-        <div class="resource-section__body">
-          <p>
-            An API is an intermediary between two applications software
-            allowing them easily communicate and share data. It stands for
-            Application Programming Interface. This is easy to understand by
-            both computers and humans as it’s outputted in key/value pairs.
-            Find out more below.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=-MTSQjw5DrM">40
-                  RESTFU APIs in 100 seconds // Build an API from Scratch with Node.js Express ~ Fireship</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/ZYb_ZU8LNxs">Asynchronous JavaScript full course. ~
-                  FreeCodeCamp</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/Oive66jrwBs">Fetch API introduction. ~ Traversy Media</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/mAqYJF-yxO8">Up and running JSON server. Part 1 ~ The Net
-                  Ninja</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/VF3TI4Pj_kM">Up and running JSON server. Part 2 ~ The Net
-                  Ninja</a>
-              </li>
-            </ul>
           </div>
 
-          <!-- Playlist -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Curated Playlist</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank"
-                  href="https://youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu">Asynchronous JavaScript. ~
-                  The Net Ninja</a>
-              </li>
-            </ul>
-          </div>
+          <div class="resource-section__links">
+            <!--* Desktop Apps -->
+            <div id="desktop-apps" class="resource-card">
+              <h3 class="resource-card-title">Desktop Apps</h3>
+              <ul class="resource-card-links">
+                <!-- vscode -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">VsCode</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://code.visualstudio.com/download"
+                        >Download link</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://code.visualstudio.com/docs"
+                        >Documentation</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/fWzp5lZ5CEA"
+                        >VsCode setup for Html, Css and Javascript ~ Norbert BM
+                        Web Development</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/LdF2RcelRg0"
+                        >15 VsCode extensions for frontend developers ~ Traversy
+                        Media
+                      </a>
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://www.freecodecamp.org/news/create-your-own-custom-code-snippets/"
+                        >Create your own custom code snippets ~ Timonwa</a
+                      >
+                      <span class="resource-link-badge">Article</span>
+                    </li>
+                  </ul>
+                </li>
+                <!-- sublime -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Sublime</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://www.sublimetext.com/download"
+                        >Download link</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/-6ikAMmu3Nc"
+                        >The best Sublime settings and packages ~ Tech With
+                        Tim</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                  </ul>
+                </li>
+                <!-- atom -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Atom</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a target="_blank" href="https://atom.io/">Home Page</a>
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/3UMIlcqThj8"
+                        >Atom editor HTML and CSS setup ~ Daniel Soriano</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/HPhn12OBUpQ"
+                        >Top 10 Atom extensions ~ CodeWithWebDev</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/aiXNKHKWlmY"
+                        >10 Atom essential packages ~ Traversy Media</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
 
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="#"></a>
-              </li>
-            </ul>
-          </div>
+            <!--* Online Editors (Playgrounds) -->
+            <div id="online-editors" class="resource-card">
+              <h3 class="resource-card-title">Online Editors (Playgrounds)</h3>
+              <ul class="resource-card-links">
+                <!-- vscode online -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">VsCode Online</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a target="_blank" href="https://vscode.dev/"
+                        >Home Page</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://code.visualstudio.com/docs/editor/vscode-web"
+                        >Documentation</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
+                <!-- replit  -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Replit</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a target="_blank" href="https://repl.it">Home Page</a>
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/SDlrhS8O3kI"
+                        >Introduction to Replit ~ Ritza</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a target="_blank" href="https://youtu.be/ZAC0TQEU5gI"
+                        >Getting started with Replit ~ Replit</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
 
-          <!-- Practice Projects -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Practice Projects</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/opikz5x_1ak">Build a food recipe app with fetch API and
-                  vanilla
-                  JavaScript. ~ GeetProbin.</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/gIekxGDDD_A">Quiz app using Fetch API. ~ Code with Erum</a>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://youtu.be/GDa8kZLNhJ4">Build and deploy 5 JavaScript and React API
-                  projects in 10
-                  hours. ~ JavaScript Mastery</a>
-              </li>
-            </ul>
-          </div>
+            <!--* Mobile Apps -->
+            <div id="mobile-apps" class="resource-card">
+              <h3 class="resource-card-title">Mobile Apps</h3>
+              <ul class="resource-card-links">
+                <!-- Dcoder -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Dcoder</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder"
+                        >Download here</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Code Editor -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Code Editor</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.rhmsoft.code"
+                        >Download here</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
+                <!-- visual code editor -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">Visual Code</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=lk.visual.code.mobile"
+                        >Download here</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
 
-          <!-- others -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Others</h3>
-            <p class="resource-card-body">
-              Tips and tricks, tools, cool examples etc.
+                <!-- pydroid 3 editor -->
+                <li class="resource-card">
+                  <h4 class="resource-card-title">
+                    Pydroid 3 - IDE for Python 3
+                  </h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3"
+                        >Download here</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* Html and Css (Beginner's Level) -->
+        <section id="frontend" class="resource-section">
+          <h2 class="resource-section__heading">
+            Basics of Frontend Development
+          </h2>
+
+          <div class="resource-section__body">
+            <p>
+              Learning the basics of frontend development is not compulsory, but
+              it does help to understand how the frontend works since your code
+              will be interacting with the frontend most of the time. The
+              languages used in frontend development are Html, CSS and
+              Javascript. You can learn more about these below:
             </p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://www.postman.com/">Postman - Postman is an API platform for building and
-                  using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can
-                  create better APIs—faster.</a>
-                <span class="resource-link-badge">Tool</span>
-              </li>
           </div>
-        </div>
-      </section>
-        
-      <!--* Databases -->
-      <section id="databases" class="resource-section">
-        <h2 class="resource--section__heading">Databases</h2>
 
-        <div class="resource-section__body">
-          <p>A database is an organized collection of structured information, or data, typically stored electronically
-            in a computer system. There are different types of databases and they can all be integrated into a Node.js
-            application.</p>
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/UB1O30fR-EE"
+                    >Html crash course for absolute beginners. ~ Traversy
+                    Media</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/yfoY53QXEnI"
+                    >Css crash course for absolute beginners. ~ Traversy
+                    Media</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/mU6anWqZJcc"
+                    >Html and Css full course from scratch. ~ FreeCodeCamp</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/PkZNo7MFNFg"
+                    >Learn JavaScript. Full course for beginners. ~
+                    FreeCodeCamp</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/ResWVWI333o"
+                    >Javascript for web designers. ~ Envato Tuts</a
+                  >
+                </li>
+              </ul>
+            </div>
 
-          <div class="resource-card" id="mysql">
-            <h3 class="resource-card-title">MySQL</h3>
-            <p class="resource-card-body">MySQL is one of the more popular database platforms that features a Relational
-              Database Management System and used specially constructed instructions called queries to perform actions
-              on data.</p>
+            <!-- playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Curated Playlist</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+                    >Html and Css Crash course tutorial. ~ The Net Ninja</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK"
+                    >Css3 Full Tutorial. ~ Dev Dreamer</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV"
+                  >
+                    JavaScript Tutorials for beginners. ~ Telusko</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- practical projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.frontendmentor.io/challenges"
+                    >Frontend Challenges - Improve your front-end coding skills
+                    by building real projects Solve real-world HTML, CSS and
+                    JavaScript challenges whilst working to professional
+                    designs.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/c5SIG7Ie0dM"
+                    >15 vanilla JavaScript projects. ~ Coding Addict</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* backend programming languages -->
+        <section id="backend-lang" class="resource-section">
+          <h2 class="resource-section__heading">
+            Backend Development Languages
+          </h2>
+
+          <div class="resource-section__body">
+            <p>
+              Backend development languages are used to develop the backend of
+              the application. The languages used in backend development are
+              PHP, Python, Java, C#, C++, C, Ruby, Go, Node.js, and .NET. You
+              can learn more about these below:
+            </p>
 
             <ul class="resource-card-links">
               <li class="resource-link">
-                <a href="https://www.mysql.com" target="_blank" rel="noopener noreferrer">Website</a>
-                <!-- <span class="resource-link-badge">Video</span> -->
+                <a href="#nodejs">Node.js</a>
               </li>
               <li class="resource-link">
-                <a href="https://www.youtube.com/watch?v=7S_tz1z_5bA" target="_blank" rel="noopener noreferrer">MySQL
-                  Tutorial for Beginners ~ Programming with Mosh</a>
-                <span class="resource-link-badge">Video</span>
+                <a href="#python">Python</a>
               </li>
               <li class="resource-link">
-                <a href="https://www.youtube.com/watch?v=EN6Dx22cPRI" target="_blank" rel="noopener noreferrer">Using
-                  MySQL with Node.js ~ Traversy Media</a>
-                <span class="resource-link-badge">Video</span>
+                <a href="#php">PHP</a>
+                <span class="resource-link-badge">Coming soon</span>
+              </li>
+              <li class="resource-link">
+                <a href="#C#">C#</a>
+                <span class="resource-link-badge">Coming soon</span>
               </li>
             </ul>
+            <p></p>
+          </div>
+        </section>
+
+        <!--* nodejs -->
+        <section id="nodejs" class="resource-section">
+          <h2 class="resource-section__heading">Node.js (Javascript)</h2>
+
+          <div class="resource-section__body">
+            <p>
+              With the introduction of the Node.js runtime engine, JavaScript
+              has transformed into a powerful programming language capable of
+              developing server-side applications.
+            </p>
+            <p>
+              Javascript used to be just for creating interactive web pages but
+              now can also be used to develop server-side applications for a
+              wide range of purposes. Javascript can even also be used in
+              Robotics, IoT, Data Science, Analysis and Visualization, Machine
+              Learning, etc.
+            </p>
+            <p>
+              Here are some resources to help you get started with JavaScript
+              for backend development.
+            </p>
           </div>
 
-          <div class="resource-card" id="mongodb">
-            <h3 class="resource-card-title">MongoDB</h3>
-            <p class="resource-card-body">MongoDB is a popular NoSQL database platform. This means that instead of
-              queries, it uses a Document Data Model, much like JSON, that allows for faster, more flexible application
-              development.</p>
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=TlB_eWDSMt4"
+                    >Node.js tutorial for Beginners: Learn Node in 1 Hour ~ Mosh
+                    Hamedani</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=ENrzD9HAZK4"
+                    >Node.js Ultimate Beginner's Guide in 7 Easy Steps ~
+                    Fireship</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=Oe421EPjeBE"
+                    >Node.js and Express.js - Full Course ~ freeCodeCamp.org</a
+                  >
+                </li>
+              </ul>
+            </div>
 
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer">Website</a>
-                <!-- <span class="resource-link-badge">Video</span> -->
-              </li>
-              <li class="resource-link">
-                <a href="https://www.youtube.com/watch?v=pWbMrx5rVBE" target="_blank" rel="noopener noreferrer">MongoDB
-                  in 30 Minutes ~ Traversy Media</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-            </ul>
+            <!-- playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Curated Playlist</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET"
+                  >
+                    JavaScript Tutorials for beginners. ~ The Net Ninja</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=zb3Qk8SG5Ms&list=PL4cUxeGkcC9jsz4LDYc6kv3ymONOKxwBU"
+                    >Node.js Crash Course Tutorial ~ The Net Ninja</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX"
+                  >
+                    Everything Vanilla JavaScript tutorials plus projects to
+                    build. ~ Traversy Media</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- courses -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Courses</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+                    >JavaScript Algorithms and Data Structures. ~
+                    FreeCodeCamp</a
+                  >
+                  <span class="resource-link-badge">Free</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.w3schools.com/nodejs/default.asp"
+                    >Node.js Tutorial ~ W3Schools</a
+                  >
+                  <span class="resource-link-badge">Free</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/"
+                    >Var, Let and Const - What's the difference? ~
+                    FreeCodeCamp</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- practical projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.blog.duomly.com/node-js-project-ideas-for-beginners/"
+                    >7 Node JS project ideas for Beginners! [Solutions
+                    Provided!] ~ Jsbeginners.com</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.interviewbit.com/blog/node-js-projects/"
+                    >Top 10 Node JS Projects Ideas (With Source Code)</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- others -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <p class="resource-card-body">
+                Tips and tricks, tools, cool examples etc.
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="#"></a>
+                  <span class="resource-link-badge"></span>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!--* Javascript Frameworks -->
-      <section id="js-frameworks" class="resource-section">
-        <h2 class="resource-section__heading">Javascript Frameworks for Backend Development</h2>
+        <!--* Python -->
+        <section id="python" class="resource-section">
+          <h2 class="resource-section__heading">Python</h2>
 
-        <div class="resource-section__body">
-          <p>
-            A JavaScript framework is an application framework written in
-            JavaScript where programmers can manipulate the functions and use
-            them for their convenience. They make working with JavaScript
-            easier and smoother. So you have to have reasonable knowledge of
-            JavaScript before using it.
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!--* expressjs -->
-          <div id="expressjs" class="resource-card">
-            <h3 class="resource-card-title">Express Js</h3>
-            <p>Express is a minimal and flexible Node.js web application framework that provides a robust set of
-              features for web and mobile applications.</p>
-            <p>With a myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and
-              easy.</p>
-            <p>Express provides a thin layer of fundamental web application features, without obscuring Node.js features
-              that you know and love.</p>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="https://expressjs.com/">Website</a>
-                <span class="resource-link-badge">Link</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=L72fhGm1tfE">Express JS crash course. ~
-                  Traversy Media</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank"
-in                  href="https://www.youtube.com/playlist?list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO">Express JS
-                  Tutorial for Beginners. ~ ARC Tutorials</a>
-                <span class="resource-link-badge">Playlist</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.youtube.com/watch?v=qwfE7fSVaZM">Node.js / Express Course Build 4
-                  Projects</a>
-                <span class="resource-link-badge">Video</span>
-              </li>
-              <li class="resource-link">
-                <a target="_blank" href="https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial">Building a
-                  REST API with Express, Node, and MongoDB</a>
-                <span class="resource-link-badge">Article</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!--*Community -->
-      <section id="community" class="resource-section">
-        <h2 class="resource-section__heading">Community</h2>
-
-        <div class="resource-section__body">
-          <p>
-            Connect to the web developer community, an awesome resources to
-            ask questions and get answers from the experts and professionals.
-          </p>
-        </div>
-
-        <ul class="resource-card-links">
-          <li class="resource-link">
-            <a href="https://stackoverflow.com/">Stack Overflow</a>
-            <span class="resource-link-badge">Forum</span>
-          </li>
-        </ul>
-        <ul class="resource-card-links">
-          <li class="resource-link">
-            <a href="https://code.quora.com/">Quora</a>
-            <span class="resource-link-badge">Forum</span>
-          </li>
-        </ul>
-        <ul class="resource-card-links">
-          <li class="resource-link">
-            <a href="https://www.reddit.com/r/webdev/">Reddit</a>
-            <span class="resource-link-badge">Forum</span>
-          </li>
-        </ul>
-      </section>
-
-      <!--*Cheatsheets -->
-      <section id="cheatsheets" class="resource-section">
-        <h2 class="resource-section__heading">Cheatsheets</h2>
-
-        <div class="resource-section__body">
-          <p>
-            Cheatsheets are short lists of information that you can use
-            to help you do or remember something. Below are cheatsheets on
-            what you have been learning so far. Do enjoy!
-          </p>
-        </div>
-
-        <ul class="resource-card-links">
-          <li class="resource-link">
-            <a href="#"></a>
-          </li>
-        </ul>
-      </section>
-
-      <!--* Other useful resource -->
-      <section id="other-resource" class="resource-section">
-        <h2 class="resource-section__heading">Other Useful Resource</h2>
-
-        <div class="resource-section__body">
-          <p>
-            This is a collection other useful resources that couldn't fit into
-            the sections above. Explore!
-          </p>
-        </div>
-
-        <div class="resource-section__links">
-          <!-- articles -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Articles</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="#"></a>
-              </li>
-            </ul>
+          <div class="resource-section__body">
+            <p>
+              Python is a powerful multi-purpose programming language. It is
+              very easy to learn as it features a syntax more similar to English
+              Language than other programming languages.
+            </p>
+            <p>
+              Python is a very fun and beginner-friendly programming language
+              with a pretty shallow learning curve.
+            </p>
           </div>
 
-          <!-- videos -->
-          <div class="resource-card">
-            <h3 class="resource-card-title">Videos</h3>
-            <ul class="resource-card-links">
-              <li class="resource-link">
-                <a target="_blank" href="#"></a>
-              </li>
-            </ul>
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=_uQrJ0TkZlc"
+                    >Python Tutorial - Python Full Course for Beginners ~
+                    Programming with Mosh</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=rfscVS0vtbw"
+                    >Learn Python - Full Course for Beginners [Tutorial] ~
+                    freeCodeCamp.org</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=zuxzE7--RYM"
+                    >Python Web Development | Web Development Using Djano |
+                    Python Django Tutorial | Edureka ~ edureka!</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=jBzwzrDvZ18"
+                    >Python Backend Web Development Course (with Django) ~
+                    freeCodeCamp.org</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+                    >Learn Flask for Python - Full Tutorial ~
+                    freeCodeCamp.org</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Curated Playlist</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3"
+                  >
+                    Python Tutorials ~ Telusko</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-kQkZp-j9PNyKq7Yw5VYjq9"
+                  >
+                    Python Django Tutorials ~ Tech with Tim</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"
+                  >
+                    Flask Tutorials ~ Corey Schafer</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX"
+                    >Flask Tutorials ~ Tech with Tim</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- courses -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Courses</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://www.w3schools.com/python/"
+                    >Python Tutorial ~ W3Schools</a
+                  >
+                  <span class="resource-link-badge">Free</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://dev.to/javinpaul/10-python-articles-you-can-read-this-weekend-2df8"
+                    >10 Python Articles you can read this weekend</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- practical projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.freecodecamp.org/news/python-projects-junior-developers/"
+                    >11 Python Projects Junior Developers Can Build for Coding
+                    Practice</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://realpython.com/intermediate-python-project-ideas/"
+                    >13 Project Ideas for Intermediate Python Developers</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- others -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <p class="resource-card-body">
+                Tips and tricks, tools, cool examples etc.
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="#"></a>
+                  <span class="resource-link-badge"></span>
+                </li>
+              </ul>
+            </div>
           </div>
-      </section>
+        </section>
 
-      <!--* What next -->
-      <section id="what-next" class="resource-section">
-        <h2 class="resource-section__heading">What Next?</h2>
+        <!--* Version Control -->
+        <section id="version-control" class="resource-section">
+          <h2 class="resource-section__heading">Version Control</h2>
 
-        <div class="resource-section__body">
-          <p>
-            Pat yourself on the back for making it this far. Do continue to
-            practice your skills, build more projects, and apply for jobs.
-          </p>
-          <p>
-            If you plan on becoming a FullStack Developer, then check out our
-            Frontend Development Roadmap. Don't forget to give us a Star on our
-            <a class="paragraph-links" href="http://github.com/Timonwa/techroadmap" target="_blank">repo</a>
-            and tweet a thank you to the
-            <a class="paragraph-links" href="http://twitter.com/timonwa_" target="_blank">creator</a>
-            of this project.
-          </p>
+          <div class="resource-section__body">
+            <p>
+              Version Control also known as Source Control is a way of managing
+              and tracking the changes made to your code over time. This allows
+              you to easily compare changes made and revert to old versions if
+              the need arises. You can find different tools below that help you
+              do that.
+            </p>
+            <p>
+              If you are finding Git hard to understand, you can learn Git
+              Desktop created by GitHub which makes using Git less complicated.
+              Use it for a while and then come back to Git. After that, you can
+              choose which ever version control service you prefer among GitHub,
+              GitLab and BitBucket.
+            </p>
+          </div>
 
-          <p>Happy Coding!</p>
-        </div>
-      </section>
-    </main>
+          <div class="resource-section__links">
+            <!--* git -->
+            <div id="git" class="resource-card">
+              <h3 class="resource-card-title">Git</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://git-scm.com/">Home Page</a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://git-scm.com/downloads">
+                    Download here
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://git-scm.com/book/en/v2">
+                    Documentation
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PL_euSNU_eLbegnt7aR8I1gXfLhKZbxnYX"
+                    >Git complete course tutorial. ~ Leela Web Dev</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+              </ul>
+            </div>
 
-    <!--* open source (about the project) -->
-    <aside class="opensource">
-      <div class="opensource-wrapper">
-        <h2 class="heading">Open Source</h2>
-        <div class="opensource__body">
-          <p>
-            This project is OpenSource and is hosted on
-            <a class="paragraph-links" target="_blank" href="https://github.com/Timonwa/techroadmap">GitHub</a>. All
-            meaningful contributions are welcome to help grow this
-            project and you don't need to know how to code to contribute.
-          </p>
-          <p>
-            If you would like to contribute to this project, please visit our
-            <a class="paragraph-links" href="../contribute.html">contributors page</a>
-            to find out how to contribute.
-          </p>
-          <p style="display: none">
-            A considerable amount of my time is spent doing unpaid community
-            work on things that I hope will help humanity in some way. Your
-            sponsorship helps me continue to produce more open-source and free
-            educational material consumed by hundreds of thousands of
-            developers every month.
-          </p>
-        </div>
-      </div>
-    </aside>
+            <!--* github -->
+            <div id="github" class="resource-card">
+              <h3 class="resource-card-title">GitHub</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://github.com/"> Website </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://desktop.github.com/">
+                    Download here
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://docs.github.com/en">
+                    Documentation
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/RGOj5yH7evk"
+                    >Git and GitHub for beginners. ~ FreeCodeCamp</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/GqNAD4XoZ6k"
+                    >Using Git Desktop for beginners. ~ Kevin Powell</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+              </ul>
+            </div>
 
-    <footer>
-      <div class="footer-wrapper">
-        <!-- footer nav links -->
-        <div class="sections">
-          <ul class="footer-links">
-            <li>
-              <a class="footer-link para-link" href="../../index.html">Home</a>
-            </li>
-            <li>
-              <a class="footer-link para-link" href="../careers.html">Careers</a>
-            </li>
-            <li>
-              <a class="footer-link para-link" href="../contribute.html">Contribute</a>
+            <!--* Git lab -->
+            <div id="gitlab" class="resource-card">
+              <h3 class="resource-card-title">GitLab</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://about.gitlab.com/">
+                    Website
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://docs.gitlab.com/">
+                    Documentation
+                  </a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PLu-nSsOS6FRIg52MWrd7C_qSnQp3ZoHwW"
+                    >Git and GitLab tutorial. ~ GitSchoolDude</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--* bitbucket -->
+            <div id="bitbucket" class="resource-card">
+              <h3 class="resource-card-title">BitBucket</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://bitbucket.org/">Home Page</a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/1tC6Z57AOkY"
+                    >Git Crash Course using BitBucket ~AHT Cloud</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* Deployment Services -->
+        <section id="deployment" class="resource-section">
+          <h2 class="resource-section__heading">Deployment Services</h2>
+
+          <div class="resource-section__body">
+            <p>
+              Now that you have successfully hosted your codes on GitHub, GitLab
+              or BitBucket, you would want a server to host your backend
+              applications either temporarily or permanently and also have
+              testable links which you can share with friends and potential
+              clients so they can admire and see the hard work you have done.
+              You can choose any of the services below:
+            </p>
+            <p>
+              <em
+                >Note: Heroku, Vercel and Firebase are free and easy to use
+                while the others AWS, GCP and Azure are used by professionals
+                because of the vast services the offer.
+              </em>
+            </p>
+          </div>
+
+          <div class="resource-section__links">
+            <!--*  Heroku -->
+            <div id="heroku" class="resource-card">
+              <h3 class="resource-card-title">Heroku</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://www.heroku.com/platform"
+                    >Home Page</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://devcenter.heroku.com/start"
+                    >Documentation</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--* Vercel -->
+            <div id="vercel" class="resource-card">
+              <h3 class="resource-card-title">Vercel</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://vercel.com">Home Page</a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://vercel.com/docs"
+                    >Documentation</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://vercel.com/docs/concepts/functions/serverless-functions"
+                    >Serverless Functions (Docs)</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--* firebase -->
+            <div id="vercel" class="resource-card">
+              <h3 class="resource-card-title">Firebase</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://firebase.google.com/"
+                    >Home Page</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://firebase.google.com/docs"
+                    >Documentation</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--*  Digital Ocean -->
+            <div id="deploy-digital-ocean" class="resource-card">
+              <h3 class="resource-card-title">DigitalOcean</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://www.digitalocean.com"
+                    >Home Page</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://docs.digitalocean.com/products"
+                    >Documentation</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+            <!--*  Amazon Web Services -->
+            <div id="aws" class="resource-card">
+              <h3 class="resource-card-title">Amazon Web Services (AWS)</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://aws.amazon.com">Home Page</a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://aws.amazon.com/getting-started"
+                    >Getting Started with AWS</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--* Google Cloud Platform -->
+            <div id="gcp" class="resource-card">
+              <h3 class="resource-card-title">Google Cloud Platform (GCP)</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://cloud.google.com"
+                    >Home Page</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://cloud.google.com/why-google-cloud"
+                    >Why Google Cloud</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://cloud.google.com/solutions"
+                    >Google Cloud solutions</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+
+            <!--* Azure -->
+            <div id="azure" class="resource-card">
+              <h3 class="resource-card-title">Azure</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://azure.microsoft.com/en-us/"
+                    >Home Page</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://docs.microsoft.com/en-us/azure/?product=popular"
+                    >Documentation</a
+                  >
+                  <span class="resource-link-badge">Link</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* APIs -->
+        <section id="apis" class="resource-section" style="display: none">
+          <h2 class="resource-section__heading">APIs</h2>
+
+          <div class="resource-section__body">
+            <p>
+              An API is an intermediary between two applications software
+              allowing them easily communicate and share data. It stands for
+              Application Programming Interface. This is easy to understand by
+              both computers and humans as it's outputted in key/value pairs.
+              Find out more below.
+            </p>
+          </div>
+
+          <div class="resource-section__links">
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=-MTSQjw5DrM"
+                    >40 RESTFU APIs in 100 seconds // Build an API from Scratch
+                    with Node.js Express ~ Fireship</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/ZYb_ZU8LNxs"
+                    >Asynchronous JavaScript full course. ~ FreeCodeCamp</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/Oive66jrwBs"
+                    >Fetch API introduction. ~ Traversy Media</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/mAqYJF-yxO8"
+                    >Up and running JSON server. Part 1 ~ The Net Ninja</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/VF3TI4Pj_kM"
+                    >Up and running JSON server. Part 2 ~ The Net Ninja</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Playlist -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Curated Playlist</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu"
+                    >Asynchronous JavaScript. ~ The Net Ninja</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="#"></a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Practice Projects -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Practice Projects</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/opikz5x_1ak"
+                    >Build a food recipe app with fetch API and vanilla
+                    JavaScript. ~ GeetProbin.</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/gIekxGDDD_A"
+                    >Quiz app using Fetch API. ~ Code with Erum</a
+                  >
+                </li>
+                <li class="resource-link">
+                  <a target="_blank" href="https://youtu.be/GDa8kZLNhJ4"
+                    >Build and deploy 5 JavaScript and React API projects in 10
+                    hours. ~ JavaScript Mastery</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- others -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Others</h3>
+              <p class="resource-card-body">
+                Tips and tricks, tools, cool examples etc.
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://www.postman.com/"
+                    >Postman - Postman is an API platform for building and using
+                    APIs. Postman simplifies each step of the API lifecycle and
+                    streamlines collaboration so you can create better
+                    APIs—faster.</a
+                  >
+                  <span class="resource-link-badge">Tool</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* Databases -->
+        <section id="databases" class="resource-section">
+          <h2 class="resource--section__heading">Databases</h2>
+
+          <div class="resource-section__body">
+            <p>
+              A database is a collection of data that is stored in a central
+              place. It is a logical grouping of data that is organized in a way
+              that is easy to access and manage, i.e., it allows for storing and
+              retrieving of data. There are different types of databases and
+              they can be divided into two categories: Relational and
+              Non-Relational.
+            </p>
+            <p style="display: none">
+              Before picking your first database language, check these videos
+              out;
+              <a class="resource-link paragraph-links" href="">empty Link</a>
+              <a class="resource-link paragraph-links" href="">empty link</a>
+            </p>
+          </div>
+
+          <div class="resource-section__links">
+            <!--* Relational Database -->
+            <div id="relational-db" class="resource-card">
+              <h3 class="resource-card-title">Relational Database</h3>
+              <p>
+                Relational databases are the most common database type. They are
+                a type of database that stores data in a structured way. They
+                are usually used to store data in tables. The most common
+                relational database is MySQL. Others are PostgreSQL, Microsoft
+                SQL Server, Oracle, and SQLite.
+              </p>
+              <ul class="resource-card-links">
+                <li id="mysql" class="resource-card">
+                  <h4 class="resource-card-title">MySQL</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="https://www.mysql.com" target="_blank"
+                        >Home Page</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        href="https://www.youtube.com/watch?v=7S_tz1z_5bA"
+                        target="_blank"
+                        >MySQL Tutorial for Beginners ~ Programming with Mosh</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        href="https://www.youtube.com/watch?v=EN6Dx22cPRI"
+                        target="_blank"
+                        >Using MySQL with Node.js ~ Traversy Media</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+            <!--* non-relational Database -->
+            <div id="nonrelational-db" class="resource-card">
+              <h3 class="resource-card-title">Non-Relational Database</h3>
+              <p>
+                Non-Relational databases are a type of database that stores data
+                in a non-structured way. They are usually used to store data in
+                JSON format. The most common non-relational database is MongoDB.
+                Others are CouchDB, Firebase, and Firestore.
+              </p>
+              <p>
+                You can learn about JSON through the links below:
+                <a
+                  class="resource-link paragraph-links"
+                  href="https://youtu.be/iiADhChRriM"
+                  >Learn JSON in 10 minutes. ~ Web Dev Simplified</a
+                >
+                <a
+                  class="resource-link paragraph-links"
+                  href="https://youtu.be/mAqYJF-yxO8"
+                  >Full JSON tutorial for beginners. ~ Techcode</a
+                >
+                <a
+                  class="resource-link paragraph-links"
+                  href="https://blog.siddu.tech/secret-json-features"
+                  >5 Secret features of JSON you didn't know about. ~ Siddharth
+                  Shyniben</a
+                >
+              </p>
+
+              <ul class="resource-card-links">
+                <li id="mongodb" class="resource-card">
+                  <h4 class="resource-card-title">MongoDB</h4>
+                  <ul class="resource-card-links">
+                    <li class="resource-link">
+                      <a href="https://www.mongodb.com" target="_blank"
+                        >Home Page</a
+                      >
+                      <span class="resource-link-badge">Link</span>
+                    </li>
+                    <li class="resource-link">
+                      <a
+                        href="https://www.youtube.com/watch?v=pWbMrx5rVBE"
+                        target="_blank"
+                        >MongoDB in 30 Minutes ~ Traversy Media</a
+                      >
+                      <span class="resource-link-badge">Video</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* Javascript Frameworks -->
+        <section id="js-frameworks" class="resource-section">
+          <h2 class="resource-section__heading">
+            Javascript Frameworks for Backend Development
+          </h2>
+
+          <div class="resource-section__body">
+            <p>
+              A JavaScript framework is an application framework written in
+              JavaScript where programmers can manipulate the functions and use
+              them for their convenience. They make working with JavaScript
+              easier and smoother. So you have to have reasonable knowledge of
+              JavaScript before using it.
+            </p>
+          </div>
+
+          <div class="resource-section__links">
+            <!--* expressjs -->
+            <div id="expressjs" class="resource-card">
+              <h3 class="resource-card-title">Express Js</h3>
+              <p>
+                Express is a minimal and flexible Node.js web application
+                framework that provides a robust set of features for web and
+                mobile applications.
+              </p>
+              <p>
+                With a myriad of HTTP utility methods and middleware at your
+                disposal, creating a robust API is quick and easy.
+              </p>
+              <p>
+                Express provides a thin layer of fundamental web application
+                features, without obscuring Node.js features that you know and
+                love.
+              </p>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="https://expressjs.com/">Home Page</a>
+                  <span class="resource-link-badge">Link</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=L72fhGm1tfE"
+                    >Express JS crash course. ~ Traversy Media</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    in
+                    href="https://www.youtube.com/playlist?list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO"
+                    >Express JS Tutorial for Beginners. ~ ARC Tutorials</a
+                  >
+                  <span class="resource-link-badge">Playlist</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/watch?v=qwfE7fSVaZM"
+                    >Node.js / Express Course Build 4 Projects</a
+                  >
+                  <span class="resource-link-badge">Video</span>
+                </li>
+                <li class="resource-link">
+                  <a
+                    target="_blank"
+                    href="https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial"
+                    >Building a REST API with Express, Node, and MongoDB</a
+                  >
+                  <span class="resource-link-badge">Article</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--*Cheatsheets -->
+        <section id="cheatsheets" class="resource-section">
+          <h2 class="resource-section__heading">Cheatsheets</h2>
+
+          <div class="resource-section__body">
+            <p>
+              Cheatsheets are short lists of information that you can use to
+              help you do or remember something. Below are cheatsheets on what
+              you have been learning so far. Do enjoy!
+            </p>
+          </div>
+
+          <ul class="resource-card-links">
+            <li class="resource-link">
+              <a href="#"></a>
             </li>
           </ul>
+        </section>
+
+        <!--* Other useful resource -->
+        <section id="other-resource" class="resource-section">
+          <h2 class="resource-section__heading">Other Useful Resource</h2>
+
+          <div class="resource-section__body">
+            <p>
+              This is a collection other useful resources that couldn't fit into
+              the sections above. Explore!
+            </p>
+          </div>
+
+          <div class="resource-section__links">
+            <!-- articles -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Articles</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="#"></a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- videos -->
+            <div class="resource-card">
+              <h3 class="resource-card-title">Videos</h3>
+              <ul class="resource-card-links">
+                <li class="resource-link">
+                  <a target="_blank" href="#"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!--* What next -->
+        <section id="what-next" class="resource-section">
+          <h2 class="resource-section__heading">What Next?</h2>
+
+          <div class="resource-section__body">
+            <p>
+              Pat yourself on the back for making it this far. Do continue to
+              practice your skills, build more projects, and apply for jobs.
+            </p>
+            <p>
+              If you plan on becoming a FullStack Developer, then check out our
+              Frontend Development Roadmap. Don't forget to give us a Star on
+              our
+              <a
+                class="paragraph-links"
+                href="http://github.com/Timonwa/techroadmap"
+                target="_blank"
+                >repo</a
+              >
+              and tweet a thank you to the
+              <a
+                class="paragraph-links"
+                href="http://twitter.com/timonwa_"
+                target="_blank"
+                >creator</a
+              >
+              of this project.
+            </p>
+
+            <p>Happy Coding!</p>
+          </div>
+        </section>
+      </main>
+
+      <!--* open source (about the project) -->
+      <aside class="opensource">
+        <div class="opensource-wrapper">
+          <h2 class="heading">Open Source</h2>
+          <div class="opensource__body">
+            <p>
+              This project is OpenSource and is hosted on
+              <a
+                class="paragraph-links"
+                target="_blank"
+                href="https://github.com/Timonwa/techroadmap"
+                >GitHub</a
+              >. All meaningful contributions are welcome to help grow this
+              project and you don't need to know how to code to contribute.
+            </p>
+            <p>
+              If you would like to contribute to this project, please visit our
+              <a class="paragraph-links" href="../contribute.html"
+                >contributors page</a
+              >
+              to find out how to contribute.
+            </p>
+            <p style="display: none">
+              A considerable amount of my time is spent doing unpaid community
+              work on things that I hope will help humanity in some way. Your
+              sponsorship helps me continue to produce more open-source and free
+              educational material consumed by hundreds of thousands of
+              developers every month.
+            </p>
+          </div>
         </div>
+      </aside>
 
-        <!-- attribution -->
-        <div class="sections attribution">
-          <p>
-            <a class="paragraph-links footer" href="../../index.html">Tech Roadmap</a>
-            is created by
-            <a class="paragraph-links footer" target="_blank" href="https://twitter.com/timonwa_">Timonwa</a>
-          </p>
+      <footer>
+        <div class="footer-wrapper">
+          <!-- footer nav links -->
+          <div class="sections">
+            <ul class="footer-links">
+              <li>
+                <a class="footer-link para-link" href="../../index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a class="footer-link para-link" href="../careers.html"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a class="footer-link para-link" href="../contribute.html"
+                  >Contribute</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- attribution -->
+          <div class="sections attribution">
+            <p>
+              <a class="paragraph-links footer" href="../../index.html"
+                >Tech Roadmap</a
+              >
+              is created by
+              <a
+                class="paragraph-links footer"
+                target="_blank"
+                href="https://twitter.com/timonwa_"
+                >Timonwa</a
+              >
+            </p>
+          </div>
+
+          <!-- social links -->
+          <div class="sections">
+            <ul class="social-links">
+              <li>
+                <a
+                  class="social-link para-link"
+                  target="_blank"
+                  href="mailto:techcareerroadmap@gmail.com"
+                >
+                  <img src="../../assets/icons/gmail.png" alt="gmail icon" />
+                </a>
+              </li>
+              <li>
+                <a
+                  class="social-link para-link"
+                  target="_blank"
+                  href="https://twitter.com/techroadmap_"
+                >
+                  <img
+                    src="../../assets/icons/twitter.png"
+                    alt="twitter icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- website quote -->
+          <div class="sections quote">
+            <p>
+              Roadmaps, articles, and useful resources to help you choose a
+              career path, start your journey, and grow in tech.
+            </p>
+          </div>
+
+          <!-- copyright -->
+          <div class="sections copyright">
+            <p><span class="material-icons-outlined"> copyright </span> 2022</p>
+          </div>
         </div>
+      </footer>
+    </div>
 
-        <!-- social links -->
-        <div class="sections">
-          <ul class="social-links">
-            <li>
-              <a class="social-link para-link" target="_blank" href="mailto:techcareerroadmap@gmail.com">
-                <img src="../../assets/icons/gmail.png" alt="gmail icon" />
-              </a>
-            </li>
-            <li>
-              <a class="social-link para-link" target="_blank" href="https://twitter.com/techroadmap_">
-                <img src="../../assets/icons/twitter.png" alt="twitter icon" />
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- website quote -->
-        <div class="sections quote">
-          <p>
-            Roadmaps, articles, and useful resources to help you choose a
-            career path, start your journey, and grow in tech.
-          </p>
-        </div>
-
-        <!-- copyright -->
-        <div class="sections copyright">
-          <p><span class="material-icons-outlined"> copyright </span> 2022</p>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <!--* JavaScripts -->
-  <!--* My Javascript codes -->
-  <!-- Main Javascript code -->
-  <script src="../../js/script.js"></script>
-</body>
-
+    <!--* JavaScripts -->
+    <!--* My Javascript codes -->
+    <!-- Main Javascript code -->
+    <script src="../../js/script.js"></script>
+  </body>
 </html>

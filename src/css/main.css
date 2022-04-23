@@ -280,6 +280,14 @@ body::-webkit-scrollbar-thumb {
   color: var(--pink) !important;
 }
 
+.resource-link.paragraph-links {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /** careers section */
 .careers__cards {
   display: grid;
