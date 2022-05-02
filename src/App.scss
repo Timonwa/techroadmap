@@ -1,0 +1,86 @@
+//* variables
+$main-color: hsl(212, 28%, 86%);
+
+//* body
+.App {
+  font-weight: normal;
+  background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+}
+
+//* body scrollbar
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px $main-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+}
+
+//! Sections and Subsections paddings media query (Start)
+//* sections
+@media screen and (min-width: 1441px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+.nav-wrapper,
+header,
+main,
+aside,
+footer {
+  padding: 0 150px;
+}
+@media screen and (max-width: 1024px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .nav-wrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 20px;
+  }
+}
+
+//* subsections in sections
+header.intro > div,
+main > section,
+aside > div,
+footer > div {
+  padding: 40px 0;
+}
+//! Sections and Sub-sections paddings media query (End)
