@@ -136,10 +136,10 @@ git commit -m "Descriptive commit message on the changes you made."
 
 ### Push changes to GitHub
 
-Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull upstream main`
+Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull origin main`
 
 ```
-git pull upstream main
+git pull origin main
 ```
 
 and fix any merge conflicts you might have before pushing your changes.
