@@ -6,13 +6,19 @@ import Footer from "../../components/Footer/Footer";
 import ContributeDescription from "../../components/ContributeDescription/ContributeDescription";
 
 const ContributePage = () => {
+  const title = "";
+  const quote =
+    '"Alone we can do so little; together we can do so much." – Helen Keller';
+  const image =
+    "https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg";
+
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
   return (
     <div className="contribute-page">
       <NavBar />
-      <Banner />
+      <Banner title={title} quote={quote} image={image} />
       <main>
         <ContributeDescription />
       </main>

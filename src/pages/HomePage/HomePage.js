@@ -7,13 +7,18 @@ import Footer from "../../components/Footer/Footer";
 import HomeDescription from "../../components/HomeDescription/HomeDescription";
 
 const HomePage = () => {
+  const title = "Tech Career Roadmap";
+  const quote =
+    "Roadmaps, articles, and useful resources to help you choose a career path, start your journey and grow in tech.";
+  const image = "https://i.ibb.co/h1PwkQw/roadmap.jpg";
+
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
   return (
     <div className="home-page">
       <NavBar />
-      <Banner />
+      <Banner title={title} quote={quote} image={image} />
       <main>
         <HomeDescription />
         <CareersList />

@@ -1,17 +1,33 @@
 import React from "react";
-import "./Banner.scss";
 
-const Banner = () => {
+const Banner = ({ title, quote, image }) => {
+  const style = {
+    background: `url(${image}) rgba(3, 3, 3, 0.5)`,
+    "background-blend-mode": "overlay",
+    "  background-position": "center",
+    "background-size": "cover",
+    " background-repeat": "no-repeat",
+    "min-height": "400px",
+    height: "100vh",
+    "max-height": "400px",
+    width: "100%",
+    "max-width": "1440px",
+    display: "flex",
+    "justify-content": "center",
+    "align-items": "center",
+    color: "white",
+    "text-align": "center",
+    " font-weight": "600",
+    "font-size": " 120%",
+  };
+
   return (
     <>
       <div class="nav-space"></div>
-      <header className="banner home-page-banner">
+      <header style={style} className="banner">
         <div className="banner-wrapper">
-          <h1>Tech Career Roadmap</h1>
-          <p>
-            Roadmaps, articles, and useful resources to help you choose a career
-            path, start your journey and grow in tech.
-          </p>
+          <h1>{title}</h1>
+          <p>{quote}</p>
         </div>
       </header>
     </>
