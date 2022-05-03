@@ -4,9 +4,9 @@ const Banner = ({ title, quote, image }) => {
   const style = {
     background: `url(${image}) rgba(3, 3, 3, 0.5)`,
     "background-blend-mode": "overlay",
-    "  background-position": "center",
+    "background-position": "center",
     "background-size": "cover",
-    " background-repeat": "no-repeat",
+    "background-repeat": "no-repeat",
     "min-height": "400px",
     height: "100vh",
     "max-height": "400px",
@@ -17,8 +17,8 @@ const Banner = ({ title, quote, image }) => {
     "align-items": "center",
     color: "white",
     "text-align": "center",
-    " font-weight": "600",
-    "font-size": " 120%",
+    "font-weight": "600",
+    "font-size": "120%",
   };
 
   return (
