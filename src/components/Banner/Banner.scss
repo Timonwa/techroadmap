@@ -1,0 +1,39 @@
+/** banner */
+.home-page-banner {
+  background: url("https://i.ibb.co/h1PwkQw/roadmap.jpg") rgba(3, 3, 3, 0.5);
+}
+
+.career-page-banner {
+  background: url("https://i.ibb.co/SNyJ6bW/priscilla-du-preez-AOd-ELn6sen-M-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+.contribute-page-banner {
+  background: url("https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+.frontend-page-banner {
+  background: url("https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg")
+    rgba(3, 3, 3, 0.5);
+}
+
+/* all the banners */
+.banner {
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  height: 100vh;
+  max-height: 400px;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 120%;
+}
