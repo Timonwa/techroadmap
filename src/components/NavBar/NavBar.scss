@@ -1,0 +1,133 @@
+//* variables
+$nav-bgc: hsla(210, 43%, 3%, 0.8);
+$main-color: hsl(212, 28%, 86%);
+$nav-height: 60px;
+
+// * nav bar
+.main-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+  // nav bar wrapper
+  .nav-wrapper {
+    background-color: $nav-bgc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: $nav-height;
+    color: $main-color;
+    z-index: 100000;
+    width: 100%;
+    max-width: 1440px;
+  }
+
+  // logo
+  // todo start: pick only one from these variations of nav bar logo
+  // ? p nav
+  .nav-logo > a > p {
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  // ? h4 nav
+  // .nav-logo > a > h4 {
+  //   margin-bottom: 0;
+  // }
+  // ?  img nav
+  // .nav-logo > a > img {
+  //   border: 1px solid #000;
+  // }
+  //  todo end
+
+  // nav bar links
+  .nav-links {
+    text-align: right;
+    ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    li {
+      margin: 0 20px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+    a {
+      color: $main-color;
+    }
+  }
+
+  // burger menu
+  .burger-menu {
+    display: none;
+  }
+}
+
+//* nav link styling on smaller screens where the burger menu becomes visible and the nav links hidden
+// 768px screen width and below
+@media screen and (max-width: 768px) {
+  .main-nav {
+    // nav bar
+    .nav-links {
+      position: absolute;
+      top: -50vh;
+      left: 0;
+      background-color: $nav-bgc;
+      width: 100vw;
+      height: 50vh;
+      text-align: center;
+      transition: top 500ms;
+      -webkit-transition: top 500ms;
+      -moz-transition: top 500ms;
+      -ms-transition: top 500ms;
+      -o-transition: top 500ms;
+    }
+    .active {
+      top: $nav-height;
+    }
+    // burger menu
+    .burger-menu {
+      display: block;
+    }
+
+    .icons {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+
+    // nav bar links
+    .nav-links {
+      ul {
+        height: inherit;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+      }
+      li {
+        &:last-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
