@@ -1,22 +1,20 @@
 import React, { useEffect } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
-import CareersList from "../../components/CareersList/CareersList";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
-import HomeDescription from "../../components/HomeDescription/HomeDescription";
+import ContributeDescription from "../../components/ContributeDescription/ContributeDescription";
 
-const HomePage = () => {
+const ContributePage = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
   return (
-    <div className="home-page">
+    <div className="contribute-page">
       <NavBar />
       <Banner />
       <main>
-        <HomeDescription />
-        <CareersList />
+        <ContributeDescription />
       </main>
       <ContributeCTA />
       <Footer />
@@ -24,4 +22,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ContributePage;
