@@ -119,7 +119,7 @@ For example:
 git checkout -b addDesignRoadmap
 ```
 
-(Please let the name of the branch be descriptive of the changes you are about to make.)
+_Note: Let the name of the branch be descriptive of the changes you are about to make._
 
 ### Run the React app
 
@@ -155,8 +155,7 @@ Now commit those changes using the `git commit` command:
 git commit -m "Descriptive commit message on the changes you made."
 ```
 
-(
-Ensure that there are no warnings or errors in your console before making any commits and pull requests.)
+_Note: Ensure that there are no warnings or errors in your console before making any commits and pull requests._
 
 ### Push changes to GitHub
 
