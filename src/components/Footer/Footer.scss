@@ -1,0 +1,60 @@
+//* variables
+$footer-bgc: hsl(210, 43%, 13%);
+$footer-color: hsl(180, 3%, 94%);
+$purple: hsl(271, 46%, 53%);
+
+//* footer
+footer {
+  background: $footer-bgc;
+  color: $footer-color;
+
+  a,
+  a:link,
+  a:hover,
+  a:active,
+  a:visited {
+    color: $footer-color;
+  }
+
+  .sections {
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    display: flex;
+    font-weight: bold;
+  }
+  .footer-link {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  // all links in footer
+  .paragraph-links.footer {
+    color: $purple !important;
+  }
+
+  // social links in footer
+  .social-links {
+    display: flex;
+    .icons {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 10px;
+    }
+  }
+
+  .quote {
+    max-width: 500px;
+  }
+
+  .copyright {
+    small {
+      display: flex;
+      align-items: center;
+      .icons {
+        margin-right: 3px;
+      }
+    }
+  }
+}

@@ -1,5 +1,10 @@
 import React, { useEffect } from "react";
 import "./HomePage.scss";
+import NavBar from "../../components/NavBar/NavBar";
+import Banner from "../../components/Banner/Banner";
+import CareersList from "../../components/CareersList/CareersList";
+import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
+import Footer from "../../components/Footer/Footer";
 
 const HomePage = () => {
   useEffect(() => {
@@ -7,7 +12,11 @@ const HomePage = () => {
   }, []);
   return (
     <div className="homepage">
-      <header className="App-header">Tech Roadmap</header>
+      <NavBar />
+      <Banner />
+      <CareersList />
+      <ContributeCTA />
+      <Footer />
     </div>
   );
 };
