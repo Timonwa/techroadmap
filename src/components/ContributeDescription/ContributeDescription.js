@@ -2,18 +2,18 @@
 import React from "react";
 
 export const ContributeDescription = () => {
-  const contributionFormHeading = { "font-size": "1.2rem" };
+  const contributionFormHeading = { fontSize: "1.2rem" };
 
   const contributingList = {
-    "list-style-type": "disc",
-    "margin-left": "30px",
-    "margin-bottom": "10px",
+    listStyleType: "disc",
+    marginLeft: "30px",
+    marginBottom: "10px",
   };
 
   const contributionFormList = {
-    "list-style-type": "decimal",
-    "margin-left": "30px",
-    "margin-bottom": "10px",
+    listStyleType: "decimal",
+    marginLeft: "30px",
+    marginBottom: "10px",
   };
 
   return (
