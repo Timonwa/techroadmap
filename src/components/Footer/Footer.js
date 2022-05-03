@@ -14,22 +14,22 @@ const Footer = () => {
 
   return (
     <footer>
-      <div class="footer-wrapper">
+      <div className="footer-wrapper">
         {/*  footer nav links  */}
-        <div class="sections">
-          <ul class="footer-links">
+        <div className="sections">
+          <ul className="footer-links">
             <li>
-              <Link class="footer-link para-link" to="/">
+              <Link className="footer-link para-link" to="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link class="footer-link para-link" to="/careers">
+              <Link className="footer-link para-link" to="/careers">
                 Careers
               </Link>
             </li>
             <li>
-              <Link class="footer-link para-link" to="/contribute">
+              <Link className="footer-link para-link" to="/contribute">
                 Contribute
               </Link>
             </li>
@@ -37,14 +37,14 @@ const Footer = () => {
         </div>
 
         {/* attribution */}
-        <div class="sections attribution">
+        <div className="sections attribution">
           <p>
-            <Link class="paragraph-links footer" to="/">
+            <Link className="paragraph-links footer" to="/">
               Tech Roadmap{" "}
             </Link>
             is created by{" "}
             <a
-              class="paragraph-links footer"
+              className="paragraph-links footer"
               target="_blank"
               href="https://twitter.com/timonwa_"
               rel="noreferrer">
@@ -54,11 +54,11 @@ const Footer = () => {
         </div>
 
         {/* social links */}
-        <div class="sections">
-          <ul class="social-links">
+        <div className="sections">
+          <ul className="social-links">
             <li>
               <a
-                class="social-link para-link"
+                className="social-link para-link"
                 target="_blank"
                 href="mailto:techcareerroadmap@gmail.com"
                 rel="noreferrer">
@@ -67,7 +67,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                class="social-link para-link"
+                className="social-link para-link"
                 target="_blank"
                 href="https://twitter.com/techroadmap_"
                 rel="noreferrer">
@@ -76,7 +76,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                class="social-link para-link"
+                className="social-link para-link"
                 target="_blank"
                 href="https://github.com/timonwa/techroadmap"
                 rel="noreferrer">
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         {/* website quote */}
-        <div class="sections quote">
+        <div className="sections quote">
           <p>
             Roadmaps, articles, and useful resources to help you choose a career
             path, start your journey, and grow in tech.
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
 
         {/* copyright */}
-        <div class="sections copyright">
+        <div className="sections copyright">
           <p>
             <small>
               Copyright <FaRegCopyright className="icons" /> {currentYear} Tech

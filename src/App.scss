@@ -1,10 +1,26 @@
 //* variables
 $main-color: hsl(212, 28%, 86%);
+$pink: hsl(350, 89%, 74%);
 
 //* body
 .App {
   font-weight: normal;
   background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+
+  /** all links in paragraphs */
+  .paragraph-links {
+    color: pink;
+    // margin: 0 3px;
+  }
+
+  // all links in descriptions of the sections in the roadmaps and careers page
+  .resource-link.paragraph-links {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 
 //* body scrollbar
