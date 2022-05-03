@@ -29,17 +29,17 @@ const NavBar = () => {
           {/* nav link cntr */}
           <ul className="nav-link-wrapper">
             {/* nav links */}
-            <li>
+            <li onClick={handleMenu}>
               <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
             </li>
-            <li>
+            <li onClick={handleMenu}>
               <NavLink className="nav-link" to="/careers">
                 Careers
               </NavLink>
             </li>
-            <li>
+            <li onClick={handleMenu}>
               <NavLink className="nav-link" to="/contribute">
                 Contribute
               </NavLink>
