@@ -10,8 +10,7 @@ import {
 
 const Footer = () => {
   //* function to automatically update copyright date
-  let date = new Date().getFullYear();
-  const copy = "copyright " + date;
+  const currentYear = new Date().getFullYear();
 
   return (
     <footer>
@@ -99,8 +98,8 @@ const Footer = () => {
         <div class="sections copyright">
           <p>
             <small>
-              <FaRegCopyright className="icons" /> {copy} Tech Roadmap. All
-              Rights Reserved.
+              Copyright <FaRegCopyright className="icons" /> {currentYear} Tech
+              Roadmap. All Rights Reserved.
             </small>
           </p>
         </div>
