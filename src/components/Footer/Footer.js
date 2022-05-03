@@ -69,7 +69,7 @@ const Footer = () => {
               <a
                 className="social-link para-link"
                 target="_blank"
-                href="https://twitter.com/techroadmap_"
+                href="https://twitter.com/techroadmap__"
                 rel="noreferrer">
                 <FaTwitter className="icons" />
               </a>
