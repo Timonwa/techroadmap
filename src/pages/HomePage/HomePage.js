@@ -5,6 +5,7 @@ import Banner from "../../components/Banner/Banner";
 import CareersList from "../../components/CareersList/CareersList";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
+import HomeDescription from "../../components/HomeDescription/HomeDescription";
 
 const HomePage = () => {
   useEffect(() => {
@@ -14,7 +15,10 @@ const HomePage = () => {
     <div className="homepage">
       <NavBar />
       <Banner />
-      <CareersList />
+      <main>
+        <HomeDescription />
+        <CareersList />
+      </main>
       <ContributeCTA />
       <Footer />
     </div>

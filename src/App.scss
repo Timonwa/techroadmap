@@ -7,13 +7,17 @@ $pink: hsl(350, 89%, 74%);
   font-weight: normal;
   background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
 
-  /** all links in paragraphs */
-  .paragraph-links {
-    color: pink;
-    // margin: 0 3px;
+  //* all headings
+  .heading {
+    color: #ddd;
   }
 
-  // all links in descriptions of the sections in the roadmaps and careers page
+  //* all links in paragraphs
+  .paragraph-links {
+    color: pink;
+  }
+
+  //* all links in descriptions of the sections in the roadmaps and careers page
   .resource-link.paragraph-links {
     display: block;
     font-size: 0.9rem;
