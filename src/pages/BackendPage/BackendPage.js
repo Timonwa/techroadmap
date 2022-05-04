@@ -3,6 +3,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
+import Intro from "../../components/backendPageContent/Intro";
 
 const BackendPage = () => {
   const title = "";
@@ -19,7 +20,9 @@ const BackendPage = () => {
     <div className="contribute-page">
       <NavBar />
       <Banner title={title} quote={quote} image={image} />
-      <main></main>
+      <main>
+        <Intro />
+      </main>
       <ContributeCTA />
       <Footer />
     </div>
