@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Badge = styled.span`
+export const ResourceBadge = styled.span`
   border: 1px solid rgba(12, 37, 51, 0.904);
   padding: 2px 5px;
   font-size: 50%;
