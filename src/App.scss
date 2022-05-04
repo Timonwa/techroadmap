@@ -26,33 +26,45 @@ $pink: hsl(350, 89%, 74%);
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  //* body scrollbar
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px $main-color;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: $main-color;
+  }
+
+  //* side menu scrollbar
+  .sidebar-links::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .sidebar-links::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+  }
+
+  .sidebar-links::-webkit-scrollbar-thumb {
+    background-color: $main-bgc;
+  }
 }
 
-//* body scrollbar
-body::-webkit-scrollbar {
-  width: 10px;
+//* resource sections
+.resource-section:last-child {
+  border-bottom: none;
 }
 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 10px $main-color;
+//*! Javascript CSS (Start)
+/** active state for the webpage link that is currently viewed by the user */
+.active {
+  font-weight: 700;
 }
-
-body::-webkit-scrollbar-thumb {
-  background-color: $main-color;
-}
-
-//* side menu scrollbar
-.sidebar-links::-webkit-scrollbar {
-  width: 5px;
-}
-
-.sidebar-links::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px white;
-}
-
-.sidebar-links::-webkit-scrollbar-thumb {
-  background-color: $main-bgc;
-}
+//*! Javascript CSS (End)
 
 //! Sections and Subsections paddings media query (Start)
 //* sections
