@@ -10,7 +10,7 @@ import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled
 
 const Roadmap = () => {
   return (
-    <ResourceSection>
+    <ResourceSection id="roadmap">
       <ResourceSectionHeading>
         Frontend Development Roadmap
       </ResourceSectionHeading>

@@ -11,7 +11,7 @@ import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled
 
 const WhatIs = () => {
   return (
-    <ResourceSection>
+    <ResourceSection id="what-is">
       <ResourceSectionHeading>
         What is Backend Development?
       </ResourceSectionHeading>

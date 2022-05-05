@@ -2,7 +2,6 @@
 import React from "react";
 import { ResourceSection } from "../styles/styled-components/ResourceSection.styled.js";
 import { ResourceSectionHeading } from "../styles/styled-components/ResourceSectionHeading.styled.js";
-// import { ResourceSectionBody } from "../styles/styled-components/ResourceSectionBody.styled.js";
 import { ResourceSectionLinks } from "../styles/styled-components/ResourceSectionLinks.styled.js";
 import { ResourceCard } from "../styles/styled-components/ResourceCard.styled.js";
 import { ResourceCardTitle } from "../styles/styled-components/ResourceCardTitle.styled.js";
@@ -13,7 +12,7 @@ import { ResourceBadge } from "../styles/styled-components/ResourceBadge.styled.
 
 const Networking = () => {
   return (
-    <ResourceSection>
+    <ResourceSection id="networking">
       <ResourceSectionHeading>Networking</ResourceSectionHeading>
       <ResourceSectionLinks>
         {/* tech communities */}

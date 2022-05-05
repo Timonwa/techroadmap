@@ -7,6 +7,7 @@ import Intro from "../../components/frontendPageContent/Intro";
 import WhatIs from "../../components/frontendPageContent/WhatIs";
 import Roadmap from "../../components/frontendPageContent/Roadmap";
 import Networking from "../../components/Networking";
+import CodeEditors from "../../components/frontendPageContent/CodeEditors";
 
 const FrontendPage = () => {
   const title = "";
@@ -27,6 +28,7 @@ const FrontendPage = () => {
         <WhatIs />
         <Roadmap />
         <Networking />
+        <CodeEditors />
       </main>
       <ContributeCTA />
       <Footer />
