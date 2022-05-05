@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled.js";
+import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled.js";
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled.js";
 import { ResourceSectionLinks } from "../../styles/styled-components/ResourceSectionLinks.styled.js";
 import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled.js";
@@ -8,11 +9,15 @@ import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTi
 
 import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled.js";
 import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled.js";
+import { ResourceCardBody } from "../../styles/styled-components/ResourceCardBody.styled.js";
+import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled.js";
 
 const HtmlAndCss = () => {
   return (
     <ResourceSection id="css-beginners">
-      <ResourceCardTitle>Html and Css (Beginner's Level)</ResourceCardTitle>
+      <ResourceSectionHeading>
+        Html and Css (Beginner's Level)
+      </ResourceSectionHeading>
 
       <ResourceSectionBody>
         <p>
@@ -32,6 +37,7 @@ const HtmlAndCss = () => {
       <ResourceSectionLinks>
         {/* videos */}
         <ResourceCard>
+          <ResourceCardTitle>Videos</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/qz0aGYrrlhU">
@@ -64,6 +70,7 @@ const HtmlAndCss = () => {
 
         {/*  playlist */}
         <ResourceCard>
+          <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -84,6 +91,7 @@ const HtmlAndCss = () => {
 
         {/*  Free Courses */}
         <ResourceCard>
+          <ResourceCardTitle>Free Courses</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -111,6 +119,7 @@ const HtmlAndCss = () => {
 
         {/*  articles */}
         <ResourceCard>
+          <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -129,8 +138,9 @@ const HtmlAndCss = () => {
           </ResourceCardLinks>
         </ResourceCard>
 
-        {/*  practical projects */}
+        {/*  practice projects */}
         <ResourceCard>
+          <ResourceCardTitle>Practice Projects</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -166,9 +176,10 @@ const HtmlAndCss = () => {
 
         {/*  others */}
         <ResourceCard>
-          <p class="resource-card-body">
+          <ResourceCardTitle>Others</ResourceCardTitle>
+          <ResourceCardBody>
             Tips and tricks, tools, cool examples etc.
-          </p>
+          </ResourceCardBody>
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -176,7 +187,7 @@ const HtmlAndCss = () => {
                 href="https://youtube.com/c/OnlineTutorials4Designers">
                 Creative Css and Javascript projects. ~ Online Tutorials.
               </a>
-              <span class="resource-link-badge">Youtube Channel</span>
+              <ResourceBadge>Youtube Channel</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
