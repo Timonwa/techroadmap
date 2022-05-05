@@ -22,15 +22,12 @@ const Banner = ({ title, quote, image }) => {
   };
 
   return (
-    <>
-      <div className="nav-space"></div>
-      <header style={style} className="banner">
-        <div className="banner-wrapper">
-          <h1>{title}</h1>
-          <p>{quote}</p>
-        </div>
-      </header>
-    </>
+    <header style={style} className="banner">
+      <div className="banner-wrapper">
+        <h1>{title}</h1>
+        <p>{quote}</p>
+      </div>
+    </header>
   );
 };
 

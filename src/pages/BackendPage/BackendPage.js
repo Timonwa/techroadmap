@@ -5,6 +5,7 @@ import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import Intro from "../../components/backendPageContent/Intro";
 import WhatIs from "../../components/backendPageContent/WhatIs";
+import NavSpace from "../../components/NavBar/NavSpace";
 
 const BackendPage = () => {
   const title = "";
@@ -19,6 +20,7 @@ const BackendPage = () => {
 
   return (
     <div className="contribute-page">
+      <NavSpace />
       <NavBar />
       <Banner title={title} quote={quote} image={image} />
       <main>

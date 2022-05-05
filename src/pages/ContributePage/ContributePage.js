@@ -4,6 +4,7 @@ import Banner from "../../components/Banner/Banner";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import ContributeDescription from "../../components/ContributeDescription/ContributeDescription";
+import NavSpace from "../../components/NavBar/NavSpace";
 
 const ContributePage = () => {
   const title = "";
@@ -17,6 +18,7 @@ const ContributePage = () => {
   }, []);
   return (
     <div className="contribute-page">
+      <NavSpace />
       <NavBar />
       <Banner title={title} quote={quote} image={image} />
       <main>

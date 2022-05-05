@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import NavSpace from "../../components/NavBar/NavSpace";
 import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
@@ -9,6 +10,7 @@ import Roadmap from "../../components/frontendPageContent/Roadmap";
 import Networking from "../../components/Networking";
 import CodeEditors from "../../components/frontendPageContent/CodeEditors";
 import HtmlAndCss from "../../components/frontendPageContent/HtmlAndCss";
+import SideBar from "../../components/SideBar/SideBar";
 
 const FrontendPage = () => {
   const title = "";
@@ -22,7 +24,9 @@ const FrontendPage = () => {
   }, []);
   return (
     <div className="contribute-page">
+      <NavSpace />
       <NavBar />
+      <SideBar></SideBar>
       <Banner title={title} quote={quote} image={image} />
       <main>
         <Intro />

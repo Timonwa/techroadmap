@@ -5,6 +5,7 @@ import CareersList from "../../components/CareersList/CareersList";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import CareersDescription from "../../components/CareersDescription/CareersDescription";
+import NavSpace from "../../components/NavBar/NavSpace";
 
 const CareersPage = () => {
   const title = "";
@@ -18,6 +19,7 @@ const CareersPage = () => {
   }, []);
   return (
     <div className="careers-page">
+      <NavSpace />
       <NavBar />
       <Banner title={title} quote={quote} image={image} />
       <main>

@@ -3,6 +3,11 @@ $nav-bgc: hsla(210, 43%, 3%, 0.8);
 $main-color: hsl(212, 28%, 86%);
 $nav-height: 60px;
 
+//* nav space
+.nav-space {
+  height: $nav-height;
+}
+
 // * nav bar
 .main-nav {
   width: 100%;

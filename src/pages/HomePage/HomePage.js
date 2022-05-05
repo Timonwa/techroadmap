@@ -5,6 +5,7 @@ import CareersList from "../../components/CareersList/CareersList";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import HomeDescription from "../../components/HomeDescription/HomeDescription";
+import NavSpace from "../../components/NavBar/NavSpace";
 
 const HomePage = () => {
   const title = "Tech Career Roadmap";
@@ -17,6 +18,7 @@ const HomePage = () => {
   }, []);
   return (
     <div className="home-page">
+      <NavSpace />
       <NavBar />
       <Banner title={title} quote={quote} image={image} />
       <main>
