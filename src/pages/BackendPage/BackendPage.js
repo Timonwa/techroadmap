@@ -4,6 +4,7 @@ import Banner from "../../components/Banner/Banner";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import Intro from "../../components/backendPageContent/Intro";
+import WhatIs from "../../components/backendPageContent/WhatIs";
 
 const BackendPage = () => {
   const title = "";
@@ -22,6 +23,7 @@ const BackendPage = () => {
       <Banner title={title} quote={quote} image={image} />
       <main>
         <Intro />
+        <WhatIs />
       </main>
       <ContributeCTA />
       <Footer />
