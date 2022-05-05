@@ -14,6 +14,7 @@ const Roadmap = () => {
       <ResourceSectionHeading>
         Frontend Development Roadmap
       </ResourceSectionHeading>
+
       <ResourceSectionBody>
         <p>
           A roadmap is a visualization of a strategic plan. You will need one if
@@ -21,6 +22,7 @@ const Roadmap = () => {
           below will guide you as to how to create/use your roadmap.
         </p>
       </ResourceSectionBody>
+      
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>

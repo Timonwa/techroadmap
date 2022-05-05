@@ -16,6 +16,7 @@ const CodeEditors = () => {
   return (
     <ResourceSection id="editor">
       <ResourceSectionHeading>Code Editors</ResourceSectionHeading>
+
       <ResourceSectionBody>
         <p>
           For you to start coding, you will need a place to write and run your
@@ -33,6 +34,7 @@ const CodeEditors = () => {
           </a>
         </p>
       </ResourceSectionBody>
+
       <ResourceSectionLinks>
         {/* desktop apps*/}
         <ResourceCard id="desktop-apps">
@@ -132,6 +134,7 @@ const CodeEditors = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+
         {/* Online Editors (Playgrounds) */}
         <ResourceCard id="online-editors">
           <ResourceCardTitle>Online Editors (Playgrounds)</ResourceCardTitle>
@@ -229,6 +232,7 @@ const CodeEditors = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+        
         {/* Mobile Apps */}
         <ResourceCard id="mobile-apps">
           <ResourceCardTitle>Mobile Apps</ResourceCardTitle>

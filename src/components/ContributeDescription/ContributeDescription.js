@@ -30,7 +30,8 @@ export const ContributeDescription = () => {
             into a budding tech community and the no. 1 online resource for tech
             careers and learning. You can do so by
           </p>
-
+          
+          {/* lists of contributions that can be made */}
           <ul style={contributingList}>
             <li>adding a new roadmap,</li>
             <li>editing, or suggesting changes to the existing roadmaps,</li>

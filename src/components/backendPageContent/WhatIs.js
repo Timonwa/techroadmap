@@ -15,6 +15,7 @@ const WhatIs = () => {
       <ResourceSectionHeading>
         What is Backend Development?
       </ResourceSectionHeading>
+
       <ResourceSectionBody>
         <p>
           Backend development, also called server-side development, is the
@@ -30,6 +31,7 @@ const WhatIs = () => {
           below.
         </p>
       </ResourceSectionBody>
+      
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>

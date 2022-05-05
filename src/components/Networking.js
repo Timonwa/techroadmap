@@ -14,12 +14,14 @@ const Networking = () => {
   return (
     <ResourceSection id="networking">
       <ResourceSectionHeading>Networking</ResourceSectionHeading>
+
       <ResourceSectionLinks>
         {/* tech communities */}
         <ResourceCard>
           <ResourceCardTitle>
             <h3 class="resource-card-title">Tech Communities</h3>
           </ResourceCardTitle>
+          
           <ResourceCardDescription>
             <p>
               Joining a Tech Community is the easiest way to network with and
@@ -31,6 +33,7 @@ const Networking = () => {
               tech communities:
             </p>
           </ResourceCardDescription>
+
           <ResourceCardLinks>
             <ResourceLink>
               <a
@@ -70,11 +73,13 @@ const Networking = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+
         {/* bootcamps */}
         <ResourceCard>
           <ResourceCardTitle>
             <h3 class="resource-card-title">Bootcamps</h3>
           </ResourceCardTitle>
+
           <ResourceCardDescription>
             <p>
               Bootcamps are created to help one with little to no experience in
@@ -86,6 +91,7 @@ const Networking = () => {
               Below are a few of the most popular bootcamps:
             </p>
           </ResourceCardDescription>
+
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="https://decagon.institute/">
@@ -107,11 +113,13 @@ const Networking = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+
         {/* Internships and Mentoring */}
         <ResourceCard>
           <ResourceCardTitle>
             <h3 class="resource-card-title">Internships and Mentoring</h3>
           </ResourceCardTitle>
+
           <ResourceCardDescription>
             <p>
               Internships are a period of work often taken to gain professional
@@ -123,6 +131,7 @@ const Networking = () => {
               and run bootcamps in the tech field.
             </p>
           </ResourceCardDescription>
+
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="https://www.outreachy.org/">

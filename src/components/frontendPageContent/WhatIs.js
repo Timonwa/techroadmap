@@ -15,6 +15,7 @@ const WhatIs = () => {
       <ResourceSectionHeading>
         What is Frontend Development?
       </ResourceSectionHeading>
+
       <ResourceSectionBody>
         <p>
           Frontend development, also called client-side development, is the
@@ -26,6 +27,7 @@ const WhatIs = () => {
           below.
         </p>
       </ResourceSectionBody>
+      
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>
