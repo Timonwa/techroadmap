@@ -12,7 +12,7 @@ const Roadmap = () => {
   return (
     <ResourceSection>
       <ResourceSectionHeading>
-        Frontend Development Roadmap.
+        Frontend Development Roadmap
       </ResourceSectionHeading>
       <ResourceSectionBody>
         <p>
@@ -22,6 +22,7 @@ const Roadmap = () => {
         </p>
       </ResourceSectionBody>
       <ResourceSectionLinks>
+        {/* articles */}
         <ResourceCard>
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
@@ -45,6 +46,7 @@ const Roadmap = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+        {/* videos */}
         <ResourceCard>
           <ResourceCardTitle>Videos</ResourceCardTitle>
           <ResourceCardLinks>

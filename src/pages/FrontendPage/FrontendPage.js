@@ -5,6 +5,8 @@ import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
 import Intro from "../../components/frontendPageContent/Intro";
 import WhatIs from "../../components/frontendPageContent/WhatIs";
+import Roadmap from "../../components/frontendPageContent/Roadmap";
+import Networking from "../../components/Networking";
 
 const FrontendPage = () => {
   const title = "";
@@ -23,6 +25,8 @@ const FrontendPage = () => {
       <main>
         <Intro />
         <WhatIs />
+        <Roadmap />
+        <Networking />
       </main>
       <ContributeCTA />
       <Footer />

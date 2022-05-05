@@ -31,6 +31,7 @@ const WhatIs = () => {
         </p>
       </ResourceSectionBody>
       <ResourceSectionLinks>
+        {/* articles */}
         <ResourceCard>
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
@@ -51,6 +52,7 @@ const WhatIs = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
+        {/* videos */}
         <ResourceCard>
           <ResourceCardTitle>Videos</ResourceCardTitle>
           <ResourceCardLinks>
