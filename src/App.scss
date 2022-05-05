@@ -3,7 +3,19 @@ $main-bgc: hsl(209, 41%, 22%);
 $main-color: hsl(212, 28%, 86%);
 $pink: hsl(350, 89%, 74%);
 
-//* body
+//* body scrollbar
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px $main-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+}
+
 .App {
   font-weight: normal;
   background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
@@ -25,32 +37,6 @@ $pink: hsl(350, 89%, 74%);
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
-  }
-
-  //* body scrollbar
-  body::-webkit-scrollbar {
-    width: 10px;
-  }
-
-  body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 10px $main-color;
-  }
-
-  body::-webkit-scrollbar-thumb {
-    background-color: $main-color;
-  }
-
-  //* side menu scrollbar
-  .sidebar-links::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  .sidebar-links::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px white;
-  }
-
-  .sidebar-links::-webkit-scrollbar-thumb {
-    background-color: $main-bgc;
   }
 }
 

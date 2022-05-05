@@ -27,4 +27,17 @@ export const SideBarLinks = styled.div`
   a:visited {
     color: hsl(209, 41%, 22%);
   }
+
+  //* side menu scrollbar
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: hsl(209, 41%, 22%);
+  }
 `;
