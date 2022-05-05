@@ -5,7 +5,7 @@ import { ResourceSectionHeading } from "../styles/styled-components/ResourceSect
 import { ResourceSectionLinks } from "../styles/styled-components/ResourceSectionLinks.styled.js";
 import { ResourceCard } from "../styles/styled-components/ResourceCard.styled.js";
 import { ResourceCardTitle } from "../styles/styled-components/ResourceCardTitle.styled.js";
-import { ResourceCardDescription } from "../styles/styled-components/ResourceCardDescription.styled.js";
+import { ResourceCardBody } from "../styles/styled-components/ResourceCardBody.styled.js";
 import { ResourceCardLinks } from "../styles/styled-components/ResourceCardLinks.styled.js";
 import { ResourceLink } from "../styles/styled-components/ResourceLink.styled.js";
 import { ResourceBadge } from "../styles/styled-components/ResourceBadge.styled.js";
@@ -21,8 +21,8 @@ const Networking = () => {
           <ResourceCardTitle>
             <h3 class="resource-card-title">Tech Communities</h3>
           </ResourceCardTitle>
-          
-          <ResourceCardDescription>
+
+          <ResourceCardBody>
             <p>
               Joining a Tech Community is the easiest way to network with and
               learn from other techies in the industry for free. You get to
@@ -32,7 +32,7 @@ const Networking = () => {
               people's experiences, etc. Below are a few of the most popular
               tech communities:
             </p>
-          </ResourceCardDescription>
+          </ResourceCardBody>
 
           <ResourceCardLinks>
             <ResourceLink>
@@ -80,7 +80,7 @@ const Networking = () => {
             <h3 class="resource-card-title">Bootcamps</h3>
           </ResourceCardTitle>
 
-          <ResourceCardDescription>
+          <ResourceCardBody>
             <p>
               Bootcamps are created to help one with little to no experience in
               coding gain programming skills by offering them technical training
@@ -90,7 +90,7 @@ const Networking = () => {
               Certificates/Diplomas upon completion. Most of them are not free.
               Below are a few of the most popular bootcamps:
             </p>
-          </ResourceCardDescription>
+          </ResourceCardBody>
 
           <ResourceCardLinks>
             <ResourceLink>
@@ -120,7 +120,7 @@ const Networking = () => {
             <h3 class="resource-card-title">Internships and Mentoring</h3>
           </ResourceCardTitle>
 
-          <ResourceCardDescription>
+          <ResourceCardBody>
             <p>
               Internships are a period of work often taken to gain professional
               learning experience relating to a field of study or career
@@ -130,7 +130,7 @@ const Networking = () => {
               find below, a list of organizations that offer coding internships
               and run bootcamps in the tech field.
             </p>
-          </ResourceCardDescription>
+          </ResourceCardBody>
 
           <ResourceCardLinks>
             <ResourceLink>
