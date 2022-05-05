@@ -1,25 +1,30 @@
 import styled from "styled-components";
+// variables;
 
 export const SideBarLinks = styled.div`
-  border-top: 1px dashed var(--main-bgc);
+  border-top: 1px dashed hsl(209, 41%, 22%);
   padding: 0 10px;
-  color: var(--main-bgc);
+  color: hsl(209, 41%, 22%);
   scroll-behavior: auto;
   overflow-y: scroll;
   height: calc(100vh - 100px);
   padding-top: 10px;
   padding-bottom: 50px;
   position: absolute;
-  background-color: var(--main-color);
+  background-color: hsl(212, 28%, 86%);
   top: 40px;
   right: -120%;
-  transition: left 500ms;
-	
+  transition: right 500ms;
+
+  &.active {
+    right: 0;
+  }
+
   a,
   a:link,
   a:hover,
   a:active,
   a:visited {
-    color: var(--main-bgc);
+    color: hsl(209, 41%, 22%);
   }
 `;

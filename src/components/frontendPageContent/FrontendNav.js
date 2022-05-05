@@ -1,230 +1,230 @@
 import React from "react";
-import SidebarLinks from "../../styles/styled-components/SideBarLinks.styled";
-import SidebarSubLinks from "../../styles/styled-components/SideBarSubLinks.styled";
-import SidebarTitle from "../../styles/styled-components/SideBarTitle.styled";
-import SidebarSubtitle from "../../styles/styled-components/SideBarSubtitle.styled";
+import { SideBarLinks } from "../../styles/styled-components/SideBarLinks.styled";
+import { SideBarSubLinks } from "../../styles/styled-components/SideBarSubLinks.styled";
+import { SideBarTitle } from "../../styles/styled-components/SideBarTitle.styled";
+import { SideBarSubtitle } from "../../styles/styled-components/SideBarSubtitle.styled";
 
-const FrontendNav = () => {
+const FrontendNav = ({ handleMenu, openMenu }) => {
   return (
-    <SidebarLinks class="sidebar-links">
+    <SideBarLinks className={`sideBar-links ${openMenu ? "" : "active"}`}>
       {/* what is frontend */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#what-is">What is Frontend Dev.</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* frontend roadmap */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#roadmap">Frontend Dev. Roadmap</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* networking */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#networking">Networking</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#communities">Tech Communities</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#bootcamps">Bootcamps</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#internships">Internship/Mentorship</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* editors */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#editor">Code Editors</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#desktop-apps">Desktop Apps</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#online-editors">Online Editors</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#mobile-apps">Mobile Apps</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* html and css (beginner's level) */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#css-beginners">Html and Css - Beginner</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* html and css (advanced level) */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#css-advanced">Html and Css - Advanced</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* version control */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#version-control">Version Control</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#git">Git</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#github">GitHub</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#git-desktop">GitHub Desktop</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#gitlab">GitLab</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#bitbucket">BitBucket</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* deployment services */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#deployment">Deployment Services</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#netlify">Netlify</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#vercel">Vercel</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#github-pages">GitHub Pages</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* debugging */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#debugging">Debugging</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* javascript */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#javascript">Javascript</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* javascript advanced */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#javascript-advanced">Javascript Advanced</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* css frameworks and libraries */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#css-frameworks">Css Frameworks and Libraries</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#bootstrap">Bootstrap</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#styled">Styled Components</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#tailwind">Tailwind</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#chakra">Chakra UI</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#bulma">Bulma</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* css pre-processors */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#css-processors">Css Processors</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#less">Less</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#sass">Sass</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#postcss">PostCSS</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* json and json server */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#json">Json</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* apis */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#apis">APIs</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* js frameworks and libraries */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#js-frameworks">Javascript Frameworks</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#react">React</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#vue">Vue</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#angular">Angular</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#svelte">Svelte</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#agnosticui">AgnosticUI</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* design resources */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#design">Design Resources</a>
-        <SidebarSubLinks>
-          <SidebarSubtitle>
+        <SideBarSubLinks>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#fonts">Fonts</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#icons">Icons</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#photos">Photos</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#illustrations">Illustrations and Patterns</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#simplify-css">Simplify CSS</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#gradients">Gradients and Colors</a>
-          </SidebarSubtitle>
-          <SidebarSubtitle>
+          </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
             <a href="#others">Others</a>
-          </SidebarSubtitle>
-        </SidebarSubLinks>
-      </SidebarTitle>
+          </SideBarSubtitle>
+        </SideBarSubLinks>
+      </SideBarTitle>
 
       {/* cheatsheet */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#cheatsheets">Cheatsheets</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* others */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#other-resource">Other Useful Resource</a>
-      </SidebarTitle>
+      </SideBarTitle>
 
       {/* what next */}
-      <SidebarTitle>
+      <SideBarTitle onClick={handleMenu}>
         <a href="#what-next">What Next</a>
-      </SidebarTitle>
-    </SidebarLinks>
+      </SideBarTitle>
+    </SideBarLinks>
   );
 };
 

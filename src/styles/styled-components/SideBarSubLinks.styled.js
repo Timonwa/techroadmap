@@ -1,4 +1,4 @@
 import styled from "styled-components";
 
-export const SideBarLinks = styled.div`
+export const SideBarSubLinks = styled.div`
 `

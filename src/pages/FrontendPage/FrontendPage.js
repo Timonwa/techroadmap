@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import NavSpace from "../../components/NavBar/NavSpace";
 import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
@@ -11,6 +11,7 @@ import Networking from "../../components/Networking";
 import CodeEditors from "../../components/frontendPageContent/CodeEditors";
 import HtmlAndCss from "../../components/frontendPageContent/HtmlAndCss";
 import SideBar from "../../components/SideBar/SideBar";
+import FrontendNav from "../../components/frontendPageContent/FrontendNav";
 
 const FrontendPage = () => {
   const title = "";
@@ -22,11 +23,25 @@ const FrontendPage = () => {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
+
+  const [openMenu, setOpenMenu] = useState(true);
+  const [closeMenu, setCloseMenu] = useState(false);
+
+  const handleMenu = () => {
+    setOpenMenu(!openMenu);
+    setCloseMenu(!closeMenu);
+  };
+
   return (
     <div className="contribute-page">
       <NavSpace />
       <NavBar />
-      <SideBar></SideBar>
+      <SideBar
+        handleMenu={handleMenu}
+        closeMenu={closeMenu}
+        openMenu={openMenu}>
+        <FrontendNav handleMenu={handleMenu} openMenu={openMenu} />
+      </SideBar>
       <Banner title={title} quote={quote} image={image} />
       <main>
         <Intro />

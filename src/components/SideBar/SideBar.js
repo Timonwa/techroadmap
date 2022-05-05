@@ -2,14 +2,8 @@ import React, { useState } from "react";
 import "./SideBar.scss";
 import { FaArrowDown, FaArrowUp } from "react-icons/fa";
 
-const SideBar = () => {
-  const [openMenu, setOpenMenu] = useState(true);
-  const [closeMenu, setCloseMenu] = useState(false);
-
-  const handleMenu = () => {
-    setOpenMenu(!openMenu);
-    setCloseMenu(!closeMenu);
-  };
+const SideBar = ({ children , handleMenu, openMenu, closeMenu}) => {
+  
 
   return (
     <nav class="sidebar-nav">
@@ -29,8 +23,8 @@ const SideBar = () => {
             </div>
           )}
         </div>
+        {children}
       </div>
-      {/* {children} */}
     </nav>
   );
 };
