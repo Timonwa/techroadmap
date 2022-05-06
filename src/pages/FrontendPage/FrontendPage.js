@@ -22,6 +22,9 @@ import CssFrameworks from "../../components/frontendPageContent/CssFrameworks";
 import CssProcessors from "../../components/frontendPageContent/CssProcessors";
 import Json from "../../components/frontendPageContent/Json";
 import Apis from "../../components/frontendPageContent/Apis";
+import OtherResources from "../../components/frontendPageContent/OtherResources";
+import CheatSheets from "../../components/frontendPageContent/CheatSheets";
+import WhatNext from "../../components/frontendPageContent/WhatNext";
 
 const FrontendPage = () => {
   const title = "";
@@ -65,6 +68,9 @@ const FrontendPage = () => {
         <CssProcessors />
         <Json />
         <Apis />
+        <CheatSheets />
+        <OtherResources />
+        <WhatNext />
       </main>
       <ContributeCTA />
       <Footer />
