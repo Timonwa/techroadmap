@@ -12,7 +12,7 @@ import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled
 import { ResourceCardBody } from "../../styles/styled-components/ResourceCardBody.styled.js";
 import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled.js";
 
-const HtmlAndCss = () => {
+const HtmlAndCssBasic = () => {
   return (
     <ResourceSection id="css-beginners">
       <ResourceSectionHeading>
@@ -196,4 +196,4 @@ const HtmlAndCss = () => {
   );
 };
 
-export default HtmlAndCss;
+export default HtmlAndCssBasic;

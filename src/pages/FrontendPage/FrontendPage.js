@@ -9,9 +9,10 @@ import WhatIs from "../../components/frontendPageContent/WhatIs";
 import Roadmap from "../../components/frontendPageContent/Roadmap";
 import Networking from "../../components/Networking";
 import CodeEditors from "../../components/frontendPageContent/CodeEditors";
-import HtmlAndCss from "../../components/frontendPageContent/HtmlAndCss";
+import HtmlAndCssBasic from "../../components/frontendPageContent/HtmlAndCssBasic";
 import SideBar from "../../components/SideBar/SideBar";
 import FrontendNav from "../../components/frontendPageContent/FrontendNav";
+import HtmlAndCssAdvanced from "../../components/frontendPageContent/HtmlAndCssAdvanced";
 
 const FrontendPage = () => {
   const title = "";
@@ -34,9 +35,7 @@ const FrontendPage = () => {
     <div className="contribute-page">
       <NavSpace />
       <NavBar />
-      <SideBar
-        handleMenu={handleMenu}
-        openMenu={openMenu}>
+      <SideBar handleMenu={handleMenu} openMenu={openMenu}>
         <FrontendNav handleMenu={handleMenu} openMenu={openMenu} />
       </SideBar>
       <Banner title={title} quote={quote} image={image} />
@@ -46,7 +45,8 @@ const FrontendPage = () => {
         <Roadmap />
         <Networking />
         <CodeEditors />
-        <HtmlAndCss />
+        <HtmlAndCssBasic />
+        <HtmlAndCssAdvanced />
       </main>
       <ContributeCTA />
       <Footer />
