@@ -16,6 +16,12 @@ import HtmlAndCssAdvanced from "../../components/frontendPageContent/HtmlAndCssA
 import VersionControl from "../../components/VersionControl";
 import DeploymentServices from "../../components/frontendPageContent/DeploymentServices";
 import Debugging from "../../components/frontendPageContent/Debugging";
+import JsBasics from "../../components/frontendPageContent/JsBasics";
+import JsAdvanced from "../../components/frontendPageContent/JsAdvanced";
+import CssFrameworks from "../../components/frontendPageContent/CssFrameworks";
+import CssProcessors from "../../components/frontendPageContent/CssProcessors";
+import Json from "../../components/frontendPageContent/Json";
+import Apis from "../../components/frontendPageContent/Apis";
 
 const FrontendPage = () => {
   const title = "";
@@ -53,6 +59,12 @@ const FrontendPage = () => {
         <VersionControl />
         <DeploymentServices />
         <Debugging />
+        <JsBasics />
+        <JsAdvanced />
+        <CssFrameworks />
+        <CssProcessors />
+        <Json />
+        <Apis />
       </main>
       <ContributeCTA />
       <Footer />
