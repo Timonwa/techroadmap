@@ -25,11 +25,9 @@ const FrontendPage = () => {
   }, []);
 
   const [openMenu, setOpenMenu] = useState(true);
-  const [closeMenu, setCloseMenu] = useState(false);
 
   const handleMenu = () => {
     setOpenMenu(!openMenu);
-    setCloseMenu(!closeMenu);
   };
 
   return (
@@ -38,7 +36,6 @@ const FrontendPage = () => {
       <NavBar />
       <SideBar
         handleMenu={handleMenu}
-        closeMenu={closeMenu}
         openMenu={openMenu}>
         <FrontendNav handleMenu={handleMenu} openMenu={openMenu} />
       </SideBar>
