@@ -25,6 +25,8 @@ import Apis from "../../components/frontendPageContent/Apis";
 import OtherResources from "../../components/frontendPageContent/OtherResources";
 import CheatSheets from "../../components/frontendPageContent/CheatSheets";
 import WhatNext from "../../components/frontendPageContent/WhatNext";
+import JsFrameworks from "../../components/frontendPageContent/JsFrameworks";
+import DesignResources from "../../components/frontendPageContent/DesignResources";
 
 const FrontendPage = () => {
   const title = "";
@@ -68,6 +70,8 @@ const FrontendPage = () => {
         <CssProcessors />
         <Json />
         <Apis />
+        <JsFrameworks />
+        <DesignResources />
         <CheatSheets />
         <OtherResources />
         <WhatNext />
