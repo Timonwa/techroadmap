@@ -1,10 +1,13 @@
-## Issue number:
+# Resource Template
 
-## Changes:
+## Issue number
+
+## Changes
+
 - [ ] I added new resource links
 - [ ] I updated existing resource links
 
-## Description:
+## Description
 
 (What page did you work on)
 
@@ -12,7 +15,7 @@
 
 (Describe how this update/changes were implemented)
 
-## Checklist:
+## Checklist
 
 - [ ] I have confirmed that this is/are not duplicate resource link(s)
 - [ ] I have confirmed that I followed the code format/template used for adding the links in that particular section
@@ -25,6 +28,6 @@
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 
-## Questions:
+## Questions
 
-## Comments:
+## Comments

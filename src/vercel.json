@@ -1,0 +1,54 @@
+{
+  "redirects": [
+    {
+      "source": "careerroadmap.tech",
+      "destination": "www.techroadmap.xyz",
+      "permanent": true
+    },
+    {
+      "source": "www.careerroadmap.tech",
+      "destination": "www.techroadmap.xyz",
+      "permanent": true
+    },
+    {
+      "source": "careerroadmap.tech/html/careers.html",
+      "destination": "techroadmap.xyz/careers",
+      "permanent": true
+    },
+    {
+      "source": "careerroadmap.tech/html/contribute.html",
+      "destination": "techroadmap.xyz/contribute",
+      "permanent": true
+    },
+    {
+      "source": "careerroadmap.tech/html/careers/frontend.html",
+      "destination": "techroadmap.xyz/frontend",
+      "permanent": true
+    },
+    {
+      "source": "careerroadmap.tech/html/careers/backend.html",
+      "destination": "techroadmap.xyz/backend",
+      "permanent": true
+    },
+    {
+      "source": "techroadmap.xyz/html/careers.html",
+      "destination": "techroadmap.xyz/careers",
+      "permanent": true
+    },
+    {
+      "source": "techroadmap.xyz/html/contribute.html",
+      "destination": "techroadmap.xyz/contribute",
+      "permanent": true
+    },
+    {
+      "source": "techroadmap.xyz/html/careers/frontend.html",
+      "destination": "techroadmap.xyz/frontend",
+      "permanent": true
+    },
+    {
+      "source": "techroadmap.xyz/html/careers/backend.html",
+      "destination": "www.techroadmap.xyz/backend",
+      "permanent": true
+    }
+  ]
+}

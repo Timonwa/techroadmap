@@ -14,6 +14,7 @@
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Timonwa/techroadmap/)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-blue.svg)](https://github.com/Timonwa/techroadmap)
 [![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](http://www.buymeacoffee.com/timonwa)
+
 <!--[![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)]()-->
 
 <!--[![Whatsapp](https://img.shields.io/badge/Whatsapp%20-Group-blue)]()-->
@@ -23,13 +24,14 @@
 
 ⭐ Please click the star above on this repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
-[Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry. 
-Anyone who wants to break or transition into the tech industry or has already broken into it, 
+[Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry.
+Anyone who wants to break or transition into the tech industry or has already broken into it,
 can use these resources to choose and define their career path and learn about the skills needed to build themselves in the chosen career.
 
 <img src="https://github.com/Timonwa/techroadmap/blob/main/src/assets/seo-image.png" alt="download-1" border="0">
 
 ## Table of Content
+
 - [About The Project](#about-the-project)
 - [Project Status](#project-status)
 - [Getting Started](#getting-started)
@@ -38,7 +40,8 @@ can use these resources to choose and define their career path and learn about t
 - [License](#license)
 
 ## About The Project
-Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs. 
+
+Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs.
 So if you are looking for resources either for yourself or someone else about the beginning and growing a tech career, then Tech Roadmap is definitely the place to start.
 
 The roadmaps or step-by-step guides are carefully curated for the different Tech Careers listed on our websites. And the collections of resources are carefully arranged so that the learner has a guided learning path.
@@ -48,6 +51,7 @@ The roadmaps or step-by-step guides are carefully curated for the different Tech
 [⬆ Back to Top](#table-of-content)
 
 ## Project Status
+
 Tech Roadmap is live with the first roadmap created ([Frontend Development Roadmap](https://techroadmap.netlify.app/html/careers/frontend.html)).
 
 I am working on adding more quality roadmaps on other Tech Careers. Anticipate! 😁
@@ -55,17 +59,18 @@ I am working on adding more quality roadmaps on other Tech Careers. Anticipate! 
 The project is currently built with HTML, CSS, and JavaScript. Soon all data will be removed from the html pages and placed into corresponding Json files to have cleaner html documents.
 
 Readmes will also be created for each roadmap so that one can also have copies of the resources on GitHub by forking the repository.
- 
+
 It will also be migrated to the React Framework in the later future.
 
 [⬆ Back to Top](#table-of-content)
 
 ## Getting Started
+
 Getting started is easy. Our [website](https://techroadmap.netlify.app) is easy to navigate with simplicity but quality as part of our goals.
 
 But if you would like to fork the repository instead either for personal learning or contributing to the project, then please follow the steps below:
 
-*Note: For contributing to this repo, please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) before making any contributions.* 
+_Note: For contributing to this repo, please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) before making any contributions._
 
 [⬆ Back to Top](#table-of-content)
 
@@ -80,7 +85,7 @@ Now clone the forked repository to your machine. Go to your GitHub account, open
 
 Open a terminal and run the following git command:
 
-```
+```git
 git clone "url you just copied"
 ```
 
@@ -88,33 +93,49 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 
 For example:
 
-```
+```git
 git clone https://github.com/your-username/techroadmap.git
 ```
 
-where `your-username` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+where `your-username` is your GitHub username. Here you're copying the contents of the Tech Roadmap repository on GitHub to your computer.
 
 ### Create a branch
 
 Change to the repository directory on your computer (if you are not already there):
 
-```
+```git
 cd techroadmap
 ```
 
 Now create a branch using the `git checkout` command:
 
-```
+```git
 git checkout -b your-new-branch-name
 ```
 
 For example:
 
-```
+```git
 git checkout -b addDesignRoadmap
 ```
 
-(Please let the name of the branch be descriptive of the changes you are about to make.)
+_Note: Let the name of the branch be descriptive of the changes you are about to make._
+
+### Run the React app
+
+First of all, install all the dependencies needed to run the react app on your system sucessfully by using the command `npm install`:
+
+```git
+npm install
+```
+
+After that, run the command `npm start` to view the app and any changes you might make in your browser.
+
+```git
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
 
 ### Make necessary changes and commit those changes
 
@@ -124,29 +145,31 @@ You can execute the command `git status`, to see the files you have made the cha
 
 Add those changes to the branch you just created using the `git add .` command:
 
-```
+```git
 git add .
 ```
 
 Now commit those changes using the `git commit` command:
 
-```
+```git
 git commit -m "Descriptive commit message on the changes you made."
 ```
 
+_Note: Ensure that there are no warnings or errors in your console before making any commits and pull requests._
+
 ### Push changes to GitHub
 
-Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull upstream main`
+Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull origin main`
 
-```
-git pull upstream main
+```git
+git pull origin main
 ```
 
 and fix any merge conflicts you might have before pushing your changes.
 
 Now push your changes using the command `git push`:
 
-```
+```git
 git push origin your-new-branch-name
 ```
 
@@ -163,11 +186,13 @@ Your changes or contributions will be reviewed and if ok, merged into the main b
 [⬆ Back to Top](#table-of-content)
 
 ## How to Get Help
-If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>
+
+If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>.
 
 [⬆ Back to Top](#table-of-content)
 
 ## Contributing
+
 Remember, we encourage public contributions to this repository! So please read our [Code of Conduct](https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md) on how to go about it.
 
 [⬆ Back to Top](#table-of-content)
@@ -179,5 +204,5 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
 [⬆ Back to Top](#table-of-content)
 
 <!-- ## Authors
-Timonwa 
+Timonwa
 Also see the list of contributors who participated in this project. -->
