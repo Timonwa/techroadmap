@@ -14,6 +14,8 @@ import SideBar from "../../components/SideBar/SideBar";
 import FrontendNav from "../../components/frontendPageContent/FrontendNav";
 import HtmlAndCssAdvanced from "../../components/frontendPageContent/HtmlAndCssAdvanced";
 import VersionControl from "../../components/VersionControl";
+import DeploymentServices from "../../components/frontendPageContent/DeploymentServices";
+import Debugging from "../../components/frontendPageContent/Debugging";
 
 const FrontendPage = () => {
   const title = "";
@@ -49,6 +51,8 @@ const FrontendPage = () => {
         <HtmlAndCssBasic />
         <HtmlAndCssAdvanced />
         <VersionControl />
+        <DeploymentServices />
+        <Debugging />
       </main>
       <ContributeCTA />
       <Footer />
