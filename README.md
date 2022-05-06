@@ -187,7 +187,7 @@ Your changes or contributions will be reviewed and if ok, merged into the main b
 
 ## How to Get Help
 
-If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>
+If you need more help, feel free to send an email to <a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>.
 
 [⬆ Back to Top](#table-of-content)
 
