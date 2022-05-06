@@ -161,7 +161,7 @@ _Note: Ensure that there are no warnings or errors in your console before making
 
 Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull origin main`
 
-```git
+```
 git pull origin main
 ```
 
