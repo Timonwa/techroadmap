@@ -13,6 +13,7 @@ import HtmlAndCssBasic from "../../components/frontendPageContent/HtmlAndCssBasi
 import SideBar from "../../components/SideBar/SideBar";
 import FrontendNav from "../../components/frontendPageContent/FrontendNav";
 import HtmlAndCssAdvanced from "../../components/frontendPageContent/HtmlAndCssAdvanced";
+import VersionControl from "../../components/VersionControl";
 
 const FrontendPage = () => {
   const title = "";
@@ -47,6 +48,7 @@ const FrontendPage = () => {
         <CodeEditors />
         <HtmlAndCssBasic />
         <HtmlAndCssAdvanced />
+        <VersionControl />
       </main>
       <ContributeCTA />
       <Footer />
