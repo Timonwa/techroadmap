@@ -6,8 +6,15 @@ import BackendNav from "../../components/backendPageContent/BackendNav";
 import Banner from "../../components/Banner/Banner";
 import Intro from "../../components/backendPageContent/Intro";
 import WhatIs from "../../components/backendPageContent/WhatIs";
+import Roadmap from "../../components/backendPageContent/Roadmap";
 import Networking from "../../components/Networking";
+import CodeEditors from "../../components/backendPageContent/CodeEditors";
+import FrontendBasics from "../../components/backendPageContent/FrontendBasics";
+import BackendLangs from "../../components/backendPageContent/BackendLangs";
 import VersionControl from "../../components/VersionControl";
+import DeploymentServices from "../../components/backendPageContent/DeploymentServices";
+import Database from "../../components/backendPageContent/Database";
+import Frameworks from "../../components/backendPageContent/Frameworks";
 import OtherResources from "../../components/backendPageContent/OtherResources";
 import CheatSheets from "../../components/backendPageContent/CheatSheets";
 import WhatNext from "../../components/backendPageContent/WhatNext";
@@ -42,8 +49,15 @@ const BackendPage = () => {
       <main>
         <Intro />
         <WhatIs />
+        <Roadmap />
         <Networking />
+        <CodeEditors />
+        <FrontendBasics />
+        <BackendLangs />
         <VersionControl />
+        <DeploymentServices />
+        <Database />
+        <Frameworks />
         <CheatSheets />
         <OtherResources />
         <WhatNext />

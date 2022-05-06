@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeDescription = () => {
   return (
@@ -23,9 +24,9 @@ const HomeDescription = () => {
           <p>
             You can click on one of the career cards below if you have already
             chosen a career path or go to our{" "}
-            <a className="paragraph-links" href="./html/careers.html">
+            <Link className="paragraph-links" to="/careers">
               careers page{" "}
-            </a>
+            </Link>
             if you need help in deciding the one to choose.
           </p>
         </div>

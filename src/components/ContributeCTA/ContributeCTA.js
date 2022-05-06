@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ContributeCTA.scss";
 
 const ContributeCTA = () => {
@@ -22,9 +23,9 @@ const ContributeCTA = () => {
           </p>
           <p>
             If you would like to contribute to this project, please visit our{" "}
-            <a className="paragraph-links" href="./html/contribute.html">
+            <Link className="paragraph-links" to="/contribute">
               contributors page
-            </a>{" "}
+            </Link>{" "}
             to find out how to contribute.
           </p>
           <p style={displayNone}>
