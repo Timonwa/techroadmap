@@ -110,7 +110,6 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                in
                 href="https://www.youtube.com/playlist?list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO">
                 ExpressJs Tutorial for Beginners. ~ ARC Tutorials
               </a>
@@ -119,7 +118,6 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                in
                 href="https://www.youtube.com/playlist?list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">
                 ExpressJs 2022 Course ~ Anson the developers
               </a>
