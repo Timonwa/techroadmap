@@ -1,11 +1,16 @@
 import React, { useEffect } from "react";
+import NavSpace from "../../components/NavBar/NavSpace";
 import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
-import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
-import Footer from "../../components/Footer/Footer";
 import Intro from "../../components/backendPageContent/Intro";
 import WhatIs from "../../components/backendPageContent/WhatIs";
-import NavSpace from "../../components/NavBar/NavSpace";
+import Networking from "../../components/Networking";
+import VersionControl from "../../components/VersionControl";
+import OtherResources from "../../components/backendPageContent/OtherResources";
+import CheatSheets from "../../components/backendPageContent/CheatSheets";
+import WhatNext from "../../components/backendPageContent/WhatNext";
+import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
+import Footer from "../../components/Footer/Footer";
 
 const BackendPage = () => {
   const title = "";
@@ -26,6 +31,11 @@ const BackendPage = () => {
       <main>
         <Intro />
         <WhatIs />
+        <Networking />
+        <VersionControl />
+        <CheatSheets />
+        <OtherResources />
+        <WhatNext />
       </main>
       <ContributeCTA />
       <Footer />
