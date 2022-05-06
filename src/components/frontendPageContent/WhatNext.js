@@ -20,14 +20,14 @@ const WhatNext = () => {
           If you plan on becoming a FullStack Developer, then check out our
           Backend Development Roadmap. Don't forget to give us a Star on our{" "}
           <a
-            class="paragraph-links"
+            className="paragraph-links"
             href="http://github.com/Timonwa/techroadmap"
             target="_blank">
             repo
           </a>{" "}
           and tweet a thank you to the{" "}
           <a
-            class="paragraph-links"
+            className="paragraph-links"
             href="http://twitter.com/timonwa_"
             target="_blank">
             creator

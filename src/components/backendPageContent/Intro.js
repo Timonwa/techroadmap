@@ -3,10 +3,10 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <section class="intro">
-      <div class="intro-wrapper">
-        <h2 class="heading">Begin Your Backend Developer Journey!</h2>
-        <div class="intro__body">
+    <section className="intro">
+      <div className="intro-wrapper">
+        <h2 className="heading">Begin Your Backend Developer Journey!</h2>
+        <div className="intro__body">
           <p>
             Congratulations on choosing this career path. You are one step
             closer to becoming a backend developer. This guide is specially to

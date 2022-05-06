@@ -33,7 +33,7 @@ const DesignResources = () => {
                 Google Fonts
               </a>
               <ResourceBadge>Free</ResourceBadge>
-              <ResourceCardSubLinks class="resource-link-sublinks">
+              <ResourceCardSubLinks className="resource-link-sublinks">
                 <ResourceLink>
                   <a target="_blank" href="https://youtu.be/qgmLDPLApBY">
                     Add custom fonts to your website using Google Fonts. ~ Dcode

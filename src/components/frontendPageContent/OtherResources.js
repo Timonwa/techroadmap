@@ -1,9 +1,12 @@
 import React from "react";
+import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled";
 import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled";
+import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled";
 import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled";
 import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled";
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
+import { ResourceSectionLinks } from "../../styles/styled-components/ResourceSectionLinks.styled";
 
 const OtherResources = () => {
   return (
@@ -17,27 +20,27 @@ const OtherResources = () => {
         </p>
       </ResourceSectionBody>
 
-      <div class="resource-section__links">
+      <ResourceSectionLinks>
         {/* <!-- articles --> */}
-        <div class="resource-card">
-          <h3 class="resource-card-title">Articles</h3>
+        <ResourceCard>
+          <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="#"></a>
             </ResourceLink>
           </ResourceCardLinks>
-        </div>
+        </ResourceCard>
 
         {/* <!-- videos --> */}
-        <div class="resource-card">
-          <h3 class="resource-card-title">Videos</h3>
+        <ResourceCard>
+          <ResourceCardTitle>Videos</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="#"></a>
             </ResourceLink>
           </ResourceCardLinks>
-        </div>
-      </div>
+        </ResourceCard>
+      </ResourceSectionLinks>
     </ResourceSection>
   );
 };

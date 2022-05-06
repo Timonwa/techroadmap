@@ -107,7 +107,7 @@ const Apis = () => {
         {/* others  */}
         <ResourceCard>
           <ResourceCardTitle>Others</ResourceCardTitle>
-          <p class="resource-card-body">
+          <p className="resource-card-body">
             Tips and tricks, tools, cool examples etc.
           </p>
           <ResourceCardLinks>

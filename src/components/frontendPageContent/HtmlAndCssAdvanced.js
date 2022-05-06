@@ -122,7 +122,7 @@ const HtmlAndCssAdvanced = () => {
         {/* others */}
         <ResourceCard>
           <ResourceCardTitle>Others</ResourceCardTitle>
-          <p class="resource-card-body">
+          <p className="resource-card-body">
             Tips and tricks, tools, cool examples etc.
           </p>
           <ResourceCardLinks>
@@ -133,14 +133,14 @@ const HtmlAndCssAdvanced = () => {
                 Responsive Checker - Make sure your website looks perfect no
                 matter what device your visitors are using to view it!
               </a>
-              <span class="resource-link-badge">Tool</span>
+              <span className="resource-link-badge">Tool</span>
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://responsively.app/">
                 Responsively App - A dev-tool that aids faster and precise
                 responsive web development.
               </a>
-              <span class="resource-link-badge">Tool</span>
+              <span className="resource-link-badge">Tool</span>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>

@@ -167,13 +167,13 @@ const JsBasics = () => {
         {/*  others  */}
         <ResourceCard>
           <ResourceCardTitle>Others</ResourceCardTitle>
-          <p class="resource-card-body">
+          <p className="resource-card-body">
             Tips and tricks, tools, cool examples etc.
           </p>
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="#"></a>
-              <span class="resource-link-badge"></span>
+              <span className="resource-link-badge"></span>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>

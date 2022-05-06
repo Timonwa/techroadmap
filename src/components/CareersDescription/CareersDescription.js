@@ -1,5 +1,12 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled";
+import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled";
+import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled";
+import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled";
+import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled";
+import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
+import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
 
 const CareersDescription = () => {
   return (
@@ -35,113 +42,115 @@ const CareersDescription = () => {
       </section>
 
       {/* <!--* choosing a career --> */}
-      <section className="resource-section">
-        <h2 className="resource-section__heading">Learn About the Tech Careers</h2>
-        <div className="resource-section__links">
+      <ResourceSection>
+        <ResourceSectionHeading>
+          Learn About the Tech Careers
+        </ResourceSectionHeading>
+        <ResourceSectionBody>
           {/* <!-- articles --> */}
-          <div className="resource-card">
-            <h3 className="resource-card-title">Articles</h3>
-            <ul className="resource-card-links">
-              <li className="resource-link">
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://blog.timonwa.com/you-dont-need-to-write-code-to-become-a-tech-sisbro">
                   21 no-code tech jobs you can do to become a tech sis or tech
                   bro. ~ Timonwa
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://skillcrush.com/blog/41-tech-job-titles/">
                   41 Job Titles in Tech. Which One Will be Yours? ~ SkillCrush
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://www.business.com/articles/best-careers-tech-geeks/">
                   20 Top Career Paths for Tech Geeks ~ business.com
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://www.freecodecamp.org/news/how-to-choose-the-best-tech-career-path-for-you-61c4d5ff9a77/">
                   How to choose the best tech career path for you ~freecodecamp
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://edidiongasikpo.com/how-to-kickstart-a-career-in-tech">
                   How to Kickstart a Career in Tech ~ Edidiong Asikpo
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://therevealer.hashnode.dev/starting-out-in-tech-in-2022
 ">
                   Starting Out In Tech In 2022. ~ Emmanuel Aguchukwu
                 </a>
-              </li>
-            </ul>
-          </div>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
 
           {/* <!-- videos --> */}
-          <div className="resource-card">
-            <h3 className="resource-card-title">Videos</h3>
-            <ul className="resource-card-links">
-              <li className="resource-link">
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/PFucqbGqjrI">
                   How to Choose the Right Career in Tech. ~ Hossana Hali
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/wbQQ-XGx7s0">
                   How to Find the Right Role for You. ~ Stereotype Breakers
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/0_fuiK3b9OA">
                   In Demand Tech Jobs for 2021 Explained (No Coding) ~ Bukola
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/c8oLHzW2qFU">
                   7 Non-Coding Tech Jobs that pay $100k + in 2022 ~ Mo Salhan
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/29ZJ4lN0PJY">
                   IT or Developer - Which is the Right Career Choice for You? ~
                   I.T Career Questions
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://www.youtube.com/watch?v=xuxTJUIi7nQ">
                   The Career Paths in Software Engineering ~ Tiff In Tech
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a
                   target="_blank"
                   href="https://www.youtube.com/watch?v=07IViT_Ezuc">
                   Career Paths for Software Engineers ~ Engineering With Ustav
                 </a>
-              </li>
-              <li className="resource-link">
+              </ResourceLink>
+              <ResourceLink>
                 <a target="_blank" href="https://youtu.be/AJsdLnsEFPQ">
                   IT Career Paths ~ NexGenT
                 </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionBody>
+      </ResourceSection>
     </>
   );
 };

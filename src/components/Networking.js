@@ -18,9 +18,7 @@ const Networking = () => {
       <ResourceSectionLinks>
         {/* tech communities */}
         <ResourceCard id="communities">
-          <ResourceCardTitle>
-            <h3 class="resource-card-title">Tech Communities</h3>
-          </ResourceCardTitle>
+          <ResourceCardTitle>Tech Communities</ResourceCardTitle>
 
           <ResourceCardBody>
             <p>
@@ -76,9 +74,7 @@ const Networking = () => {
 
         {/* bootcamps */}
         <ResourceCard id="bootcamps">
-          <ResourceCardTitle>
-            <h3 class="resource-card-title">Bootcamps</h3>
-          </ResourceCardTitle>
+          <ResourceCardTitle>Bootcamps</ResourceCardTitle>
 
           <ResourceCardBody>
             <p>
@@ -116,9 +112,7 @@ const Networking = () => {
 
         {/* Internships and Mentoring */}
         <ResourceCard id="internships">
-          <ResourceCardTitle>
-            <h3 class="resource-card-title">Internships and Mentoring</h3>
-          </ResourceCardTitle>
+          <ResourceCardTitle>Internships and Mentoring</ResourceCardTitle>
 
           <ResourceCardBody>
             <p>
