@@ -24,11 +24,11 @@
 
 ⭐ Please click the star above on this repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
-[Tech Roadmap](https://techroadmap.netlify.app) is a free online resource on careers in the tech industry.
+[Tech Roadmap](https://techroadmap.xyz) is a free online resource on careers in the tech industry.
 Anyone who wants to break or transition into the tech industry or has already broken into it,
 can use these resources to choose and define their career path and learn about the skills needed to build themselves in the chosen career.
 
-<img src="https://github.com/Timonwa/techroadmap/blob/main/src/assets/seo-image.png" alt="download-1" border="0">
+![seo-image](https://user-images.githubusercontent.com/63044364/167291834-be8ee3cb-2901-4a3b-8171-daec5f469f4b.png)
 
 ## Table of Content
 
@@ -42,7 +42,7 @@ can use these resources to choose and define their career path and learn about t
 ## About The Project
 
 Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs.
-So if you are looking for resources either for yourself or someone else about the beginning and growing a tech career, then Tech Roadmap is definitely the place to start.
+So if you are looking for resources either for yourself or someone else about beginning and growing a tech career, then Tech Roadmap is definitely the place to start.
 
 The roadmaps or step-by-step guides are carefully curated for the different Tech Careers listed on our websites. And the collections of resources are carefully arranged so that the learner has a guided learning path.
 
@@ -52,21 +52,18 @@ The roadmaps or step-by-step guides are carefully curated for the different Tech
 
 ## Project Status
 
-Tech Roadmap is live with the first roadmap created ([Frontend Development Roadmap](https://techroadmap.netlify.app/html/careers/frontend.html)).
+Tech Roadmap is live and you can check out the list of available careers on our [Careers Page](https://techroadmap.xyz/careers).
 
-I am working on adding more quality roadmaps on other Tech Careers. Anticipate! 😁
+More quality roadmaps will be added on other Tech Careers over time. Anticipate! 😁
 
-The project is currently built with HTML, CSS, and JavaScript. Soon all data will be removed from the html pages and placed into corresponding Json files to have cleaner html documents.
+The project is built with ReactJs and Styled-Components.
 
-Readmes will also be created for each roadmap so that one can also have copies of the resources on GitHub by forking the repository.
-
-It will also be migrated to the React Framework in the later future.
 
 [⬆ Back to Top](#table-of-content)
 
 ## Getting Started
 
-Getting started is easy. Our [website](https://techroadmap.netlify.app) is easy to navigate with simplicity but quality as part of our goals.
+Getting started is easy. Our [website](https://techroadmap.xyz) is easy to navigate with simplicity but quality as part of our goals.
 
 But if you would like to fork the repository instead either for personal learning or contributing to the project, then please follow the steps below:
 
