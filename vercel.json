@@ -1,26 +1,6 @@
 {
   "redirects": [
     {
-      "source": "https://careerroadmap.tech/html/careers.html",
-      "destination": "/careers",
-      "statusCode": 301
-    },
-    {
-      "source": "https://careerroadmap.tech/html/contribute.html",
-      "destination": "/contribute",
-      "statusCode": 301
-    },
-    {
-      "source": "https://careerroadmap.tech/html/careers/frontend.html",
-      "destination": "/frontend",
-      "statusCode": 301
-    },
-    {
-      "source": "https://careerroadmap.tech/html/careers/backend.html",
-      "destination": "/backend",
-      "statusCode": 301
-    },
-    {
       "source": "/html/careers.html",
       "destination": "/careers",
       "statusCode": 301
