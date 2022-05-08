@@ -1,44 +1,44 @@
 {
   "redirects": [
     {
-      "source": "careerroadmap.tech/html/careers.html",
-      "destination": "techroadmap.xyz/careers",
-      "permanent": true
+      "source": "https://careerroadmap.tech/html/careers.html",
+      "destination": "/careers",
+      "statusCode": 301
     },
     {
-      "source": "careerroadmap.tech/html/contribute.html",
-      "destination": "techroadmap.xyz/contribute",
-      "permanent": true
+      "source": "https://careerroadmap.tech/html/contribute.html",
+      "destination": "/contribute",
+      "statusCode": 301
     },
     {
-      "source": "careerroadmap.tech/html/careers/frontend.html",
-      "destination": "techroadmap.xyz/frontend",
-      "permanent": true
+      "source": "https://careerroadmap.tech/html/careers/frontend.html",
+      "destination": "/frontend",
+      "statusCode": 301
     },
     {
-      "source": "careerroadmap.tech/html/careers/backend.html",
-      "destination": "techroadmap.xyz/backend",
-      "permanent": true
+      "source": "https://careerroadmap.tech/html/careers/backend.html",
+      "destination": "/backend",
+      "statusCode": 301
     },
     {
-      "source": "techroadmap.xyz/html/careers.html",
-      "destination": "techroadmap.xyz/careers",
-      "permanent": true
+      "source": "/html/careers.html",
+      "destination": "/careers",
+      "statusCode": 301
     },
     {
-      "source": "techroadmap.xyz/html/contribute.html",
-      "destination": "techroadmap.xyz/contribute",
-      "permanent": true
+      "source": "/html/contribute.html",
+      "destination": "/contribute",
+      "statusCode": 301
     },
     {
-      "source": "techroadmap.xyz/html/careers/frontend.html",
-      "destination": "techroadmap.xyz/frontend",
-      "permanent": true
+      "source": "/html/careers/frontend.html",
+      "destination": "/frontend",
+      "statusCode": 301
     },
     {
-      "source": "techroadmap.xyz/html/careers/backend.html",
-      "destination": "www.techroadmap.xyz/backend",
-      "permanent": true
+      "source": "/html/careers/backend.html",
+      "destination": "/backend",
+      "statusCode": 301
     }
   ]
 }
