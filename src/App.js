@@ -5,6 +5,7 @@ import Careers from "./pages/CareersPage/CareersPage";
 import Contribute from "./pages/ContributePage/ContributePage";
 import Frontend from "./pages/FrontendPage/FrontendPage";
 import Backend from "./pages/BackendPage/BackendPage";
+import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 // import Blockchain from "./pages/BlockchainPage/BlockchainPage";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path="/backend" element={<Backend />} />
         {/* <Route path="/blockchain" element={<Blockchain />} /> */}
         {/* <Route path="/post/:id" element={<Post />} /> */}
-        {/* <Route path="*" element={<NotFoundPage />} /> */}
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );
