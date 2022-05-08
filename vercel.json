@@ -1,16 +1,6 @@
 {
   "redirects": [
     {
-      "source": "careerroadmap.tech",
-      "destination": "www.techroadmap.xyz",
-      "permanent": true
-    },
-    {
-      "source": "www.careerroadmap.tech",
-      "destination": "www.techroadmap.xyz",
-      "permanent": true
-    },
-    {
       "source": "careerroadmap.tech/html/careers.html",
       "destination": "techroadmap.xyz/careers",
       "permanent": true
