@@ -15,7 +15,7 @@ Before making any contributions, read first our [Code of Conduct](https://github
 
 ## No Code Contributions
 
-If you are a non-developer or do not want to contribute as a developer, you can do that by filling any of the form on the [contribute page](https://careerroadmap.tech/html/contribute) on our website.
+If you are a non-developer or do not want to contribute as a developer, you can do that by filling any of the form on the [contribute page](https://techroadmap.xyz/contribute) on our website.
 
 ## The Goal
 
