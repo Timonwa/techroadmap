@@ -20,6 +20,7 @@ import CheatSheets from "../../components/backendPageContent/CheatSheets";
 import WhatNext from "../../components/backendPageContent/WhatNext";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
+import Helmet from "react-helmet";
 
 const BackendPage = () => {
   const title = "";
@@ -39,7 +40,43 @@ const BackendPage = () => {
   };
 
   return (
-    <div className="contribute-page">
+    <div className="backend-page">
+      <Helmet>
+        <title>Backend Development Roadmap. | Tech Roadmap.</title>
+        {/* <!-- Primary Meta Tags --> */}
+        <meta
+          name="title"
+          content="Backend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          name="description"
+          content="Free videos, articles, guides and other resources to help you become a backend developer."
+        />
+        {/* Open Graph / Facebook Meta Tags */}
+
+        <meta property="og:url" content="https://techroadmap.xyz/backend" />
+        <meta
+          property="og:title"
+          content="Backend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          property="og:description"
+          content="Free videos, articles, guides and other resources to help you become a backend developer."
+        />
+        {/* Twitter Meta Tags */}
+        <meta
+          property="twitter:url"
+          content="https://techroadmap.xyz/backend"
+        />
+        <meta
+          property="twitter:title"
+          content="Backend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          property="twitter:description"
+          content="Free videos, articles, guides and other resources to help you become a backend developer."
+        />
+      </Helmet>
       <NavSpace />
       <NavBar />
       <SideBar handleMenu={handleMenu} openMenu={openMenu}>

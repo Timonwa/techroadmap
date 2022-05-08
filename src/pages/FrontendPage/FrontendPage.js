@@ -27,6 +27,7 @@ import CheatSheets from "../../components/frontendPageContent/CheatSheets";
 import WhatNext from "../../components/frontendPageContent/WhatNext";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
+import Helmet from "react-helmet";
 
 const FrontendPage = () => {
   const title = "";
@@ -46,7 +47,43 @@ const FrontendPage = () => {
   };
 
   return (
-    <div className="contribute-page">
+    <div className="frontend-page">
+      <Helmet>
+        <title>Frontend Development Roadmap. | Tech Roadmap.</title>
+        {/* Primary Meta Tags */}
+        <meta
+          name="title"
+          content="Frontend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          name="description"
+          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+        />
+        {/* Open Graph / Facebook Meta Tags */}
+
+        <meta property="og:url" content="https://techroadmap.xyz/frontend" />
+        <meta
+          property="og:title"
+          content="Frontend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          property="og:description"
+          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+        />
+        {/* Twitter Meta Tags */}
+        <meta
+          property="twitter:url"
+          content="https://techroadmap.xyz/frontend"
+        />
+        <meta
+          property="twitter:title"
+          content="Frontend Development Roadmap. | Tech Roadmap."
+        />
+        <meta
+          property="twitter:description"
+          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+        />
+      </Helmet>
       <NavSpace />
       <NavBar />
       <SideBar handleMenu={handleMenu} openMenu={openMenu}>
