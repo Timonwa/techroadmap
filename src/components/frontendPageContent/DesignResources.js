@@ -229,7 +229,9 @@ const DesignResources = () => {
           <ResourceCardTitle>Others</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href=""></a>
+              <a target="_blank" href="https://fontello.com/">Fontello - icon fonts generator</a>
+              <ResourceBadge>Free</ResourceBadge>
+              <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
