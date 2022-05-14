@@ -16,21 +16,29 @@ const WhatNext = () => {
           practice your skills, build more projects, and apply for jobs.
         </p>
         <p>
-          If you have any questions, feel free to message us on{" "}
+          Feel free to tweet a thank you to us at{" "}
           <a
             className="paragraph-links"
             href="http://twitter.com/techroadmap__"
             target="_blank">
-            twitter
+            @techroadmap__
+          </a>{" "}
+          on twitter and if you have any questions or comments, feel free to
+          send us a dm too or email us at{" "}
+          <a
+            className="paragraph-links"
+            href="mailto:techcareerroadmap@gmail.com"
+            target="_blank">
+            techcareerroadmap@gmail.com
           </a>
           . Don't forget to give us a Star on our{" "}
           <a
             className="paragraph-links"
             href="http://github.com/Timonwa/techroadmap"
             target="_blank">
-            repo
-          </a>{" "}
-          too! .
+            GitHub repo
+          </a>
+          !
         </p>
 
         <p>Happy Coding!</p>
