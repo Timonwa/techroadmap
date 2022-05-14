@@ -8,7 +8,6 @@ import { ResourceSection } from "../../styles/styled-components/ResourceSection.
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
 import { ResourceSectionLinks } from "../../styles/styled-components/ResourceSectionLinks.styled";
-import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled";
 
 const JsBasics = () => {
   return (
@@ -173,8 +172,7 @@ const JsBasics = () => {
           </p>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="https://codepen.io/">Codepen - The best place to build, test, and discover front-end code.</a>
-              <ResourceBadge>Tool</ResourceBadge>
+              <a target="_blank" href=""></a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
