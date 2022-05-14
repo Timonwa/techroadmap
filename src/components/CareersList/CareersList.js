@@ -22,7 +22,7 @@ const CareersList = () => {
       title: "Blockchain Developer",
       body: "Curated guide and resources to becoming a blockchain developer.",
       comingSoon: true,
-      inProgress: false,
+      inProgress: true,
       link: "#",
     },
     {

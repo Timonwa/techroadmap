@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Route, Routes } from "react-router";
 import "./App.scss";
 import HomePage from "./pages/HomePage/HomePage.js";
