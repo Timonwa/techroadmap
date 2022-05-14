@@ -20,9 +20,9 @@ const WhatIs = () => {
 
       <ResourceSectionBody>
         <p>
-          Blockchain development is the process of creating a new kind of
+          {/* Blockchain development is the process of creating a new kind of
           digital ledger that is based on a consensus algorithm. The consensus
-          algorithm is a set of rules that govern the ledger.
+          algorithm is a set of rules that govern the ledger. */}
         </p>
         <p>
           Learn more about what blockchain development is by clicking the links
