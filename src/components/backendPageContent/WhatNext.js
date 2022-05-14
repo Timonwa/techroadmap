@@ -20,6 +20,13 @@ const WhatNext = () => {
           <Link to="/frontend" className="paragraph-links">
             Frontend Development Roadmap
           </Link>
+          . If you have any questions, feel free to message us on{" "}
+          <a
+            className="paragraph-links"
+            href="http://twitter.com/techroadmap__"
+            target="_blank">
+            twitter
+          </a>
           . Don't forget to give us a Star on our{" "}
           <a
             className="paragraph-links"
@@ -27,14 +34,7 @@ const WhatNext = () => {
             target="_blank">
             repo
           </a>{" "}
-          and tweet a thank you to the{" "}
-          <a
-            className="paragraph-links"
-            href="http://twitter.com/timonwa_"
-            target="_blank">
-            creator
-          </a>{" "}
-          of this project.
+          too!
         </p>
 
         <p>Happy Coding!</p>
