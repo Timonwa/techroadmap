@@ -24,10 +24,8 @@ import Helmet from "react-helmet";
 
 const BlockchainPage = () => {
   const title = "";
-  const quote =
-    '"Websites promote you 24/7: No employee will do that." – Paul Cookson';
-  const image =
-    "https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg";
+  const quote = `"The old question 'Is it in the database?' will be replaced by 'Is it on the blockchain?'" – William Mougayar`;
+  const image = "https://i.ibb.co/gzSqzbb/blockchain.jpg";
 
   useEffect(() => {
     window.scroll(0, 0);
