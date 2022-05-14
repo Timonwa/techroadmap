@@ -24,7 +24,7 @@ const HtmlAndCssBasic = () => {
           HTML and CSS are the 2 most important languages when it comes to
           building a website. HTML which stands for Hypertext Markup Language
           provides the structure of the page and CSS which stands for Cascading
-          Style Sheets determines the visual layout of webpages. These are the
+          Style sheets determines the visual layout of webpages. These are the
           first set of languages you will learn as a frontend developer.
         </p>
         <p>
