@@ -16,7 +16,7 @@ import DeploymentServices from "../../components/backendPageContent/DeploymentSe
 import Database from "../../components/backendPageContent/Database";
 import Frameworks from "../../components/backendPageContent/Frameworks";
 import OtherResources from "../../components/backendPageContent/OtherResources";
-import CheatSheets from "../../components/backendPageContent/CheatSheets";
+import Cheatsheets from "../../components/backendPageContent/Cheatsheets";
 import WhatNext from "../../components/backendPageContent/WhatNext";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
@@ -95,7 +95,7 @@ const BackendPage = () => {
         <DeploymentServices />
         <Database />
         <Frameworks />
-        <CheatSheets />
+        <Cheatsheets />
         <OtherResources />
         <WhatNext />
       </main>

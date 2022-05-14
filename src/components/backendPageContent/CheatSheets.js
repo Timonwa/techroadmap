@@ -5,7 +5,7 @@ import { ResourceSection } from "../../styles/styled-components/ResourceSection.
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
 
-const CheatSheets = () => {
+const Cheatsheets = () => {
   return (
     <ResourceSection id="cheatsheets">
       <ResourceSectionHeading>Cheatsheets</ResourceSectionHeading>
@@ -27,4 +27,4 @@ const CheatSheets = () => {
   );
 };
 
-export default CheatSheets;
+export default Cheatsheets;
