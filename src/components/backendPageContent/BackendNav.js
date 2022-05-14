@@ -7,12 +7,12 @@ import { SideBarSubtitle } from "../../styles/styled-components/SideBarSubtitle.
 const BackendNav = ({ handleMenu, openMenu }) => {
   return (
     <SideBarLinks className={`sideBar-links ${openMenu ? "" : "active"}`}>
-      {/* what is frontend  */}
+      {/* what is backend  */}
       <SideBarTitle onClick={handleMenu}>
         <a href="#what-is">What is Backend Dev.</a>
       </SideBarTitle>
 
-      {/* frontend roadmap  */}
+      {/* backend roadmap  */}
       <SideBarTitle onClick={handleMenu}>
         <a href="#roadmap">Backend Dev. Roadmap</a>
       </SideBarTitle>
@@ -51,7 +51,7 @@ const BackendNav = ({ handleMenu, openMenu }) => {
 
       {/* javascript  */}
       <SideBarTitle onClick={handleMenu}>
-        <a href="#frontend">Basics of Frontend</a>
+        <a href="#backend">Basics of backend</a>
       </SideBarTitle>
 
       {/* languages  */}
