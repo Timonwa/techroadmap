@@ -172,8 +172,7 @@ const JsBasics = () => {
           </p>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="#"></a>
-              <span className="resource-link-badge"></span>
+              <a target="_blank" href=""></a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
