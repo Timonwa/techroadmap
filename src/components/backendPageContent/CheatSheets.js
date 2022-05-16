@@ -21,7 +21,7 @@ const CheatSheets = () => {
 
       <ResourceCardLinks>
         <ResourceLink>
-          <a href="../../assets/backend/cheatsheets/test.txt" >Test file</a>
+          <a href="../../assets/backend/cheatsheets/test.txt" download>Test file</a>
         </ResourceLink>
       </ResourceCardLinks>
     </ResourceSection>
