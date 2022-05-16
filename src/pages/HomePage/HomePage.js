@@ -20,27 +20,27 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <Helmet>
-        <title>Tech Roadmap</title>
+        {/* <title>Tech Roadmap</title> */}
         {/* Primary Meta Tags */}
-        <meta name="title" content="Tech Roadmap" />
+        {/* <meta name="title" content="Tech Roadmap" />
         <meta
           name="description"
           content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
-        />
+        /> */}
         {/* Open Graph / Facebook Meta Tags */}
-        <meta property="og:url" content="https://techroadmap.xyz" />
+        {/* <meta property="og:url" content="https://techroadmap.xyz" />
         <meta property="og:title" content="Tech Roadmap" />
         <meta
           property="og:description"
           content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
-        />
+        /> */}
         {/* Twitter Meta Tags */}
-        <meta property="twitter:url" content="https://techroadmap.xyz" />
+        {/* <meta property="twitter:url" content="https://techroadmap.xyz" />
         <meta property="twitter:title" content="Tech Roadmap" />
         <meta
           property="twitter:description"
           content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
-        />
+        /> */}
       </Helmet>
       <NavSpace />
       <NavBar />
