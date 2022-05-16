@@ -4,6 +4,7 @@ import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled
 import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled";
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
+import {Link} from "react-router-dom"
 
 const CheatSheets = () => {
   return (
@@ -20,7 +21,7 @@ const CheatSheets = () => {
 
       <ResourceCardLinks>
         <ResourceLink>
-          <a href="#" target="_blank"></a>
+          <Link to="../../assets/backend/cheatsheets/test.txt">Test file</Link>
         </ResourceLink>
       </ResourceCardLinks>
     </ResourceSection>
