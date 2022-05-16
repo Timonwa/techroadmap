@@ -23,7 +23,6 @@ import Apis from "../../components/frontendPageContent/Apis";
 import JsFrameworks from "../../components/frontendPageContent/JsFrameworks";
 import DesignResources from "../../components/frontendPageContent/DesignResources";
 import OtherResources from "../../components/frontendPageContent/OtherResources";
-import CheatSheets from "../../components/frontendPageContent/CheatSheets";
 import WhatNext from "../../components/frontendPageContent/WhatNext";
 import ContributeCTA from "../../components/ContributeCTA/ContributeCTA";
 import Footer from "../../components/Footer/Footer";
@@ -109,7 +108,6 @@ const FrontendPage = () => {
         <Apis />
         <JsFrameworks />
         <DesignResources />
-        <CheatSheets />
         <OtherResources />
         <WhatNext />
       </main>
