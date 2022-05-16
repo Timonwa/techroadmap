@@ -152,11 +152,6 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               </SideBarSubLinks>
             </SideBarTitle>
 
-            {/* cheatsheet  */}
-            <SideBarTitle onClick={handleMenu}>
-              <a href="#cheatsheets">Cheatsheets</a>
-            </SideBarTitle>
-
             {/* others  */}
             <SideBarTitle onClick={handleMenu}>
               <a href="#other-resource">Other Useful Resource</a>
