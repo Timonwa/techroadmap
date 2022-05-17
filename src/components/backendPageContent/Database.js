@@ -103,6 +103,50 @@ const Database = () => {
           </ResourceCardLinks>
         </ResourceCard>
 
+        <ResourceCardLinks>
+          <ResourceCard id="postgresql">
+            <ResourceCardTitle>PostgreSQL</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a href="https://www.postgresql.org/" target="_blank">
+                  Website
+                </a>
+                <ResourceBadge>Link</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  href="https://youtu.be/qw--VYLpxG4"
+                  target="_blank">
+                  Learn PostgreSQL Tutorial for Beginners
+                  ~ FreeCodeCamp
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a href="https://youtu.be/Dd2ej-QKrWY" target="_blank">
+                  Intro To PostgreSQL Databases With PgAdmin Full Course ~ Codemy - John Elder
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW"
+                  target="_blank">
+                  Recipe App Using Node.js and PostgreSQL ~ Traversy Media
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a href="https://youtu.be/w25ea_I89iM" target="_blank">
+                  Build and Deploy A Python Web App | Flask, Postgres and Heroku ~ Traversy Media
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceCardLinks>
+
+
         {/*  non-relational Database */}
         <ResourceCard id="nonrelational-db">
           <ResourceCardTitle>Non-Relational Database</ResourceCardTitle>
@@ -170,7 +214,7 @@ const Database = () => {
           </ResourceCardLinks>
         </ResourceCard>
       </ResourceSectionLinks>
-    </ResourceSection>
+    </ResourceSection >
   );
 };
 
