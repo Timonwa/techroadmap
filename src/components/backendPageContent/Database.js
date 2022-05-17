@@ -2,6 +2,7 @@
 import React from "react";
 import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled";
 import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled";
+import { ResourceCardBody } from "../../styles/styled-components/ResourceCardBody.styled";
 import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled";
 import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled";
 import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled";
@@ -53,14 +54,18 @@ const Database = () => {
         {/*  Relational Database */}
         <ResourceCard id="relational-db">
           <ResourceCardTitle>Relational Database</ResourceCardTitle>
-          <p>
-            Relational databases are the most common database type. They are a
-            type of database that stores data in a structured way. They are
-            usually used to store data in tables. The most common relational
-            database is MySQL. Others are PostgreSQL, Microsoft SQL Server,
-            Oracle, and SQLite.
-          </p>
+          <ResourceCardBody>
+            <p>
+              Relational databases are the most common database type. They are a
+              type of database that stores data in a structured way. They are
+              usually used to store data in tables. The most common relational
+              database is MySQL. Others are PostgreSQL, Microsoft SQL Server,
+              Oracle, and SQLite.
+            </p>
+          </ResourceCardBody>
+
           <ResourceCardLinks>
+            {/* my sql */}
             <ResourceCard id="mysql">
               <ResourceCardTitle>MySQL</ResourceCardTitle>
               <ResourceCardLinks>
@@ -100,68 +105,66 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
-          </ResourceCardLinks>
-        </ResourceCard>
 
-        <ResourceCardLinks>
-          <ResourceCard id="postgresql">
-            <ResourceCardTitle>PostgreSQL</ResourceCardTitle>
-            <ResourceCardLinks>
-              <ResourceLink>
-                <a href="https://www.postgresql.org/" target="_blank">
-                  Website
-                </a>
-                <ResourceBadge>Link</ResourceBadge>
-              </ResourceLink>
-              <ResourceLink>
-                <a
-                  href="https://youtu.be/qw--VYLpxG4"
-                  target="_blank">
-                  Learn PostgreSQL tutorial for beginners
-                  ~ FreeCodeCamp
-                </a>
-                <ResourceBadge>Video</ResourceBadge>
-              </ResourceLink>
-              <ResourceLink>
-                <a href="https://youtu.be/Dd2ej-QKrWY" target="_blank">
-                  Intro to PostgreSQL Databases with PgAdmin full course ~ Codemy - John Elder
-                </a>
-                <ResourceBadge>Video</ResourceBadge>
-              </ResourceLink>
-              <ResourceLink>
-                <a
-                  href="https://www.youtube.com/playlist?list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW"
-                  target="_blank">
-                  Recipe App using Node.js and PostgreSQL ~ Traversy Media
-                </a>
-                <ResourceBadge>Playlist</ResourceBadge>
-              </ResourceLink>
-              <ResourceLink>
-                <a href="https://youtu.be/w25ea_I89iM" target="_blank">
-                  Build and Deploy a Python Web App | Flask, Postgres and Heroku ~ Traversy Media
-                </a>
-                <ResourceBadge>Video</ResourceBadge>
-              </ResourceLink>
-            </ResourceCardLinks>
-          </ResourceCard>
-        </ResourceCardLinks>
-
-        <ResourceCardLinks>
-            <ResourceCard id="microsoftsqlserver">
-              <ResourceCardTitle>Microsoft SQL Server</ResourceCardTitle>
+            {/* postgresql Database */}
+            <ResourceCard id="postgresql">
+              <ResourceCardTitle>PostgreSQL</ResourceCardTitle>
               <ResourceCardLinks>
                 <ResourceLink>
-                  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
+                  <a href="https://www.postgresql.org/" target="_blank">
                     Website
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
                 </ResourceLink>
-                
+                <ResourceLink>
+                  <a href="https://youtu.be/qw--VYLpxG4" target="_blank">
+                    Learn PostgreSQL tutorial for beginners ~ FreeCodeCamp
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://youtu.be/Dd2ej-QKrWY" target="_blank">
+                    Intro to PostgreSQL Databases with PgAdmin full course ~
+                    Codemy - John Elder
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW"
+                    target="_blank">
+                    Recipe App using Node.js and PostgreSQL ~ Traversy Media
+                  </a>
+                  <ResourceBadge>Playlist</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://youtu.be/w25ea_I89iM" target="_blank">
+                    Build and Deploy a Python Web App | Flask, Postgres and
+                    Heroku ~ Traversy Media
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
+
+            {/* microsoftsql server Database */}
+            <ResourceCard id="microsoftsqlserver">
+              <ResourceCardTitle>Microsoft SQL Server</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a
+                    href="https://www.microsoft.com/en-us/sql-server"
+                    target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB"
                     target="_blank">
-                   Microsoft SQL Server Tutorial For Beginners ~ kudvenkat
+                    Microsoft SQL Server Tutorial For Beginners ~ kudvenkat
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
                 </ResourceLink>
@@ -175,7 +178,7 @@ const Database = () => {
                   <a
                     href="https://docs.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-ver15"
                     target="_blank">
-                   Microsoft Docs Database Engine Tutorial
+                    Microsoft Docs Database Engine Tutorial
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
                 </ResourceLink>
@@ -183,47 +186,48 @@ const Database = () => {
                   <a
                     href=" https://www.youtube.com/watch?v=YIUDgShB4Z8"
                     target="_blank">
-                   Microsoft SQL Server Database Project ~ Brian Green
+                    Microsoft SQL Server Database Project ~ Brian Green
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
-               
               </ResourceCardLinks>
             </ResourceCard>
           </ResourceCardLinks>
-
-
+        </ResourceCard>
 
         {/*  non-relational Database */}
         <ResourceCard id="nonrelational-db">
           <ResourceCardTitle>Non-Relational Database</ResourceCardTitle>
-          <p>
-            Non-Relational databases are a type of database that stores data in
-            a non-structured way. They are usually used to store data in JSON
-            format. The most common non-relational database is MongoDB. Others
-            are CouchDB, Firebase, and Firestore.
-          </p>
-          <p>
-            You can learn about JSON through the links below:
-            <a
-              className="resource-link paragraph-links"
-              href="https://youtu.be/iiADhChRriM">
-              Learn JSON in 10 minutes. ~ Web Dev Simplified
-            </a>
-            <a
-              className="resource-link paragraph-links"
-              href="https://youtu.be/mAqYJF-yxO8">
-              Full JSON tutorial for beginners. ~ Techcode
-            </a>
-            <a
-              className="resource-link paragraph-links"
-              href="https://blog.siddu.tech/secret-json-features">
-              5 Secret features of JSON you didn't know about. ~ Siddharth
-              Shyniben
-            </a>
-          </p>
+          <ResourceCardBody>
+            <p>
+              Non-Relational databases are a type of database that stores data
+              in a non-structured way. They are usually used to store data in
+              JSON format. The most common non-relational database is MongoDB.
+              Others are CouchDB, Firebase, and Firestore.
+            </p>
+            <p>
+              You can learn about JSON through the links below:
+              <a
+                className="resource-link paragraph-links"
+                href="https://youtu.be/iiADhChRriM">
+                Learn JSON in 10 minutes. ~ Web Dev Simplified
+              </a>
+              <a
+                className="resource-link paragraph-links"
+                href="https://youtu.be/mAqYJF-yxO8">
+                Full JSON tutorial for beginners. ~ Techcode
+              </a>
+              <a
+                className="resource-link paragraph-links"
+                href="https://blog.siddu.tech/secret-json-features">
+                5 Secret features of JSON you didn't know about. ~ Siddharth
+                Shyniben
+              </a>
+            </p>
+          </ResourceCardBody>
 
           <ResourceCardLinks>
+            {/* Mongodb */}
             <ResourceCard id="mongodb">
               <ResourceCardTitle>MongoDB</ResourceCardTitle>
               <ResourceCardLinks>
@@ -248,9 +252,7 @@ const Database = () => {
                   <ResourceBadge>Playlist</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
-                  <a
-                    href="https://youtu.be/YlrmGs6YHHY"
-                    target="_blank">
+                  <a href="https://youtu.be/YlrmGs6YHHY" target="_blank">
                     MongoDB Customer Database project ~ Eduonix Learning
                     Solutions
                   </a>
@@ -258,10 +260,12 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
+            {/* next language */}
+            <ResourceCard></ResourceCard>
           </ResourceCardLinks>
         </ResourceCard>
       </ResourceSectionLinks>
-    </ResourceSection >
+    </ResourceSection>
   );
 };
 
