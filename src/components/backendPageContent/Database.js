@@ -146,6 +146,53 @@ const Database = () => {
           </ResourceCard>
         </ResourceCardLinks>
 
+        <ResourceCardLinks>
+            <ResourceCard id="microsoftsqlserver">
+              <ResourceCardTitle>Microsoft SQL Server</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB"
+                    target="_blank">
+                   Microsoft SQL Server Tutorial For Beginners ~ kudvenkat
+                  </a>
+                  <ResourceBadge>Playlist</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://www.sqlservertutorial.net/" target="_blank">
+                    SQL Server Tutorial
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://docs.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-ver15"
+                    target="_blank">
+                   Microsoft Docs Database Engine Tutorial
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href=" https://www.youtube.com/watch?v=YIUDgShB4Z8"
+                    target="_blank">
+                   Microsoft SQL Server Database Project ~ Brian Green
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+               
+              </ResourceCardLinks>
+            </ResourceCard>
+          </ResourceCardLinks>
+
+
 
         {/*  non-relational Database */}
         <ResourceCard id="nonrelational-db">

@@ -125,6 +125,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#postgresql">PostgreSQL</a>
               </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#microsoftsqlserver">Microsoft SQL Server</a>
+              </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>
           {/* nonrelational database  */}
