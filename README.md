@@ -9,8 +9,8 @@
 [![GitHub contributors](https://badgen.net/github/contributors/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Timonwa/techroadmap.svg)](https://GitHub.com/Timonwa/techroadmap/pull/)
-![codiga code quality score](https://api.codiga.io/project/32583/score/svg)
-![codiga codegrade](https://api.codiga.io/project/32583/status/svg)
+<!-- ![codiga code quality score](https://api.codiga.io/project/32583/score/svg) -->
+<!-- ![codiga codegrade](https://api.codiga.io/project/32583/status/svg) -->
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Timonwa/techroadmap/)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-blue.svg)](https://github.com/Timonwa/techroadmap)
 [![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](http://www.buymeacoffee.com/timonwa)
