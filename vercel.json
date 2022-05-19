@@ -12,12 +12,22 @@
     },
     {
       "source": "/html/careers/frontend.html",
-      "destination": "/frontend",
+      "destination": "/careers/frontend",
       "statusCode": 301
     },
     {
       "source": "/html/careers/backend.html",
-      "destination": "/backend",
+      "destination": "/careers/backend",
+      "statusCode": 301
+    },
+    {
+      "source": "/frontend",
+      "destination": "/careers/frontend",
+      "statusCode": 301
+    },
+    {
+      "source": "/backend",
+      "destination": "/careers/backend",
       "statusCode": 301
     }
   ]
