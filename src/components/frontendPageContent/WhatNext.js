@@ -15,7 +15,7 @@ const WhatNext = () => {
           Pat yourself on the back for making it this far. Do continue to
           practice your skills, build more projects, and apply for jobs. If you
           plan on becoming a FullStack Developer, then check out our{" "}
-          <Link to="/backend" className="paragraph-links">
+          <Link to="/careers/backend" className="paragraph-links">
             Backend Development Roadmap
           </Link>
           .{" "}
