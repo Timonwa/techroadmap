@@ -9,14 +9,14 @@ const CareersList = () => {
       body: "Curated guide and resources to becoming a frontend developer.",
       comingSoon: false,
       inProgress: false,
-      link: "/frontend",
+      link: "/careers/frontend",
     },
     {
       title: "Backend",
       body: "Curated guide and resources to becoming a backend developer.",
       comingSoon: false,
       inProgress: false,
-      link: "/backend",
+      link: "/careers/backend",
     },
     {
       title: "Blockchain Developer",
