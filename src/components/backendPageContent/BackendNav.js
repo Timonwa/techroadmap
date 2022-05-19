@@ -51,7 +51,7 @@ const BackendNav = ({ handleMenu, openMenu }) => {
 
       {/* javascript  */}
       <SideBarTitle onClick={handleMenu}>
-        <a href="#backend">Basics of backend</a>
+        <a href="#backend">Basics of Backend</a>
       </SideBarTitle>
 
       {/* languages  */}
@@ -122,6 +122,15 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#mysql">MySQL</a>
               </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#postgresql">PostgreSQL</a>
+              </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#microsoftsqlserver">Microsoft SQL Server</a>
+              </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#oracle">Oracle</a>
+              </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>
           {/* nonrelational database  */}
@@ -150,11 +159,6 @@ const BackendNav = ({ handleMenu, openMenu }) => {
             <a href="#flask">Flask</a>
           </SideBarSubtitle>
         </SideBarSubLinks>
-      </SideBarTitle>
-
-      {/* cheatsheet  */}
-      <SideBarTitle onClick={handleMenu}>
-        <a href="#cheatsheets">Cheatsheets</a>
       </SideBarTitle>
 
       {/* others  */}

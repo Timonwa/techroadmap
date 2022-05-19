@@ -15,9 +15,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contribute" element={<Contribute />} />
-        <Route path="/frontend" element={<Frontend />} />
-        <Route path="/backend" element={<Backend />} />
-        <Route path="/blockchain" element={<Blockchain />} />
+        <Route path="/careers/frontend" element={<Frontend />} />
+        <Route path="/careers/backend" element={<Backend />} />
+        <Route path="/careers/blockchain" element={<Blockchain />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
