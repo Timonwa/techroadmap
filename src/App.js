@@ -6,7 +6,6 @@ import Contribute from "./pages/ContributePage/ContributePage";
 import Frontend from "./pages/FrontendPage/FrontendPage";
 import Backend from "./pages/BackendPage/BackendPage";
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
-// import Blockchain from "./pages/BlockchainPage/BlockchainPage";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/contribute" element={<Contribute />} />
         <Route path="/careers/frontend" element={<Frontend />} />
         <Route path="/careers/backend" element={<Backend />} />
-        {/* <Route path="/careers/blockchain" element={<Blockchain />} /> */}
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
