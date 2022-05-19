@@ -192,6 +192,52 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
+
+            {/* Oracle Database */}
+            <ResourceCard id="oracle">
+              <ResourceCardTitle>Oracle</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a
+                    href="https://www.oracle.com/index.html"
+                    target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/watch?v=ObbNGhcxXJA&ab_channel=GreatLearning"
+                    target="_blank">
+                    Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners ~ Great Learning
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://www.oracletutorial.com/" target="_blank">
+                    Oracle Tutorial
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLUWdEQb_2yqUaFAwNiYIh-KlnxWQiJQXJ"
+                    target="_blank">
+                    Oracle/SQL tutorials Projects ~ Tech Coach
+                  </a>
+                  <ResourceBadge>Playlist</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/watch?v=si9tjcnxruU&ab_channel=freeCodeCamp.org"
+                    target="_blank">
+                    The Oracle Foundations Associate Cloud Certification ~ FreeCodeCamp
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
           </ResourceCardLinks>
         </ResourceCard>
 

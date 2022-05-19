@@ -128,6 +128,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#microsoftsqlserver">Microsoft SQL Server</a>
               </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#oracle">Oracle</a>
+              </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>
           {/* nonrelational database  */}
