@@ -42,7 +42,7 @@ can use these resources to choose and define their career path and learn about t
 ## About The Project
 
 Tech Roadmap lets you have access to collections of ebooks, videos, articles, guides, etc on different careers in the tech industry including the no-code jobs.
-So if you are looking for resources either for yourself or someone else about beginning and growing a tech career, then Tech Roadmap is definitely the place to start.
+So if you are looking for resources either for yourself or someone else who is about to begin and or start growing a tech career, then Tech Roadmap is the place to start.
 
 The roadmaps or step-by-step guides are carefully curated for the different Tech Careers listed on our websites. And the collections of resources are carefully arranged so that the learner has a guided learning path.
 
@@ -120,16 +120,16 @@ _Note: Let the name of the branch be descriptive of the changes you are about to
 
 ### Run the React app
 
-First of all, install all the dependencies needed to run the react app on your system sucessfully by using the command `npm install`:
+First of all, install all the dependencies needed to run the react app on your system successfully by using the command `yarn`:
 
 ```git
-npm install
+yarn
 ```
 
-After that, run the command `npm start` to view the app and any changes you might make in your browser.
+After that, run the command `yarn dev` to view the app and any changes you might make in your browser.
 
 ```git
-npm start
+yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload when you make changes.
