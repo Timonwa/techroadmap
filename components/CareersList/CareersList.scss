@@ -1,0 +1,92 @@
+//* variables
+$main-bgc: hsl(209, 41%, 22%);
+$card-bgc: hsla(210, 43%, 3%, 0.631);
+
+// border colors
+$pink: hsl(350, 89%, 74%);
+$green: hsl(120, 50%, 50%);
+$red: hsl(0, 50%, 50%);
+$orange: hsl(39, 100%, 50%);
+$purple: hsl(271, 46%, 53%);
+$grey: hsl(0, 0%, 87%);
+
+.careers {
+  .careers__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  .careers__card-link {
+    padding: 20px;
+    text-align: center;
+    background-color: $card-bgc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 4px $card-bgc;
+
+    &:nth-child(1),
+    &:nth-child(7) {
+      border: 2px solid $pink;
+    }
+    &:nth-child(2),
+    &:nth-child(8) {
+      border: 2px solid $green;
+    }
+    &:nth-child(3),
+    &:nth-child(9) {
+      border: 2px solid $red;
+    }
+    &:nth-child(4),
+    &:nth-child(10) {
+      border: 2px solid $orange;
+    }
+    &:nth-child(5),
+    &:nth-child(11) {
+      border: 2px solid $purple;
+    }
+    &:nth-child(6),
+    &:nth-child(12) {
+      border: 2px solid $grey;
+    }
+  }
+  .careers__card-link.disabled {
+    position: relative;
+  }
+  .active{
+    display: none;
+  }
+  .coming-soon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.527);
+    display: flex;
+    border-radius: 10px;
+    span {
+      margin: auto;
+      background-color: $main-bgc;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .careers {
+    .careers__cards {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+  }
+}
+@media screen and (max-width: 560px) {
+  .careers {
+    .careers__cards {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  }
+}
