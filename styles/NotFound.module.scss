@@ -1,4 +1,4 @@
-.not-found {
+.notFound {
   display: flex;
 
   .content {
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 780px) {
-  .not-found {
+  .notFound {
     flex-direction: column;
     .content {
       width: 100%;
