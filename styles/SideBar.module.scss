@@ -1,0 +1,33 @@
+// variables
+$main-bgc: hsl(209, 41%, 22%);
+$main-color: hsl(212, 28%, 86%);
+
+.sidebarNav {
+  width: 200px;
+  position: fixed;
+  right: 0;
+  background: $main-color;
+  color: $main-bgc;
+  font-size: 80%;
+
+  /* sidebar menu toggle */
+  .sidebarToggle {
+    height: 40px;
+    div {
+      width: initial;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 700;
+    }
+    .icons {
+      margin-left: 5px;
+      transform: rotate(0deg);
+      transition: transform 0.5s ease-in-out;
+    }
+    .active {
+      transform: rotate(-180deg);
+    }
+  }
+}

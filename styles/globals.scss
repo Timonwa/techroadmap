@@ -1,0 +1,147 @@
+// variables
+$main-bgc: hsl(209, 41%, 22%);
+$nav-bgc: hsla(210, 43%, 3%, 0.8);
+$card-bgc: hsla(210, 43%, 3%, 0.631);
+$footer-bgc: hsl(210, 43%, 13%);
+$main-color: hsl(210, 28%, 86%);
+$footer-color: hsl(180, 3%, 94%);
+
+// dimensions
+$nav-height: 60px;
+
+// border colors
+$pink: hsl(350, 89%, 74%);
+$green: hsl(120, 50%, 50%);
+$red: hsl(0, 50%, 50%);
+$orange: hsl(39, 100%, 50%);
+$purple: hsl(271, 46%, 53%);
+$grey: hsl(0, 0%, 87%);
+
+// fonts
+$main-font: sans-serif;
+
+// ! Default styles using variables (Start)
+// giving the body its main background and color
+body {
+  color: $main-color;
+  font-family: $main-font;
+}
+
+// resetting the link states to the page's main color
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: $main-color;
+}
+// ! Default styles using variables (End)
+
+// ! General stylings (Start)
+//* body scrollbar
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px $main-color;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $main-color;
+}
+
+body {
+  font-weight: normal;
+  background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+}
+
+//* all headings
+.heading {
+  color: #ddd;
+}
+
+//* all links in paragraphs
+a.paragraphLinks {
+  color: $pink;
+}
+
+//* all links in descriptions of the sections in the roadmaps and careers page
+a.resourceLink.paragraphLinks {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+//* resource sections
+.resourceSection:last-child {
+  border-bottom: none;
+}
+// ! General stylings (End)
+
+//! Sections and Subsections paddings media query (Start)
+//* sections
+@media screen and (min-width: 1441px) {
+  .navWrapper,
+  header,
+  main,
+  aside,
+  footer {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+.navWrapper,
+header,
+main,
+aside,
+footer {
+  padding: 0 150px;
+}
+@media screen and (max-width: 1024px) {
+  .navWrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navWrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .navWrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .navWrapper,
+  header,
+  main,
+  aside,
+  footer {
+    padding: 0 20px;
+  }
+}
+
+//* subsections in sections
+header.intro > div,
+main > section,
+aside > div,
+footer > div {
+  padding: 40px 0;
+}
+//! Sections and Sub-sections paddings media query (End)
