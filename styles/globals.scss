@@ -11,7 +11,6 @@ $nav-height: 60px;
 
 // border colors
 $pink: hsl(350, 89%, 74%);
-$pink: hsl(350, 89%, 74%);
 $green: hsl(120, 50%, 50%);
 $red: hsl(0, 50%, 50%);
 $orange: hsl(39, 100%, 50%);
@@ -52,32 +51,32 @@ body::-webkit-scrollbar-thumb {
   background-color: $main-color;
 }
 
-.App {
+body {
   font-weight: normal;
   background-image: linear-gradient(to bottom right, #2b5876, #4e4376);
+}
 
-  //* all headings
-  .heading {
-    color: #ddd;
-  }
+//* all headings
+.heading {
+  color: #ddd;
+}
 
-  //* all links in paragraphs
-  .paragraph-links {
-    color: $pink;
-  }
+//* all links in paragraphs
+a.paragraphLinks {
+  color: $pink;
+}
 
-  //* all links in descriptions of the sections in the roadmaps and careers page
-  .resource-link.paragraph-links {
-    display: block;
-    font-size: 0.9rem;
-    margin-bottom: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+//* all links in descriptions of the sections in the roadmaps and careers page
+a.resourceLink.paragraphLinks {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 //* resource sections
-.resource-section:last-child {
+.resourceSection:last-child {
   border-bottom: none;
 }
 // ! General stylings (End)
@@ -85,7 +84,7 @@ body::-webkit-scrollbar-thumb {
 //! Sections and Subsections paddings media query (Start)
 //* sections
 @media screen and (min-width: 1441px) {
-  .nav-wrapper,
+  .navWrapper,
   header,
   main,
   aside,
@@ -94,7 +93,7 @@ body::-webkit-scrollbar-thumb {
     margin: 0 auto;
   }
 }
-.nav-wrapper,
+.navWrapper,
 header,
 main,
 aside,
@@ -102,7 +101,7 @@ footer {
   padding: 0 150px;
 }
 @media screen and (max-width: 1024px) {
-  .nav-wrapper,
+  .navWrapper,
   header,
   main,
   aside,
@@ -111,7 +110,7 @@ footer {
   }
 }
 @media screen and (max-width: 900px) {
-  .nav-wrapper,
+  .navWrapper,
   header,
   main,
   aside,
@@ -120,7 +119,7 @@ footer {
   }
 }
 @media screen and (max-width: 786px) {
-  .nav-wrapper,
+  .navWrapper,
   header,
   main,
   aside,
@@ -129,7 +128,7 @@ footer {
   }
 }
 @media screen and (max-width: 560px) {
-  .nav-wrapper,
+  .navWrapper,
   header,
   main,
   aside,

@@ -1,13 +1,13 @@
-import "../styles/ContributeCTA.module.scss";
+import styles from "../styles/ContributeCTA.module.scss";
 import Link from "next/link";
 
 const ContributeCTA = () => {
   const displayNone = { display: "none" };
   return (
-    <aside className="openSource">
-      <div className="openSourceWrapper">
-        <h2 className="heading">Open Source</h2>
-        <div className="openSource__body">
+    <aside className={styles.openSource}>
+      <div className={styles.openSourceWrapper}>
+        <h2 className={styles.heading}>Open Source</h2>
+        <div className={styles.openSource__body}>
           <p>
             This project is OpenSource and is hosted on{" "}
             <a
@@ -21,9 +21,9 @@ const ContributeCTA = () => {
             and you don't need to know how to code to contribute.
           </p>
           <p>
-            If you would like to contribute to this project, please visit our{" "}
-            <Link className="paragraphLinks" href="/contribute">
-              <a> contributors page</a>
+            If you would like to contribute to this project, please visit our
+            <Link href="/contribute">
+              <a className="paragraphLinks"> contributors page</a>
             </Link>{" "}
             to find out how to contribute.
           </p>

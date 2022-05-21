@@ -13,10 +13,10 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="mainNav">
-      <div className="navWrapper">
+    <nav className={styles.mainNav}>
+      <div className={`${styles.navWrapper} navWrapper`}>
         {/* website logo */}
-        <div className="navLogo">
+        <div className={styles.navLogo}>
           <Link href="/">
             <a>
               <p>TECH ROADMAP</p>
@@ -27,22 +27,22 @@ const NavBar = () => {
         </div>
 
         {/* menu on large screen */}
-        <div className={`navLinks ${openMenu ? "" : "active"}`}>
+        <div className={`${styles.navLinks} ${openMenu ? "" : styles.active}`}>
           {/* nav link cntr */}
-          <ul className="navLinkWrapper">
+          <ul className={styles.navLinkWrapper}>
             {/* nav links */}
             <li onClick={handleMenu}>
-              <Link className="navLink" href="/">
+              <Link className={styles.navLink} href="/">
                 <a>Home</a>
               </Link>
             </li>
             <li onClick={handleMenu}>
-              <Link className="navLink" href="/careers">
+              <Link className={styles.navLink} href="/careers">
                 <a>Careers</a>
               </Link>
             </li>
             <li onClick={handleMenu}>
-              <Link className="navLink" href="/contribute">
+              <Link className={styles.navLink} href="/contribute">
                 <a>Contribute</a>
               </Link>
             </li>
@@ -50,11 +50,11 @@ const NavBar = () => {
         </div>
 
         {/* burger menu on small screen */}
-        <div className="burgerMenu">
+        <div className={styles.burgerMenu}>
           {/* burger menu toggle */}
-          <div className="burgerMenuToggle" onClick={handleMenu}>
-            {openMenu && <FaBars className="icons open" />}
-            {closeMenu && <FaTimes className="icons close" />}
+          <div className={styles.burgerMenuToggle} onClick={handleMenu}>
+            {openMenu && <FaBars className={(styles.icons, styles.open)} />}
+            {closeMenu && <FaTimes className={(styles.icons, styles.close)} />}
           </div>
         </div>
       </div>

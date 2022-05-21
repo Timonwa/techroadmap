@@ -30,8 +30,8 @@ $purple: hsl(271, 46%, 53%);
   }
 
   // all links in footer
-  .paragraphLinks.footer {
-    color: $purple !important;
+  a.paragraphLinks {
+    color: $purple;
   }
 
   // social links in footer

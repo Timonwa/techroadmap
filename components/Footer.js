@@ -13,25 +13,23 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer">
+    <footer className={styles.footer}>
       <div className={styles.footerWrapper}>
         {/*  footer nav links  */}
         <div className={styles.sections}>
           <ul className={styles.footerLinks}>
             <li>
               <Link href="/">
-                <a className={(styles.footerLink, styles.paraLink)}>Home</a>
+                <a className={styles.footerLink}>Home</a>
               </Link>
             </li>
             <li>
               <Link href="/careers">
-                <a className={(styles.footerLink, styles.paraLink)}>Careers</a>
+                <a className={styles.footerLink}>Careers</a>
               </Link>
             </li>
             <li>
-              <a
-                className={(styles.footerLink, styles.paraLink)}
-                href="/contribute">
+              <a className={styles.footerLink} href="/contribute">
                 Contribute
               </a>
             </li>
@@ -39,16 +37,14 @@ const Footer = () => {
         </div>
 
         {/* attribution */}
-        <div className={(styles.sections, styles.attribution)}>
+        <div className={styles.sections}>
           <p>
             <Link href="/">
-              <a className={(styles.paragraphLinks, styles.footer)}>
-                Tech Roadmap{" "}
-              </a>
+              <a className={styles.paragraphLinks}>Tech Roadmap </a>
             </Link>
             is created by{" "}
             <a
-              className={(styles.paragraphLinks, styles.footer)}
+              className={styles.paragraphLinks}
               target="_blank"
               href="https://twitter.com/timonwa_"
               rel="noreferrer">
@@ -62,7 +58,7 @@ const Footer = () => {
           <ul className={styles.socialLinks}>
             <li>
               <a
-                className={(styles.socialLink, styles.paraLink)}
+                className={styles.socialLink}
                 target="_blank"
                 href="mailto:techcareerroadmap@gmail.com"
                 rel="noreferrer">
@@ -71,7 +67,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                className={(styles.socialLink, styles.paraLink)}
+                className={styles.socialLink}
                 target="_blank"
                 href="https://twitter.com/techroadmap__"
                 rel="noreferrer">
@@ -80,7 +76,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                className={(styles.socialLink, styles.paraLink)}
+                className={styles.socialLink}
                 target="_blank"
                 href="https://github.com/timonwa/techroadmap"
                 rel="noreferrer">
@@ -91,7 +87,7 @@ const Footer = () => {
         </div>
 
         {/* website quote */}
-        <div className={(styles.sections, styles.quote)}>
+        <div className={`${styles.sections} ${styles.quote}`}>
           <p>
             Roadmaps, articles, and useful resources to help you choose a career
             path, start your journey, and grow in tech.
@@ -99,7 +95,7 @@ const Footer = () => {
         </div>
 
         {/* copyright */}
-        <div className={(styles.sections, styles.copyright)}>
+        <div className={`${styles.sections} ${styles.copyright}`}>
           <p>
             <small>
               Copyright <FaRegCopyright className={styles.icons} />
