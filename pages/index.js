@@ -1,6 +1,14 @@
 import Head from "next/head";
+import Banner from "../components/Banner";
+import CareersList from "../components/CareersList";
+import HomeDescription from "../components/HomeDescription";
 
 export default function Home() {
+  const title = "Tech Career Roadmap";
+  const quote =
+    "Roadmaps, articles, and useful resources to help you choose a career path, start your journey and grow in tech.";
+  const image = "https://i.ibb.co/h1PwkQw/roadmap.jpg";
+
   return (
     <div>
       <Head>
@@ -41,8 +49,11 @@ export default function Home() {
           content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
         />
       </Head>
-
-      <p>Hi</p>
+      <Banner title={title} quote={quote} image={image} />
+      <main>
+        <HomeDescription />
+        <CareersList />
+      </main>
     </div>
   );
 }

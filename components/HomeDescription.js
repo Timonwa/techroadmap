@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const HomeDescription = () => {
   return (
     <section className="intro">
-      <div className="intro-wrapper">
+      <div className="introWrapper">
         <h2 className="heading">Welcome!</h2>
         <div className="intro__body">
           <p>
@@ -24,8 +24,8 @@ const HomeDescription = () => {
           <p>
             You can click on one of the career cards below if you have already
             chosen a career path or go to our{" "}
-            <Link className="paragraph-links" to="/careers">
-              careers page{" "}
+            <Link className="paragraphLinks" href="/careers">
+              <a>careers page </a>
             </Link>
             if you need help in deciding the one to choose.
           </p>

@@ -17,7 +17,7 @@ $grey: hsl(0, 0%, 87%);
     grid-gap: 20px;
     margin-top: 20px;
   }
-  .careers__card-link {
+  .careers__cardLink {
     padding: 20px;
     text-align: center;
     background-color: $card-bgc;
@@ -49,13 +49,13 @@ $grey: hsl(0, 0%, 87%);
       border: 2px solid $grey;
     }
   }
-  .careers__card-link.disabled {
+  .careers__cardLink.disabled {
     position: relative;
   }
-  .active{
+  .active {
     display: none;
   }
-  .coming-soon {
+  .comingSoon {
     position: absolute;
     width: 100%;
     height: 100%;

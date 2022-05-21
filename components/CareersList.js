@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./CareersList.scss";
+import styles from "../styles/CareersList.module.scss";
+import Link from "next/link";
 
 const CareersList = () => {
   const careers = [
@@ -48,28 +48,29 @@ const CareersList = () => {
     },
   ];
   return (
-    <section className="careers">
-      <h2 className="heading">Careers in Tech</h2>
+    <section className={styles.careers}>
+      <h2 className={styles.heading}>Careers in Tech</h2>
 
-      <div className="careers__cards">
+      <div className={styles.careers__cards}>
         {careers.map((career) => (
           <div
             key={career.title}
-            className={`careers__card-link ${
-              career.comingSoon ? "disabled" : ""
+            className={`${styles.careers__cardLink} ${career.comingSoon} ? ${styles.disabled} : ""
             }`}>
-            <Link to={career.link}>
-              {career.comingSoon && (
-                <p className="coming-soon">
-                  <span>{`${
-                    career.inProgress ? "In Progress" : "Coming Soon"
-                  }`}</span>
-                </p>
-              )}
-              <div className="careers__card">
-                <h3>{career.title}</h3>
-                <p>{career.body}</p>
-              </div>
+            <Link href={career.link}>
+              <a>
+                {career.comingSoon && (
+                  <p className={styles.comingSoon}>
+                    <span>{`${
+                      career.inProgress ? "In Progress" : "Coming Soon"
+                    }`}</span>
+                  </p>
+                )}
+                <div className={styles.careers__card}>
+                  <h3>{career.title}</h3>
+                  <p>{career.body}</p>
+                </div>
+              </a>
             </Link>
           </div>
         ))}
