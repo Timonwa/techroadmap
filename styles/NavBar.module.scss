@@ -4,19 +4,19 @@ $main-color: hsl(212, 28%, 86%);
 $nav-height: 60px;
 
 //* nav space
-.nav-space {
+.navSpace {
   height: $nav-height;
 }
 
 // * nav bar
-.main-nav {
+.mainNav {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 10;
 
   // nav bar wrapper
-  .nav-wrapper {
+  .navWrapper {
     background-color: $nav-bgc;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -41,22 +41,22 @@ $nav-height: 60px;
   // logo
   // todo start: pick only one from these variations of nav bar logo
   // ? p nav
-  .nav-logo > a > p {
+  .navLogo > a > p {
     font-weight: 700;
     margin-bottom: 0;
   }
   // ? h4 nav
-  // .nav-logo > a > h4 {
+  // .navLogo > a > h4 {
   //   margin-bottom: 0;
   // }
   // ?  img nav
-  // .nav-logo > a > img {
+  // .navLogo > a > img {
   //   border: 1px solid #000;
   // }
   //  todo end
 
   // nav bar links
-  .nav-links {
+  .navLinks {
     text-align: right;
     ul {
       display: -webkit-box;
@@ -79,7 +79,7 @@ $nav-height: 60px;
   }
 
   // burger menu
-  .burger-menu {
+  .burgerMenu {
     display: none;
   }
 }
@@ -87,9 +87,9 @@ $nav-height: 60px;
 //* nav link styling on smaller screens where the burger menu becomes visible and the nav links hidden
 // 768px screen width and below
 @media screen and (max-width: 768px) {
-  .main-nav {
+  .mainNav {
     // nav bar
-    .nav-links {
+    .navLinks {
       position: absolute;
       top: -50vh;
       left: 0;
@@ -107,7 +107,7 @@ $nav-height: 60px;
       top: $nav-height;
     }
     // burger menu
-    .burger-menu {
+    .burgerMenu {
       display: block;
     }
 
@@ -117,7 +117,7 @@ $nav-height: 60px;
     }
 
     // nav bar links
-    .nav-links {
+    .navLinks {
       ul {
         height: inherit;
         -webkit-box-orient: vertical;

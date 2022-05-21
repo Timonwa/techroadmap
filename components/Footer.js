@@ -1,50 +1,54 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./Footer.scss";
+import styles from "../styles/Footer.module.scss";
 import {
   FaEnvelope,
   FaTwitter,
   FaGithub,
   FaRegCopyright,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   //* function to automatically update copyright date
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
-      <div className="footer-wrapper">
+    <footer className="footer">
+      <div className={styles.footerWrapper}>
         {/*  footer nav links  */}
-        <div className="sections">
-          <ul className="footer-links">
+        <div className={styles.sections}>
+          <ul className={styles.footerLinks}>
             <li>
-              <Link className="footer-link para-link" to="/">
-                Home
+              <Link href="/">
+                <a className={(styles.footerLink, styles.paraLink)}>Home</a>
               </Link>
             </li>
             <li>
-              <Link className="footer-link para-link" to="/careers">
-                Careers
+              <Link href="/careers">
+                <a className={(styles.footerLink, styles.paraLink)}>Careers</a>
               </Link>
             </li>
             <li>
-              <Link className="footer-link para-link" to="/contribute">
+              <a
+                className={(styles.footerLink, styles.paraLink)}
+                href="/contribute">
                 Contribute
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
 
         {/* attribution */}
-        <div className="sections attribution">
+        <div className={(styles.sections, styles.attribution)}>
           <p>
-            <Link className="paragraph-links footer" to="/">
-              Tech Roadmap{" "}
+            <Link href="/">
+              <a className={(styles.paragraphLinks, styles.footer)}>
+                Tech Roadmap{" "}
+              </a>
             </Link>
             is created by{" "}
             <a
-              className="paragraph-links footer"
+              className={(styles.paragraphLinks, styles.footer)}
               target="_blank"
               href="https://twitter.com/timonwa_"
               rel="noreferrer">
@@ -54,40 +58,40 @@ const Footer = () => {
         </div>
 
         {/* social links */}
-        <div className="sections">
-          <ul className="social-links">
+        <div className={styles.sections}>
+          <ul className={styles.socialLinks}>
             <li>
               <a
-                className="social-link para-link"
+                className={(styles.socialLink, styles.paraLink)}
                 target="_blank"
                 href="mailto:techcareerroadmap@gmail.com"
                 rel="noreferrer">
-                <FaEnvelope className="icons" />
+                <FaEnvelope className={styles.icons} />
               </a>
             </li>
             <li>
               <a
-                className="social-link para-link"
+                className={(styles.socialLink, styles.paraLink)}
                 target="_blank"
                 href="https://twitter.com/techroadmap__"
                 rel="noreferrer">
-                <FaTwitter className="icons" />
+                <FaTwitter className={styles.icons} />
               </a>
             </li>
             <li>
               <a
-                className="social-link para-link"
+                className={(styles.socialLink, styles.paraLink)}
                 target="_blank"
                 href="https://github.com/timonwa/techroadmap"
                 rel="noreferrer">
-                <FaGithub className="icons" />
+                <FaGithub className={styles.icons} />
               </a>
             </li>
           </ul>
         </div>
 
         {/* website quote */}
-        <div className="sections quote">
+        <div className={(styles.sections, styles.quote)}>
           <p>
             Roadmaps, articles, and useful resources to help you choose a career
             path, start your journey, and grow in tech.
@@ -95,11 +99,11 @@ const Footer = () => {
         </div>
 
         {/* copyright */}
-        <div className="sections copyright">
+        <div className={(styles.sections, styles.copyright)}>
           <p>
             <small>
-              Copyright <FaRegCopyright className="icons" /> {currentYear} Tech
-              Roadmap. All Rights Reserved.
+              Copyright <FaRegCopyright className={styles.icons} />
+              {currentYear} Tech Roadmap. All Rights Reserved.
             </small>
           </p>
         </div>

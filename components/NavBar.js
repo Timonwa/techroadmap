@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import "./NavBar.scss";
+import Link from "next/link";
+import styles from "../styles/NavBar.module.scss";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
@@ -13,44 +13,46 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="main-nav">
-      <div className="nav-wrapper">
+    <nav className="mainNav">
+      <div className="navWrapper">
         {/* website logo */}
-        <div className="nav-logo">
-          <NavLink to="/">
-            <p>TECH ROADMAP</p>
-          </NavLink>
-          {/* <a to="#"><h4>NavBar</h4></a> */}
-          {/* <a to="#"><img src="" alt="brand image"></a> */}
+        <div className="navLogo">
+          <Link href="/">
+            <a>
+              <p>TECH ROADMAP</p>
+            </a>
+          </Link>
+          {/* <a href="#"><h4>NavBar</h4></a> */}
+          {/* <a href="#"><img src="" alt="brand image"></a> */}
         </div>
 
         {/* menu on large screen */}
-        <div className={`nav-links ${openMenu ? "" : "active"}`}>
+        <div className={`navLinks ${openMenu ? "" : "active"}`}>
           {/* nav link cntr */}
-          <ul className="nav-link-wrapper">
+          <ul className="navLinkWrapper">
             {/* nav links */}
             <li onClick={handleMenu}>
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
+              <Link className="navLink" href="/">
+                <a>Home</a>
+              </Link>
             </li>
             <li onClick={handleMenu}>
-              <NavLink className="nav-link" to="/careers">
-                Careers
-              </NavLink>
+              <Link className="navLink" href="/careers">
+                <a>Careers</a>
+              </Link>
             </li>
             <li onClick={handleMenu}>
-              <NavLink className="nav-link" to="/contribute">
-                Contribute
-              </NavLink>
+              <Link className="navLink" href="/contribute">
+                <a>Contribute</a>
+              </Link>
             </li>
           </ul>
         </div>
 
         {/* burger menu on small screen */}
-        <div className="burger-menu">
+        <div className="burgerMenu">
           {/* burger menu toggle */}
-          <div className="burger-menu-toggle" onClick={handleMenu}>
+          <div className="burgerMenuToggle" onClick={handleMenu}>
             {openMenu && <FaBars className="icons open" />}
             {closeMenu && <FaTimes className="icons close" />}
           </div>

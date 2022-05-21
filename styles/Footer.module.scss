@@ -4,7 +4,7 @@ $footer-color: hsl(180, 3%, 94%);
 $purple: hsl(271, 46%, 53%);
 
 //* footer
-footer {
+.footer {
   background: $footer-bgc;
   color: $footer-color;
 
@@ -20,22 +20,22 @@ footer {
     margin-bottom: 20px;
   }
 
-  .footer-links {
+  .footerLinks {
     display: flex;
     font-weight: bold;
   }
-  .footer-link {
+  .footerLink {
     display: inline-block;
     margin-right: 10px;
   }
 
   // all links in footer
-  .paragraph-links.footer {
+  .paragraphLinks.footer {
     color: $purple !important;
   }
 
   // social links in footer
-  .social-links {
+  .socialLinks {
     display: flex;
     .icons {
       width: 1.5rem;

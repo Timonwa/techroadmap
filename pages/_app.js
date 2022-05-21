@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+import "../styles/css-resets/normalize.css";
+import "../styles/css-resets/my-css-reset.css";
+import "../styles/css-resets/my-font-reset.css";
+import '../styles/globals.scss'
+
+import NavBar from "../components/NavBar";
+import ContributeCTA from "../components/ContributeCTA";
+import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <NavBar />
+      <Component {...pageProps} />
+      <ContributeCTA />
+      <Footer />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

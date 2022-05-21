@@ -1,18 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./ContributeCTA.scss";
+import "../styles/ContributeCTA.module.scss";
+import Link from "next/link";
 
 const ContributeCTA = () => {
   const displayNone = { display: "none" };
   return (
-    <aside className="open-source">
-      <div className="open-source-wrapper">
+    <aside className="openSource">
+      <div className="openSourceWrapper">
         <h2 className="heading">Open Source</h2>
-        <div className="open-source__body">
+        <div className="openSource__body">
           <p>
             This project is OpenSource and is hosted on{" "}
             <a
-              className="paragraph-links"
+              className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap"
               rel="noreferrer">
@@ -23,15 +22,15 @@ const ContributeCTA = () => {
           </p>
           <p>
             If you would like to contribute to this project, please visit our{" "}
-            <Link className="paragraph-links" to="/contribute">
-              contributors page
+            <Link className="paragraphLinks" href="/contribute">
+              <a> contributors page</a>
             </Link>{" "}
             to find out how to contribute.
           </p>
           <p style={displayNone}>
             A considerable amount of my time is spent doing unpaid community
             work on things that I hope will help humanity in some way. Your
-            sponsorship helps me continue to produce more open-source and free
+            sponsorship helps me continue to produce more openSource and free
             educational material consumed by hundreds of thousands of developers
             every month.
           </p>

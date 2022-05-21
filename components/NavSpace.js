@@ -1,8 +1,8 @@
 import React from "react";
-import "./NavBar.scss";
+import "../styles/NavBar.module.scss";
 
 const NavSpace = () => {
-  return <div className="nav-space"></div>;
+  return <div className="navSpace"></div>;
 };
 
 export default NavSpace;
