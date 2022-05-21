@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled";
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
@@ -15,8 +15,8 @@ const WhatNext = () => {
           Pat yourself on the back for making it this far. Do continue to
           practice your skills, build more projects, and apply for jobs. If you
           plan on becoming a FullStack Developer, then check out our{" "}
-          <Link to="/careers/frontend" className="paragraphLinks">
-            Frontend Development Roadmap
+          <Link href="/careers/frontend" className="paragraphLinks">
+            <a>Frontend Development Roadmap</a>
           </Link>
           .{" "}
         </p>

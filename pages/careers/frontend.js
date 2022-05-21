@@ -38,7 +38,7 @@ const Frontend = () => {
   };
 
   return (
-    <div className="frontend-page">
+    <div className="frontendPage">
       <Head>
         <title>Frontend Development Roadmap. | Tech Roadmap.</title>
         {/* Primary Meta Tags */}
