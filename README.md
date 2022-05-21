@@ -56,7 +56,7 @@ Tech Roadmap is live and you can check out the list of available careers on our 
 
 More quality roadmaps will be added on other Tech Careers over time. Anticipate! 😁
 
-The project is built with ReactJs and Styled-Components.
+The project is built with ReactJs, NextJs, and Styled-Components.
 
 
 [⬆ Back to Top](#table-of-content)

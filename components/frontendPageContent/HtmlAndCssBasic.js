@@ -16,7 +16,7 @@ const HtmlAndCssBasic = () => {
   return (
     <ResourceSection id="css-beginners">
       <ResourceSectionHeading>
-        Html and Css (Beginner's Level)
+        Html and Css (Beginner&apos; Level)
       </ResourceSectionHeading>
 
       <ResourceSectionBody>

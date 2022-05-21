@@ -153,7 +153,8 @@ const CodeEditors = () => {
                   <a
                     target="_blank"
                     href="https://www.google.com/amp/s/www.freecodecamp.org/news/how-to-use-codepen">
-                    How to Use CodePen - A beginner's guide ~ Jessica Wilkins
+                    How to Use CodePen - A beginner&apos; guide ~ Jessica
+                    Wilkins
                   </a>
                   <ResourceBadge>Article</ResourceBadge>
                 </ResourceLink>
@@ -165,7 +166,8 @@ const CodeEditors = () => {
                 </ResourceLink>
                 <ResourceLink>
                   <a target="_blank" href="https://youtu.be/v1io5m8MxfA">
-                    A beginner's guide to Codepen - The basics. ~ Manuel Zavala
+                    A beginner&apos; guide to Codepen - The basics. ~ Manuel
+                    Zavala
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>

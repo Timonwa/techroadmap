@@ -18,7 +18,7 @@ const ContributeCTA = () => {
               GitHub
             </a>
             . All meaningful contributions are welcome to help grow this project
-            and you don't need to know how to code to contribute.
+            and you don&apos;t need to know how to code to contribute.
           </p>
           <p>
             If you would like to contribute to this project, please visit our

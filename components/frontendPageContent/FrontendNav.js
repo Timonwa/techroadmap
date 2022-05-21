@@ -49,7 +49,7 @@ const FrontendNav = ({ handleMenu, openMenu }) => {
         </SideBarSubLinks>
       </SideBarTitle>
 
-      {/* html and css (beginner's level) */}
+      {/* html and css (beginner&apos; level) */}
       <SideBarTitle onClick={handleMenu}>
         <a href="#css-beginners">Html and Css - Beginner</a>
       </SideBarTitle>
@@ -209,7 +209,7 @@ const FrontendNav = ({ handleMenu, openMenu }) => {
           </SideBarSubtitle>
         </SideBarSubLinks>
       </SideBarTitle>
-      
+
       {/* others */}
       <SideBarTitle onClick={handleMenu}>
         <a href="#other-resource">Other Useful Resource</a>

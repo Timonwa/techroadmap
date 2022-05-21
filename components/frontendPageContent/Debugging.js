@@ -17,8 +17,9 @@ const Debugging = () => {
       <ResourceSectionBody>
         <p>
           Debugging is a very important part of the development process. It is a
-          process of finding and fixing errors (also known as "bugs") in your
-          code. These bugs can cause your code to behave unexpectedly or crash.
+          process of finding and fixing errors (also known as
+          &ldquo;bugs&rdquo;) in your code. These bugs can cause your code to
+          behave unexpectedly or crash.
         </p>
         <p>
           As a developer, you need to be able to find and fix errors in your

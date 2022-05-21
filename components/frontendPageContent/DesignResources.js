@@ -101,8 +101,8 @@ const DesignResources = () => {
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://seeklogo.com">
-                Seeklogo - Seeklogo is the world's best brand logo and vector
-                logo template source.
+                Seeklogo - Seeklogo is the world&apos; best brand logo and
+                vector logo template source.
               </a>
               <ResourceBadge>Free</ResourceBadge>
             </ResourceLink>

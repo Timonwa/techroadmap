@@ -40,8 +40,15 @@ const Frontend = () => {
   return (
     <div className="frontendPage">
       <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#21394f" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
         <title>Frontend Development Roadmap. | Tech Roadmap.</title>
+        {/** Seo Tags */}
         {/* Primary Meta Tags */}
+        <meta name="type" content="website" />
+        <meta name="author" content="Pelumi Akintokun, Timonwa" />
         <meta
           name="title"
           content="Frontend Development Roadmap. | Tech Roadmap."
@@ -50,8 +57,9 @@ const Frontend = () => {
           name="description"
           content="Free videos, articles, guides and other resources to help you become a frontend developer."
         />
-        {/* Open Graph / Facebook Meta Tags */}
-
+        {/* Open Graph / Facebook Meta Tags */}{" "}
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/seo-image.png" />
         <meta property="og:url" content="https://techroadmap.xyz/frontend" />
         <meta
           property="og:title"
@@ -62,9 +70,11 @@ const Frontend = () => {
           content="Free videos, articles, guides and other resources to help you become a frontend developer."
         />
         {/* Twitter Meta Tags */}
+        <meta property="twitter:careers__card" content="summary_large_image" />
+        <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/frontend"
+          content="https://techroadmap.xyz/careers/frontend"
         />
         <meta
           property="twitter:title"

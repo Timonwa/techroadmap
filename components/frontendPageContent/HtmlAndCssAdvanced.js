@@ -18,7 +18,7 @@ const HtmlAndCssAdvanced = () => {
 
       <ResourceSectionBody>
         <p>
-          Now that you have learned the basics of HTML and CSS, it's time to
+          Now that you have learned the basics of HTML and CSS, it&apos; time to
           level up. Learn more on making your webpages more responsive and
           compatible on all devices using CSS Flexbox and Grid.
         </p>

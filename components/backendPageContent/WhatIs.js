@@ -19,19 +19,19 @@ const WhatIs = () => {
       <ResourceSectionBody>
         <p>
           Backend development, also called server-side development, is the
-          process of creating everything that the users don't see and contains
-          behind-the-scenes activities that occur when performing any action on
-          a website. It focuses primarily on databases, backend logic, APIs, and
-          Servers. Backend development can be done in almost any programming
-          language such as JavaScript (using the NodeJS runtime engine), Python,
-          C, C# and C++, PHP, etc.
+          process of creating everything that the users don&apos; see and
+          contains behind-the-scenes activities that occur when performing any
+          action on a website. It focuses primarily on databases, backend logic,
+          APIs, and Servers. Backend development can be done in almost any
+          programming language such as JavaScript (using the NodeJS runtime
+          engine), Python, C, C# and C++, PHP, etc.
         </p>
         <p>
           Learn more about what backend development is by clicking the links
           below.
         </p>
       </ResourceSectionBody>
-      
+
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>
@@ -41,7 +41,7 @@ const WhatIs = () => {
               <a
                 target="_blank"
                 href="https://learntocodewith.me/posts/backend-development/">
-                The Beginner's Guide to Backend Development (2022 Guide) ~
+                The Beginner&apos; Guide to Backend Development (2022 Guide) ~
                 Krystal Tolani
               </a>
             </ResourceLink>

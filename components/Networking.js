@@ -27,8 +27,8 @@ const Networking = () => {
               connect to other techies with different levels of expertise,
               network and socialize, attend tech events, ask questions and get
               answers from experts and professionals, share and learn from other
-              people's experiences, etc. Below are a few of the most popular
-              tech communities:
+              people&apos;s experiences, etc. Below are a few of the most
+              popular tech communities:
             </p>
           </ResourceCardBody>
 

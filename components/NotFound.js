@@ -11,7 +11,7 @@ const NotFound = () => {
         <Image src={image} placeholder="blur" alt="page not found" />
       </div>
       <div className={styles.content}>
-        <h1>I'm so sorry.</h1>
+        <h1>I&apos;m so sorry.</h1>
         <p>
           The page you are looking for has either been moved to another location
           or no longer exists.

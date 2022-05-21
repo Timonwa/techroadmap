@@ -20,7 +20,8 @@ const Apis = () => {
           An API is an intermediary between two applications software allowing
           them easily communicate and share data. It stands for Application
           Programming Interface. This is easy to understand by both computers
-          and humans as it's outputted in key/value pairs. Find out more below.
+          and humans as it&apos; outputted in key/value pairs. Find out more
+          below.
         </p>
       </ResourceSectionBody>
 

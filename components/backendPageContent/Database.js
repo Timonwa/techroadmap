@@ -266,8 +266,8 @@ const Database = () => {
               <a
                 className="resourceLink paragraphLinks"
                 href="https://blog.siddu.tech/secret-json-features">
-                5 Secret features of JSON you didn't know about. ~ Siddharth
-                Shyniben
+                5 Secret features of JSON you didn&apos;t know about. ~
+                Siddharth Shyniben
               </a>
             </p>
           </ResourceCardBody>

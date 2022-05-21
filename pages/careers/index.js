@@ -14,8 +14,17 @@ const CareersPage = () => {
   return (
     <div className="careers-page">
       <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#21394f" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+
         <title>The different careers in tech. | Tech Roadmap.</title>
+
+        {/** Seo Tags */}
         {/* Primary Meta Tags */}
+        <meta name="type" content="website" />
+        <meta name="author" content="Pelumi Akintokun, Timonwa" />
         <meta
           name="title"
           content="The different careers in tech. | Tech Roadmap."
@@ -24,8 +33,10 @@ const CareersPage = () => {
           name="description"
           content="Learn the different careers in the tech industry along with videos and articles to help you decide on a tech career."
         />
-        {/* Open Graph / Facebook Meta Tags */}
 
+        {/* Open Graph / Facebook Meta Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/seo-image.png" />
         <meta property="og:url" content="https://techroadmap.xyz/careers" />
         <meta
           property="og:title"
@@ -35,7 +46,10 @@ const CareersPage = () => {
           property="og:description"
           content="Learn the different careers in the tech industry along with videos and articles to help you decide on a tech career."
         />
+
         {/* Twitter Meta Tags */}
+        <meta property="twitter:careers__card" content="summary_large_image" />
+        <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
           content="https://techroadmap.xyz/careers"
