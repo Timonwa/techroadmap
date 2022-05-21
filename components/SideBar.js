@@ -11,7 +11,7 @@ const SideBar = ({ children, handleMenu, openMenu }) => {
           <div className={styles.openSidebar}>
             <span>Table of Content</span>
             <FaArrowDown
-              className={`${styles.icons} ${openMenu} ? "" : ${styles.active}`}
+              className={`${styles.icons} ${openMenu ? styles.active : ""}`}
             />
           </div>
         </div>

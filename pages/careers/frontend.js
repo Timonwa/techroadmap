@@ -31,7 +31,7 @@ const Frontend = () => {
   const image =
     "https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg";
 
-  const [openMenu, setOpenMenu] = useState(true);
+  const [openMenu, setOpenMenu] = useState(false);
 
   const handleMenu = () => {
     setOpenMenu(!openMenu);

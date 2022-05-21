@@ -6,7 +6,7 @@ import { SideBarSubtitle } from "../../styles/styled-components/SideBarSubtitle.
 
 const BackendNav = ({ handleMenu, openMenu }) => {
   return (
-    <SideBarLinks className={`sideBar-links ${openMenu ? "" : "active"}`}>
+    <SideBarLinks className={`sideBarLinks ${openMenu ? "active" : ""}`}>
       {/* what is frontend  */}
       <SideBarTitle onClick={handleMenu}>
         <a href="#what-is">What is Backend Dev.</a>
