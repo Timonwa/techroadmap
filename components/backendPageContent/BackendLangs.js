@@ -61,10 +61,10 @@ const BackendLangs = () => {
 
         <ResourceSectionBody>
           <p>
-            Node.js is a JavaScript runtime built on Chrome's V8 JavaScript
+            Node.js is a JavaScript runtime built on Chrome&apos;s V8 JavaScript
             engine. Node.js uses an event-driven, non-blocking I/O model that
-            makes it lightweight and efficient. Node.js' package ecosystem, npm,
-            is the largest ecosystem of open source libraries in the world.
+            makes it lightweight and efficient. Node.js&apos; package ecosystem,
+            npm, is the largest ecosystem of open source libraries in the world.
           </p>
           <p>Here are some resources to help you get started with NodeJS:</p>
         </ResourceSectionBody>
@@ -83,7 +83,8 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://www.youtube.com/watch?v=ENrzD9HAZK4">
-                  Node.js Ultimate Beginner's Guide in 7 Easy Steps ~ Fireship
+                  Node.js Ultimate Beginner&apos;s Guide in 7 Easy Steps ~
+                  Fireship
                 </a>
               </ResourceLink>
               <ResourceLink>
@@ -161,7 +162,8 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">
-                  Var, Let and Const - What's the difference? ~ FreeCodeCamp
+                  Var, Let and Const - What&apos;s the difference? ~
+                  FreeCodeCamp
                 </a>
               </ResourceLink>
             </ResourceCardLinks>

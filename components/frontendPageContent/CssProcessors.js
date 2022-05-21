@@ -21,8 +21,8 @@ const CssProcessors = () => {
             CSS Processors allow you to write css-like codes which you can then
             compile into normal CSS code. You get to write CSS as if you were
             writing a programming language which in turn offers you a wide
-            variety of logical syntax. Don't fret, it's easier than it sounds.
-            Check them out below.
+            variety of logical syntax. Don&apos; fret, it&apos; easier than it
+            sounds. Check them out below.
           </p>
         </ResourceSectionBody>
 

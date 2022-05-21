@@ -27,7 +27,7 @@ const CareersDescription = () => {
             <p>
               There are over 20 job titles in the Tech Industry and they can be
               divided into 2 categories; the one that requires you to write code
-              and the one that doesn't. You can learn about them by going
+              and the one that doesn&apos;t. You can learn about them by going
               through the resources below.
             </p>
             <p>
