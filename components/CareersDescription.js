@@ -1,19 +1,19 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled";
-import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled";
-import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled";
-import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled";
-import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled";
-import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
-import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
+import { ResourceCard } from "../styles/styled-components/ResourceCard.styled";
+import { ResourceCardLinks } from "../styles/styled-components/ResourceCardLinks.styled";
+import { ResourceCardTitle } from "../styles/styled-components/ResourceCardTitle.styled";
+import { ResourceLink } from "../styles/styled-components/ResourceLink.styled";
+import { ResourceSection } from "../styles/styled-components/ResourceSection.styled";
+import { ResourceSectionBody } from "../styles/styled-components/ResourceSectionBody.styled";
+import { ResourceSectionHeading } from "../styles/styled-components/ResourceSectionHeading.styled";
 
 const CareersDescription = () => {
   return (
     <>
       {/* <!--* intro --> */}
       <section className="intro">
-        <div className="intro-wrapper">
+        <div className="introWrapper">
           <h1 className="heading">Begin Your Tech Career Journey!</h1>
           <div className="intro__body">
             <p>
