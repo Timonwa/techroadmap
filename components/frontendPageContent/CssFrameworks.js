@@ -35,12 +35,12 @@ const CssFrameworks = () => {
         <p>
           Before picking your first framework/library, check these videos out;
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/LimOOe6I4eo">
             What are frameworks and libraries. ~ Codeacademy
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/N6SXu86bJ6I">
             Top CSS frameworks to check out in 2021. ~ Adrian Twarog
           </a>

@@ -2,7 +2,7 @@
 $main-bgc: hsl(209, 41%, 22%);
 $main-color: hsl(212, 28%, 86%);
 
-.sidebar-nav {
+.sidebarNav {
   width: 200px;
   position: fixed;
   right: 0;
@@ -11,7 +11,7 @@ $main-color: hsl(212, 28%, 86%);
   font-size: 80%;
 
   /* sidebar menu toggle */
-  .sidebar-toggle {
+  .sidebarToggle {
     height: 40px;
     div {
       width: initial;

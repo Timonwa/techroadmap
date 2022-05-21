@@ -27,7 +27,7 @@ const CodeEditors = () => {
         <p>
           But before diving in, check this resource(s) out;
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/kCZQPL8u_YI">
             Best 3 editors for coding and why. ~ Tutmo
           </a>

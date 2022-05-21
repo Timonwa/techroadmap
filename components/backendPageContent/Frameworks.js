@@ -51,17 +51,17 @@ const Frameworks = () => {
           Before picking your first backend framework, check these resource(s)
           out;
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://blog.back4app.com/backend-frameworks/">
             Top 10 backend frameworks – Which is the best? ~ Back4App
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/aEc_dR8dhNA">
             Top backend frameworks in 2022 ~ Coding for all by Newton School
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/NwKB4HZnIHM">
             Django vs Flask Comparison ~ Jelvix
           </a>

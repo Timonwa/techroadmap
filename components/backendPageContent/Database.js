@@ -28,22 +28,22 @@ const Database = () => {
           Before picking your first database language, check these resource(s)
           out;
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/Tk1t3WKK-ZY">
             What is a database in under 4 minutes ~ Linux Academy
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/j09EQ-xlh88">
             What is Database ~ TechTFQ
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/cODCpXtPHbQ">
             Database. Which, when and why? ~ CodeKarle
           </a>
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/ztHopE5Wnpc">
             Database design full course ~ FreeCodeCamp
           </a>
@@ -198,9 +198,7 @@ const Database = () => {
               <ResourceCardTitle>Oracle</ResourceCardTitle>
               <ResourceCardLinks>
                 <ResourceLink>
-                  <a
-                    href="https://www.oracle.com/index.html"
-                    target="_blank">
+                  <a href="https://www.oracle.com/index.html" target="_blank">
                     Website
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -210,7 +208,8 @@ const Database = () => {
                   <a
                     href="https://www.youtube.com/watch?v=ObbNGhcxXJA&ab_channel=GreatLearning"
                     target="_blank">
-                    Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners ~ Great Learning
+                    Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners
+                    ~ Great Learning
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
@@ -232,7 +231,8 @@ const Database = () => {
                   <a
                     href="https://www.youtube.com/watch?v=si9tjcnxruU&ab_channel=freeCodeCamp.org"
                     target="_blank">
-                    The Oracle Foundations Associate Cloud Certification ~ FreeCodeCamp
+                    The Oracle Foundations Associate Cloud Certification ~
+                    FreeCodeCamp
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
@@ -254,17 +254,17 @@ const Database = () => {
             <p>
               You can learn about JSON through the links below:
               <a
-                className="resource-link paragraph-links"
+                className="resourceLink paragraphLinks"
                 href="https://youtu.be/iiADhChRriM">
                 Learn JSON in 10 minutes. ~ Web Dev Simplified
               </a>
               <a
-                className="resource-link paragraph-links"
+                className="resourceLink paragraphLinks"
                 href="https://youtu.be/mAqYJF-yxO8">
                 Full JSON tutorial for beginners. ~ Techcode
               </a>
               <a
-                className="resource-link paragraph-links"
+                className="resourceLink paragraphLinks"
                 href="https://blog.siddu.tech/secret-json-features">
                 5 Secret features of JSON you didn't know about. ~ Siddharth
                 Shyniben

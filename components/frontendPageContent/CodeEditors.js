@@ -28,7 +28,7 @@ const CodeEditors = () => {
         <p>
           But before diving in, check this video out;
           <a
-            className="resource-link paragraph-links"
+            className="resourceLink paragraphLinks"
             href="https://youtu.be/kCZQPL8u_YI">
             Best 3 editors for coding and why. ~ Tutmo
           </a>
@@ -232,7 +232,7 @@ const CodeEditors = () => {
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
-        
+
         {/* Mobile Apps */}
         <ResourceCard id="mobile-apps">
           <ResourceCardTitle>Mobile Apps</ResourceCardTitle>

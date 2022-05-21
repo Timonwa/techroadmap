@@ -30,13 +30,13 @@ const BackendLangs = () => {
             Before picking your first backend language, check these resource(s)
             out;
             <a
-              className="resource-link paragraph-links"
+              className="resourceLink paragraphLinks"
               href="https://www.freecodecamp.org/news/what-programming-language-should-i-learn-first-19a33b0a467d/">
               What Programming Language Should I Learn First in 2022? ~
               FreeCodeCamp
             </a>
             <a
-              className="resource-link paragraph-links"
+              className="resourceLink paragraphLinks"
               href="https://youtu.be/H8v44CqZwYs">
               The best programming language for web development ~ Programming
               with Dan

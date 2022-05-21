@@ -33,7 +33,7 @@ const DesignResources = () => {
                 Google Fonts
               </a>
               <ResourceBadge>Free</ResourceBadge>
-              <ResourceCardSubLinks className="resource-link-sublinks">
+              <ResourceCardSubLinks className="resourceLink-sublinks">
                 <ResourceLink>
                   <a target="_blank" href="https://youtu.be/qgmLDPLApBY">
                     Add custom fonts to your website using Google Fonts. ~ Dcode
@@ -107,7 +107,9 @@ const DesignResources = () => {
               <ResourceBadge>Free</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a target="_blank" href="https://fontello.com/">Fontello - icon fonts generator</a>
+              <a target="_blank" href="https://fontello.com/">
+                Fontello - icon fonts generator
+              </a>
               <ResourceBadge>Free</ResourceBadge>
               <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>

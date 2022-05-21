@@ -107,7 +107,7 @@ const JsAdvanced = () => {
           <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="#"></a>
-              <span className="resource-link-badge"></span>
+              <span className="resourceLink-badge"></span>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>

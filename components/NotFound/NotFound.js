@@ -16,11 +16,11 @@ const NotFound = () => {
         </p>
         <p>
           Please return to our{" "}
-          <Link to="/" className="paragraph-links">
+          <Link to="/" className="paragraphLinks">
             Home page
           </Link>{" "}
           or check out the careers listed in our{" "}
-          <Link to="/careers" className="paragraph-links">
+          <Link to="/careers" className="paragraphLinks">
             Careers page
           </Link>
           .
