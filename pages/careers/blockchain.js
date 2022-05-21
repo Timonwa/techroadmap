@@ -31,8 +31,17 @@ const BlockchainPage = () => {
   return (
     <div className="blockchain-page">
       <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#21394f" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+
         <title>Blockchain Development Roadmap. | Tech Roadmap.</title>
-        {/* <!-- Primary Meta Tags --> */}
+
+        {/** Seo Tags */}
+        {/* Primary Meta Tags */}
+        <meta name="type" content="website" />
+        <meta name="author" content="Pelumi Akintokun, Timonwa" />
         <meta
           name="title"
           content="Blockchain Development Roadmap. | Tech Roadmap."
@@ -41,8 +50,10 @@ const BlockchainPage = () => {
           name="description"
           content="Free videos, articles, guides and other resources to help you become a blockchain developer."
         />
-        {/* Open Graph / Facebook Meta Tags */}
 
+        {/* Open Graph / Facebook Meta Tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/seo-image.png" />
         <meta property="og:url" content="https://techroadmap.xyz/blockchain" />
         <meta
           property="og:title"
@@ -52,7 +63,10 @@ const BlockchainPage = () => {
           property="og:description"
           content="Free videos, articles, guides and other resources to help you become a blockchain developer."
         />
+
         {/* Twitter Meta Tags */}
+        <meta property="twitter:careers__card" content="summary_large_image" />
+        <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
           content="https://techroadmap.xyz/blockchain"
