@@ -18,7 +18,7 @@ export const ContributeDescription = () => {
 
   return (
     <section className="intro">
-      <div className="intro-wrapper">
+      <div className="introWrapper">
         <h1 className="heading">How to contribute to this Project!</h1>
         <div className="intro__body">
           <p>
@@ -30,7 +30,7 @@ export const ContributeDescription = () => {
             into a budding tech community and the no. 1 online resource for tech
             careers and learning. You can do so by
           </p>
-          
+
           {/* lists of contributions that can be made */}
           <ul style={contributingList}>
             <li>adding a new roadmap,</li>
@@ -46,7 +46,7 @@ export const ContributeDescription = () => {
           <p>
             If you want to contribute as a developer, you can do so{" "}
             <a
-              className="paragraph-links"
+              className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap">
               here
@@ -58,21 +58,21 @@ export const ContributeDescription = () => {
           <p>
             Do read our{" "}
             <a
-              className="paragraph-links"
+              className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md">
               contribution guidelines{" "}
             </a>
             and{" "}
             <a
-              className="paragraph-links"
+              className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md">
               code of conduct
             </a>{" "}
             first before making any contributions and please give our{" "}
             <a
-              className="paragraph-links"
+              className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap">
               Github repo{" "}

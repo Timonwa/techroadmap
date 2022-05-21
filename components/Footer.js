@@ -29,9 +29,9 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <a className={styles.footerLink} href="/contribute">
-                Contribute
-              </a>
+              <Link href="/contribute">
+                <a className={styles.footerLink}>Contribute</a>
+              </Link>
             </li>
           </ul>
         </div>
