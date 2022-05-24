@@ -19,6 +19,14 @@ const ContributeCTA = () => {
               GitHub
             </a>
             . Please give us a <FaStar className={styles.star} />
+            {""} on{" "}
+            <a
+              className="paragraphLinks"
+              target="_blank"
+              href="https://github.com/Timonwa/techroadmap"
+              rel="noreferrer">
+              GitHub
+            </a>
             . All meaningful contributions are welcome to help grow this project
             and you don&apos;t need to know how to code to contribute.
           </p>
