@@ -407,7 +407,7 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://www.freecodecamp.org/news/the-c-beginners-handbook/">
-                  The C Beginner's Handbook
+                  The C Beginner's Handbook ~ freeCodeCamp.org
                 </a>
               </ResourceLink>
             </ResourceCardLinks>
@@ -444,7 +444,7 @@ const BackendLangs = () => {
             <ResourceCardLinks>
               <ResourceLink>
                 <a target="_blank" href="https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/">
-                C Programming Tips and Tricks for Beginners
+                C Programming Tips and Tricks for Beginners ~ techbeamers
                 </a>
                 <ResourceBadge>Article</ResourceBadge>
               </ResourceLink>
