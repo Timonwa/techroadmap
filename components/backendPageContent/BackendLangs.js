@@ -51,6 +51,12 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#python">Python</a>
             </ResourceLink>
+            <ResourceLink>
+              <a href="#c">C</a>
+            </ResourceLink>
+            <ResourceLink>
+              <a href="#CPP">C&#43;&#43;</a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -407,7 +413,7 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://www.freecodecamp.org/news/the-c-beginners-handbook/">
-                  The C Beginner's Handbook ~ freeCodeCamp.org
+                  The C Beginner&apos;s Handbook ~ freeCodeCamp.org
                 </a>
               </ResourceLink>
             </ResourceCardLinks>
