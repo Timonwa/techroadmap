@@ -499,14 +499,14 @@ const BackendLangs = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=SQHREey_Yuc&list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C">
+                  href="https://youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C">
                   C&#43;&#43; Programming Video Tutorial ~ LearningLad
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=e1YafrxYOWw&list=PLS1QulWo1RIYSyC6w2-rDssprPrEsgtVK">
+                  href="https://youtube.com/playlist?list=PLS1QulWo1RIYSyC6w2-rDssprPrEsgtVK">
                   C&#43;&#43; Tutorial for Beginners ~ ProgrammingKnowledge
                 </a>
               </ResourceLink>
