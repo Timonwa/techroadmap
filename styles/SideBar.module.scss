@@ -29,5 +29,10 @@ $main-color: hsl(212, 28%, 86%);
     .active {
       transform: rotate(-180deg);
     }
+    &:hover {
+      background-color: #0F1621;
+      color: #D1DBE5;
+      cursor: pointer;
+    }
   }
 }

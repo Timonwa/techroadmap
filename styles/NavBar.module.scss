@@ -75,6 +75,10 @@ $nav-height: 60px;
     }
     a {
       color: $main-color;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
