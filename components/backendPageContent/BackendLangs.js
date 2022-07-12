@@ -372,7 +372,7 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://www.youtube.com/watch?v=87SH2Cn0s9A">
-                  C Full Course -Learn to code today ~
+                  C Full Course - Learn to code today ~
                   Bro Code
                 </a>
               </ResourceLink>
