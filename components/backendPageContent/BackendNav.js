@@ -64,6 +64,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
           <SideBarSubtitle onClick={handleMenu}>
             <a href="#python">Python</a>
           </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
+            <a href="#c">C</a>
+          </SideBarSubtitle>
         </SideBarSubLinks>
       </SideBarTitle>
 

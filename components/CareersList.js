@@ -49,7 +49,7 @@ const CareersList = () => {
   ];
   return (
     <section className={styles.careers}>
-      <h2 className={styles.heading}>Careers in Tech</h2>
+      <h2 className="heading">Careers in Tech</h2>
 
       <div className={styles.careers__cards}>
         {careers.map((career) => (

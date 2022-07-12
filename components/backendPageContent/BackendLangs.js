@@ -338,6 +338,121 @@ const BackendLangs = () => {
           </ResourceCard>
         </ResourceSectionLinks>
       </ResourceSection>
+      
+      
+      {/*  C */}
+      <ResourceSection id="c">
+        <ResourceSectionHeading>C</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          C is one of the high-level programming languages developed by Dennis Ritchie. C was originally developed for UNIX operating system to beat the issues of previous languages such as B, BCPL, etc.
+           The UNIX operating system development started in the year 1969, and its code was rewritten in C in the year 1972.
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=KJgsSFOSQv0">
+                 C Programming Tutorial for Beginners ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=87SH2Cn0s9A">
+                  C Full Course - Learn to code today ~
+                  Bro Code
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/playlist?list=PLsyeobzWxl7oBxHp43xQTFrw9f1CDPR6C">
+                  C Programming Tutorial for Beginners ~ Telusko
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/c-programming-2019-master-the-basics/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-o0Hwi9OaKJw93uZ67mUGHA&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads">
+                C Programming : Master The Basics! ~ Udemy
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.freecodecamp.org/news/the-c-beginners-handbook/">
+                  The C Beginner&apos;s Handbook ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* practical projects */}
+          <ResourceCard>
+            <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.interviewbit.com/blog/c-projects/?amp=1">
+                  15+ C Projects Ideas With Source Code ~
+                  interviewbit
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.emertxe.com/embedded-systems/c-programming/c-projects/">
+                Advanced C Programming ~ emertxe
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* others */}
+          <ResourceCard>
+            <ResourceCardTitle>Others</ResourceCardTitle>
+            <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/">
+                C Programming Tips and Tricks for Beginners ~ techbeamers
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionLinks>
+      </ResourceSection>
+    
     </>
   );
 };

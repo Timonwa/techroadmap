@@ -1,15 +1,25 @@
 import styles from "../styles/ContributeCTA.module.scss";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 
 const ContributeCTA = () => {
   const displayNone = { display: "none" };
   return (
     <aside className={styles.openSource}>
       <div className={styles.openSourceWrapper}>
-        <h2 className={styles.heading}>Open Source</h2>
+        <h2 className="heading">Open Source</h2>
         <div className={styles.openSource__body}>
           <p>
             This project is OpenSource and is hosted on{" "}
+            <a
+              className="paragraphLinks"
+              target="_blank"
+              href="https://github.com/Timonwa/techroadmap"
+              rel="noreferrer">
+              GitHub
+            </a>
+            . Please give us a <FaStar className={styles.star} />
+            {""} on{" "}
             <a
               className="paragraphLinks"
               target="_blank"
