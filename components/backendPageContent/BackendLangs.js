@@ -51,6 +51,12 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#python">Python</a>
             </ResourceLink>
+            <ResourceLink>
+              <a href="#c">C</a>
+            </ResourceLink>
+            <ResourceLink>
+              <a href="#CPP">C&#43;&#43;</a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -445,6 +451,132 @@ const BackendLangs = () => {
               <ResourceLink>
                 <a target="_blank" href="https://www.techbeamers.com/top-c-programming-tips-and-tricks-for-you/">
                 C Programming Tips and Tricks for Beginners ~ techbeamers
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionLinks>
+      </ResourceSection>
+
+      {/*  C ++ */}
+
+      <ResourceSection id="CPP">
+        <ResourceSectionHeading>C&#43;&#43;</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          The C&#43;&#43; programming language was invented in 1979 by Bjarne Stroustrup while working on his PhD thesis at Bell Labs. C&#43;&#43; was designed to be an extension of the programming language C, hence its original name, “C with Classes”. Stroustrup&#39;s goal was to add flexibility and OOP (object-oriented programming) to the C language. He included features such as classes, strong type checking, default function arguments, and basic inheritance. The name was changed to C&#43;&#43; in 1983, which derives from the &#43;&#43; operator.
+
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=8jLOx1hD3_o">
+                C&#43;&#43; Programming Course - Beginner to Advanced ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=GQp1zzTwrIg">
+                  C&#43;&#43; FULL COURSE For Beginners ~ CodeBeauty
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C">
+                  C&#43;&#43; Programming Video Tutorial ~ LearningLad
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLS1QulWo1RIYSyC6w2-rDssprPrEsgtVK">
+                  C&#43;&#43; Tutorial for Beginners ~ ProgrammingKnowledge
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udacity.com/course/c-for-programmers--ud210?irclickid=znLyVwSpsxyIRGAw3s3-n1VaUkDwXRzxqRu5Uo0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2558440&utm_term=&utm_campaign=__&utm_content=&adid=786224">
+                C&#43;&#43; For Programmers ~ Udacity
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.educative.io/blog/how-to-learn-cpp-the-guide-for-beginners">
+                  Learn C&#43;&#43; from scratch: The complete guide for beginners ~ Educative
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* practical projects */}
+          <ResourceCard>
+            <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.dunebook.com/c-project-ideas-for-beginners/">
+                  18 C&#43;&#43; Project Ideas for Beginners ~
+                  dunebook
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://ssiddique.info/c-projects-ideas-beginners-experts.html">
+                10 Intermediate C&#43;&#43; Projects Ideas ~ ssiddique
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* others */}
+          <ResourceCard>
+            <ResourceCardTitle>Others</ResourceCardTitle>
+            <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://betterprogramming.pub/8-neat-c-programming-tricks-you-should-know-be331b828be1">
+                8 Neat C&#43;&#43; Programming Tricks You Should Know ~ betterprogramming
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://codeforces.com/blog/entry/74684">
+                C&#43;&#43; tips and tricks ~ codeforces
                 </a>
                 <ResourceBadge>Article</ResourceBadge>
               </ResourceLink>
