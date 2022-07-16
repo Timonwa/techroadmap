@@ -64,6 +64,10 @@ body {
 //* all links in paragraphs
 a.paragraphLinks {
   color: $pink;
+
+  &:hover {
+    color: $purple;
+  }
 }
 
 //* all links in descriptions of the sections in the roadmaps and careers page

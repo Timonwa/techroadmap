@@ -48,6 +48,10 @@ $grey: hsl(0, 0%, 87%);
     &:nth-child(12) {
       border: 2px solid $grey;
     }
+
+    &:hover {
+      transform: scale(1.01);
+    }
   }
   .careers__cardLink.disabled {
     position: relative;

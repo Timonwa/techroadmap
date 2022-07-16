@@ -44,6 +44,10 @@ $nav-height: 60px;
   .navLogo > a > p {
     font-weight: 700;
     margin-bottom: 0;
+
+    &:hover {
+      color: #fff;
+    }
   }
   // ? h4 nav
   // .navLogo > a > h4 {
@@ -75,6 +79,10 @@ $nav-height: 60px;
     }
     a {
       color: $main-color;
+
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
