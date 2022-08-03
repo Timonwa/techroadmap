@@ -57,6 +57,9 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#CPP">C&#43;&#43;</a>
             </ResourceLink>
+            <ResourceLink>
+              <a href="#Java">Java</a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -585,6 +588,141 @@ const BackendLangs = () => {
         </ResourceSectionLinks>
       </ResourceSection>
     
+    {/*  JAVA */}
+    <ResourceSection id="Java">
+        <ResourceSectionHeading>Java</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          Java is a high-level, class-based, object-oriented programming language. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need to recompile.Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=xk4_1vDrzzo">
+                Java Full Course ~ Bro Code
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=grEKMHGYyns">
+                  Learn Java 8 - Full Tutorial for Beginners ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al">
+                  Java Tutorial For Beginners ~ ProgrammingKnowledge
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK">
+                  Java Tutorial For Beginners ~ Telusko
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/java-tutorial/">
+                Java Tutorial for Complete Beginners ~ Udemy
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udacity.com/course/java-programming-basics--ud282">
+                Java Programming BasicsJava Tutorial for Complete Beginners ~ Udacity
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udacity.com/course/object-oriented-programming-in-java--ud283">
+                Object Oriented Programming in Java ~ Udacity
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://medium.com/javarevisited/10-articles-java-developers-should-read-this-week-7648edd18a22">
+                  10 Articles Java Developers Should Read this Week ~ Medium
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* practical projects */}
+          <ResourceCard>
+            <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://hackr.io/blog/java-projects">
+                  10 Best Java Projects for Beginners 2022 ~
+                  hackr
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.interviewbit.com/blog/java-projects/">
+                Top 15 Java Projects ~ interviewbit
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* others */}
+          <ResourceCard>
+            <ResourceCardTitle>Others</ResourceCardTitle>
+            <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.geeksforgeeks.org/interesting-and-cool-tricks-in-java/">
+                Interesting and Cool Tricks in Java ~ geeksforgeeks
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://blogs.oracle.com/javamagazine/post/java-11-tricks-generics-inheritance-jshell">
+                11 great Java tricks from dev.java ~ oracle
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionLinks>
+      </ResourceSection>
+    
+
     </>
   );
 };
