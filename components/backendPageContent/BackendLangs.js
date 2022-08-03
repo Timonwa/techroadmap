@@ -626,15 +626,15 @@ const BackendLangs = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK">
-                  Java Tutorial For Beginners ~ Telusko
+                  href="https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al">
+                  Java Tutorial For Beginners ~ ProgrammingKnowledge
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al">
-                  Java Tutorial For Beginners ~ ProgrammingKnowledge
+                  href="https://www.youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK">
+                  Java Tutorial For Beginners ~ Telusko
                 </a>
               </ResourceLink>
             </ResourceCardLinks>
