@@ -60,6 +60,9 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#Java">Java</a>
             </ResourceLink>
+            <ResourceLink>
+              <a href="#CSHARP">C#</a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -714,6 +717,159 @@ const BackendLangs = () => {
               <ResourceLink>
                 <a target="_blank" href="https://blogs.oracle.com/javamagazine/post/java-11-tricks-generics-inheritance-jshell">
                 11 great Java tricks from dev.java ~ oracle
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionLinks>
+      </ResourceSection>
+      {/*  C# */}
+      <ResourceSection id="CSHARP">
+        <ResourceSectionHeading>C#</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          C# is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in . NET. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers.
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=gfkTfcpWqAY">
+                C# Tutorial For Beginners - Learn C# Basics ~ Programming with Mosh
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=GhQdlIFylQ8">
+                  C# Tutorial - Full Course for Beginners ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=0QUgvfuKvWU">
+                  C# Fundamentals for Beginners ~ Microsoft Developer
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLAC325451207E3105">
+                  C# tutorial for beginners ~ kudvenkat
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PL_c9BZzLwBRIXCJGLd4UzqH34uCclOFwC">
+                  C# Tutorials ~ Caleb Curry
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.w3schools.com/cs/index.php">
+                C# Tutorial ~ w3schools
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/understandingc/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-B2KTq7VSIAY.6Nt9_Xy1bw&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads">
+                Fundamentals of Programming: Understanding C# ~ Udemy
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/c-from-beginner-to-pro-build-a-windowsui-app-in-winforms/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-X.phEnJd4UQKI.nJTnkGvg&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads">
+                C# From Beginner To Pro - Write A WindowsUI Style App Form ~ Udemy
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make">
+                  The 10 Most Common Mistakes in C# Programming ~ toptal
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* practical projects */}
+          <ResourceCard>
+            <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://projectsgeek.com/c-sharp-projects-beginners-source-code">
+                  C# projects for Beginners ~ projectsgeek
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://dev.to/nerdjfpb/15-c-project-ideas-beginner-to-expert-with-tutorial-iio">
+                  15 C# Project Ideas: Beginner to Expert ~ dev
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* others */}
+          <ResourceCard>
+            <ResourceCardTitle>Others</ResourceCardTitle>
+            <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://cpratt.co/async-tips-tricks/">
+                  C# Async Tips and Tricks ~ cpratt
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://hackernoon.com/top-25-c-programming-tips-xlo31wv">
+                  Top 25 C# Programming Tips ~ hackernoon
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                   target="_blank" 
+                   href="https://medium.com/codex/c-coding-tricks-you-need-to-know-in-2021-f0ddf4f86b58">
+                   4 Easy C# Programming Tricks in 2022 ~ medium
                 </a>
                 <ResourceBadge>Article</ResourceBadge>
               </ResourceLink>
