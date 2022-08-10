@@ -95,7 +95,7 @@ const HtmlAndCssAdvanced = () => {
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="https://www.simplilearn.com/tutorials/css-tutorial/advanced-css">Advanced CSS Tutorial To Understand The A-Z of CSS. ~ Simplilearn
+              <a target="_blank" href="https://www.simplilearn.com/tutorials/css-tutorial/advanced-css">Advanced CSS Tutorial To Understand The A-Z of CSS. ~ Aryan Gupta, Simplilearn
               </a>
             </ResourceLink>
           </ResourceCardLinks>
