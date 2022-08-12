@@ -73,6 +73,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
           <SideBarSubtitle onClick={handleMenu}>
             <a href="#Java">Java</a>
           </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
+            <a href="#CSHARP">C#</a>
+          </SideBarSubtitle>
         </SideBarSubLinks>
       </SideBarTitle>
 
