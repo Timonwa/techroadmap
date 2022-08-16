@@ -1000,7 +1000,7 @@ const BackendLangs = () => {
                 <a 
                   target="_blank" 
                   href="https://youtube.com/playlist?list=PLQ9_95hffac8_0bj5oeCe4FdxeNZi0UJ2">
-                  Resturant Mangment - GoLang Full Project  ~ Akhil Sharma
+                  Resturant Mangment - GoLang Full Project  ~ Abdulrahman Masoud
                 </a>
                 <ResourceBadge>Video</ResourceBadge>
               </ResourceLink>
