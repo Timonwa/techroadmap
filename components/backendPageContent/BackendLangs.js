@@ -927,7 +927,7 @@ const BackendLangs = () => {
                 <a
                   target="_blank"
                   href="https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa">
-                  Let's go with golang ~ Hitesh Choudhary
+                  Let&apos;s go with golang ~ Hitesh Choudhary
                 </a>
               </ResourceLink>
               <ResourceLink>
