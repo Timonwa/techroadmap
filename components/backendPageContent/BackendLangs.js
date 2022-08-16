@@ -63,6 +63,9 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#CSHARP">C#</a>
             </ResourceLink>
+            <ResourceLink>
+              <a href="#GO">Go</a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -870,6 +873,168 @@ const BackendLangs = () => {
                    target="_blank" 
                    href="https://medium.com/codex/c-coding-tricks-you-need-to-know-in-2021-f0ddf4f86b58">
                    4 Easy C# Programming Tricks in 2022 ~ medium
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+        </ResourceSectionLinks>
+      </ResourceSection>
+     
+     {/*  Go */}
+     <ResourceSection id="GO">
+        <ResourceSectionHeading>Go</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson.It is syntactically similar to C, but with memory safety, garbage collection, structural typing,and CSP-style concurrency.It is often referred to as Golang because of its former domain name, golang.org, but its proper name is Go.
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=yyUHQIec83I">
+                Golang Tutorial for Beginners | Full Go Course ~ TechWorld with Nana
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=YS4e4q9oBaU">
+                  Learn Go Programming - Golang Tutorial for Beginners ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=ty49_v1tV44">
+                  Go Tutorial Basic | Golang ~ Telusko
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa">
+                  Let&apos;s go with golang ~ Hitesh Choudhary
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/playlist?list=PLS1QulWo1RIaRoN4vQQCYHWDuubEU8Vij">
+                  Go Programming Language Tutorial  ~ ProgrammingKnowledge
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.w3schools.com/go/">
+                Go Tutorial ~ w3schools
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/getgoing/?ranMID=39197&ranEAID=CuIbQrBnhiw&ranSiteID=CuIbQrBnhiw-l8y136DdFL9FKYh_1SvyUQ&LSNPUBID=CuIbQrBnhiw&utm_source=aff-campaign&utm_medium=udemyads">
+                GetGoing: Introduction to Golang ~ Udemy
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.tutorialspoint.com/go/">
+                Go Tutorial - Write A WindowsUI Style App Form ~ Tutorialspoint
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
+          <ResourceCard>
+            <ResourceCardTitle>Articles</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.infoworld.com/article/3198928/whats-the-go-programming-language-really-good-for.html">
+                  What the Go programming language really good for? ~ infoworld
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* practical projects */}
+          <ResourceCard>
+            <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=jFfo23yIWac">
+                  Learn Go Programming by Building 11 Projects ~ freecodecamp
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://youtube.com/playlist?list=PL5dTjWUk_cPYztKD7WxVFluHvpBNM28N9">
+                  36 KILLER GOLANG Projects in 36 Different Videos  ~ Akhil Sharma
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://youtube.com/playlist?list=PLQ9_95hffac8_0bj5oeCe4FdxeNZi0UJ2">
+                  Resturant Mangment - GoLang Full Project  ~ Abdulrahman Masoud
+                </a>
+                <ResourceBadge>Video</ResourceBadge>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* others */}
+          <ResourceCard>
+            <ResourceCardTitle>Others</ResourceCardTitle>
+            <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://go101.org/article/tips.html">
+                  Go Tips 101 ~ go101
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                  target="_blank" 
+                  href="https://golangtutorial.dev/tips/">
+                  Useful Go language Tips and tricks ~ golangtutorial
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a 
+                   target="_blank" 
+                   href="https://dev.to/farisj/go-tips-tricks-54o4">
+                   Go Tips and Tricks ~ dev
                 </a>
                 <ResourceBadge>Article</ResourceBadge>
               </ResourceLink>
