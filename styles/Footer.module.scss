@@ -14,6 +14,10 @@ $purple: hsl(271, 46%, 53%);
   a:active,
   a:visited {
     color: $footer-color;
+
+    &:hover {
+      color: hsl(350deg, 89%, 74%);
+    }
   }
 
   .sections {
@@ -32,6 +36,10 @@ $purple: hsl(271, 46%, 53%);
   // all links in footer
   a.paragraphLinks {
     color: $purple;
+
+    &:hover {
+      color: hsl(350deg, 89%, 74%);
+    }
   }
 
   // social links in footer
