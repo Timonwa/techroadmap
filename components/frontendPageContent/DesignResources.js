@@ -19,7 +19,7 @@ const DesignResources = () => {
       <ResourceSectionBody>
         <p>
           Below are tools you can use to aid the creative process from, free
-          photos to icons, fonts, and other goodies. Explore them.
+          photos to icons, fonts and other goodies. Explore them.
         </p>
       </ResourceSectionBody>
 

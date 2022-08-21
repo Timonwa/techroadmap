@@ -18,7 +18,7 @@ const JsAdvanced = () => {
         <p>
           You have learned the basics of JavaScript, time to learn modern and
           newer concepts to help you write easier and better codes like Arrow
-          functions, Modules, and the other goodies that came with JavaScript
+          functions, Modules and the other goodies that came with JavaScript
           ES6.
         </p>
       </ResourceSectionBody>
