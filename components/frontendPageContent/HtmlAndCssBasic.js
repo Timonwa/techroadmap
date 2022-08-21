@@ -16,7 +16,7 @@ const HtmlAndCssBasic = () => {
   return (
     <ResourceSection id="css-beginners">
       <ResourceSectionHeading>
-        Html and Css (Beginner&apos; Level)
+        Html and Css (Beginner&apos;s Level)
       </ResourceSectionHeading>
 
       <ResourceSectionBody>
@@ -24,7 +24,7 @@ const HtmlAndCssBasic = () => {
           HTML and CSS are the 2 most important languages when it comes to
           building a website. HTML which stands for Hypertext Markup Language
           provides the structure of the page and CSS which stands for Cascading
-          Style Sheets determines the visual layout of webpages. These are the
+          Style Sheets determine the visual layout of web pages. These are the
           first set of languages you will learn as a frontend developer.
         </p>
         <p>
@@ -52,17 +52,17 @@ const HtmlAndCssBasic = () => {
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/yfoY53QXEnI">
-                Css crash course for absolute beginners. ~ Traversy Media
+                CSS crash course for absolute beginners. ~ Traversy Media
               </a>
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/vQWlgd7hV4A">
-                Learn Html and Css for beginners - Crash course. ~ Dev Ed
+                Learn Html and CSS for beginners - Crash course. ~ Dev Ed
               </a>
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/mU6anWqZJcc">
-                Html and Css full course from scratch. ~ FreeCodeCamp
+                Html and CSS full course from scratch. ~ FreeCodeCamp
               </a>
             </ResourceLink>
           </ResourceCardLinks>
@@ -76,7 +76,7 @@ const HtmlAndCssBasic = () => {
               <a
                 target="_blank"
                 href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G">
-                Html and Css Crash course tutorial. ~ The Net Ninja
+                Html and CSS Crash course tutorial. ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
@@ -146,7 +146,7 @@ const HtmlAndCssBasic = () => {
               <a
                 target="_blank"
                 href="https://youtube.com/playlist?list=PLt5nFcZSSiWVptXtYJssP6K3HoSl0cp-O">
-                50+ Html and Css projects. ~ Mahdi
+                50+ Html and CSS projects. ~ Mahdi
               </a>
             </ResourceLink>
             <ResourceLink>
