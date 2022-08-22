@@ -37,7 +37,7 @@ const WhatNext = () => {
             target="_blank">
             techcareerroadmap@gmail.com
           </a>
-          . Don&apos; forget to give us a Star on our{" "}
+          . Don&apos;t forget to give us a Star on our{" "}
           <a
             className="paragraphLinks"
             href="http://github.com/Timonwa/techroadmap"

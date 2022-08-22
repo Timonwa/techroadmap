@@ -9,13 +9,13 @@ const Intro = () => {
         <div className="intro__body">
           <p>
             Congratulations on choosing this career path. You are one step
-            closer to becoming a frontend developer. This guide is specially to
+            closer to becoming a frontend developer. This guide is specifically curated to
             help you have a smooth learning, with easy access to the right
             resources and data.
           </p>
           <p>
-            You will find here vast resources on frontend development from who
-            exactly is frontend developer, the frontend development roadmap,
+            You will find here vast resources on frontend development ranging from who
+            exactly is a frontend developer to the frontend development roadmap,
             frontend career paths, frontend development skills, tools to use,
             projects to build, communities to help you grow and network, videos,
             articles, etc

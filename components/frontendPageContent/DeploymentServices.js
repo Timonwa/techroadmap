@@ -21,7 +21,7 @@ const DeploymentServices = () => {
           BitBucket, you would want a server to host your frontend applications
           either temporarily or permanently and also have testable links which
           you can share with friends and potential clients so they can admire
-          and see the hard work you have done. You can choose any of the
+          and see the good work you have done. You can choose any of the
           services below.
         </p>
       </ResourceSectionBody>

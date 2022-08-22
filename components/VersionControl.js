@@ -26,7 +26,7 @@ const VersionControl = () => {
           If you are finding Git hard to understand, you can learn GitHub
           Desktop created by GitHub which makes using Git less complicated. Use
           it for a while and then come back to Git. After that, you can choose
-          which ever version control service you prefer among GitHub, GitLab and
+          whichever version control service you prefer among GitHub, GitLab and
           BitBucket.
         </p>
       </ResourceCardBody>

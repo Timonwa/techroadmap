@@ -81,7 +81,7 @@ const Networking = () => {
               Bootcamps are created to help one with little to no experience in
               coding gain programming skills by offering them technical training
               on the relevant skills. They focus on the most important aspects
-              of coding while allowing one apply this new skills to solve
+              of coding while allowing one to apply these new skills to solve
               real-life problems. They are like schools and some of them offer
               Certificates/Diplomas upon completion. Most of them are not free.
               Below are a few of the most popular bootcamps:
@@ -120,7 +120,7 @@ const Networking = () => {
               learning experience relating to a field of study or career
               interest. You also get to be mentored by seniors and experts in
               your field from different parts of the world, sometimes even
-              working on real-life projects. It can be a paid or unpaid. You can
+              working on real-life projects. It can be paid or unpaid. You can
               find below, a list of organizations that offer coding internships
               and run bootcamps in the tech field.
             </p>

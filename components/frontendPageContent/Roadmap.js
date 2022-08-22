@@ -19,7 +19,7 @@ const Roadmap = () => {
         <p>
           A roadmap is a visualization of a strategic plan. You will need one if
           you want to actualize becoming a frontend developer. The resources
-          below will guide you as to how to create/use your roadmap.
+          below will guide you on how to create/use your roadmap.
         </p>
       </ResourceSectionBody>
       

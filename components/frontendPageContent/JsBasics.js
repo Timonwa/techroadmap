@@ -16,7 +16,7 @@ const JsBasics = () => {
 
       <ResourceSectionBody>
         <p>
-          It&apos; time to learn JavaScript, your first programing language.
+          It&apos;s time to learn JavaScript, your first programing language.
         </p>
         <p>
           JavaScript along with HTML and CSS make up the Holy Trinity of the web
@@ -25,7 +25,7 @@ const JsBasics = () => {
         <p>
           It is a programming language used to make web pages dynamic and
           interactive. Those forms and buttons you have been creating that
-          don&apos; perform any actions, now you can make them do something.
+          don&apos;t perform any actions, now you can make them do something.
         </p>
       </ResourceSectionBody>
 
@@ -130,7 +130,7 @@ const JsBasics = () => {
               <a
                 target="_blank"
                 href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">
-                Var, Let and Const - What&apos; the difference? ~ FreeCodeCamp
+                Var, Let and Const - What&apos;s the difference? ~ FreeCodeCamp
               </a>
             </ResourceLink>
           </ResourceCardLinks>
