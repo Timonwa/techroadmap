@@ -205,7 +205,7 @@ const CodeEditors = () => {
             </ResourceCard>
             {/* Code Editor */}
             <ResourceCard>
-              <ResourceCardTitle>Code Editor</ResourceCardTitle>
+              <ResourceLink>Code Editor</ResourceLink>
               <ResourceCardSubLinks>
                 <ResourceLink>
                   <a
