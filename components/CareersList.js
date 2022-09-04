@@ -19,17 +19,17 @@ const CareersList = () => {
       link: "/careers/backend",
     },
     {
-      title: "Blockchain Developer",
-      body: "Curated guide and resources to becoming a blockchain developer.",
-      comingSoon: true,
-      inProgress: false,
-      link: "#",
-    },
-    {
       title: "Technical Writing",
       body: "Curated guide and resources to becoming a technical writer.",
       comingSoon: true,
       inProgress: true,
+      link: "#",
+    },
+    {
+      title: "Blockchain Developer",
+      body: "Curated guide and resources to becoming a blockchain developer.",
+      comingSoon: true,
+      inProgress: false,
       link: "#",
     },
     {
