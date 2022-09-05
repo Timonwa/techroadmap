@@ -1,10 +1,10 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import styles from "../styles/SideBar.module.scss";
 import { FaArrowDown } from "react-icons/fa";
 
-const SideBar = ({ children, handleMenu, openMenu }) => {
+const SideBar = ({ children, handleMenu, openMenu }, menuRef) => {
   return (
-    <nav className={styles.sidebarNav}>
+    <nav className={styles.sidebarNav} ref={menuRef}>
       <div className={styles.sidebarWrapper}>
         {/* side bar toggle */}
         <div className={styles.sidebarToggle} onClick={handleMenu}>
@@ -21,4 +21,4 @@ const SideBar = ({ children, handleMenu, openMenu }) => {
   );
 };
 
-export default SideBar;
+export default forwardRef(SideBar);
