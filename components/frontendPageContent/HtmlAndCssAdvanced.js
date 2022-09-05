@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled.js";
 import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled";
 import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled";
 import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled";
@@ -134,14 +135,14 @@ const HtmlAndCssAdvanced = () => {
                 Responsive Checker - Make sure your website looks perfect no
                 matter what device your visitors are using to view it!
               </a>
-              <span className="resourceLink-badge">Tool</span>
+              <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://responsively.app/">
                 Responsively App - A dev-tool that aids faster and precise
                 responsive web development.
               </a>
-              <span className="resourceLink-badge">Tool</span>
+              <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
