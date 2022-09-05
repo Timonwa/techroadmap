@@ -242,7 +242,7 @@ const CodeEditors = () => {
                     href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">
                     Download Link
                   </a>
-                  <ResourceBadge>Link</ResourceBadge>
+                  
                 </ResourceLink>
               </ResourceCardSubLinks>
             </ResourceCard>
