@@ -6,9 +6,9 @@ import Banner from "../../components/Banner";
 const TechnicalWriting = () => {
   const title = "";
   const quote =
-    '"Websites promote you 24/7: No employee will do that." – Paul Cookson';
+    '"As a technical communicator, I am an enabler of information." – Suyog Ketkar';
   const image =
-    "https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg";
+    "https://i.ibb.co/gdfgtkv/yannick-pulver-hop-X-jp-Vt-RM-unsplash.jpg";
 
   const [openMenu, setOpenMenu] = useState(false);
   const menuRef = useRef();
