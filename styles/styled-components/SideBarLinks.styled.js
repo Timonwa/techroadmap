@@ -20,9 +20,12 @@ export const SideBarLinks = styled.div`
     right: 0;
   }
 
+  a:hover{
+    color: hsl(209, 41%, 45%) !important;
+  }
+
   a,
   a:link,
-  a:hover,
   a:active,
   a:visited {
     color: hsl(209, 41%, 22%);
