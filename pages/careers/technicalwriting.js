@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Head } from "next/head";
+import Head from "next/head";
 import SideBar from "../../components/SideBar";
 import Banner from "../../components/Banner";
 
