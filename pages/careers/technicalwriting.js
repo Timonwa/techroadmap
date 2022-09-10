@@ -2,6 +2,8 @@ import React, { useRef, useState, useEffect } from "react";
 import Head from "next/head";
 import SideBar from "../../components/SideBar";
 import Banner from "../../components/Banner";
+import Intro from "../../components/techwritingPageContent/Intro";
+import WhatIs from "../../components/techwritingPageContent/WhatIs";
 
 const TechnicalWriting = () => {
   const title = "";
@@ -87,6 +89,10 @@ const TechnicalWriting = () => {
         {/* <TechWritingNav handleMenu={handleMenu} openMenu={openMenu} /> */}
       </SideBar>
       <Banner title={title} quote={quote} image={image} />
+      <main>
+        <Intro />
+        <WhatIs />
+      </main>
     </div>
   );
 };
