@@ -5,6 +5,7 @@ import Banner from "../../components/Banner";
 import Intro from "../../components/techwritingPageContent/Intro";
 import WhatIs from "../../components/techwritingPageContent/WhatIs";
 import Roadmap from "../../components/techwritingPageContent/Roadmap";
+import Networking from "../../components/techwritingPageContent/Networking";
 
 const TechnicalWriting = () => {
   const title = "";
@@ -94,6 +95,7 @@ const TechnicalWriting = () => {
         <Intro />
         <WhatIs />
         <Roadmap />
+        <Networking/>
       </main>
     </div>
   );
