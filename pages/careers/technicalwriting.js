@@ -6,6 +6,8 @@ import Intro from "../../components/techwritingPageContent/Intro";
 import WhatIs from "../../components/techwritingPageContent/WhatIs";
 import Roadmap from "../../components/techwritingPageContent/Roadmap";
 import Networking from "../../components/techwritingPageContent/Networking";
+import OtherResources from "../../components/techwritingPageContent/OtherResources";
+import WhatNext from "../../components/techwritingPageContent/WhatNext";
 
 const TechnicalWriting = () => {
   const title = "";
@@ -95,7 +97,9 @@ const TechnicalWriting = () => {
         <Intro />
         <WhatIs />
         <Roadmap />
-        <Networking/>
+        <Networking />
+        <OtherResources />
+        <WhatNext />
       </main>
     </div>
   );
