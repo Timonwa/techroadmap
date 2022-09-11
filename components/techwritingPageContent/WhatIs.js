@@ -32,8 +32,8 @@ const WhatIs = () => {
           purpose.
         </p>
         <p>
-          Learn more about what frontend development is by clicking the links
-          below.
+          Learn more about what technical writing is and who technical writers
+          are by clicking the links below.
         </p>
       </ResourceSectionBody>
 
@@ -66,6 +66,12 @@ const WhatIs = () => {
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/9SB4tfD0hxM">
                 What is Technical Writing? ~ Azusa Pacific Writing Center
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://youtu.be/hcArVd6F7Jo">
+                9 Point Checklist - Should you be a Technical Writer? ~
+                Technical Communication
               </a>
             </ResourceLink>
             <ResourceLink>

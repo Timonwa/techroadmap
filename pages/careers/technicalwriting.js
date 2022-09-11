@@ -4,6 +4,7 @@ import SideBar from "../../components/SideBar";
 import Banner from "../../components/Banner";
 import Intro from "../../components/techwritingPageContent/Intro";
 import WhatIs from "../../components/techwritingPageContent/WhatIs";
+import Roadmap from "../../components/techwritingPageContent/Roadmap";
 
 const TechnicalWriting = () => {
   const title = "";
@@ -92,6 +93,7 @@ const TechnicalWriting = () => {
       <main>
         <Intro />
         <WhatIs />
+        <Roadmap />
       </main>
     </div>
   );
