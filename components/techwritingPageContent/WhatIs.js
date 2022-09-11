@@ -8,7 +8,6 @@ import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled
 import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled.js";
 import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled.js";
 import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled.js";
-import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled.js";
 
 const WhatIs = () => {
   return (
@@ -33,20 +32,22 @@ const WhatIs = () => {
           purpose.
         </p>
         <p>
-          Learn more about what technical writing is and who is a technical
-          writer by clicking the links below.
+          Learn more about what frontend development is by clicking the links
+          below.
         </p>
       </ResourceSectionBody>
 
       <ResourceSectionLinks>
+        {/* articles */}
         <ResourceCard>
+          <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="https://youtu.be/Esvq0MYiCuQ">
-                Technical writing for beginners (Is technical writing for you?).
-                ~ Amruta Ranade
+              <a
+                target="_blank"
+                href="https://www.instructionalsolutions.com/blog/what-is-technical-writing">
+                What is Technical Writing? ~ Instructional Solutions
               </a>
-              <ResourceBadge>Video</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
               <a
@@ -55,13 +56,23 @@ const WhatIs = () => {
                 What is a Technical Writer? Definition + Examples ~ Technical
                 Writer HQ
               </a>
-              <ResourceBadge>Article</ResourceBadge>
             </ResourceLink>
+          </ResourceCardLinks>
+        </ResourceCard>
+        {/* videos */}
+        <ResourceCard>
+          <ResourceCardTitle>Videos</ResourceCardTitle>
+          <ResourceCardLinks>
             <ResourceLink>
               <a target="_blank" href="https://youtu.be/9SB4tfD0hxM">
                 What is Technical Writing? ~ Azusa Pacific Writing Center
               </a>
-              <ResourceBadge>Video</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://youtu.be/Esvq0MYiCuQ">
+                Technical writing for beginners (Is technical writing for you?).
+                ~ Amruta Ranade
+              </a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
