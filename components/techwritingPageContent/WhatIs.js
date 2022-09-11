@@ -13,22 +13,48 @@ const WhatIs = () => {
   return (
     <ResourceSection id="what-is">
       <ResourceSectionHeading>
-        What is Frontend Development?
+        What is Technical Writing?
       </ResourceSectionHeading>
 
       <ResourceSectionBody>
         <p>
-          Frontend development also called client-side development, is the
-          process of creating the visible part of a website using HTML, CSS,
-          and JavaScript, so that users can view and interact with that website.
+          Technical writing involves writing or drafting technical documentation
+          or tutorials used in technical and occupational fields, such as
+          engineering, computer hardware and software, architecture,
+          aeronautics, robotics, finance, medical, consumer electronics,
+          biotechnology, chemistry, forestry, etc. User guides, online help
+          articles, or internal documentation for programmers and API developers
+          could all fall under this category.
+        </p>
+        <p>
+          It is the art of explaining things in great detail so that readers can
+          grasp a certain skill or product and utilise it for the intended
+          purpose.
         </p>
         <p>
           Learn more about what frontend development is by clicking the links
           below.
         </p>
       </ResourceSectionBody>
-      
+
       <ResourceSectionLinks>
+        {/* videos */}
+        <ResourceCard>
+          <ResourceCardTitle>Videos</ResourceCardTitle>
+          <ResourceCardLinks>
+            <ResourceLink>
+              <a target="_blank" href="https://youtu.be/9SB4tfD0hxM">
+                What is Technical Writing? ~ Azusa Pacific Writing Center
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://youtu.be/Esvq0MYiCuQ">
+                Technical Writing for beginners (Is technical writing for you?).
+                ~ Amruta Ranade
+              </a>
+            </ResourceLink>
+          </ResourceCardLinks>
+        </ResourceCard>
         {/* articles */}
         <ResourceCard>
           <ResourceCardTitle>Articles</ResourceCardTitle>
@@ -36,32 +62,16 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/">
-                What is front-end development explained in plain English ~
-                FreeCodeCamp
+                href="https://www.freecodecamp.org/news/technical-writing-for-beginners/">
+                Technical Writing for Beginners – An A-Z Guide to Tech Blogging
+                Basics ~ FreeCodeCamp
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://skillcrush.com/blog/skills-to-become-a-front-end-developer/">
-                Skills to become a front-end developer ~ Skill Crush
-              </a>
-            </ResourceLink>
-          </ResourceCardLinks>
-        </ResourceCard>
-        {/* videos */}
-        <ResourceCard>
-          <ResourceCardTitle>Videos</ResourceCardTitle>
-          <ResourceCardLinks>
-            <ResourceLink>
-              <a target="_blank" href="https://youtu.be/GJ8jidDdWVg">
-                What is front-end? ~ Codecademy
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://youtu.be/qyHyFsT7Hig">
-                Frontend Development explained in 2 mins. ~ Mayuko
+                href="https://www.freecodecamp.org/news/how-to-become-a-technical-writer/">
+                How to Become a Technical Writer ~ freeCodeCamp
               </a>
             </ResourceLink>
           </ResourceCardLinks>
