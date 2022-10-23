@@ -5,7 +5,6 @@ import CareersDescription from "../../components/CareersDescription";
 import Head from "next/head";
 
 const CareersPage = () => {
-  const title = "";
   const quote =
     '"A year from now you may wish you had started today." – Karen Lamb';
   const image =
@@ -63,7 +62,7 @@ const CareersPage = () => {
           content="Learn the different careers in the tech industry along with videos and articles to help you decide on a tech career."
         />
       </Head>
-      <Banner title={title} quote={quote} image={image} />
+      <Banner quote={quote} image={image} />
       <main>
         <CareersDescription />
         <CareersList />

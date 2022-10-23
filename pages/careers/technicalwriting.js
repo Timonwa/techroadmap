@@ -10,7 +10,6 @@ import OtherResources from "../../components/techwritingPageContent/OtherResourc
 import WhatNext from "../../components/techwritingPageContent/WhatNext";
 
 const TechnicalWriting = () => {
-  const title = "";
   const quote =
     '"As a technical communicator, I am an enabler of information." – Suyog Ketkar';
   const image =
@@ -92,7 +91,7 @@ const TechnicalWriting = () => {
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>
         {/* <TechWritingNav handleMenu={handleMenu} openMenu={openMenu} /> */}
       </SideBar>
-      <Banner title={title} quote={quote} image={image} />
+      <Banner quote={quote} image={image} />
       <main>
         <Intro />
         <WhatIs />
