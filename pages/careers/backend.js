@@ -18,7 +18,6 @@ import WhatNext from "../../components/backendPageContent/WhatNext";
 import Head from "next/head";
 
 const BackendPage = () => {
-  const title = "";
   const quote =
     '"Websites promote you 24/7: No employee will do that." – Paul Cookson';
   const image =
@@ -102,7 +101,7 @@ const BackendPage = () => {
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>
         <BackendNav handleMenu={handleMenu} openMenu={openMenu} />
       </SideBar>
-      <Banner title={title} quote={quote} image={image} />
+      <Banner quote={quote} image={image} />
       <main>
         <Intro />
         <WhatIs />
