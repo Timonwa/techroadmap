@@ -4,7 +4,7 @@ import CareersList from "../components/CareersList";
 import HomeDescription from "../components/HomeDescription";
 
 export default function Home() {
-  const title = "Tech Career Roadmap";
+  const title = <h1>Tech Career Roadmap</h1>;
   const quote =
     "Roadmaps, articles, and useful resources to help you choose a career path, start your journey and grow in tech.";
   const image = "https://i.ibb.co/h1PwkQw/roadmap.jpg";

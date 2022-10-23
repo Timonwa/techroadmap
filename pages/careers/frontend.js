@@ -25,7 +25,6 @@ import WhatNext from "../../components/frontendPageContent/WhatNext";
 import Head from "next/head";
 
 const Frontend = () => {
-  const title = "";
   const quote =
     '"Websites promote you 24/7: No employee will do that." – Paul Cookson';
   const image =
@@ -105,7 +104,7 @@ const Frontend = () => {
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>
         <FrontendNav handleMenu={handleMenu} openMenu={openMenu} />
       </SideBar>
-      <Banner title={title} quote={quote} image={image} />
+      <Banner quote={quote} image={image} />
       <main>
         <Intro />
         <WhatIs />
