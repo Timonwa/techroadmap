@@ -63,7 +63,8 @@ const Frontend = () => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <title>
-          How to Become a Frontend Developer in {currentYear}. | Developer Roadmap.
+          How to Become a Frontend Developer in {currentYear}. | Frontend
+          Developer Roadmap.
         </title>
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
@@ -71,7 +72,7 @@ const Frontend = () => {
         <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Frontend Developer in ${currentYear}. | Frontend Developer Roadmap.`}
         />
         <meta
           name="description"
@@ -80,10 +81,13 @@ const Frontend = () => {
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz/frontend" />
+        <meta
+          property="og:url"
+          content="https://www.techroadmap.xyz/frontend"
+        />
         <meta
           property="og:title"
-          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Frontend Developer in ${currentYear}. | Frontend Developer Roadmap.`}
         />
         <meta
           property="og:description"
@@ -94,11 +98,11 @@ const Frontend = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/careers/frontend"
+          content="https://www.techroadmap.xyz/careers/frontend"
         />
         <meta
           property="twitter:title"
-          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Frontend Developer in ${currentYear}. | Frontend Developer Roadmap.`}
         />
         <meta
           property="twitter:description"

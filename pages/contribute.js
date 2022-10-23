@@ -34,7 +34,10 @@ const ContributePage = () => {
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz/contribute" />
+        <meta
+          property="og:url"
+          content="https://www.techroadmap.xyz/contribute"
+        />
         <meta
           property="og:title"
           content="Contribute to Tech Career Roadmap."
@@ -48,7 +51,7 @@ const ContributePage = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/contribute"
+          content="https://www.techroadmap.xyz/contribute"
         />
         <meta
           property="twitter:title"

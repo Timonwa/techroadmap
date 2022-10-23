@@ -26,7 +26,7 @@
 
 ⭐ Please click the star above on this repo, it keeps me motivated. You can also follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
-[Tech Roadmap](https://techroadmap.xyz) is a free online resource on careers in the tech industry.
+[Tech Roadmap](https://www.techroadmap.xyz) is a free online resource on careers in the tech industry.
 Anyone who wants to break or transition into the tech industry or has already broken into it,
 can use these resources to choose and define their career path and learn about the skills needed to build themselves in the chosen career.
 
@@ -54,7 +54,7 @@ The roadmaps or step-by-step guides are carefully curated for the different Tech
 
 ## Project Status
 
-Tech Roadmap is live and you can check out the list of available careers on our [Careers Page](https://techroadmap.xyz/careers).
+Tech Roadmap is live and you can check out the list of available careers on our [Careers Page](https://www.techroadmap.xyz/careers).
 
 More quality roadmaps will be added on other Tech Careers over time. Anticipate! 😁
 
@@ -64,7 +64,7 @@ The project is built with ReactJs, NextJs, and Styled-Components.
 
 ## Getting Started
 
-Getting started is easy. Our [website](https://techroadmap.xyz) is easy to navigate with simplicity but quality as part of our goals.
+Getting started is easy. Our [website](https://www.techroadmap.xyz) is easy to navigate with simplicity but quality as part of our goals.
 
 But if you would like to fork the repository instead either for personal learning or contributing to the project, then please follow the steps below:
 

@@ -34,7 +34,7 @@ export default function Home() {
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz" />
+        <meta property="og:url" content="https://www.techroadmap.xyz" />
         <meta
           property="og:title"
           content="Tech Developer and Non-developer Roadmap"
@@ -47,7 +47,7 @@ export default function Home() {
         {/* Twitter Meta Tags */}
         <meta property="twitter:careers__card" content="summary_large_image" />
         <meta property="twitter:image" content="/seo-image.png" />
-        <meta property="twitter:url" content="https://techroadmap.xyz" />
+        <meta property="twitter:url" content="https://www.techroadmap.xyz" />
         <meta
           property="twitter:title"
           content="Tech Developer and Non-developer Roadmap"

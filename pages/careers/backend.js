@@ -57,8 +57,8 @@ const BackendPage = () => {
         <link rel="manifest" href="/manifest.json" />
 
         <title>
-          How to Become a Backend Developer in {currentYear}. | Developer
-          Roadmap.
+          How to Become a Backend Developer in {currentYear}. | Backend
+          Developer Roadmap.
         </title>
 
         {/** Seo Tags */}
@@ -67,7 +67,7 @@ const BackendPage = () => {
         <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           name="description"
@@ -77,10 +77,10 @@ const BackendPage = () => {
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz/backend" />
+        <meta property="og:url" content="https://www.techroadmap.xyz/backend" />
         <meta
           property="og:title"
-          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           property="og:description"
@@ -92,11 +92,11 @@ const BackendPage = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/careers/backend"
+          content="https://www.techroadmap.xyz/careers/backend"
         />
         <meta
           property="twitter:title"
-          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           property="twitter:description"

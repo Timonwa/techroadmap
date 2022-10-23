@@ -40,7 +40,7 @@ const CareersPage = () => {
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz/careers" />
+        <meta property="og:url" content="https://www.techroadmap.xyz/careers" />
         <meta
           property="og:title"
           content={`How to choose a career path in tech in ${currentYear}. | Tech Roadmap.`}
@@ -55,7 +55,7 @@ const CareersPage = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/careers"
+          content="https://www.techroadmap.xyz/careers"
         />
         <meta
           property="twitter:title"

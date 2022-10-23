@@ -52,7 +52,7 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://technicalwriterhq.com/career/technical-writer/what-is-a-technical-writer/">
+                href="https://www.technicalwriterhq.com/career/technical-writer/what-is-a-technical-writer/">
                 What is a Technical Writer? Definition + Examples ~ Technical
                 Writer HQ
               </a>

@@ -68,7 +68,7 @@ const TechnicalWriting = () => {
         <meta property="og:image" content="/seo-image.png" />
         <meta
           property="og:url"
-          content="https://techroadmap.xyz/technicalwriting"
+          content="https://www.techroadmap.xyz/technicalwriting"
         />
         <meta
           property="og:title"
@@ -83,7 +83,7 @@ const TechnicalWriting = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/careers/technicalwriting"
+          content="https://www.techroadmap.xyz/careers/technicalwriting"
         />
         <meta
           property="twitter:title"
