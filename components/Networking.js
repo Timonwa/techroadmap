@@ -160,7 +160,7 @@ const Networking = () => {
               <ResourceBadge>Unpaid</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a target="_blank" href="https://internship.sidehustle.ng/">
+              <a target="_blank" href="https://lms.terrahq.co/">
                 SideHustle.ng
               </a>
               <ResourceBadge>Unpaid</ResourceBadge>

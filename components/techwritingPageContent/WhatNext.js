@@ -13,14 +13,15 @@ const WhatNext = () => {
       <ResourceSectionBody>
         <p>
           Pat yourself on the back for making it this far. Do continue to
-          practice your skills, write more documentations, and apply for technical writing jobs.
+          practice your skills, write more documentations, and apply for
+          technical writing jobs.
         </p>
 
         <p>
           Feel free to tweet a thank you to us at{" "}
           <a
             className="paragraphLinks"
-            href="http://twitter.com/techroadmap__"
+            href="https://twitter.com/techroadmap__"
             target="_blank">
             @techroadmap__
           </a>{" "}
@@ -35,7 +36,7 @@ const WhatNext = () => {
           . Don&apos;t forget to give us a Star on our{" "}
           <a
             className="paragraphLinks"
-            href="http://github.com/Timonwa/techroadmap"
+            href="https://github.com/Timonwa/techroadmap "
             target="_blank">
             GitHub repo
           </a>

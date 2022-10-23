@@ -176,7 +176,7 @@ const DeploymentServices = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://docs.microsoft.com/en-us/azure/?product=popular">
+                href="https://learn.microsoft.com/en-us/azure/?product=popular">
                 Documentation
               </a>
               <ResourceBadge>Link</ResourceBadge>

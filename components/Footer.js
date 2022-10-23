@@ -78,7 +78,7 @@ const Footer = () => {
               <a
                 className={styles.socialLink}
                 target="_blank"
-                href="https://github.com/timonwa/techroadmap"
+                href="https://github.com/Timonwa/techroadmap"
                 rel="noreferrer">
                 <FaGithub className={styles.icons} />
               </a>

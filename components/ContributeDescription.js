@@ -22,8 +22,8 @@ export const ContributeDescription = () => {
         <h1 className="heading">How to contribute to this Project!</h1>
         <div className="intro__body">
           <p>
-            I&apos;m so excited to have you contribute to this project. You
-            are the real MVP. 🎉
+            I&apos;m so excited to have you contribute to this project. You are
+            the real MVP. 🎉
           </p>
           <p>
             There are so many ways in which you can help us grow Tech Roadmap
