@@ -10,6 +10,8 @@ const ContributePage = () => {
   const image =
     "https://i.ibb.co/6ZPmt50/randy-fath-ymf4-9-Y9-S-A-unsplash-1.jpg";
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="contribute-page">
       <Head>
@@ -17,19 +19,16 @@ const ContributePage = () => {
         <meta name="theme-color" content="#21394f" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <title>Contribute to this open source project. | Tech Roadmap.</title>
+        <title>Contribute to Tech Career Roadmap.</title>
 
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
-        <meta
-          name="title"
-          content="Contribute to this open source project. | Tech Roadmap."
-        />
+        <meta name="author" content="Timonwa Akintokun" />
+        <meta name="title" content="Contribute to Tech Career Roadmap." />
         <meta
           name="description"
-          content="This project is OpenSource. Learn how to contribute to this project. You can contribute as a developer here or a non-developer here."
+          content="You can contribute to our developer and non-developer roadmaps and resources to guide newbies transitioning into tech choose a career path, start their journey and grow in tech. This project is open source."
         />
 
         {/* Open Graph / Facebook Meta Tags */}
@@ -38,11 +37,11 @@ const ContributePage = () => {
         <meta property="og:url" content="https://techroadmap.xyz/contribute" />
         <meta
           property="og:title"
-          content="Contribute to this open source project. | Tech Roadmap."
+          content="Contribute to Tech Career Roadmap."
         />
         <meta
           property="og:description"
-          content="This project is OpenSource. Learn how to contribute to this project. You can contribute as a developer here or a non-developer here."
+          content="You can contribute to our developer and non-developer roadmaps and resources to guide newbies transitioning into tech choose a career path, start their journey and grow in tech. This project is open source."
         />
         {/* Twitter Meta Tags */}
         <meta property="twitter:careers__card" content="summary_large_image" />
@@ -53,11 +52,11 @@ const ContributePage = () => {
         />
         <meta
           property="twitter:title"
-          content="Contribute to this open source project. | Tech Roadmap."
+          content="Contribute to Tech Career Roadmap."
         />
         <meta
           property="twitter:description"
-          content="This project is OpenSource. Learn how to contribute to this project. You can contribute as a developer here or a non-developer here."
+          content="You can contribute to our developer and non-developer roadmaps and resources to guide newbies transitioning into tech choose a career path, start their journey and grow in tech. This project is open source."
         />
       </Head>
       <Banner title={title} quote={quote} image={image} />

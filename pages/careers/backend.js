@@ -46,6 +46,8 @@ const BackendPage = () => {
     setOpenMenu(!openMenu);
   };
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="backendPage">
       <Head>
@@ -54,19 +56,22 @@ const BackendPage = () => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
 
-        <title>Backend Development Roadmap. | Tech Roadmap.</title>
+        <title>
+          How to Become a Backend Developer in {currentYear}. | Developer
+          Roadmap.
+        </title>
 
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
+        <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           name="description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
 
         {/* Open Graph / Facebook Meta Tags */}
@@ -75,11 +80,11 @@ const BackendPage = () => {
         <meta property="og:url" content="https://techroadmap.xyz/backend" />
         <meta
           property="og:title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="og:description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
 
         {/* Twitter Meta Tags */}
@@ -91,11 +96,11 @@ const BackendPage = () => {
         />
         <meta
           property="twitter:title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="twitter:description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
       </Head>
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>

@@ -37,6 +37,9 @@ const TechnicalWriting = () => {
   const handleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="techWritingPage">
       <Head>
@@ -44,18 +47,21 @@ const TechnicalWriting = () => {
         <meta name="theme-color" content="#21394f" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <title>Technical Writing Roadmap. | Tech Roadmap.</title>
+        <title>
+          How to Become a Technical Writer in {currentYear}: A Beginners Guide.
+          | Tecnical Writing Roadmap.
+        </title>
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
+        <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content="Technical Writing Roadmap. | Tech Roadmap."
+          content={`How to Become a Technical Writer in ${currentYear}: A Beginners Guide. | Tecnical Writing Roadmap.`}
         />
         <meta
           name="description"
-          content="Free videos, articles, guides and other resources to help you become a technical writer."
+          content={`Learn how to become a technical writer without a university degree or technical experience. This technical writing roadmap provides you with helpful resources to learn technical writing for free in ${currentYear}.`}
         />
         {/* Open Graph / Facebook Meta Tags */}{" "}
         <meta property="og:type" content="website" />
@@ -66,11 +72,11 @@ const TechnicalWriting = () => {
         />
         <meta
           property="og:title"
-          content="Technical Writing Roadmap. | Tech Roadmap."
+          content={`How to Become a Technical Writer in ${currentYear}: A Beginners Guide. | Tecnical Writing Roadmap.`}
         />
         <meta
           property="og:description"
-          content="Free videos, articles, guides and other resources to help you become a technical writer."
+          content={`Learn how to become a technical writer without a university degree or technical experience. This technical writing roadmap provides you with helpful resources to learn technical writing for free in ${currentYear}.`}
         />
         {/* Twitter Meta Tags */}
         <meta property="twitter:careers__card" content="summary_large_image" />
@@ -81,11 +87,11 @@ const TechnicalWriting = () => {
         />
         <meta
           property="twitter:title"
-          content="Technical Writing Roadmap. | Tech Roadmap."
+          content={`How to Become a Technical Writer in ${currentYear}: A Beginners Guide. | Tecnical Writing Roadmap.`}
         />
         <meta
           property="twitter:description"
-          content="Free videos, articles, guides and other resources to help you become a technical writer."
+          content={`Learn how to become a technical writer without a university degree or technical experience. This technical writing roadmap provides you with helpful resources to learn technical writing for free in ${currentYear}.`}
         />
       </Head>
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>

@@ -53,6 +53,8 @@ const Frontend = () => {
     setOpenMenu(!openMenu);
   };
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="frontendPage">
       <Head>
@@ -60,30 +62,32 @@ const Frontend = () => {
         <meta name="theme-color" content="#21394f" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
-        <title>Frontend Development Roadmap. | Tech Roadmap.</title>
+        <title>
+          How to Become a Frontend Developer in {currentYear}. | Developer Roadmap.
+        </title>
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
+        <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content="Frontend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           name="description"
-          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+          content={`This frontend roadmap will guide you in learning the frontend web development industry tools, programming languages and techniques that will help you become a frontend developer along with other useful frontend development resources in ${currentYear}.`}
         />
-        {/* Open Graph / Facebook Meta Tags */}{" "}
+        {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
         <meta property="og:url" content="https://techroadmap.xyz/frontend" />
         <meta
           property="og:title"
-          content="Frontend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="og:description"
-          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+          content={`This frontend roadmap will guide you in learning the frontend web development industry tools, programming languages and techniques that will help you become a frontend developer along with other useful frontend development resources in ${currentYear}.`}
         />
         {/* Twitter Meta Tags */}
         <meta property="twitter:careers__card" content="summary_large_image" />
@@ -94,11 +98,11 @@ const Frontend = () => {
         />
         <meta
           property="twitter:title"
-          content="Frontend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Frontend Developer in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="twitter:description"
-          content="Free videos, articles, guides and other resources to help you become a frontend developer."
+          content={`This frontend roadmap will guide you in learning the frontend web development industry tools, programming languages and techniques that will help you become a frontend developer along with other useful frontend development resources in ${currentYear}.`}
         />
       </Head>
       <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>
