@@ -199,9 +199,7 @@ const CssFrameworks = () => {
               <ResourceBadge>Link</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a
-                target="_blank"
-                href="https://chakra-ui.com/guides/first-steps">
+              <a target="_blank" href="https://chakra-ui.com/getting-started">
                 Documentation
               </a>
               <ResourceBadge>Link</ResourceBadge>
