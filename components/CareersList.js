@@ -21,8 +21,8 @@ const CareersList = () => {
     {
       title: "Technical Writing",
       body: "Curated guide and resources to becoming a technical writer.",
-      comingSoon: false,
-      inProgress: false,
+      comingSoon: true,
+      inProgress: true,
       link: "/careers/technicalwriting",
     },
     {
