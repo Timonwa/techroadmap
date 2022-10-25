@@ -32,7 +32,7 @@ export const SideBarLinks = styled.div`
     transition: color 500ms ease-in-out;
   }
 
-  //side menu scrollbar
+  //* side menu scrollbar
   &::-webkit-scrollbar {
     width: 5px;
   }
