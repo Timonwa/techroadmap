@@ -13,12 +13,8 @@ const WhatNext = () => {
       <ResourceSectionBody>
         <p>
           Pat yourself on the back for making it this far. Do continue to
-          practice your skills, build more projects, and apply for jobs. If you
-          plan on becoming a FullStack Developer, then check out our{" "}
-          <Link href="/careers/frontend" className="paragraphLinks">
-            <a>Frontend Development Roadmap</a>
-          </Link>
-          .{" "}
+          practice your skills, write more documentations, and apply for
+          technical writing jobs.
         </p>
 
         <p>
@@ -37,7 +33,7 @@ const WhatNext = () => {
             target="_blank">
             techcareerroadmap@gmail.com
           </a>
-          . Don&apos; forget to give us a Star on our{" "}
+          . Don&apos;t forget to give us a Star on our{" "}
           <a
             className="paragraphLinks"
             href="https://github.com/Timonwa/techroadmap "
@@ -47,7 +43,7 @@ const WhatNext = () => {
           !
         </p>
 
-        <p>Happy Coding!</p>
+        <p>Happy writing!</p>
       </ResourceSectionBody>
     </ResourceSection>
   );

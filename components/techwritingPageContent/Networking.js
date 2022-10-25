@@ -1,14 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { ResourceSection } from "../styles/styled-components/ResourceSection.styled.js";
-import { ResourceSectionHeading } from "../styles/styled-components/ResourceSectionHeading.styled.js";
-import { ResourceSectionLinks } from "../styles/styled-components/ResourceSectionLinks.styled.js";
-import { ResourceCard } from "../styles/styled-components/ResourceCard.styled.js";
-import { ResourceCardTitle } from "../styles/styled-components/ResourceCardTitle.styled.js";
-import { ResourceCardBody } from "../styles/styled-components/ResourceCardBody.styled.js";
-import { ResourceCardLinks } from "../styles/styled-components/ResourceCardLinks.styled.js";
-import { ResourceLink } from "../styles/styled-components/ResourceLink.styled.js";
-import { ResourceBadge } from "../styles/styled-components/ResourceBadge.styled.js";
+import { ResourceSection } from "../../styles/styled-components/ResourceSection.styled.js";
+import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled.js";
+import { ResourceSectionLinks } from "../../styles/styled-components/ResourceSectionLinks.styled.js";
+import { ResourceCard } from "../../styles/styled-components/ResourceCard.styled.js";
+import { ResourceCardTitle } from "../../styles/styled-components/ResourceCardTitle.styled.js";
+import { ResourceCardBody } from "../../styles/styled-components/ResourceCardBody.styled.js";
+import { ResourceCardLinks } from "../../styles/styled-components/ResourceCardLinks.styled.js";
+import { ResourceLink } from "../../styles/styled-components/ResourceLink.styled.js";
+import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled.js";
 
 const Networking = () => {
   return (
@@ -34,32 +34,23 @@ const Networking = () => {
 
           <ResourceCardLinks>
             <ResourceLink>
-              <a
-                target="_blank"
-                href="https://developers.google.com/community/gdg">
-                Google Developers Group (GDG)
+              <a target="_blank" href="https://www.writethedocs.org/">
+                Write The Docs
               </a>
             </ResourceLink>
             <ResourceLink>
-              <a
-                target="_blank"
-                href=" https://developers.google.com/community/dsc/clubs">
-                Google Developer Student Club (DSC)
+              <a target="_blank" href="https://twitter.com/nontech_it">
+                Non Tech in Tech (NTIT)
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://www.empowerher.community/">
+                Empower Her Community
               </a>
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://shecodeafrica.org/">
                 She Code Africa (SCA)
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://twitter.com/dev_careers">
-                Dev Career
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://oscafrica.org/">
-                Open Source Community Africa (OSCA)
               </a>
             </ResourceLink>
           </ResourceCardLinks>
@@ -83,22 +74,8 @@ const Networking = () => {
 
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="https://decagon.institute/">
-                Decagon
-              </a>
-              <ResourceBadge>Not Free</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://enyata.com/academy">
-                Enyata
-              </a>
-              <ResourceBadge>Free</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://altschoolafrica.com">
-                AltSchool Africa
-              </a>
-              <ResourceBadge>Not Free</ResourceBadge>
+              <a target="_blank" href=""></a>
+              <ResourceBadge></ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
@@ -116,7 +93,7 @@ const Networking = () => {
               working on real-life projects. It can be paid or unpaid, meaning
               some of them pay you for partaking and successfully completing the
               program. You can find below, a list of organizations that offer
-              coding internships and mentoring in the tech field.
+              coding internships and mentoring in the technical writing field.
             </p>
           </ResourceCardBody>
 
@@ -128,42 +105,12 @@ const Networking = () => {
               <ResourceBadge>Paid</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a target="_blank" href="https://summerofcode.withgoogle.com/">
-                Google Summer of Code
-              </a>
-              <ResourceBadge>Paid</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://the-collab-lab.codes/">
-                The Collab Lab
-              </a>
-              <ResourceBadge>Unpaid</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://internshala.com/">
-                Internshala
-              </a>
-              <ResourceBadge>Paid</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
               <a
                 target="_blank"
-                href="https://twitter.com/hnginternship?t=FNo8Fg7sQj53daEh0mCuew&s=09">
-                HNG Internship
+                href="https://developers.google.com/season-of-docs">
+                Google Season of Docs (GSOD)
               </a>
-              <ResourceBadge>Unpaid</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://internship.zuri.team/">
-                Zuri Team
-              </a>
-              <ResourceBadge>Unpaid</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a target="_blank" href="https://lms.terrahq.co/">
-                SideHustle.ng
-              </a>
-              <ResourceBadge>Unpaid</ResourceBadge>
+              <ResourceBadge>Paid</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>

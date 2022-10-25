@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import SideBar from "../../components/SideBar";
 import BackendNav from "../../components/backendPageContent/BackendNav";
 import Banner from "../../components/Banner";
@@ -18,17 +18,35 @@ import WhatNext from "../../components/backendPageContent/WhatNext";
 import Head from "next/head";
 
 const BackendPage = () => {
-  const title = "";
   const quote =
     '"Websites promote you 24/7: No employee will do that." – Paul Cookson';
   const image =
     "https://i.ibb.co/vYLYxmH/pankaj-patel-Ylk5n-nd9d-A-unsplash.jpg";
 
   const [openMenu, setOpenMenu] = useState(false);
+  const menuRef = useRef();
+
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      // If the menu is open and the clicked target is not within the menu,
+      // then close the menu
+      if (openMenu && menuRef.current && !menuRef.current.contains(e.target)) {
+        setOpenMenu(false);
+      }
+    };
+
+    document.addEventListener("mousedown", checkIfClickedOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [openMenu]);
 
   const handleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className="backendPage">
@@ -38,32 +56,35 @@ const BackendPage = () => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
 
-        <title>Backend Development Roadmap. | Tech Roadmap.</title>
+        <title>
+          How to Become a Backend Developer in {currentYear}. | Backend
+          Developer Roadmap.
+        </title>
 
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
+        <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           name="description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
 
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz/backend" />
+        <meta property="og:url" content="https://www.techroadmap.xyz/backend" />
         <meta
           property="og:title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           property="og:description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
 
         {/* Twitter Meta Tags */}
@@ -71,21 +92,21 @@ const BackendPage = () => {
         <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:url"
-          content="https://techroadmap.xyz/careers/backend"
+          content="https://www.techroadmap.xyz/careers/backend"
         />
         <meta
           property="twitter:title"
-          content="Backend Development Roadmap. | Tech Roadmap."
+          content={`How to Become a Backend Developer in ${currentYear}. | Backend Developer Roadmap.`}
         />
         <meta
           property="twitter:description"
-          content="Free videos, articles, guides and other resources to help you become a backend developer."
+          content={`This backend roadmap will guide you in learning the backend web development industry tools, programming languages and techniques to help you become a backend developer and other helpful backend developer resources in ${currentYear}.`}
         />
       </Head>
-      <SideBar handleMenu={handleMenu} openMenu={openMenu}>
+      <SideBar handleMenu={handleMenu} openMenu={openMenu} ref={menuRef}>
         <BackendNav handleMenu={handleMenu} openMenu={openMenu} />
       </SideBar>
-      <Banner title={title} quote={quote} image={image} />
+      <Banner quote={quote} image={image} />
       <main>
         <Intro />
         <WhatIs />

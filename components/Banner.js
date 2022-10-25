@@ -24,7 +24,7 @@ const Banner = ({ title, quote, image }) => {
   return (
     <header style={style} className="banner">
       <div className="banner-wrapper">
-        <h1>{title}</h1>
+        {title}
         <p>{quote}</p>
       </div>
     </header>

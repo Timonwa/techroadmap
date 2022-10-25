@@ -176,7 +176,7 @@ const Database = () => {
                 </ResourceLink>
                 <ResourceLink>
                   <a
-                    href="https://docs.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-ver15"
+                    href="https://learn.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-ver15"
                     target="_blank">
                     Microsoft Docs Database Engine Tutorial
                   </a>

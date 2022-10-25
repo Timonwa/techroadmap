@@ -4,10 +4,12 @@ import CareersList from "../components/CareersList";
 import HomeDescription from "../components/HomeDescription";
 
 export default function Home() {
-  const title = "Tech Career Roadmap";
+  const title = <h1>Tech Career Roadmap</h1>;
   const quote =
-    "Roadmaps, articles, and useful resources to help you choose a career path, start your journey and grow in tech.";
+    "Roadmaps, articles, and free useful resources to help you choose a career path, start your journey and grow in tech.";
   const image = "https://i.ibb.co/h1PwkQw/roadmap.jpg";
+
+  const currentYear = new Date().getFullYear();
 
   return (
     <div>
@@ -17,36 +19,42 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
 
-        <title>Tech Roadmap</title>
+        <title>Tech Developer and Non-developer Roadmap</title>
 
         {/** Seo Tags */}
         {/* Primary Meta Tags */}
         <meta name="type" content="website" />
-        <meta name="author" content="Pelumi Akintokun, Timonwa" />
-        <meta name="title" content="Tech Roadmap" />
+        <meta name="author" content="Timonwa Akintokun" />
+        <meta name="title" content="Tech Developer and Non-developer Roadmap" />
         <meta
           name="description"
-          content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
+          content={`Roadmaps, articles, and resources for developers and non-developers like technical writers, UIUX designers, etc., to guide them in choosing a career path, starting their journey and growing in tech in ${currentYear}.`}
         />
 
         {/* Open Graph / Facebook Meta Tags */}
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/seo-image.png" />
-        <meta property="og:url" content="https://techroadmap.xyz" />
-        <meta property="og:title" content="Tech Roadmap" />
+        <meta property="og:url" content="https://www.techroadmap.xyz" />
+        <meta
+          property="og:title"
+          content="Tech Developer and Non-developer Roadmap"
+        />
         <meta
           property="og:description"
-          content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
+          content={`Roadmaps, articles, and resources for developers and non-developers like technical writers, UIUX designers, etc., to guide them in choosing a career path, starting their journey and growing in tech in ${currentYear}.`}
         />
 
         {/* Twitter Meta Tags */}
         <meta property="twitter:careers__card" content="summary_large_image" />
         <meta property="twitter:image" content="/seo-image.png" />
-        <meta property="twitter:url" content="https://techroadmap.xyz" />
-        <meta property="twitter:title" content="Tech Roadmap" />
+        <meta property="twitter:url" content="https://www.techroadmap.xyz" />
+        <meta
+          property="twitter:title"
+          content="Tech Developer and Non-developer Roadmap"
+        />
         <meta
           property="twitter:description"
-          content="Begin your career in Tech. Roadmaps, articles, and resources to help you choose a career path, start your journey and grow in tech."
+          content={`Roadmaps, articles, and resources for developers and non-developers like technical writers, UIUX designers, etc., to guide them in choosing a career path, starting their journey and growing in tech in ${currentYear}.`}
         />
       </Head>
       <Banner title={title} quote={quote} image={image} />
