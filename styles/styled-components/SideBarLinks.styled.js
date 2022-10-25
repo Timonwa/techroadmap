@@ -29,9 +29,10 @@ export const SideBarLinks = styled.div`
   a:active,
   a:visited {
     color: hsl(209, 41%, 22%);
+    transition: color 500ms ease-in-out;
   }
 
-  //* side menu scrollbar
+  //side menu scrollbar
   &::-webkit-scrollbar {
     width: 5px;
   }

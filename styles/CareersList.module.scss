@@ -54,6 +54,7 @@ $grey: hsl(0, 0%, 87%);
 
     &:hover {
       transform: scale(1.01);
+      transition: transform 500ms ease-in-out;
     }
   }
   .careers__cardLink.disabled {

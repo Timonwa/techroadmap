@@ -64,9 +64,10 @@ body {
 //* all links in paragraphs
 a.paragraphLinks {
   color: $pink;
-
+  transition: color 500ms ease-in-out;
   &:hover {
     color: $purple;
+    
   }
 }
 

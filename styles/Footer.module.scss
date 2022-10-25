@@ -14,7 +14,7 @@ $purple: hsl(271, 46%, 53%);
   a:active,
   a:visited {
     color: $footer-color;
-
+    transition: color 500ms ease-in-out;
     &:hover {
       color: hsl(210, 28%, 86%);
     }

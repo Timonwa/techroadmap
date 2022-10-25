@@ -79,7 +79,7 @@ $nav-height: 60px;
     }
     a {
       color: $main-color;
-
+      transition: color 500ms ease-in-out;
       &:hover {
         color: #fff;
       }
