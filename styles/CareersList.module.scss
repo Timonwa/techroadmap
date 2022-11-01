@@ -23,7 +23,11 @@ $grey: hsl(0, 0%, 87%);
     background-color: $card-bgc;
     border-radius: 10px;
     box-shadow: 0px 0px 1px 4px $card-bgc;
-
+    transition: transform 500ms ease-in-out;
+    &:hover {
+      transform: scale(1.01);
+    }
+    
     p {
       font-size: 0.85rem;
     }
@@ -50,10 +54,6 @@ $grey: hsl(0, 0%, 87%);
     &:nth-child(6),
     &:nth-child(12) {
       border: 2px solid $grey;
-    }
-
-    &:hover {
-      transform: scale(1.01);
     }
   }
   .careers__cardLink.disabled {
