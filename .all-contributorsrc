@@ -6,14 +6,14 @@
   "commit": false,
   "commitConvention": "angular",
   "types": {
-    "custom": {
+    "Resources": {
       "symbol": "🧱",
-      "description": "Resources",
+      "description": "Resources for roadmaps.",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
-     {
+    "Roadmaps": {
       "symbol": "🗺️",
-      "description": "Roadmap",
+      "description": "New Roadmaps for dev or non-dev jobs.",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     }
   },
@@ -28,7 +28,6 @@
         "maintenance",
         "content",
         "design",
-        "question",
         "review"
       ]
     },
@@ -49,12 +48,18 @@
       "contributions": [
         "resources",
         "bug"
+      ]
+    },
+    {
       "login": "judy-n",
       "name": "judy-n",
       "avatar_url": "https://avatars.githubusercontent.com/u/64036735?v=4",
       "profile": "http://judyn.me",
       "contributions": [
         "code"
+      ]
+    },
+    {
       "login": "roshni-salpekar",
       "name": "Roshni Salpekar",
       "avatar_url": "https://avatars.githubusercontent.com/u/73110064?v=4",
