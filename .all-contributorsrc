@@ -76,6 +76,15 @@
         "data",
         "content"
       ]
+    },
+    {
+      "login": "codewithfan",
+      "name": "Stefan Taitano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85418632?v=4",
+      "profile": "https://bio.link/stefantaitano",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
