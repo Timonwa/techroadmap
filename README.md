@@ -212,7 +212,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://link.timonwa.com"><img src="https://avatars.githubusercontent.com/u/63044364?v=4?s=100" width="100px;" alt="Pelumi Eyitimonwa Akintokun"/><br /><sub><b>Pelumi Eyitimonwa Akintokun</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Timonwa" title="Code">💻</a> <a href="#maintenance-Timonwa" title="Maintenance">🚧</a> <a href="#content-Timonwa" title="Content">🖋</a> <a href="#design-Timonwa" title="Design">🎨</a></td>
+      <td align="center"><a href="https://link.timonwa.com"><img src="https://avatars.githubusercontent.com/u/63044364?v=4?s=100" width="100px;" alt="Pelumi Eyitimonwa Akintokun"/><br /><sub><b>Pelumi Eyitimonwa Akintokun</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Timonwa" title="Code">💻</a> <a href="#maintenance-Timonwa" title="Maintenance">🚧</a> <a href="#content-Timonwa" title="Content">🖋</a> <a href="#design-Timonwa" title="Design">🎨</a> <a href="#blog-Timonwa" title="Blogposts">📝</a></td>
     </tr>
   </tbody>
 </table>
