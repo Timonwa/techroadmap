@@ -215,6 +215,16 @@
         "data",
         "content"
       ]
+    },
+    {
+      "login": "benjaminsanga",
+      "name": "Benjamin Sanga",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47528812?v=4",
+      "profile": "https://github.com/benjaminsanga",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
