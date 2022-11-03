@@ -5,18 +5,6 @@
   "imageSize": 100,
   "commit": false,
   "commitConvention": "angular",
-  "types": {
-    "blog": {
-      "symbol": "🧱",
-      "description": "resources",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-    },
-    "roadmaps": {
-      "symbol": "🗺️",
-      "description": "roadmaps",
-      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
-    }
-  },
   "contributors": [
     {
       "login": "Timonwa",
@@ -46,7 +34,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57750800?v=4",
       "profile": "https://prema-culture.vercel.app",
       "contributions": [
-        "resources",
+        "content",
         "bug"
       ]
     },
@@ -65,7 +53,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/73110064?v=4",
       "profile": "https://github.com/roshni-salpekar",
       "contributions": [
-        "resources"
+        "content"
       ]
     }
   ],
