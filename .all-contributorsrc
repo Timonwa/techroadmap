@@ -153,6 +153,17 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "HondaChan14",
+      "name": "Jason Jugo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92832561?v=4",
+      "profile": "https://jasonjugo.netlify.app/",
+      "contributions": [
+        "data",
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
