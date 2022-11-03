@@ -1,4 +1,7 @@
 <a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -204,6 +207,20 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://link.timonwa.com"><img src="https://avatars.githubusercontent.com/u/63044364?v=4?s=100" width="100px;" alt="Pelumi Eyitimonwa Akintokun"/><br /><sub><b>Pelumi Eyitimonwa Akintokun</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Timonwa" title="Code">💻</a> <a href="#maintenance-Timonwa" title="Maintenance">🚧</a> <a href="#content-Timonwa" title="Content">🖋</a> <a href="#design-Timonwa" title="Design">🎨</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
