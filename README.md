@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -223,6 +223,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
     </tr>
     <tr>
       <td align="center"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=100" width="100px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="#data-codewithfan" title="Data">🔣</a></td>
+      <td align="center"><a href="http://developtodesign.com"><img src="https://avatars.githubusercontent.com/u/142403?v=4?s=100" width="100px;" alt="Rob Levin"/><br /><sub><b>Rob Levin</b></sub></a><br /><a href="#data-roblevintennis" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
