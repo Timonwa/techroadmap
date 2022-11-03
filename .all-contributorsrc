@@ -85,6 +85,15 @@
       "contributions": [
         "data"
       ]
+    },
+    {
+      "login": "roblevintennis",
+      "name": "Rob Levin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142403?v=4",
+      "profile": "http://developtodesign.com",
+      "contributions": [
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,
