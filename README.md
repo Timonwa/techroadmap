@@ -201,6 +201,19 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
 
 [⬆ Back to Top](#table-of-content)
 
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+[⬆ Back to Top](#table-of-content)
+
 <!-- ## Authors
 Timonwa
 Also see the list of contributors who participated in this project. -->
