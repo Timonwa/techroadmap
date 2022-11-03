@@ -28,6 +28,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mohit1607",
+      "name": "mohit1607",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57750800?v=4",
+      "profile": "https://prema-culture.vercel.app",
+      "contributions": [
+        "blog",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
