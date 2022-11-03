@@ -5,10 +5,22 @@
   "imageSize": 100,
   "commit": false,
   "commitConvention": "angular",
+  "types": {
+    "custom": {
+      "symbol": "🧱",
+      "description": "Resources",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+     {
+      "symbol": "🗺️",
+      "description": "Roadmap",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
   "contributors": [
     {
       "login": "Timonwa",
-      "name": "Pelumi Eyitimonwa Akintokun",
+      "name": "Timonwa Akintokun",
       "avatar_url": "https://avatars.githubusercontent.com/u/63044364?v=4",
       "profile": "https://link.timonwa.com",
       "contributions": [
