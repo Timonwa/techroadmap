@@ -26,6 +26,7 @@
       "profile": "https://anthonychinwe.hashnode.dev/",
       "contributions": [
         "doc",
+        "code",
         "data"
       ]
     },
@@ -36,6 +37,7 @@
       "profile": "https://prema-culture.vercel.app",
       "contributions": [
         "data",
+        "code",
         "bug"
       ]
     },
@@ -45,7 +47,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/64036735?v=4",
       "profile": "http://judyn.me",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -54,6 +57,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/73110064?v=4",
       "profile": "https://github.com/roshni-salpekar",
       "contributions": [
+        "code",
         "data"
       ]
     },
@@ -84,6 +88,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/85418632?v=4",
       "profile": "https://bio.link/stefantaitano",
       "contributions": [
+        "code",
         "data"
       ]
     },
@@ -93,6 +98,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/142403?v=4",
       "profile": "http://developtodesign.com",
       "contributions": [
+        "code",
         "data"
       ]
     },
@@ -102,6 +108,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/95924468?v=4",
       "profile": "https://linktr.ee/anant18",
       "contributions": [
+        "code",
         "data"
       ]
     }
