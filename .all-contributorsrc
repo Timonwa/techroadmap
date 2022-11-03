@@ -34,7 +34,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57750800?v=4",
       "profile": "https://prema-culture.vercel.app",
       "contributions": [
-        "content",
+        "data",
         "bug"
       ]
     },
@@ -53,7 +53,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/73110064?v=4",
       "profile": "https://github.com/roshni-salpekar",
       "contributions": [
-        "content"
+        "data"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/37100124?v=4",
       "profile": "https://www.linkedin.com/in/cheuk-ting-ng-b044b9234/",
       "contributions": [
-        "content",
+        "data",
         "code"
       ]
     },
@@ -73,7 +73,8 @@
       "profile": "https://peteradeojo.vercel.app",
       "contributions": [
         "code",
-        "data"
+        "data",
+        "content"
       ]
     }
   ],
