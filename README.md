@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -228,6 +228,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
       <td align="center"><a href="http://mayowa-sunusi.vercel.app"><img src="https://avatars.githubusercontent.com/u/75336728?v=4?s=100" width="100px;" alt="Mayowa.js"/><br /><sub><b>Mayowa.js</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3ABoltUltra" title="Bug reports">🐛</a> <a href="#content-BoltUltra" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/senali-d"><img src="https://avatars.githubusercontent.com/u/52546856?v=4?s=100" width="100px;" alt="Senali"/><br /><sub><b>Senali</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=senali-d" title="Code">💻</a> <a href="#data-senali-d" title="Data">🔣</a></td>
       <td align="center"><a href="http://leonardcanastra.netlify.app"><img src="https://avatars.githubusercontent.com/u/46611195?v=4?s=100" width="100px;" alt="Leonard Canastra"/><br /><sub><b>Leonard Canastra</b></sub></a><br /><a href="#data-sanzous" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=sanzous" title="Code">💻</a> <a href="#content-sanzous" title="Content">🖋</a></td>
+      <td align="center"><a href="https://josephgibis.com/"><img src="https://avatars.githubusercontent.com/u/97909100?v=4?s=100" width="100px;" alt="Joseph Gibis"/><br /><sub><b>Joseph Gibis</b></sub></a><br /><a href="#data-Joeyg61703" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=Joeyg61703" title="Code">💻</a> <a href="#content-Joeyg61703" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
