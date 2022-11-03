@@ -6,7 +6,7 @@
   "commit": false,
   "commitConvention": "angular",
   "types": {
-    "resources": {
+    "blog": {
       "symbol": "🧱",
       "description": "resources",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
