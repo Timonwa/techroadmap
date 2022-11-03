@@ -65,6 +65,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "peteradeojo",
+      "name": "Peter Ade-Ojo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60135915?v=4",
+      "profile": "https://peteradeojo.vercel.app",
+      "contributions": [
+        "code",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 7,

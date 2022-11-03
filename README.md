@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -219,6 +219,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
       <td align="center"><a href="http://judyn.me"><img src="https://avatars.githubusercontent.com/u/64036735?v=4?s=100" width="100px;" alt="judy-n"/><br /><sub><b>judy-n</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=judy-n" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/roshni-salpekar"><img src="https://avatars.githubusercontent.com/u/73110064?v=4?s=100" width="100px;" alt="Roshni Salpekar"/><br /><sub><b>Roshni Salpekar</b></sub></a><br /><a href="#content-roshni-salpekar" title="Content">🖋</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/cheuk-ting-ng-b044b9234/"><img src="https://avatars.githubusercontent.com/u/37100124?v=4?s=100" width="100px;" alt="Nigel Ng"/><br /><sub><b>Nigel Ng</b></sub></a><br /><a href="#content-nigel0511" title="Content">🖋</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=nigel0511" title="Code">💻</a></td>
+      <td align="center"><a href="https://peteradeojo.vercel.app"><img src="https://avatars.githubusercontent.com/u/60135915?v=4?s=100" width="100px;" alt="Peter Ade-Ojo"/><br /><sub><b>Peter Ade-Ojo</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=peteradeojo" title="Code">💻</a> <a href="#data-peteradeojo" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
