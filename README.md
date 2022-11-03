@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -232,6 +232,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
     </tr>
     <tr>
       <td align="center"><a href="https://jasonjugo.netlify.app/"><img src="https://avatars.githubusercontent.com/u/92832561?v=4?s=100" width="100px;" alt="Jason Jugo"/><br /><sub><b>Jason Jugo</b></sub></a><br /><a href="#data-HondaChan14" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=HondaChan14" title="Code">💻</a> <a href="#content-HondaChan14" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/lumenCodes"><img src="https://avatars.githubusercontent.com/u/60603806?v=4?s=100" width="100px;" alt="Chinwendu"/><br /><sub><b>Chinwendu</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3AlumenCodes" title="Bug reports">🐛</a> <a href="#content-lumenCodes" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
