@@ -6,12 +6,12 @@
   "commit": false,
   "commitConvention": "angular",
   "types": {
-    "Resources": {
+    "resources": {
       "symbol": "🧱",
       "description": "Resources for roadmaps.",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
-    "Roadmaps": {
+    "roadmaps": {
       "symbol": "🗺️",
       "description": "New Roadmaps for dev or non-dev jobs.",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
