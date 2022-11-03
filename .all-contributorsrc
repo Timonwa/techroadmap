@@ -174,6 +174,16 @@
         "bug",
         "content"
       ]
+    },
+    {
+      "login": "Roxie2003",
+      "name": "Ruchita Wagh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59964427?v=4",
+      "profile": "https://github.com/Roxie2003",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
