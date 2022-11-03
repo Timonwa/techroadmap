@@ -17,6 +17,15 @@
         "content",
         "design"
       ]
+    },
+    {
+      "login": "anthonychinwe",
+      "name": "Anthony Chinwe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78088418?v=4",
+      "profile": "https://anthonychinwe.hashnode.dev/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
