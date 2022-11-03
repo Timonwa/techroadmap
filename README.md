@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -226,6 +226,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
       <td align="center"><a href="http://developtodesign.com"><img src="https://avatars.githubusercontent.com/u/142403?v=4?s=100" width="100px;" alt="Rob Levin"/><br /><sub><b>Rob Levin</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=roblevintennis" title="Code">💻</a> <a href="#data-roblevintennis" title="Data">🔣</a></td>
       <td align="center"><a href="https://linktr.ee/anant18"><img src="https://avatars.githubusercontent.com/u/95924468?v=4?s=100" width="100px;" alt="Anant Chaudhary"/><br /><sub><b>Anant Chaudhary</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=anant-strong" title="Code">💻</a> <a href="#data-anant-strong" title="Data">🔣</a></td>
       <td align="center"><a href="http://mayowa-sunusi.vercel.app"><img src="https://avatars.githubusercontent.com/u/75336728?v=4?s=100" width="100px;" alt="Mayowa.js"/><br /><sub><b>Mayowa.js</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3ABoltUltra" title="Bug reports">🐛</a> <a href="#content-BoltUltra" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/senali-d"><img src="https://avatars.githubusercontent.com/u/52546856?v=4?s=100" width="100px;" alt="Senali"/><br /><sub><b>Senali</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=senali-d" title="Code">💻</a> <a href="#data-senali-d" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
