@@ -1,10 +1,6 @@
 <a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-blue.svg)](mailto:techcareerroadmap@gmail.com)
 [![GitHub license](https://badgen.net/github/license/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/blob/main/LICENSE)
@@ -19,7 +15,9 @@
 
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Timonwa/techroadmap/)
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-blue.svg)](https://github.com/Timonwa/techroadmap)
-[![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)
+[![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!--[![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)]()-->
 
