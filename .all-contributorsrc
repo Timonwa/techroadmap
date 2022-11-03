@@ -55,6 +55,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "nigel0511",
+      "name": "Nigel Ng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37100124?v=4",
+      "profile": "https://www.linkedin.com/in/cheuk-ting-ng-b044b9234/",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
