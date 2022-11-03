@@ -194,6 +194,16 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "Ash9311",
+      "name": "Ashutosh Mulky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44554225?v=4",
+      "profile": "https://ash9311.github.io/my-portfolio-v2/#/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
