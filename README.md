@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -214,7 +214,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
   <tbody>
     <tr>
       <td align="center"><a href="https://link.timonwa.com"><img src="https://avatars.githubusercontent.com/u/63044364?v=4?s=100" width="100px;" alt="Timonwa Akintokun"/><br /><sub><b>Timonwa Akintokun</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Timonwa" title="Code">💻</a> <a href="#maintenance-Timonwa" title="Maintenance">🚧</a> <a href="#content-Timonwa" title="Content">🖋</a> <a href="#design-Timonwa" title="Design">🎨</a> <a href="https://github.com/Timonwa/techroadmap/pulls?q=is%3Apr+reviewed-by%3ATimonwa" title="Reviewed Pull Requests">👀</a></td>
-      <td align="center"><a href="https://anthonychinwe.hashnode.dev/"><img src="https://avatars.githubusercontent.com/u/78088418?v=4?s=100" width="100px;" alt="Anthony Chinwe"/><br /><sub><b>Anthony Chinwe</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=anthonychinwe" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://anthonychinwe.hashnode.dev/"><img src="https://avatars.githubusercontent.com/u/78088418?v=4?s=100" width="100px;" alt="Anthony Chinwe"/><br /><sub><b>Anthony Chinwe</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=anthonychinwe" title="Documentation">📖</a> <a href="#data-anthonychinwe" title="Data">🔣</a></td>
       <td align="center"><a href="https://prema-culture.vercel.app"><img src="https://avatars.githubusercontent.com/u/57750800?v=4?s=100" width="100px;" alt="mohit1607"/><br /><sub><b>mohit1607</b></sub></a><br /><a href="#data-mohit1607" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/issues?q=author%3Amohit1607" title="Bug reports">🐛</a></td>
       <td align="center"><a href="http://judyn.me"><img src="https://avatars.githubusercontent.com/u/64036735?v=4?s=100" width="100px;" alt="judy-n"/><br /><sub><b>judy-n</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=judy-n" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/roshni-salpekar"><img src="https://avatars.githubusercontent.com/u/73110064?v=4?s=100" width="100px;" alt="Roshni Salpekar"/><br /><sub><b>Roshni Salpekar</b></sub></a><br /><a href="#data-roshni-salpekar" title="Data">🔣</a></td>
@@ -224,6 +224,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
     <tr>
       <td align="center"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=100" width="100px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="#data-codewithfan" title="Data">🔣</a></td>
       <td align="center"><a href="http://developtodesign.com"><img src="https://avatars.githubusercontent.com/u/142403?v=4?s=100" width="100px;" alt="Rob Levin"/><br /><sub><b>Rob Levin</b></sub></a><br /><a href="#data-roblevintennis" title="Data">🔣</a></td>
+      <td align="center"><a href="https://linktr.ee/anant18"><img src="https://avatars.githubusercontent.com/u/95924468?v=4?s=100" width="100px;" alt="Anant Chaudhary"/><br /><sub><b>Anant Chaudhary</b></sub></a><br /><a href="#data-anant-strong" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
