@@ -142,6 +142,17 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "Joeyg61703",
+      "name": "Joseph Gibis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97909100?v=4",
+      "profile": "https://josephgibis.com/",
+      "contributions": [
+        "data",
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
