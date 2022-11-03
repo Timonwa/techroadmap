@@ -8,12 +8,12 @@
   "types": {
     "resources": {
       "symbol": "🧱",
-      "description": "Resources for roadmaps.",
+      "description": "resources",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     },
     "roadmaps": {
       "symbol": "🗺️",
-      "description": "New Roadmaps for dev or non-dev jobs.",
+      "description": "roadmaps",
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     }
   },
