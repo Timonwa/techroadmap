@@ -2,7 +2,7 @@
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
@@ -235,6 +235,7 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
       <td align="center"><a href="https://github.com/lumenCodes"><img src="https://avatars.githubusercontent.com/u/60603806?v=4?s=100" width="100px;" alt="Chinwendu"/><br /><sub><b>Chinwendu</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3AlumenCodes" title="Bug reports">🐛</a> <a href="#content-lumenCodes" title="Content">🖋</a></td>
       <td align="center"><a href="https://github.com/Roxie2003"><img src="https://avatars.githubusercontent.com/u/59964427?v=4?s=100" width="100px;" alt="Ruchita Wagh"/><br /><sub><b>Ruchita Wagh</b></sub></a><br /><a href="#design-Roxie2003" title="Design">🎨</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=Roxie2003" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/dangvu0502"><img src="https://avatars.githubusercontent.com/u/57172125?v=4?s=100" width="100px;" alt="dangvu0502"/><br /><sub><b>dangvu0502</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=dangvu0502" title="Code">💻</a> <a href="https://github.com/Timonwa/techroadmap/issues?q=author%3Adangvu0502" title="Bug reports">🐛</a></td>
+      <td align="center"><a href="https://ash9311.github.io/my-portfolio-v2/#/"><img src="https://avatars.githubusercontent.com/u/44554225?v=4?s=100" width="100px;" alt="Ashutosh Mulky"/><br /><sub><b>Ashutosh Mulky</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Ash9311" title="Code">💻</a> <a href="#design-Ash9311" title="Design">🎨</a></td>
     </tr>
   </tbody>
 </table>
