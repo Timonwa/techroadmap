@@ -164,6 +164,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "lumenCodes",
+      "name": "Chinwendu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60603806?v=4",
+      "profile": "https://github.com/lumenCodes",
+      "contributions": [
+        "bug",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
