@@ -238,6 +238,43 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
+
+      {/* SQLite Database */}
+            <ResourceCard id="SQLite">
+              <ResourceCardTitle>SQLite</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a href="https://www.sqlite.org/index.html" target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/watch?v=KHc2iiLEDoQ"
+                    target="_blank">
+                     SQLite Tutorial | SQLite for Beginners ~ Telusko
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://www.youtube.com/watch?v=byHcYRpMgI4" target="_blank">
+                  SQLite Databases With Python ~ freeCodeCamp.org
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/watch?v=312RhjfetP8"
+                    target="_blank">
+                    SQLite Database for Android ~ freeCodeCamp.org
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
+          
           </ResourceCardLinks>
         </ResourceCard>
 
