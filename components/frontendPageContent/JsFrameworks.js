@@ -32,6 +32,12 @@ const JsFrameworks = () => {
 
           <ResourceCardLinks>
             <ResourceLink>
+              <a target="_blank" href="https://scrimba.com/learn/learnreact">
+                Scrimba Learn React course
+              </a>
+              <ResourceBadge>Link</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
               <a target="_blank" href="https://reactjs.org/">
                 Website
               </a>
