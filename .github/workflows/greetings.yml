@@ -13,4 +13,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "<h2>Welcome @${{ github.actor }} and thank you for raising an issue!</h2><br>Please confirm that the issue you are raising does not already exist."
-          pr-message: "<h2>Welcome @${{ github.actor }} and thank you for creating a Pull Request!</h2>If your pull request gets merged, and you would like to be added to our MVPs list(contributors list) please reply to this comment with your details using the format below<br><br>Name<br>What you do<br>Twitter handle<br>Link (either to your website, blog, portfolio, GitHub, etc)<br><br>Do not forget to Star this repo if you have not.<br>Thank you."
+          pr-message: "<h2>Welcome @${{ github.actor }} and thank you for creating a Pull Request!</h2><br>Do not forget to Star this repo if you have not.<br>Thank you."
