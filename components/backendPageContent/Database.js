@@ -252,9 +252,9 @@ const Database = () => {
 
                 <ResourceLink>
                   <a
-                    href="https://www.youtube.com/watch?v=KHc2iiLEDoQ"
+                    href="https://www.youtube.com/watch?v=HQKwgk6XkIA"
                     target="_blank">
-                     SQLite Tutorial | SQLite for Beginners ~ Telusko
+                     SQLite Tutorial For Beginners - Make A Database In No Time
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
