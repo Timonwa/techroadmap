@@ -58,6 +58,12 @@ const JsFrameworks = () => {
               <ResourceBadge>Playlist</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
+              <a target="_blank" href="https://scrimba.com/learn/learnreact">
+                Learn React ~ Scrimba
+              </a>
+              <ResourceBadge>Course</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
               <a target="_blank" href="https://youtu.be/Jppuj6M1sJ4">
                 React Router crash course. ~ FreeCodeCamp
               </a>
