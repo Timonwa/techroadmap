@@ -146,6 +146,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#oracle">Oracle</a>
               </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#SQLite">SQLite</a>
+              </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>
           {/* nonrelational database  */}
