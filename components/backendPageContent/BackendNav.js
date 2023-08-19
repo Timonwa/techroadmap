@@ -79,6 +79,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
           <SideBarSubtitle onClick={handleMenu}>
             <a href="#GO">Go</a>
           </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
+            <a href="#SQL">SQL</a>
+          </SideBarSubtitle>
         </SideBarSubLinks>
       </SideBarTitle>
 

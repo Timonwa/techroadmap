@@ -66,6 +66,11 @@ const BackendLangs = () => {
             <ResourceLink>
               <a href="#GO">Go</a>
             </ResourceLink>
+
+            <ResourceLink>
+              <a href="#SQL">SQL</a>
+            </ResourceLink>
+
           </ResourceCardLinks>
         </ResourceSectionBody>
       </ResourceSection>
@@ -1041,6 +1046,139 @@ const BackendLangs = () => {
             </ResourceCardLinks>
           </ResourceCard>
         </ResourceSectionLinks>
+      </ResourceSection>
+
+
+        {/*  SQL */}
+      <ResourceSection id="SQL">
+      <ResourceSectionHeading>SQL</ResourceSectionHeading>
+      <ResourceSectionBody>
+      <p>
+      SQL, which stands for Structured Query Language, 
+      is a specialized programming language designed for 
+      managing and manipulating relational databases. It 
+      provides a standardized way to interact with databases, 
+      allowing users to perform various operations such as storing, 
+      retrieving, updating, and deleting data.
+          </p>  
+        </ResourceSectionBody>
+
+      <ResourceSectionLinks>
+      <ResourceCard>
+      <ResourceCardTitle>Videos</ResourceCardTitle>
+      <ResourceCardLinks>
+             {/* videos */}
+             <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=HXV3zeQKqGY">
+                SQL Tutorial - Full Database Course for Beginners. ~ FreeCodeCamp
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=h0nxCDiD-zg">
+                SQL Tutorial Beginners. ~ Kevin Stratvert
+                </a>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+
+
+      <ResourceCard>
+      <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+      <ResourceCardLinks>
+             {/* curated playlist */}
+             <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=a-hFbr-4VQQ&list=PLavw5C92dz9Ef4E-1Zi9KfCTXS_IN8gXZ">
+                Roadmap to learning SQL
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=vncBSUNb4NA&list=PLEiEAq2VkUUKL3yPbn8yWnatjUg0P0I-Z&index=8">
+                SQL Tutorial For Beginners | Simplilearn
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=RSlqWnP-Dy8&list=PLDp4ZIFbgTTO8dxL7dNaBxZJY6JzyHHpA">
+                SQL with Alex The Analyst
+                </a>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+
+      <ResourceCard>
+      <ResourceCardTitle>Free Courses</ResourceCardTitle>
+      <ResourceCardLinks>
+             {/* free course */}
+             <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/introduction-to-databases-and-sql-querying/">
+                Introduction to Databases and SQL Querying ~ Udemy
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udemy.com/course/sql-essentials-for-beginners/">
+                SQL Foundations ~ Udemy
+                </a>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+
+      <ResourceCard>
+      <ResourceCardTitle>Articles</ResourceCardTitle>
+      <ResourceCardLinks>
+             {/* Articles here */}
+             <ResourceLink>
+                <a target="_blank" href="https://www.codecademy.com/articles/language/sql">
+                 Codecademy SQL Articles
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.businessnewsdaily.com/5804-what-is-sql.html">
+                 What is SQL?
+                </a>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+
+      <ResourceCard>
+      <ResourceCardTitle>Practice Projects</ResourceCardTitle>
+      <ResourceCardLinks>
+             {/* Practice Projects here */}
+             <ResourceLink>
+                <a target="_blank" href="https://hackr.io/blog/best-sql-projects">
+                15 Best SQL Projects for Beginners (with Source Code)
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://www.mltut.com/sql-projects-for-beginners-with-source-code/">
+                7 SQL Projects for Beginners with Source Code
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+
+      <ResourceCard>
+      <ResourceCardTitle>Others</ResourceCardTitle>
+      <p className="resource-card-body">
+              Tips and tricks, tools, cool examples etc.
+            </p>
+      <ResourceCardLinks>
+             {/* Others here */}
+             <ResourceLink>
+                <a target="_blank" href="https://www.viget.com/articles/10-sql-tricks-that-i-like/">
+                A list of 10 SQL tricks
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+              <ResourceLink>
+                <a target="_blank" href="https://towardsdatascience.com/10-quick-sql-tips-after-writing-daily-in-sql-for-3-years-37bdba0637d0">
+                10 Quick SQL Tips After Writing Daily in SQL for 3 Years
+                </a>
+                <ResourceBadge>Article</ResourceBadge>
+              </ResourceLink>
+      </ResourceCardLinks>
+      </ResourceCard>
+      </ResourceSectionLinks>
       </ResourceSection>
     
 
