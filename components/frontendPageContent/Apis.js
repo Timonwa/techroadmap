@@ -60,7 +60,8 @@ const Apis = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu"
+              >
                 Asynchronous JavaScript. ~ The Net Ninja
               </a>
             </ResourceLink>
@@ -74,7 +75,8 @@ const Apis = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://therevealer.hashnode.dev/what-is-an-api">
+                href="https://therevealer.hashnode.dev/what-is-an-api"
+              >
                 What Is An API? ~ Emmanuel Aguchukwu
               </a>
             </ResourceLink>
@@ -115,7 +117,8 @@ const Apis = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://blog.bitsrc.io/6-apis-frontend-developers-should-know-3a94815c53dd">
+                href="https://blog.bitsrc.io/6-apis-frontend-developers-should-know-3a94815c53dd"
+              >
                 6 APIs Frontend Developers Should Know ~ A Smith
               </a>
               <ResourceBadge>Article</ResourceBadge>
@@ -144,6 +147,20 @@ const Apis = () => {
                 Make your own mock API. ~ Code with Abba Kubow
               </a>
               <ResourceBadge>Video</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://any-api.com/">
+                AnyApi ~ Documentation and Test Consoles for Over 1400 Public
+                APIs
+              </a>
+              <ResourceBadge>Tool</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://any-api.com/">
+                FakeStoreApi ~ Fake store rest API for your e-commerce or
+                shopping website prototype
+              </a>
+              <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
