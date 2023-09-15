@@ -156,7 +156,7 @@ const Apis = () => {
               <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a target="_blank" href="https://any-api.com/">
+              <a target="_blank" href="https://fakestoreapi.com/">
                 FakeStoreApi ~ Fake store rest API for your e-commerce or
                 shopping website prototype
               </a>
