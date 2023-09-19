@@ -36,12 +36,14 @@ const CssFrameworks = () => {
           Before picking your first framework/library, check these videos out;
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/LimOOe6I4eo">
+            href="https://youtu.be/LimOOe6I4eo"
+          >
             What are frameworks and libraries. ~ Codeacademy
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/N6SXu86bJ6I">
+            href="https://youtu.be/N6SXu86bJ6I"
+          >
             Top CSS frameworks to check out in 2021. ~ Adrian Twarog
           </a>
         </p>
@@ -76,7 +78,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR"
+              >
                 Bootstrap 5 tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -90,7 +93,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL1MK7nFniZZYRV5sign661Pq--3DbF9Bn">
+                href="https://youtube.com/playlist?list=PL1MK7nFniZZYRV5sign661Pq--3DbF9Bn"
+              >
                 Html, Css and Bootstrap projects. ~ Ansar Ali
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -120,7 +124,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=02zO0hZmwnw">
+                href="https://www.youtube.com/watch?v=02zO0hZmwnw"
+              >
                 Styled Components crash course. ~ Traversy Media
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -128,7 +133,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM">
+                href="https://youtube.com/playlist?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM"
+              >
                 React Styled Components. ~ Codevolution
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -164,7 +170,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw"
+              >
                 Tailwind CSS tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -199,9 +206,7 @@ const CssFrameworks = () => {
               <ResourceBadge>Link</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a
-                target="_blank"
-                href="https://chakra-ui.com/getting-started">
+              <a target="_blank" href="https://chakra-ui.com/getting-started">
                 Documentation
               </a>
               <ResourceBadge>Link</ResourceBadge>
@@ -209,7 +214,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLdUwL9O_dBokaW-aavCp3ppd6ynTs-gd2">
+                href="https://youtube.com/playlist?list=PLdUwL9O_dBokaW-aavCp3ppd6ynTs-gd2"
+              >
                 Chakra UI ~ Jesus take the Compiler
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -217,10 +223,17 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=dj6rPuWXoQM">
+                href="https://www.youtube.com/watch?v=dj6rPuWXoQM"
+              >
                 Build a React Responsive Portfolio App Using Chakra UI ~ Codepur
               </a>
               <ResourceBadge>Video</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://chakra-templates.dev/">
+                Production-ready Chakra UI Templates for developers
+              </a>
+              <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
@@ -253,7 +266,8 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9iXItWKbaQxcyDT1u6E7a8a"
+              >
                 Bulma CSS tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>

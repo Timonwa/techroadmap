@@ -70,21 +70,24 @@ const HtmlAndCssAdvanced = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5"
+              >
                 Css animations tutorial. ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid">
+                href="https://youtube.com/playlist?list=PLqGj3iMvMa4LvJ8VctoXnPI0dtE40wfid"
+              >
                 Css animations series. ~ DevTips
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK">
+                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK"
+              >
                 Css3 Full Tutorial. ~ Dev Dreamer
               </a>
             </ResourceLink>
@@ -96,7 +99,12 @@ const HtmlAndCssAdvanced = () => {
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="https://www.simplilearn.com/tutorials/css-tutorial/advanced-css">Advanced CSS Tutorial To Understand The A-Z of CSS. ~ Aryan Gupta, Simplilearn
+              <a
+                target="_blank"
+                href="https://www.simplilearn.com/tutorials/css-tutorial/advanced-css"
+              >
+                Advanced CSS Tutorial To Understand The A-Z of CSS. ~ Aryan
+                Gupta, Simplilearn
               </a>
             </ResourceLink>
           </ResourceCardLinks>
@@ -109,7 +117,8 @@ const HtmlAndCssAdvanced = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PLSJxovi1IyDH-pPIe0OF0z_mW-WVdhmhx">
+                href="https://www.youtube.com/playlist?list=PLSJxovi1IyDH-pPIe0OF0z_mW-WVdhmhx"
+              >
                 100 Complete Responsive Website Designs ~ Mr. Web Designer
               </a>
             </ResourceLink>
@@ -131,7 +140,8 @@ const HtmlAndCssAdvanced = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.websiteplanet.com/webtools/responsive-checker/">
+                href="https://www.websiteplanet.com/webtools/responsive-checker/"
+              >
                 Responsive Checker - Make sure your website looks perfect no
                 matter what device your visitors are using to view it!
               </a>
@@ -141,6 +151,15 @@ const HtmlAndCssAdvanced = () => {
               <a target="_blank" href="https://responsively.app/">
                 Responsively App - A dev-tool that aids faster and precise
                 responsive web development.
+              </a>
+              <ResourceBadge>Tool</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://getcssscan.com/css-box-shadow-examples"
+              >
+                Beautiful CSS box-shadow examples
               </a>
               <ResourceBadge>Tool</ResourceBadge>
             </ResourceLink>
