@@ -276,8 +276,8 @@ const Database = () => {
             </ResourceCard>
 
           {/* Maria Database */}
-            <ResourceCard id="Maria">
-              <ResourceCardTitle>Maria</ResourceCardTitle>
+            <ResourceCard id="mariadb">
+              <ResourceCardTitle>MariaDB</ResourceCardTitle>
               <ResourceCardLinks>
                 <ResourceLink>
                   <a href="https://mariadb.org" target="_blank">
@@ -381,7 +381,7 @@ const Database = () => {
             </ResourceCard>
 
             {/* Couch Database */}
-            <ResourceCard id="Couch">
+            <ResourceCard id="couchdb">
               <ResourceCardTitle>CouchDB</ResourceCardTitle>
               <ResourceCardLinks>
                 <ResourceLink>
@@ -392,7 +392,7 @@ const Database = () => {
                 </ResourceLink>
                 <ResourceLink>
                   <a href="https://youtu.be/nlqv9Np3iAU?si=o9jwUjhoINOp69SJ" target="_blank">
-                   Couch for Beginners ~ Traversy Media
+                   CouchDB for Beginners ~ Traversy Media
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
@@ -414,7 +414,7 @@ const Database = () => {
             </ResourceCard>
 
             {/* Firestore Database */}
-            <ResourceCard id="Firestore">
+            <ResourceCard id="firestoredb">
               <ResourceCardTitle>FirestoreDB</ResourceCardTitle>
               <ResourceCardLinks>
                 <ResourceLink>
