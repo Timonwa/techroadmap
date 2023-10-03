@@ -288,14 +288,14 @@ const Database = () => {
 
                 <ResourceLink>
                   <a
-                    href="https://www.youtube.com/watch?v=-ARMty_N0RU&list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O&pp=iAQB"
+                    href="https://www.youtube.com/playlist?list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O"
                     target="_blank">
                      MariaDB Tutorial for Beginners - Java Code Junkie
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
-                  <a href="https://www.mariadbtutorial.com/getting-started/install-mariadb/" target="_blank">
+                  <a href="https://www.mariadbtutorial.com/" target="_blank">
                   MariaDB Tutorial
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -304,7 +304,7 @@ const Database = () => {
                   <a
                     href="https://typescript.helpful.codes/tutorials/express/Building-a-CRUD-application-with-Express-and-MariaDB/"
                     target="_blank">
-                    CRUD Application with Express and MariaDB
+                    Building a CRUD application with Express and MariaDB in typescript
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
                 </ResourceLink>
@@ -406,9 +406,9 @@ const Database = () => {
                 </ResourceLink>
                 <ResourceLink>
                   <a href="https://medium.com/ksquare-inc/how-to-develop-your-first-couchdb-application-with-couchapp-and-js-e078271eb455" target="_blank">
-                  Application with CouchDB and JS
+                  Application with CouchDB and JS - Jaque.
                   </a>
-                  <ResourceBadge>Link</ResourceBadge>
+                  <ResourceBadge>Article</ResourceBadge>
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
@@ -424,7 +424,7 @@ const Database = () => {
                   <ResourceBadge>Link</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
-                  <a href="https://www.youtube.com/watch?v=4d-gIPGzmK4&list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB" target="_blank">
+                  <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb" target="_blank">
                    Firestore for Beginners ~ Net Ninja
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
@@ -435,13 +435,13 @@ const Database = () => {
                     target="_blank">
                     Firestore Tutorial ~ freeCodeCamp.org
                   </a>
-                  <ResourceBadge>Link</ResourceBadge>
+                  <ResourceBadge>Article</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
                   <a href="https://blog.logrocket.com/nextjs-cloud-firestore-full-stack-app-tutorial/" target="_blank">
-                  Application Using Firestore and NextJS
+                  Application Using Firestore and NextJS - Doğacan Bilgili
                   </a>
-                  <ResourceBadge>Link</ResourceBadge>
+                  <ResourceBadge>Article</ResourceBadge>
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
