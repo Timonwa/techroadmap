@@ -36,14 +36,16 @@ const Networking = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://developers.google.com/community/gdg">
+                href="https://developers.google.com/community/gdg"
+              >
                 Google Developers Group (GDG)
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href=" https://developers.google.com/community/dsc/clubs">
+                href=" https://developers.google.com/community/dsc/clubs"
+              >
                 Google Developer Student Club (DSC)
               </a>
             </ResourceLink>
@@ -148,7 +150,8 @@ const Networking = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://twitter.com/hnginternship?t=FNo8Fg7sQj53daEh0mCuew&s=09">
+                href="https://twitter.com/hnginternship?t=FNo8Fg7sQj53daEh0mCuew&s=09"
+              >
                 HNG Internship
               </a>
               <ResourceBadge>Unpaid</ResourceBadge>
@@ -161,7 +164,7 @@ const Networking = () => {
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://lms.terrahq.co/">
-                SideHustle.ng
+                TerraHQ
               </a>
               <ResourceBadge>Unpaid</ResourceBadge>
             </ResourceLink>
