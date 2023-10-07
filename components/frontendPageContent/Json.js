@@ -47,7 +47,21 @@ const Json = () => {
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href=""></a>
+              <a
+                target="_blank"
+                href="https://www.theserverside.com/definition/JSON-Javascript-Object-Notation"
+              >
+                JSON (JavaScript Object Notation) ~ Alexander S. Gillis (TheServerSide)
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/news/what-is-json-a-json-file-example/"
+              >
+                JSON for Beginners – JavaScript Object Notation Explained in
+                Plain English ~ freeCodeCamp
+              </a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
