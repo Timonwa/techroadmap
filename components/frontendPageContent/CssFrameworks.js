@@ -295,8 +295,9 @@ const CssFrameworks = () => {
 
           <ResourceCardLinks>
             <ResourceLink>
+              <ResourceBadge></ResourceBadge>
               <a target="_blank" href="https://mui.com/">
-                Website
+                 Official Website
               </a>
               <ResourceBadge>Link</ResourceBadge>
             </ResourceLink>
@@ -312,20 +313,21 @@ const CssFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=ToXna81iij0&t=32s"
+                href="https://www.youtube.com/watch?v=fzxEECHnsvU"
               >
-                Code a Dictionary with React and Material UI ~ FreeCodeCamp
+                Material UI 5 (MUI) React Tutorial | MUI Responsive Real Project
+                ~ Lama Dev
               </a>
               <ResourceBadge>Video</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=fzxEECHnsvU"
+                href="https://www.youtube.com/watch?v=ToXna81iij0&t=32s"
               >
-                Material UI 5 (MUI) React Tutorial | MUI Responsive Real Project
-                ~ Lama Dev
+                Code a Dictionary with React and Material UI ~ FreeCodeCamp
               </a>
+              <ResourceBadge>Video</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
