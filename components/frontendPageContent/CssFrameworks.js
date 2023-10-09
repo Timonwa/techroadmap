@@ -295,20 +295,10 @@ const CssFrameworks = () => {
 
           <ResourceCardLinks>
             <ResourceLink>
-              <ResourceBadge></ResourceBadge>
               <a target="_blank" href="https://mui.com/">
                  Official Website
               </a>
               <ResourceBadge>Link</ResourceBadge>
-            </ResourceLink>
-            <ResourceLink>
-              <a
-                target="_blank"
-                href="https://www.codingninjas.com/studio/library/material-ui-react"
-              >
-                Material UI React ~ codingninjas
-              </a>
-              <ResourceBadge>Video</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
               <a
