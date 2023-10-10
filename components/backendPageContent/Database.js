@@ -274,7 +274,43 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
-          
+
+          {/* Maria Database */}
+            <ResourceCard id="mariadb">
+              <ResourceCardTitle>MariaDB</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a href="https://mariadb.org" target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+
+                <ResourceLink>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PL3bGLnkkGnuUOB9YjjVDty6aCJApvkw8O"
+                    target="_blank">
+                     MariaDB Tutorial for Beginners - Java Code Junkie
+                  </a>
+                  <ResourceBadge>Playlist</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://www.mariadbtutorial.com/" target="_blank">
+                  MariaDB Tutorial
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://typescript.helpful.codes/tutorials/express/Building-a-CRUD-application-with-Express-and-MariaDB/"
+                    target="_blank">
+                    Building a CRUD application with Express and MariaDB in typescript
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
+
           </ResourceCardLinks>
         </ResourceCard>
 
@@ -343,8 +379,73 @@ const Database = () => {
                 </ResourceLink>
               </ResourceCardLinks>
             </ResourceCard>
-            {/* next language */}
-            <ResourceCard></ResourceCard>
+
+            {/* Couch Database */}
+            <ResourceCard id="couchdb">
+              <ResourceCardTitle>CouchDB</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a href="https://couchdb.apache.org/" target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://youtu.be/nlqv9Np3iAU?si=o9jwUjhoINOp69SJ" target="_blank">
+                   CouchDB for Beginners ~ Traversy Media
+                  </a>
+                  <ResourceBadge>Video</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.tutorialspoint.com/couchdb/index.htm"
+                    target="_blank">
+                    CouchDB Tutorial ~ tutorialspoint
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://medium.com/ksquare-inc/how-to-develop-your-first-couchdb-application-with-couchapp-and-js-e078271eb455" target="_blank">
+                  Application with CouchDB and JS - Jaque.
+                  </a>
+                  <ResourceBadge>Article</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
+
+            {/* Firestore Database */}
+            <ResourceCard id="firestoredb">
+              <ResourceCardTitle>FirestoreDB</ResourceCardTitle>
+              <ResourceCardLinks>
+                <ResourceLink>
+                  <a href="https://firebase.google.com/docs/firestore" target="_blank">
+                    Website
+                  </a>
+                  <ResourceBadge>Link</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9jERUGvbudErNCeSZHWUVlb" target="_blank">
+                   Firestore for Beginners ~ Net Ninja
+                  </a>
+                  <ResourceBadge>Playlist</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a
+                    href="https://www.freecodecamp.org/news/firebase-firestore-crash-course/"
+                    target="_blank">
+                    Firestore Tutorial ~ freeCodeCamp.org
+                  </a>
+                  <ResourceBadge>Article</ResourceBadge>
+                </ResourceLink>
+                <ResourceLink>
+                  <a href="https://blog.logrocket.com/nextjs-cloud-firestore-full-stack-app-tutorial/" target="_blank">
+                  Application Using Firestore and NextJS - Doğacan Bilgili
+                  </a>
+                  <ResourceBadge>Article</ResourceBadge>
+                </ResourceLink>
+              </ResourceCardLinks>
+            </ResourceCard>
+            {/* next Database */}
           </ResourceCardLinks>
         </ResourceCard>
       </ResourceSectionLinks>
