@@ -1,0 +1,12 @@
+name: "PR Greeter"
+on: [pull_request, issues]
+
+jobs:
+  pr-greeter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Greeter"
+        uses: JJ/pr-greeting-action@releases/v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          greeting: "Welcome **#** and thank you for your contribution! The team was notified and they will get back to you as soon as possible. If you are opening an issue, please confirm that the issue you are raising does not already exist. Do not forget to leave us a Star if you have not yet. Thank you."
