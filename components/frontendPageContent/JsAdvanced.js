@@ -81,8 +81,8 @@ const JsAdvanced = () => {
             <ResourceLink>
               <a 
                 target="_blank" 
-                href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">
-                Var, Let, and Const – What's the Difference?. ~ Sarah Chima Atuonwu
+                href="https://www.sitepoint.com/es6-collections-map-set-weakmap-weakset/">
+                ES6 Collections: Using Map, Set, WeakMap, WeakSet. ~ Kyle Pennell
               </a>
             </ResourceLink>
             <ResourceLink>
