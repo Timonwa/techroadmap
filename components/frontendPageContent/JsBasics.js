@@ -133,6 +133,41 @@ const JsBasics = () => {
                 Var, Let and Const - What&apos;s the difference? ~ FreeCodeCamp
               </a>
             </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/">
+                Arrow Functions vs Regular Functions - What&apos;s the difference? ~ FreeCodeCamp
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/">
+                JavaScript Rest vs Spread Operator - What&apos;s the difference? ~ FreeCodeCamp
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://blog.greenroots.info/a-practical-guide-to-object-destructuring-in-javascript">
+                Practical Guide to Object Destructuring in JavaScript ~ Tapas Adhikary
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/news/javascript-promise-tutorial-how-to-resolve-or-reject-promises-in-js/">
+                Javascript Promise Tutorial ~ Tapas Adhikary
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.freecodecamp.org/news/asynchronous-programming-in-javascript/">
+                Beginner&apos;s Guide to Asynchronous Programming ~ FreeCodeCamp
+              </a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
 
