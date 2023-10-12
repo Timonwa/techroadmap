@@ -81,15 +81,29 @@ const JsAdvanced = () => {
             <ResourceLink>
               <a 
                 target="_blank" 
-                href="https://dev.to/danilosilvadev/advanced-frontend-interview-topics-with-react-i3f">
-                Advanced frontend topics with React. ~ Danilo Silva
+                href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">
+                Var, Let, and Const – What's the Difference?. ~ Sarah Chima Atuonwu
               </a>
             </ResourceLink>
             <ResourceLink>
               <a 
                 target="_blank" 
-                href="https://roadmap.sh/javascript">
-                Step by step guide to learn JavaScript. ~ roadmap.sh
+                href="https://www.digitalocean.com/community/tutorials/understanding-javascript-promises">
+                Understanding JavaScript Promises. ~ Jecelyn Yeen
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a 
+                target="_blank" 
+                href="https://www.freecodecamp.org/news/javascript-design-patterns-explained/">
+                JavaScript Design Patterns – Explained with Examples. ~ Germán Cocca
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a 
+                target="_blank" 
+                href="https://www.digitalocean.com/community/tutorials/js-async-functions">
+                Exploring Async/Await Functions in JavaScript. ~ Alligator.io
               </a>
             </ResourceLink>
           </ResourceCardLinks>
