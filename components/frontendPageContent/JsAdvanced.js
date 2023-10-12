@@ -79,7 +79,18 @@ const JsAdvanced = () => {
           <ResourceCardTitle>Articles</ResourceCardTitle>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href="#"></a>
+              <a 
+                target="_blank" 
+                href="https://dev.to/danilosilvadev/advanced-frontend-interview-topics-with-react-i3f">
+                Advanced frontend topics with React. ~ Danilo Silva
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a 
+                target="_blank" 
+                href="https://roadmap.sh/javascript">
+                Step by step guide to learn JavaScript. ~ roadmap.sh
+              </a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
