@@ -174,7 +174,10 @@ const JsBasics = () => {
           </p>
           <ResourceCardLinks>
             <ResourceLink>
-              <a target="_blank" href=""></a>
+            <a target="_blank" href="https://developer.chrome.com/docs/devtools/javascript/">Debugging Javascript in the Sources Panel - Google [Article]</a>
+            </ResourceLink>
+            <ResourceLink>
+              <a target="_blank" href="https://youtu.be/Mus_vwhTCq0?si=8qXGfT5ONeIO4wFM">Javascript Pro Tips - Fireship [Video]</a>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
