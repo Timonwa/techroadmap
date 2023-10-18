@@ -8,6 +8,7 @@ import { ResourceSection } from "../../styles/styled-components/ResourceSection.
 import { ResourceSectionBody } from "../../styles/styled-components/ResourceSectionBody.styled";
 import { ResourceSectionHeading } from "../../styles/styled-components/ResourceSectionHeading.styled";
 import { ResourceSectionLinks } from "../../styles/styled-components/ResourceSectionLinks.styled";
+import { ResourceBadge } from "../../styles/styled-components/ResourceBadge.styled";
 
 const JsBasics = () => {
   return (
@@ -209,10 +210,13 @@ const JsBasics = () => {
           </p>
           <ResourceCardLinks>
             <ResourceLink>
-            <a target="_blank" href="https://developer.chrome.com/docs/devtools/javascript/">Debugging Javascript in the Sources Panel - Google [Article]</a>
+            <a target="_blank" href="https://developer.chrome.com/docs/devtools/javascript/">Debugging Javascript in the Sources Panel - Google</a>
+            <ResourceBadge>Article</ResourceBadge>
             </ResourceLink>
             <ResourceLink>
-              <a target="_blank" href="https://youtu.be/Mus_vwhTCq0?si=8qXGfT5ONeIO4wFM">Javascript Pro Tips - Fireship [Video]</a>
+              <a target="_blank" href="https://youtu.be/Mus_vwhTCq0?si=8qXGfT5ONeIO4wFM">Javascript Pro Tips - Fireship 
+              </a>
+              <ResourceBadge>Video</ResourceBadge>
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
