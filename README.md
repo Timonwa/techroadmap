@@ -1,7 +1,7 @@
 <a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
+[![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=techroadmap.visitor-badge)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-blue.svg)](mailto:techcareerroadmap@gmail.com)
 [![GitHub license](https://badgen.net/github/license/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/blob/main/LICENSE)
 [![GitHub forks](https://badgen.net/github/forks/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/network/members)
@@ -9,20 +9,6 @@
 [![GitHub contributors](https://badgen.net/github/contributors/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/graphs/contributors/)
 [![GitHub issues](https://img.shields.io/github/issues/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/pull/)
-
-<!-- ![codiga code quality score](https://api.codiga.io/project/32583/score/svg) -->
-<!-- ![codiga codegrade](https://api.codiga.io/project/32583/status/svg) -->
-
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Timonwa/techroadmap/)
-[![Awesome Badges](https://img.shields.io/badge/badges-awesome-blue.svg)](https://github.com/Timonwa/techroadmap)
-[![Buymeacoffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-<!--[![Tweeting](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)]()-->
-
-<!--[![Whatsapp](https://img.shields.io/badge/Whatsapp%20-Group-blue)]()-->
-<!--[![Telegram](https://img.shields.io/badge/Join-Telegram-blue?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtOS40MTcgMTUuMTgxLS4zOTcgNS41ODRjLjU2OCAwIC44MTQtLjI0NCAxLjEwOS0uNTM3bDIuNjYzLTIuNTQ1IDUuNTE4IDQuMDQxYzEuMDEyLjU2NCAxLjcyNS4yNjcgMS45OTgtLjkzMWwzLjYyMi0xNi45NzIuMDAxLS4wMDFjLjMyMS0xLjQ5Ni0uNTQxLTIuMDgxLTEuNTI3LTEuNzE0bC0yMS4yOSA4LjE1MWMtMS40NTMuNTY0LTEuNDMxIDEuMzc0LS4yNDcgMS43NDFsNS40NDMgMS42OTMgMTIuNjQzLTcuOTExYy41OTUtLjM5NCAxLjEzNi0uMTc2LjY5MS4yMTh6IiBmaWxsPSIjMDM5YmU1Ii8+PC9zdmc+)]()-->
 
 # Tech Roadmap
 
@@ -205,55 +191,12 @@ This project is licensed under the MIT License - see [LICENSE.md](https://github
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://link.timonwa.com"><img src="https://avatars.githubusercontent.com/u/63044364?v=4?s=100" width="100px;" alt="Timonwa Akintokun"/><br /><sub><b>Timonwa Akintokun</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Timonwa" title="Code">💻</a> <a href="#maintenance-Timonwa" title="Maintenance">🚧</a> <a href="#content-Timonwa" title="Content">🖋</a> <a href="#design-Timonwa" title="Design">🎨</a> <a href="https://github.com/Timonwa/techroadmap/pulls?q=is%3Apr+reviewed-by%3ATimonwa" title="Reviewed Pull Requests">👀</a></td>
-      <td align="center"><a href="https://anthonychinwe.hashnode.dev/"><img src="https://avatars.githubusercontent.com/u/78088418?v=4?s=100" width="100px;" alt="Anthony Chinwe"/><br /><sub><b>Anthony Chinwe</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=anthonychinwe" title="Documentation">📖</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=anthonychinwe" title="Code">💻</a> <a href="#data-anthonychinwe" title="Data">🔣</a></td>
-      <td align="center"><a href="https://prema-culture.vercel.app"><img src="https://avatars.githubusercontent.com/u/57750800?v=4?s=100" width="100px;" alt="mohit1607"/><br /><sub><b>mohit1607</b></sub></a><br /><a href="#data-mohit1607" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=mohit1607" title="Code">💻</a> <a href="https://github.com/Timonwa/techroadmap/issues?q=author%3Amohit1607" title="Bug reports">🐛</a></td>
-      <td align="center"><a href="http://judyn.me"><img src="https://avatars.githubusercontent.com/u/64036735?v=4?s=100" width="100px;" alt="judy-n"/><br /><sub><b>judy-n</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=judy-n" title="Code">💻</a> <a href="https://github.com/Timonwa/techroadmap/issues?q=author%3Ajudy-n" title="Bug reports">🐛</a></td>
-      <td align="center"><a href="https://github.com/roshni-salpekar"><img src="https://avatars.githubusercontent.com/u/73110064?v=4?s=100" width="100px;" alt="Roshni Salpekar"/><br /><sub><b>Roshni Salpekar</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=roshni-salpekar" title="Code">💻</a> <a href="#data-roshni-salpekar" title="Data">🔣</a></td>
-      <td align="center"><a href="https://www.linkedin.com/in/cheuk-ting-ng-b044b9234/"><img src="https://avatars.githubusercontent.com/u/37100124?v=4?s=100" width="100px;" alt="Nigel Ng"/><br /><sub><b>Nigel Ng</b></sub></a><br /><a href="#data-nigel0511" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=nigel0511" title="Code">💻</a></td>
-      <td align="center"><a href="https://peteradeojo.vercel.app"><img src="https://avatars.githubusercontent.com/u/60135915?v=4?s=100" width="100px;" alt="Peter Ade-Ojo"/><br /><sub><b>Peter Ade-Ojo</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=peteradeojo" title="Code">💻</a> <a href="#data-peteradeojo" title="Data">🔣</a> <a href="#content-peteradeojo" title="Content">🖋</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="https://bio.link/stefantaitano"><img src="https://avatars.githubusercontent.com/u/85418632?v=4?s=100" width="100px;" alt="Stefan Taitano"/><br /><sub><b>Stefan Taitano</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=codewithfan" title="Code">💻</a> <a href="#data-codewithfan" title="Data">🔣</a></td>
-      <td align="center"><a href="http://developtodesign.com"><img src="https://avatars.githubusercontent.com/u/142403?v=4?s=100" width="100px;" alt="Rob Levin"/><br /><sub><b>Rob Levin</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=roblevintennis" title="Code">💻</a> <a href="#data-roblevintennis" title="Data">🔣</a></td>
-      <td align="center"><a href="https://linktr.ee/anant18"><img src="https://avatars.githubusercontent.com/u/95924468?v=4?s=100" width="100px;" alt="Anant Chaudhary"/><br /><sub><b>Anant Chaudhary</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=anant-strong" title="Code">💻</a> <a href="#data-anant-strong" title="Data">🔣</a></td>
-      <td align="center"><a href="http://mayowa-sunusi.vercel.app"><img src="https://avatars.githubusercontent.com/u/75336728?v=4?s=100" width="100px;" alt="Mayowa.js"/><br /><sub><b>Mayowa.js</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3ABoltUltra" title="Bug reports">🐛</a> <a href="#content-BoltUltra" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/senali-d"><img src="https://avatars.githubusercontent.com/u/52546856?v=4?s=100" width="100px;" alt="Senali"/><br /><sub><b>Senali</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=senali-d" title="Code">💻</a> <a href="#data-senali-d" title="Data">🔣</a></td>
-      <td align="center"><a href="http://leonardcanastra.netlify.app"><img src="https://avatars.githubusercontent.com/u/46611195?v=4?s=100" width="100px;" alt="Leonard Canastra"/><br /><sub><b>Leonard Canastra</b></sub></a><br /><a href="#data-sanzous" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=sanzous" title="Code">💻</a> <a href="#content-sanzous" title="Content">🖋</a></td>
-      <td align="center"><a href="https://josephgibis.com/"><img src="https://avatars.githubusercontent.com/u/97909100?v=4?s=100" width="100px;" alt="Joseph Gibis"/><br /><sub><b>Joseph Gibis</b></sub></a><br /><a href="#data-Joeyg61703" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=Joeyg61703" title="Code">💻</a> <a href="#content-Joeyg61703" title="Content">🖋</a></td>
-    </tr>
-    <tr>
-      <td align="center"><a href="https://jasonjugo.netlify.app/"><img src="https://avatars.githubusercontent.com/u/92832561?v=4?s=100" width="100px;" alt="Jason Jugo"/><br /><sub><b>Jason Jugo</b></sub></a><br /><a href="#data-HondaChan14" title="Data">🔣</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=HondaChan14" title="Code">💻</a> <a href="#content-HondaChan14" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/lumenCodes"><img src="https://avatars.githubusercontent.com/u/60603806?v=4?s=100" width="100px;" alt="Chinwendu"/><br /><sub><b>Chinwendu</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/issues?q=author%3AlumenCodes" title="Bug reports">🐛</a> <a href="#content-lumenCodes" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/Roxie2003"><img src="https://avatars.githubusercontent.com/u/59964427?v=4?s=100" width="100px;" alt="Ruchita Wagh"/><br /><sub><b>Ruchita Wagh</b></sub></a><br /><a href="#design-Roxie2003" title="Design">🎨</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=Roxie2003" title="Code">💻</a></td>
-      <td align="center"><a href="https://github.com/dangvu0502"><img src="https://avatars.githubusercontent.com/u/57172125?v=4?s=100" width="100px;" alt="dangvu0502"/><br /><sub><b>dangvu0502</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=dangvu0502" title="Code">💻</a> <a href="https://github.com/Timonwa/techroadmap/issues?q=author%3Adangvu0502" title="Bug reports">🐛</a></td>
-      <td align="center"><a href="https://ash9311.github.io/my-portfolio-v2/#/"><img src="https://avatars.githubusercontent.com/u/44554225?v=4?s=100" width="100px;" alt="Ashutosh Mulky"/><br /><sub><b>Ashutosh Mulky</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Ash9311" title="Code">💻</a> <a href="#design-Ash9311" title="Design">🎨</a></td>
-      <td align="center"><a href="https://github.com/Goutham-erram"><img src="https://avatars.githubusercontent.com/u/88138359?v=4?s=100" width="100px;" alt="Goutham"/><br /><sub><b>Goutham</b></sub></a><br /><a href="https://github.com/Timonwa/techroadmap/commits?author=Goutham-erram" title="Code">💻</a> <a href="#data-Goutham-erram" title="Data">🔣</a> <a href="#content-Goutham-erram" title="Content">🖋</a></td>
-      <td align="center"><a href="https://github.com/benjaminsanga"><img src="https://avatars.githubusercontent.com/u/47528812?v=4?s=100" width="100px;" alt="Benjamin Sanga"/><br /><sub><b>Benjamin Sanga</b></sub></a><br /><a href="#design-benjaminsanga" title="Design">🎨</a> <a href="https://github.com/Timonwa/techroadmap/commits?author=benjaminsanga" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+<a href="https://github.com/timonwa/techroadmap/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=timonwa/techroadmap" />
+</a>
 
 [⬆ Back to Top](#table-of-content)
 
 <!-- ## Authors
 Timonwa
-Also see the list of contributors who participated in this project. -->
+Also, please take a look at the list of contributors who participated in this project. -->
