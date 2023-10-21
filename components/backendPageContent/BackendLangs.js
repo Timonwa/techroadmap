@@ -535,6 +535,71 @@ const BackendLangs = () => {
           </ResourceCard>
 
           {/* articles */}
+                <ResourceSection id="CPP">
+        <ResourceSectionHeading>C&#43;&#43;</ResourceSectionHeading>
+
+        <ResourceSectionBody>
+          <p>
+          The C&#43;&#43; programming language was invented in 1979 by Bjarne Stroustrup while working on his PhD thesis at Bell Labs. C&#43;&#43; was designed to be an extension of the programming language C, hence its original name, “C with Classes”. Stroustrup&#39;s goal was to add flexibility and OOP (object-oriented programming) to the C language. He included features such as classes, strong type checking, default function arguments, and basic inheritance. The name was changed to C&#43;&#43; in 1983, which derives from the &#43;&#43; operator.
+
+          </p>
+          
+        </ResourceSectionBody>
+
+        <ResourceSectionLinks>
+          {/* videos */}
+          <ResourceCard>
+            <ResourceCardTitle>Videos</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.youtube.com/watch?v=8jLOx1hD3_o">
+                C&#43;&#43; Programming Course - Beginner to Advanced ~ freeCodeCamp.org
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=GQp1zzTwrIg">
+                  C&#43;&#43; FULL COURSE For Beginners ~ CodeBeauty
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* playlist */}
+          <ResourceCard>
+            <ResourceCardTitle>Curated Playlist</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C">
+                  C&#43;&#43; Programming Video Tutorial ~ LearningLad
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://youtube.com/playlist?list=PLS1QulWo1RIYSyC6w2-rDssprPrEsgtVK">
+                  C&#43;&#43; Tutorial for Beginners ~ ProgrammingKnowledge
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* Free Courses */}
+          <ResourceCard>
+            <ResourceCardTitle>Free Courses</ResourceCardTitle>
+            <ResourceCardLinks>
+              <ResourceLink>
+                <a target="_blank" href="https://www.udacity.com/course/c-for-programmers--ud210?irclickid=znLyVwSpsxyIRGAw3s3-n1VaUkDwXRzxqRu5Uo0&irgwc=1&utm_source=affiliate&utm_medium=&aff=2558440&utm_term=&utm_campaign=__&utm_content=&adid=786224">
+                C&#43;&#43; For Programmers ~ Udacity
+                </a>
+              </ResourceLink>
+            </ResourceCardLinks>
+          </ResourceCard>
+
+          {/* articles */}
           <ResourceCard>
             <ResourceCardTitle>Articles</ResourceCardTitle>
             <ResourceCardLinks>
@@ -545,8 +610,31 @@ const BackendLangs = () => {
                   Learn C&#43;&#43; from scratch: The complete guide for beginners ~ Educative
                 </a>
               </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm">
+                  Learn C&#43;&#43; for web development -Tutorials Point
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://talent500.co/blog/the-growth-of-c-as-a-backend-programming-language/">
+                  The growth of C&#43;&#43; as a backend programming language - Sumit Malviya
+                </a>
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://docs.kinetica.com/7.0/tutorials/cpp_guide.html">
+                  Learn from C&#43;&#43; Documentation -Kinetica
+                </a>
+              </ResourceLink>
+              
             </ResourceCardLinks>
           </ResourceCard>
+
 
           {/* practical projects */}
           <ResourceCard>
