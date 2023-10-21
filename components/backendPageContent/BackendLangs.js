@@ -610,28 +610,6 @@ const BackendLangs = () => {
                   Learn C&#43;&#43; from scratch: The complete guide for beginners ~ Educative
                 </a>
               </ResourceLink>
-              <ResourceLink>
-                <a
-                  target="_blank"
-                  href="https://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm">
-                  Learn C&#43;&#43; for web development -Tutorials Point
-                </a>
-              </ResourceLink>
-              <ResourceLink>
-                <a
-                  target="_blank"
-                  href="https://talent500.co/blog/the-growth-of-c-as-a-backend-programming-language/">
-                  The growth of C&#43;&#43; as a backend programming language - Sumit Malviya
-                </a>
-              </ResourceLink>
-              <ResourceLink>
-                <a
-                  target="_blank"
-                  href="https://docs.kinetica.com/7.0/tutorials/cpp_guide.html">
-                  Learn from C&#43;&#43; Documentation -Kinetica
-                </a>
-              </ResourceLink>
-              
             </ResourceCardLinks>
           </ResourceCard>
 
