@@ -149,6 +149,9 @@ const BackendNav = ({ handleMenu, openMenu }) => {
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#SQLite">SQLite</a>
               </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#mariadb">MariaDB</a>
+              </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>
           {/* nonrelational database  */}
@@ -157,6 +160,12 @@ const BackendNav = ({ handleMenu, openMenu }) => {
             <SideBarSubLinks>
               <SideBarSubtitle onClick={handleMenu}>
                 <a href="#mongodb">MongoDB</a>
+              </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#couchdb">CouchDB</a>
+              </SideBarSubtitle>
+              <SideBarSubtitle onClick={handleMenu}>
+                <a href="#firestoredb">FirestoreDB</a>
               </SideBarSubtitle>
             </SideBarSubLinks>
           </SideBarSubtitle>

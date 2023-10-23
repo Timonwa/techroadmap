@@ -131,6 +131,9 @@ const FrontendNav = ({ handleMenu, openMenu }) => {
           <SideBarSubtitle onClick={handleMenu}>
             <a href="#bulma">Bulma</a>
           </SideBarSubtitle>
+          <SideBarSubtitle onClick={handleMenu}>
+            <a href="#material-ui">Material UI</a>
+          </SideBarSubtitle>
         </SideBarSubLinks>
       </SideBarTitle>
 

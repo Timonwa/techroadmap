@@ -164,7 +164,7 @@ const Networking = () => {
             </ResourceLink>
             <ResourceLink>
               <a target="_blank" href="https://lms.terrahq.co/">
-                SideHustle.ng
+                TerraHQ
               </a>
               <ResourceBadge>Unpaid</ResourceBadge>
             </ResourceLink>
