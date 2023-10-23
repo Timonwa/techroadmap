@@ -54,7 +54,8 @@ const CareersDescription = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://blog.timonwa.com/you-dont-need-to-write-code-to-become-a-tech-sisbro">
+                  href="https://blog.timonwa.com/you-dont-need-to-write-code-to-become-a-tech-sisbro"
+                >
                   21 no-code tech jobs you can do to become a tech sis or tech
                   bro. ~ Timonwa
                 </a>
@@ -62,28 +63,32 @@ const CareersDescription = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://skillcrush.com/blog/41-tech-job-titles/">
+                  href="https://skillcrush.com/blog/41-tech-job-titles/"
+                >
                   41 Job Titles in Tech. Which One Will be Yours? ~ SkillCrush
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.business.com/articles/best-careers-tech-geeks/">
+                  href="https://www.business.com/articles/best-careers-tech-geeks/"
+                >
                   20 Top Career Paths for Tech Geeks ~ business.com
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.freecodecamp.org/news/how-to-choose-the-best-tech-career-path-for-you-61c4d5ff9a77/">
+                  href="https://www.freecodecamp.org/news/how-to-choose-the-best-tech-career-path-for-you-61c4d5ff9a77/"
+                >
                   How to choose the best tech career path for you ~freecodecamp
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://edidiongasikpo.com/how-to-kickstart-a-career-in-tech">
+                  href="https://edidiongasikpo.com/how-to-kickstart-a-career-in-tech"
+                >
                   How to Kickstart a Career in Tech ~ Edidiong Asikpo
                 </a>
               </ResourceLink>
@@ -91,7 +96,8 @@ const CareersDescription = () => {
                 <a
                   target="_blank"
                   href="https://therevealer.hashnode.dev/starting-out-in-tech-in-2022
-">
+"
+                >
                   Starting Out In Tech In 2022. ~ Emmanuel Aguchukwu
                 </a>
               </ResourceLink>
@@ -131,14 +137,16 @@ const CareersDescription = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=xuxTJUIi7nQ">
+                  href="https://www.youtube.com/watch?v=xuxTJUIi7nQ"
+                >
                   The Career Paths in Software Engineering ~ Tiff In Tech
                 </a>
               </ResourceLink>
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://www.youtube.com/watch?v=07IViT_Ezuc">
+                  href="https://www.youtube.com/watch?v=07IViT_Ezuc"
+                >
                   Career Paths for Software Engineers ~ Engineering With Ustav
                 </a>
               </ResourceLink>

@@ -53,21 +53,24 @@ const JsAdvanced = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL0Zuz27SZ-6N3bG4YZhkrCL3ZmDcLTuGd">
+                href="https://youtube.com/playlist?list=PL0Zuz27SZ-6N3bG4YZhkrCL3ZmDcLTuGd"
+              >
                 Advanced JavaScript Concepts. ~ Dave Grey
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLvZkOAgBYrsSZiL0L7T-CBGdiBUaHok4x">
+                href="https://youtube.com/playlist?list=PLvZkOAgBYrsSZiL0L7T-CBGdiBUaHok4x"
+              >
                 Advanced JavaScript Concepts, the complete series. ~ Tech CBT
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9g6m_6Sld9Q4jzqdqHd2HiD"
+              >
                 Regular expressions tutorial. ~ The Net Ninja
               </a>
             </ResourceLink>
@@ -91,7 +94,8 @@ const JsAdvanced = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3">
+                href="https://youtube.com/playlist?list=PLpwngcHZlPadhRwryAXw3mJWX5KH3T5L3"
+              >
                 Basic and advanced JavaScript Projects. ~ Coding Nepal
               </a>
             </ResourceLink>

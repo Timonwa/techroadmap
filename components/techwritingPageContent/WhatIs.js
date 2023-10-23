@@ -45,14 +45,16 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.instructionalsolutions.com/blog/what-is-technical-writing">
+                href="https://www.instructionalsolutions.com/blog/what-is-technical-writing"
+              >
                 What is Technical Writing? ~ Instructional Solutions
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.technicalwriterhq.com/career/technical-writer/what-is-a-technical-writer/">
+                href="https://www.technicalwriterhq.com/career/technical-writer/what-is-a-technical-writer/"
+              >
                 What is a Technical Writer? Definition + Examples ~ Technical
                 Writer HQ
               </a>

@@ -72,7 +72,8 @@ const DeploymentServices = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://vercel.com/docs/concepts/functions/serverless-functions">
+                href="https://vercel.com/docs/concepts/functions/serverless-functions"
+              >
                 Serverless Functions (Docs)
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -149,7 +150,8 @@ const DeploymentServices = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://cloud.google.com/why-google-cloud">
+                href="https://cloud.google.com/why-google-cloud"
+              >
                 Why Google Cloud
               </a>
               <ResourceBadge>Link</ResourceBadge>
@@ -176,7 +178,8 @@ const DeploymentServices = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://learn.microsoft.com/en-us/azure/?product=popular">
+                href="https://learn.microsoft.com/en-us/azure/?product=popular"
+              >
                 Documentation
               </a>
               <ResourceBadge>Link</ResourceBadge>

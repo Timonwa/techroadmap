@@ -206,7 +206,8 @@ const DesignResources = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://play.google.com/store/apps/details?id=com.sorincovor.pigments">
+                href="https://play.google.com/store/apps/details?id=com.sorincovor.pigments"
+              >
                 Pigments - Color scheme creator.
               </a>
               <ResourceBadge>Free</ResourceBadge>
@@ -215,7 +216,8 @@ const DesignResources = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://play.google.com/store/apps/details?id=com.apps.offbeat.colorpalette">
+                href="https://play.google.com/store/apps/details?id=com.apps.offbeat.colorpalette"
+              >
                 Colour Palette - Extract/Create gradients and colors.
               </a>
               <ResourceBadge>Free</ResourceBadge>
