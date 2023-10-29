@@ -152,7 +152,11 @@ const HtmlAndCssBasic = () => {
             </ResourceLink>
             <ResourceLink>
               <a
-                
+                target="_blank"
+                href="https://css-tricks.com/confused-rem-em/"
+              >
+                Difference between rem and em ~ CSS Tricks
+              </a>    
             </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
