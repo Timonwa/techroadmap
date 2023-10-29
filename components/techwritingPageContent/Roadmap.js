@@ -33,7 +33,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://www.instructionalsolutions.com/blog/become-a-technical-writer"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 How to Become a Technical Writer: A Beginner&apos;s Guide ~
                 Instructional Solutions
               </a>
@@ -42,7 +43,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://www.freecodecamp.org/news/how-to-become-a-technical-writer/"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 How to Become a Technical Writer ~ freeCodeCamp
               </a>
             </ResourceLink>
@@ -56,7 +58,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://www.youtube.com/watch?v=1w1QYR-n1js"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 How to Become a Great Technical Writer ~ Technical Writer HQ
               </a>
             </ResourceLink>

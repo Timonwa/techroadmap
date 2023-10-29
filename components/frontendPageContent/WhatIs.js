@@ -19,15 +19,15 @@ const WhatIs = () => {
       <ResourceSectionBody>
         <p>
           Frontend development also called client-side development, is the
-          process of creating the visible part of a website using HTML, CSS,
-          and JavaScript, so that users can view and interact with that website.
+          process of creating the visible part of a website using HTML, CSS, and
+          JavaScript, so that users can view and interact with that website.
         </p>
         <p>
           Learn more about what frontend development is by clicking the links
           below.
         </p>
       </ResourceSectionBody>
-      
+
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>
@@ -36,7 +36,8 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/">
+                href="https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/"
+              >
                 What is front-end development explained in plain English ~
                 FreeCodeCamp
               </a>
@@ -44,7 +45,8 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://skillcrush.com/blog/skills-to-become-a-front-end-developer/">
+                href="https://skillcrush.com/blog/skills-to-become-a-front-end-developer/"
+              >
                 Skills to become a front-end developer ~ Skill Crush
               </a>
             </ResourceLink>

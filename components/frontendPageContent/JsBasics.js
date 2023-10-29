@@ -66,35 +66,40 @@ const JsBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET"
+              >
                 JavaScript Tutorials for beginners. ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV">
+                href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV"
+              >
                 JavaScript Tutorials for beginners. ~ Telusko
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2s-V"
+              >
                 JavaScript DOM tutorial ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLVvjrrRCBy2JS8__NYlhPeaoNz2p1aPEN">
+                href="https://youtube.com/playlist?list=PLVvjrrRCBy2JS8__NYlhPeaoNz2p1aPEN"
+              >
                 JavaScript DOM tutorial. ~ Dcode
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX">
+                href="https://youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX"
+              >
                 Everything Vanilla JavaScript tutorials plus projects to build.
                 ~ Traversy Media
               </a>
@@ -109,14 +114,16 @@ const JsBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">
+                href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/"
+              >
                 JavaScript Algorithms and Data Structures. ~ FreeCodeCamp
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.w3schools.com/js/default.asp">
+                href="https://www.w3schools.com/js/default.asp"
+              >
                 Learn JavaScript. ~ W3Schools
               </a>
             </ResourceLink>
@@ -130,7 +137,8 @@ const JsBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/">
+                href="https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/"
+              >
                 Var, Let and Const - What&apos;s the difference? ~ FreeCodeCamp
               </a>
             </ResourceLink>
@@ -194,7 +202,8 @@ const JsBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/news/javascript-projects-for-beginners">
+                href="https://www.freecodecamp.org/news/javascript-projects-for-beginners"
+              >
                 40 JavaScript projects for beginners – Easy ideas to get started
                 coding JS. ~ FreeCodeCamp
               </a>

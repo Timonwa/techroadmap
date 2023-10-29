@@ -15,7 +15,8 @@ const ContributeCTA = () => {
               className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               GitHub
             </a>
             . Please give us a <FaStar className={styles.star} />
@@ -24,7 +25,8 @@ const ContributeCTA = () => {
               className="paragraphLinks"
               target="_blank"
               href="https://github.com/Timonwa/techroadmap"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               GitHub
             </a>
             . All meaningful contributions are welcome to help grow this project
