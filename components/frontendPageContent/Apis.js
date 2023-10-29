@@ -75,33 +75,17 @@ const Apis = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://therevealer.hashnode.dev/what-is-an-api"
-              >
-                What Is An API? ~ Emmanuel Aguchukwu
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/pulse/understanding-apis-frontend-developers-guide-reactjs-ememe-tochukwu/?trackingId=eYsxvhLER9Sqt5EzMms0hA%3D%3D"
-              >
-                Understanding APIs for Frontend Developers: A Beginner-Friendly Guide with ReactJS ~ Ememe Tochukwu
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a
-                target="_blank"
-                href="https://kinsta.com/blog/graphql-vs-rest/#graphql-vs-rest-showdown"
-              >
-                GraphQL vs REST: Everything You Need To Know  ~ Solomon Eseme
-              </a>
-            </ResourceLink>
-            <ResourceLink>
-              <a
-                target="_blank"
                 href="https://snipcart.com/blog/integrating-apis-introduction"
               >
                 A Beginner&apos;s Guide to APIs: How to Integrate and Use Them  ~ Alex Trost
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://therevealer.hashnode.dev/what-is-an-api"
+              >
+                What Is An API? ~ Emmanuel Aguchukwu
               </a>
             </ResourceLink>
           </ResourceCardLinks>
@@ -138,6 +122,14 @@ const Apis = () => {
             Tips and tricks, tools, cool examples etc.
           </p>
           <ResourceCardLinks>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://kinsta.com/blog/graphql-vs-rest/#graphql-vs-rest-showdown"
+              >
+                GraphQL vs REST: Everything You Need To Know  ~ Solomon Eseme
+              </a>
+            </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
