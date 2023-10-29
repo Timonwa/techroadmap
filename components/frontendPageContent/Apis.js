@@ -101,7 +101,7 @@ const Apis = () => {
                 target="_blank"
                 href="https://snipcart.com/blog/integrating-apis-introduction"
               >
-                A Beginner's Guide to APIs: How to Integrate and Use Them  ~ Alex Trost
+                A Beginner&apos;s Guide to APIs: How to Integrate and Use Them  ~ Alex Trost
               </a>
             </ResourceLink>
           </ResourceCardLinks>
