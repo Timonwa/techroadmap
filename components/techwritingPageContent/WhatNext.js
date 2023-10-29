@@ -22,7 +22,8 @@ const WhatNext = () => {
           <a
             className="paragraphLinks"
             href="https://twitter.com/techroadmap__"
-            target="_blank">
+            target="_blank"
+          >
             @techroadmap__
           </a>{" "}
           on twitter and if you have any questions or comments, feel free to
@@ -30,14 +31,16 @@ const WhatNext = () => {
           <a
             className="paragraphLinks"
             href="mailto:techcareerroadmap@gmail.com"
-            target="_blank">
+            target="_blank"
+          >
             techcareerroadmap@gmail.com
           </a>
           . Don&apos;t forget to give us a Star on our{" "}
           <a
             className="paragraphLinks"
             href="https://github.com/Timonwa/techroadmap "
-            target="_blank">
+            target="_blank"
+          >
             GitHub repo
           </a>
           !

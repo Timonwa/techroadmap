@@ -53,7 +53,8 @@ const Debugging = () => {
               <a
                 target="_blank"
                 href="https://youtube.com/playlist?list=PLgjjGlfBflIRRWuCXnSTU1-35EcDc5Jwf
-">
+"
+              >
                 Firefox devTools ~ Mozilla developer
               </a>
               <ResourceBadge>Playlist</ResourceBadge>

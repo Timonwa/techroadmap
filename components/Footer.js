@@ -47,7 +47,8 @@ const Footer = () => {
               className={styles.paragraphLinks}
               target="_blank"
               href="https://twitter.com/timonwa_"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Timonwa
             </a>
           </p>
@@ -61,7 +62,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="mailto:techcareerroadmap@gmail.com"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 <FaEnvelope className={styles.icons} />
               </a>
             </li>
@@ -70,7 +72,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="https://twitter.com/techroadmap__"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 <FaTwitter className={styles.icons} />
               </a>
             </li>
@@ -79,7 +82,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="https://github.com/Timonwa/techroadmap"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 <FaGithub className={styles.icons} />
               </a>
             </li>

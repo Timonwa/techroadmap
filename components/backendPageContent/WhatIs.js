@@ -40,7 +40,8 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://learntocodewith.me/posts/backend-development/">
+                href="https://learntocodewith.me/posts/backend-development/"
+              >
                 The Beginner&apos; Guide to Backend Development (2022 Guide) ~
                 Krystal Tolani
               </a>
@@ -48,7 +49,8 @@ const WhatIs = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.interviewbit.com/blog/backend-developer-skills/">
+                href="https://www.interviewbit.com/blog/backend-developer-skills/"
+              >
                 Backend Developer Skills You Must Have - InterviewBit.com
               </a>
             </ResourceLink>

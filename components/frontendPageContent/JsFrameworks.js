@@ -52,7 +52,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d"
+              >
                 Full modern ReactJs tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -84,7 +85,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A">
+                href="https://youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A"
+              >
                 React hooks tutorial. ~ Codevolution
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -124,7 +126,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1"
+              >
                 VueJs 3 tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -132,7 +135,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=BGAu__J4xoc&list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2">
+                href="https://www.youtube.com/watch?v=BGAu__J4xoc&list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2"
+              >
                 Learn Vuex ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -140,7 +144,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=w1riyS3i7ik">
+                href="https://www.youtube.com/watch?v=w1riyS3i7ik"
+              >
                 Vuex tutorial Full course ~ Scrimba
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -154,7 +159,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL8p2I9GklV44m5tFH-zjCmTiHeq9GZrby">
+                href="https://youtube.com/playlist?list=PL8p2I9GklV44m5tFH-zjCmTiHeq9GZrby"
+              >
                 Build a restaurant management project with VueJs. ~ Code step by
                 step
               </a>
@@ -196,7 +202,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLFuqtLQvVtC7IU7A_EsOKLCgp8UbJJ89u">
+                href="https://youtube.com/playlist?list=PLFuqtLQvVtC7IU7A_EsOKLCgp8UbJJ89u"
+              >
                 Angular Js tutorial. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -230,7 +237,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=3TVy6GdtNuQ">
+                href="https://www.youtube.com/watch?v=3TVy6GdtNuQ"
+              >
                 Svelte crash course. ~ Traversy Media
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -238,7 +246,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=ujbE0mzX-CU">
+                href="https://www.youtube.com/watch?v=ujbE0mzX-CU"
+              >
                 Learn the Svelte Javascript framework full course. ~
                 FreeCodeCamp
               </a>
@@ -247,7 +256,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO">
+                href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO"
+              >
                 Svelte tutorial for beginners. ~ The Net Ninja
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -255,7 +265,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=ydR_M0fw9Xc">
+                href="https://www.youtube.com/watch?v=ydR_M0fw9Xc"
+              >
                 SvelteKit for beginners. Movie app tutorial ~ Dev Ed
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -280,7 +291,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=sCLc2ttYJ2A">
+                href="https://www.youtube.com/watch?v=sCLc2ttYJ2A"
+              >
                 Intro to AgnosticUI
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -288,7 +300,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://css-tricks.com/make-a-component-multiple-frameworks-in-a-monorepo/">
+                href="https://css-tricks.com/make-a-component-multiple-frameworks-in-a-monorepo/"
+              >
                 How to Make a Component That Supports Multiple Frameworks
               </a>
               <ResourceBadge>Article</ResourceBadge>
@@ -296,7 +309,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://github.com/AgnosticUI/AstroAgnosticUIStarter">
+                href="https://github.com/AgnosticUI/AstroAgnosticUIStarter"
+              >
                 Astro + AgnosticUI Starter
               </a>
               <ResourceBadge>Link</ResourceBadge>
@@ -310,7 +324,8 @@ const JsFrameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://developtodesign.com/agnosticui-examples">
+                href="https://developtodesign.com/agnosticui-examples"
+              >
                 AgnosticUI Svelte Examples
               </a>
               <ResourceBadge>Link</ResourceBadge>

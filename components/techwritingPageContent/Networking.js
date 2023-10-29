@@ -107,7 +107,8 @@ const Networking = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://developers.google.com/season-of-docs">
+                href="https://developers.google.com/season-of-docs"
+              >
                 Google Season of Docs (GSOD)
               </a>
               <ResourceBadge>Paid</ResourceBadge>

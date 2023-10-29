@@ -29,22 +29,26 @@ const Database = () => {
           out;
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/Tk1t3WKK-ZY">
+            href="https://youtu.be/Tk1t3WKK-ZY"
+          >
             What is a database in under 4 minutes ~ Linux Academy
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/j09EQ-xlh88">
+            href="https://youtu.be/j09EQ-xlh88"
+          >
             What is Database ~ TechTFQ
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/cODCpXtPHbQ">
+            href="https://youtu.be/cODCpXtPHbQ"
+          >
             Database. Which, when and why? ~ CodeKarle
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/ztHopE5Wnpc">
+            href="https://youtu.be/ztHopE5Wnpc"
+          >
             Database design full course ~ FreeCodeCamp
           </a>
         </p>
@@ -78,7 +82,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=7S_tz1z_5bA"
-                    target="_blank">
+                    target="_blank"
+                  >
                     MySQL Tutorial for Beginners ~ Programming with Mosh
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
@@ -92,7 +97,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=EN6Dx22cPRI"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Using MySQL with Node.js ~ Traversy Media
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
@@ -132,7 +138,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/playlist?list=PLillGF-RfqbaEmlPcX5e_ejaK7Y5MydkW"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Recipe App using Node.js and PostgreSQL ~ Traversy Media
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
@@ -154,7 +161,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.microsoft.com/en-us/sql-server"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Website
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -163,7 +171,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Microsoft SQL Server Tutorial For Beginners ~ kudvenkat
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
@@ -177,7 +186,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://learn.microsoft.com/en-us/sql/relational-databases/database-engine-tutorials?view=sql-server-ver15"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Microsoft Docs Database Engine Tutorial
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -185,7 +195,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href=" https://www.youtube.com/watch?v=YIUDgShB4Z8"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Microsoft SQL Server Database Project ~ Brian Green
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
@@ -207,7 +218,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=ObbNGhcxXJA&ab_channel=GreatLearning"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Oracle SQL Tutorial | Oracle DBA | Oracle SQL for Beginners
                     ~ Great Learning
                   </a>
@@ -222,7 +234,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/playlist?list=PLUWdEQb_2yqUaFAwNiYIh-KlnxWQiJQXJ"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Oracle/SQL tutorials Projects ~ Tech Coach
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
@@ -230,7 +243,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=si9tjcnxruU&ab_channel=freeCodeCamp.org"
-                    target="_blank">
+                    target="_blank"
+                  >
                     The Oracle Foundations Associate Cloud Certification ~
                     FreeCodeCamp
                   </a>
@@ -239,7 +253,7 @@ const Database = () => {
               </ResourceCardLinks>
             </ResourceCard>
 
-      {/* SQLite Database */}
+            {/* SQLite Database */}
             <ResourceCard id="SQLite">
               <ResourceCardTitle>SQLite</ResourceCardTitle>
               <ResourceCardLinks>
@@ -253,21 +267,26 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=HQKwgk6XkIA"
-                    target="_blank">
-                     SQLite Tutorial For Beginners - Make A Database In No Time
+                    target="_blank"
+                  >
+                    SQLite Tutorial For Beginners - Make A Database In No Time
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
-                  <a href="https://www.youtube.com/watch?v=byHcYRpMgI4" target="_blank">
-                  SQLite Databases With Python ~ freeCodeCamp.org
+                  <a
+                    href="https://www.youtube.com/watch?v=byHcYRpMgI4"
+                    target="_blank"
+                  >
+                    SQLite Databases With Python ~ freeCodeCamp.org
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
                 </ResourceLink>
                 <ResourceLink>
                   <a
                     href="https://www.youtube.com/watch?v=312RhjfetP8"
-                    target="_blank">
+                    target="_blank"
+                  >
                     SQLite Database for Android ~ freeCodeCamp.org
                   </a>
                   <ResourceBadge>Video</ResourceBadge>
@@ -328,17 +347,20 @@ const Database = () => {
               You can learn about JSON through the links below:
               <a
                 className="resourceLink paragraphLinks"
-                href="https://youtu.be/iiADhChRriM">
+                href="https://youtu.be/iiADhChRriM"
+              >
                 Learn JSON in 10 minutes. ~ Web Dev Simplified
               </a>
               <a
                 className="resourceLink paragraphLinks"
-                href="https://youtu.be/mAqYJF-yxO8">
+                href="https://youtu.be/mAqYJF-yxO8"
+              >
                 Full JSON tutorial for beginners. ~ Techcode
               </a>
               <a
                 className="resourceLink paragraphLinks"
-                href="https://blog.siddu.tech/secret-json-features">
+                href="https://blog.siddu.tech/secret-json-features"
+              >
                 5 Secret features of JSON you didn&apos;t know about. ~
                 Siddharth Shyniben
               </a>
@@ -365,7 +387,8 @@ const Database = () => {
                 <ResourceLink>
                   <a
                     href="https://youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Complete MongoDB tutorial ~ The Net Ninja
                   </a>
                   <ResourceBadge>Playlist</ResourceBadge>
