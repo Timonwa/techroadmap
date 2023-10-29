@@ -610,14 +610,6 @@ const BackendLangs = () => {
                   The growth of C&#43;&#43; as a backend programming language - Sumit Malviya
                 </a>
               </ResourceLink>
-              <ResourceLink>
-                <a
-                  target="_blank"
-                  href="https://docs.kinetica.com/7.0/tutorials/cpp_guide.html">
-                  Learn from C&#43;&#43; Documentation -Kinetica
-                </a>
-              </ResourceLink>
-              
             </ResourceCardLinks>
           </ResourceCard>
           
