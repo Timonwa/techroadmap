@@ -28,7 +28,8 @@ const CodeEditors = () => {
           But before diving in, check this resource(s) out;
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/kCZQPL8u_YI">
+            href="https://youtu.be/kCZQPL8u_YI"
+          >
             Best 3 editors for coding and why. ~ Tutmo
           </a>
         </p>
@@ -46,7 +47,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://code.visualstudio.com/download">
+                    href="https://code.visualstudio.com/download"
+                  >
                     Download link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -74,7 +76,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://www.freecodecamp.org/news/create-your-own-custom-code-snippets/">
+                    href="https://www.freecodecamp.org/news/create-your-own-custom-code-snippets/"
+                  >
                     Create your own custom code snippets ~ Timonwa
                   </a>
                   <ResourceBadge>Article</ResourceBadge>
@@ -88,7 +91,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://www.sublimetext.com/download">
+                    href="https://www.sublimetext.com/download"
+                  >
                     Download link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -151,7 +155,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://code.visualstudio.com/docs/editor/vscode-web">
+                    href="https://code.visualstudio.com/docs/editor/vscode-web"
+                  >
                     Documentation
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -196,7 +201,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder">
+                    href="https://play.google.com/store/apps/details?id=com.paprbit.dcoder"
+                  >
                     Download Link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -210,7 +216,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://play.google.com/store/apps/details?id=com.rhmsoft.code">
+                    href="https://play.google.com/store/apps/details?id=com.rhmsoft.code"
+                  >
                     Download Link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -224,7 +231,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://play.google.com/store/apps/details?id=lk.visual.code.mobile">
+                    href="https://play.google.com/store/apps/details?id=lk.visual.code.mobile"
+                  >
                     Download Link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>
@@ -239,7 +247,8 @@ const CodeEditors = () => {
                 <ResourceLink>
                   <a
                     target="_blank"
-                    href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3">
+                    href="https://play.google.com/store/apps/details?id=ru.iiec.pydroid3"
+                  >
                     Download Link
                   </a>
                   <ResourceBadge>Link</ResourceBadge>

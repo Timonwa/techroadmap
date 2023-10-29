@@ -52,7 +52,8 @@ const CssProcessors = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb">
+                  href="https://youtube.com/playlist?list=PL4cUxeGkcC9jxJX7vojNVK-o8ubDZEcNb"
+                >
                   Complete Sass tutorial. ~ The Net Ninja
                 </a>
                 <ResourceBadge>Video</ResourceBadge>
@@ -98,7 +99,8 @@ const CssProcessors = () => {
               <ResourceLink>
                 <a
                   target="_blank"
-                  href="https://github.com/postcss/postcss/tree/main/docs">
+                  href="https://github.com/postcss/postcss/tree/main/docs"
+                >
                   Documentation.
                 </a>
                 <ResourceBadge>Link</ResourceBadge>

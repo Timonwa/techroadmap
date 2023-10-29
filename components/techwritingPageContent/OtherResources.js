@@ -15,8 +15,8 @@ const OtherResources = () => {
 
       <ResourceSectionBody>
         <p>
-          This is a collection of other useful resources that couldn&apos;t fit into
-          the sections above. Explore!
+          This is a collection of other useful resources that couldn&apos;t fit
+          into the sections above. Explore!
         </p>
       </ResourceSectionBody>
 

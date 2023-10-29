@@ -52,17 +52,20 @@ const Frameworks = () => {
           out;
           <a
             className="resourceLink paragraphLinks"
-            href="https://blog.back4app.com/backend-frameworks/">
+            href="https://blog.back4app.com/backend-frameworks/"
+          >
             Top 10 backend frameworks – Which is the best? ~ Back4App
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/aEc_dR8dhNA">
+            href="https://youtu.be/aEc_dR8dhNA"
+          >
             Top backend frameworks in 2022 ~ Coding for all by Newton School
           </a>
           <a
             className="resourceLink paragraphLinks"
-            href="https://youtu.be/NwKB4HZnIHM">
+            href="https://youtu.be/NwKB4HZnIHM"
+          >
             Django vs Flask Comparison ~ Jelvix
           </a>
         </p>
@@ -110,7 +113,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO">
+                href="https://www.youtube.com/playlist?list=PLp50dWW_m40Vruw9uKGNqySCNFLXK5YiO"
+              >
                 ExpressJs Tutorial for Beginners. ~ ARC Tutorials
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -118,7 +122,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2">
+                href="https://www.youtube.com/playlist?list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2"
+              >
                 ExpressJs 2022 Course ~ Anson the developers
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -126,7 +131,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=qwfE7fSVaZM">
+                href="https://www.youtube.com/watch?v=qwfE7fSVaZM"
+              >
                 Build 4 projects with Nodejs/ExpressJs ~ FreeCodeCamp
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -140,7 +146,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.interviewbit.com/blog/node-js-projects/">
+                href="https://www.interviewbit.com/blog/node-js-projects/"
+              >
                 Top 10 Node JS Projects Ideas (With Source Code) ~ InterviewBits
               </a>
               <ResourceBadge>Article</ResourceBadge>
@@ -148,7 +155,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial">
+                href="https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial"
+              >
                 Building a REST API with Express, Node, and MongoDB
               </a>
               <ResourceBadge>Article</ResourceBadge>
@@ -212,7 +220,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://flask.palletsprojects.com/en/2.1.x/">
+                href="https://flask.palletsprojects.com/en/2.1.x/"
+              >
                 Website
               </a>
               <ResourceBadge>Link</ResourceBadge>
@@ -226,7 +235,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX">
+                href="https://www.youtube.com/playlist?list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX"
+              >
                 How to make websites with Python using Flask. ~ Tech with Tim
               </a>
               <ResourceBadge>Playlist</ResourceBadge>
@@ -234,7 +244,8 @@ const Frameworks = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH">
+                href="https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"
+              >
                 Build a full-feature Flask application from scratch ~ Corey
                 Schafer
               </a>

@@ -102,7 +102,8 @@ const DeploymentServices = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">
+                href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages"
+              >
                 GitHub Pages documentation.
               </a>
               <ResourceBadge>Article</ResourceBadge>

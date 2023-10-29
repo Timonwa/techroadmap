@@ -57,7 +57,8 @@ const VersionControl = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL_euSNU_eLbegnt7aR8I1gXfLhKZbxnYX">
+                href="https://youtube.com/playlist?list=PL_euSNU_eLbegnt7aR8I1gXfLhKZbxnYX"
+              >
                 Git complete course tutorial. ~ Leela Web Dev
               </a>
               <ResourceBadge>Video</ResourceBadge>
@@ -122,7 +123,8 @@ const VersionControl = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLu-nSsOS6FRIg52MWrd7C_qSnQp3ZoHwW">
+                href="https://youtube.com/playlist?list=PLu-nSsOS6FRIg52MWrd7C_qSnQp3ZoHwW"
+              >
                 Git and GitLab tutorial. ~ GitSchoolDude
               </a>
               <ResourceBadge>Video</ResourceBadge>

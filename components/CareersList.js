@@ -55,7 +55,8 @@ const CareersList = () => {
         {careers.map((career) => (
           <div
             key={career.title}
-            className={`${styles.careers__cardLink} ${career.comingSoon} ? ${styles.disabled} : ""`}>
+            className={`${styles.careers__cardLink} ${career.comingSoon} ? ${styles.disabled} : ""`}
+          >
             <Link href={career.link}>
               <a>
                 {career.comingSoon && (

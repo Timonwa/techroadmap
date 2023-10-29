@@ -66,21 +66,24 @@ const FrontendBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+              >
                 Html and Css Crash course tutorial. ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK">
+                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK"
+              >
                 Css3 Full Tutorial. ~ Dev Dreamer
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV">
+                href="https://youtube.com/playlist?list=PLsyeobzWxl7qtP8Lo9TReqUMkiOp446cV"
+              >
                 JavaScript Tutorials for beginners. ~ Telusko
               </a>
             </ResourceLink>
@@ -94,7 +97,8 @@ const FrontendBasics = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.frontendmentor.io/challenges">
+                href="https://www.frontendmentor.io/challenges"
+              >
                 Frontend Challenges - Improve your front-end coding skills by
                 building real projects Solve real-world HTML, CSS and JavaScript
                 challenges whilst working to professional designs.

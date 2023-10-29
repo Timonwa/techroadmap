@@ -75,14 +75,16 @@ const HtmlAndCssBasic = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G">
+                href="https://youtube.com/playlist?list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G"
+              >
                 Html and CSS Crash course tutorial. ~ The Net Ninja
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK">
+                href="https://youtube.com/playlist?list=PL7TLF4T4Tq2RCWa-ZRkEWXVtXteyZ2CjK"
+              >
                 Css3 Full Tutorial. ~ Dev Dreamer
               </a>
             </ResourceLink>
@@ -96,21 +98,24 @@ const HtmlAndCssBasic = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.freecodecamp.org/learn/responsive-web-design/">
+                href="https://www.freecodecamp.org/learn/responsive-web-design/"
+              >
                 Responsive Website Design. ~ FreeCodeCamp.
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.w3schools.com/html/default.asp">
+                href="https://www.w3schools.com/html/default.asp"
+              >
                 Learn Html. ~ W3Schools
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.w3schools.com/css/default.asp">
+                href="https://www.w3schools.com/css/default.asp"
+              >
                 Learn Css. ~ W3Schools
               </a>
             </ResourceLink>
@@ -124,14 +129,16 @@ const HtmlAndCssBasic = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://blog.timonwa.com/all-vs-root-vs-html-vs-body-selectors">
+                href="https://blog.timonwa.com/all-vs-root-vs-html-vs-body-selectors"
+              >
                 All vs root vs html vs body selectors. ~ Timonwa
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://blog.timonwa.com/using-css-variables-like-a-pro">
+                href="https://blog.timonwa.com/using-css-variables-like-a-pro"
+              >
                 Using CSS Variables like a Pro. ~ Timonwa
               </a>
             </ResourceLink>
@@ -145,14 +152,16 @@ const HtmlAndCssBasic = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/playlist?list=PLt5nFcZSSiWVptXtYJssP6K3HoSl0cp-O">
+                href="https://youtube.com/playlist?list=PLt5nFcZSSiWVptXtYJssP6K3HoSl0cp-O"
+              >
                 50+ Html and CSS projects. ~ Mahdi
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.frontendmentor.io/challenges?languages=HTML|CSS&types=free,free-plus">
+                href="https://www.frontendmentor.io/challenges?languages=HTML|CSS&types=free,free-plus"
+              >
                 Frontend Challenges - Improve your front-end coding skills by
                 building real projects Solve real-world HTML, CSS and JavaScript
                 challenges whilst working to professional designs.
@@ -184,7 +193,8 @@ const HtmlAndCssBasic = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://youtube.com/c/OnlineTutorials4Designers">
+                href="https://youtube.com/c/OnlineTutorials4Designers"
+              >
                 Creative Css and Javascript projects. ~ Online Tutorials.
               </a>
               <ResourceBadge>Youtube Channel</ResourceBadge>

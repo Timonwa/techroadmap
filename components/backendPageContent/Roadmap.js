@@ -32,14 +32,16 @@ const Roadmap = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.decipherzone.com/blog-detail/backend-developer-roadmap-2021">
+                href="https://www.decipherzone.com/blog-detail/backend-developer-roadmap-2021"
+              >
                 The 2022 RoadMap For Backend Developer ~ decipherzone.com
               </a>
             </ResourceLink>
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://dev.to/creativetim_official/the-complete-roadmap-for-becoming-a-backend-developer-step-by-step-instructions-d4j">
+                href="https://dev.to/creativetim_official/the-complete-roadmap-for-becoming-a-backend-developer-step-by-step-instructions-d4j"
+              >
                 The Complete Roadmap for Becoming a Backend Developer:
                 Step-By-Step Instructions ~ Creative Tim
               </a>
@@ -53,7 +55,8 @@ const Roadmap = () => {
             <ResourceLink>
               <a
                 target="_blank"
-                href="https://www.youtube.com/watch?v=Q0prVO3DCtU">
+                href="https://www.youtube.com/watch?v=Q0prVO3DCtU"
+              >
                 2022 Backend Developer Roadmap | Begin your journey as a Backend
                 Developer ~ Coding with Lewis
               </a>

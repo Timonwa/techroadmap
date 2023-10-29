@@ -22,7 +22,7 @@ const Roadmap = () => {
           below will guide you on how to create/use your roadmap.
         </p>
       </ResourceSectionBody>
-      
+
       <ResourceSectionLinks>
         {/* articles */}
         <ResourceCard>
@@ -32,7 +32,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://vitto.cc/the-complete-front-end-developer-roadmap-2021/"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 The complete frontend developer roadmap 2021 ~ Vittorio
                 Rivabella
               </a>
@@ -41,7 +42,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://www.freecodecamp.org/news/how-to-learn-web-dev-in-2021-roadmap/"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 How to Learn Web Development in 2021 - a Web Developer Roadmap ~
                 FreeCodeCamp
               </a>
@@ -56,7 +58,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://youtu.be/lnJG9grXqfs"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 Frontend developer learning roadmap 2021 ~ Gift Egwuenu
               </a>
             </ResourceLink>
@@ -64,7 +67,8 @@ const Roadmap = () => {
               <a
                 target="_blank"
                 href="https://youtu.be/EqzUcMzfV1w"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 Web development in 2022, a practical guide ~ Traversy Media
               </a>
             </ResourceLink>

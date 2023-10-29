@@ -48,7 +48,8 @@ export const ContributeDescription = () => {
             <a
               className="paragraphLinks"
               target="_blank"
-              href="https://github.com/Timonwa/techroadmap">
+              href="https://github.com/Timonwa/techroadmap"
+            >
               here
             </a>
             . If you are a non-developer or do not want to contribute as a
@@ -60,21 +61,24 @@ export const ContributeDescription = () => {
             <a
               className="paragraphLinks"
               target="_blank"
-              href="https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md">
+              href="https://github.com/Timonwa/techroadmap/blob/main/CONTRIBUTING.md"
+            >
               contribution guidelines{" "}
             </a>
             and{" "}
             <a
               className="paragraphLinks"
               target="_blank"
-              href="https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md">
+              href="https://github.com/Timonwa/techroadmap/blob/main/CODE_OF_CONDUCT.md"
+            >
               code of conduct
             </a>{" "}
             first before making any contributions and please give our{" "}
             <a
               className="paragraphLinks"
               target="_blank"
-              href="https://github.com/Timonwa/techroadmap">
+              href="https://github.com/Timonwa/techroadmap"
+            >
               Github repo{" "}
             </a>
             a star, it would mean much to us.
@@ -88,7 +92,8 @@ export const ContributeDescription = () => {
               <a
                 href="https://surveyheart.com/form/6223d70e04230d6aacb584eb"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Tech Roadmap Contribution Form (Design)
               </a>
             </li>
@@ -96,7 +101,8 @@ export const ContributeDescription = () => {
               <a
                 href="https://surveyheart.com/form/6223dce98b49886ad8cd58e5"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Tech Roadmap Contribution Form (Roadmaps/Guides)
               </a>
             </li>
@@ -104,7 +110,8 @@ export const ContributeDescription = () => {
               <a
                 href="https://surveyheart.com/form/62246725b4851c6aa5a1d3af"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Tech Roadmap Contribution Form (Frontend Resource Links)
               </a>
             </li>
@@ -112,7 +119,8 @@ export const ContributeDescription = () => {
               <a
                 href="https://surveyheart.com/form/62246ceb8b49886ad8d0b120"
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 Tech Roadmap Contribution Form (Others)
               </a>
             </li>
