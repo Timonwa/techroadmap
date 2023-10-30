@@ -53,6 +53,7 @@ const Networking = () => {
                 She Code Africa (SCA)
               </a>
             </ResourceLink>
+            
           </ResourceCardLinks>
         </ResourceCard>
 

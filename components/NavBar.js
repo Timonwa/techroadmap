@@ -18,9 +18,9 @@ const NavBar = () => {
         {/* website logo */}
         <div className={styles.navLogo}>
           <Link href="/">
-            <a>
-              <p>TECH ROADMAP</p>
-            </a>
+
+            <p>TECH ROADMAP</p>
+
           </Link>
           {/* <a href="#"><h4>NavBar</h4></a> */}
           {/* <a href="#"><img src="" alt="brand image"></a> */}
@@ -33,17 +33,17 @@ const NavBar = () => {
             {/* nav links */}
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/">
-                <a>Home</a>
+                Home
               </Link>
             </li>
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/careers">
-                <a>Careers</a>
+                Careers
               </Link>
             </li>
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/contribute">
-                <a>Contribute</a>
+                Contribute
               </Link>
             </li>
           </ul>
