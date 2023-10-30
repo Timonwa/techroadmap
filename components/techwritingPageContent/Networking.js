@@ -53,7 +53,11 @@ const Networking = () => {
                 She Code Africa (SCA)
               </a>
             </ResourceLink>
-            
+            <ResourceLink>
+            <a target="_blank" href="https://www.scaler.com/discord/">
+                Scaler Discord  Community
+              </a>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
 
