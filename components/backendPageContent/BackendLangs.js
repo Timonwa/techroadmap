@@ -452,6 +452,22 @@ const BackendLangs = () => {
                   The C Beginner&apos;s Handbook ~ freeCodeCamp.org
                 </a>
               </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.doc.ic.ac.uk/lab/cplus/cstyle.html"
+                >
+                  Best practices in C ~ Imperial College London
+                </a>  
+              </ResourceLink>
+              <ResourceLink>
+                <a
+                  target="_blank"
+                  href="https://www.simplilearn.com/tutorials/c-tutorial/pointers-in-c"
+                >
+                  Pointers in C ~ SimpliLearn
+                </a>  
+              </ResourceLink>
             </ResourceCardLinks>
           </ResourceCard>
 
