@@ -78,7 +78,7 @@ const Apis = () => {
                 target="_blank"
                 href="https://www.youtube.com/playlist?list=PLNCevxogE3fiLT6bEObGeVfHVLnttptKv"
               >
-                Working with API'S (Your API Playground) ~ Coding Artist
+                Working with API&apos;S (Your API Playground) ~ Coding Artist
               </a>
             </ResourceLink>
             
