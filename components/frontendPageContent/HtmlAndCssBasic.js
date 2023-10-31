@@ -142,6 +142,22 @@ const HtmlAndCssBasic = () => {
                 Using CSS Variables like a Pro. ~ Timonwa
               </a>
             </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"
+              >
+                CSS Selectors ~ Mozilla Developer Docs
+              </a> 
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://css-tricks.com/confused-rem-em/"
+              >
+                Difference between rem and em ~ CSS Tricks
+              </a>    
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
 
