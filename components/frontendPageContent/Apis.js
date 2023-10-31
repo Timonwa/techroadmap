@@ -65,9 +65,27 @@ const Apis = () => {
                 Asynchronous JavaScript. ~ The Net Ninja
               </a>
             </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=WXsD0ZgxjRw&pp=ygUeYmVzdCBhcGkgcGxheWxpc3QgZm9yIGZyb250ZW5k"
+              >
+                How to use an API ~ FreeCodeCamp
+              </a>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/playlist?list=PLNCevxogE3fiLT6bEObGeVfHVLnttptKv"
+              >
+                Working with API'S (Your API Playground) ~ Coding Artist
+              </a>
+            </ResourceLink>
+            
           </ResourceCardLinks>
         </ResourceCard>
 
+        
         {/* articles  */}
         <ResourceCard>
           <ResourceCardTitle>Articles</ResourceCardTitle>
