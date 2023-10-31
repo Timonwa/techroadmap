@@ -215,6 +215,118 @@ const HtmlAndCssBasic = () => {
               </a>
               <ResourceBadge>Youtube Channel</ResourceBadge>
             </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg">
+                ColorPick EyeDropper -vidsbee.com
+              </a>
+              <ResourceBadge>Plugin</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://youtu.be/ysEN5RaKOlA?si=x2xuYS5V4ETcExYk">
+                Learn web development as an absolute beginner - Coder Coder
+              </a>
+              <ResourceBadge>Video</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://christinatruong.medium.com/increase-your-productivity-with-these-shortcuts-6b40953c856f#:~:text=With%20Emmet%2C%20an%20abbreviated%20syntax,the%20desired%20number%20of%20elements.">
+                How to use Emmet to write HTML and CSS faster -Christina Troung
+              </a>
+              <ResourceBadge>Article</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://emmet.io/download/">
+                Download Emmet for loading your web pages faster 
+              </a>
+              <ResourceBadge>link</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                HTML Documentation - mdn web docs__
+              </a>
+              <ResourceBadge>Documentation Article</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp">
+                ColorZilla
+              </a>
+              <ResourceBadge>Plugin</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://chrome.google.com/webstore/detail/live-server-web-extension/fiegdmejfepffgpnejdinekhfieaogmj">
+                Live Server Web Extension
+              </a>
+              <ResourceBadge>Plugin</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://adekoyapeace.medium.com/11-mistakes-beginners-must-avoid-when-learning-web-development-5dba4526a673">
+                11 Mistakes Beginners Must Avoid When Learning Web Development- Adekoya Peace
+              </a>
+              <ResourceBadge>Article</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://medium.com/@nicholasanaya/dev-tools-explained-for-beginners-925dad248f00">
+                Dev Tools Explained - For Beginners - Nicholas Anaya
+              </a>
+              <ResourceBadge>Article</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://youtu.be/vi1mUy-nXFo?si=D29CDscX0rYhstkW">
+                5 Cool Inspect Element Tips
+              </a>
+              <ResourceBadge>Video</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.bitdegree.org/online-learning-deals">
+                Online Learning Deals - bitdegree
+              </a>
+              <ResourceBadge>Website</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://youtu.be/wfaDzSL6ll0?si=ybBYFM2milhWUtoS">
+                5 CSS tricks every Web Developer should know in 2023 - Keep Coding
+              </a>
+              <ResourceBadge>Videos</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://www.lambdatest.com/blog/html-css-tricks/">
+                11 Lifesaving HTML/CSS Tricks Every Developer Should Know - Harshit Rajora
+              </a>
+              <ResourceBadge>Article</ResourceBadge>
+            </ResourceLink>
+            <ResourceLink>
+              <a
+                target="_blank"
+                href="https://roadmap.sh/frontend?r=frontend-beginner">
+                Frontend Developer Roadmap - roadmap.sh
+              </a>
+              <ResourceBadge>Learning Path map</ResourceBadge>
+            </ResourceLink>
           </ResourceCardLinks>
         </ResourceCard>
       </ResourceSectionLinks>
