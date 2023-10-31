@@ -58,7 +58,7 @@ const CareersList = () => {
             className={`${styles.careers__cardLink} ${career.comingSoon} ? ${styles.disabled} : ""`}
           >
             <Link href={career.link}>
-
+            <a>
               {career.comingSoon && (
                 <p className={styles.comingSoon}>
                   <span>{`${
@@ -70,7 +70,7 @@ const CareersList = () => {
                 <h3>{career.title}</h3>
                 <p>{career.body}</p>
               </div>
-
+              </a>
             </Link>
           </div>
         ))}

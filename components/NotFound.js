@@ -18,12 +18,12 @@ const NotFound = () => {
         </p>
         <p>
           Please return to our{" "}
-          <Link href="/" className="paragraphLinks">
-            Home page
+          <Link href="/">
+            <a className="paragraphLinks">Home page</a>
           </Link>{" "}
           or check out the careers listed in our{" "}
-          <Link href="/careers" className="paragraphLinks">
-            Careers page
+          <Link href="/careers">
+            <a className="paragraphLinks">Careers page</a>
           </Link>
           .
         </p>
