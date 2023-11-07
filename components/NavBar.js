@@ -18,7 +18,7 @@ const NavBar = () => {
         {/* website logo */}
         <div className={styles.navLogo}>
           <Link href="/">
-            <a>
+          <a>
               <p>TECH ROADMAP</p>
             </a>
           </Link>
@@ -33,23 +33,22 @@ const NavBar = () => {
             {/* nav links */}
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/">
-                <a>Home</a>
+              <a>Home</a>
               </Link>
             </li>
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/careers">
                 <a>Careers</a>
-              </Link>
-            </li>
+                </Link>
+                </li>
             <li onClick={handleMenu}>
               <Link className={styles.navLink} href="/contribute">
-                <a>Contribute</a>
+              <a>Contribute</a>
               </Link>
             </li>
           </ul>
         </div>
-
-        {/* burger menu on small screen */}
+                   {/* burger menu on small screen */}
         <div className={styles.burgerMenu}>
           {/* burger menu toggle */}
           <div className={styles.burgerMenuToggle} onClick={handleMenu}>

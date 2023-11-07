@@ -19,18 +19,18 @@ const Footer = () => {
         <div className={styles.sections}>
           <ul className={styles.footerLinks}>
             <li>
-              <Link href="/">
+            <Link href="/">
                 <a className={styles.footerLink}>Home</a>
               </Link>
             </li>
             <li>
-              <Link href="/careers">
+            <Link href="/careers">
                 <a className={styles.footerLink}>Careers</a>
               </Link>
             </li>
             <li>
-              <Link href="/contribute">
-                <a className={styles.footerLink}>Contribute</a>
+              <Link href="/contribute" className={styles.footerLink}>
+                Contribute
               </Link>
             </li>
           </ul>
@@ -39,7 +39,7 @@ const Footer = () => {
         {/* attribution */}
         <div className={styles.sections}>
           <p>
-            <Link href="/">
+          <Link href="/">
               <a className={styles.paragraphLinks}>Tech Roadmap </a>
             </Link>
             is created by{" "}

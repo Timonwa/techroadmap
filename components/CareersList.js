@@ -58,18 +58,18 @@ const CareersList = () => {
             className={`${styles.careers__cardLink} ${career.comingSoon} ? ${styles.disabled} : ""`}
           >
             <Link href={career.link}>
-              <a>
-                {career.comingSoon && (
-                  <p className={styles.comingSoon}>
-                    <span>{`${
-                      career.inProgress ? "In Progress" : "Coming Soon"
-                    }`}</span>
-                  </p>
-                )}
-                <div className={styles.careers__card}>
-                  <h3>{career.title}</h3>
-                  <p>{career.body}</p>
-                </div>
+            <a>
+              {career.comingSoon && (
+                <p className={styles.comingSoon}>
+                  <span>{`${
+                    career.inProgress ? "In Progress" : "Coming Soon"
+                  }`}</span>
+                </p>
+              )}
+              <div className={styles.careers__card}>
+                <h3>{career.title}</h3>
+                <p>{career.body}</p>
+              </div>
               </a>
             </Link>
           </div>
