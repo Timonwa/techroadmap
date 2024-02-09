@@ -8,6 +8,7 @@ import ContributeCTA from "../components/ContributeCTA";
 import Footer from "../components/Footer";
 import NavSpace from "../components/NavSpace";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
       <ContributeCTA />
       <Footer />
       <Analytics />
+      <SpeedInsights />
     </>
   );
 }
