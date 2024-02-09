@@ -7,6 +7,7 @@ import NavBar from "../components/NavBar";
 import ContributeCTA from "../components/ContributeCTA";
 import Footer from "../components/Footer";
 import NavSpace from "../components/NavSpace";
+import { Analytics } from "@vercel/analytics/react";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <ContributeCTA />
       <Footer />
+      <Analytics />
     </>
   );
 }
