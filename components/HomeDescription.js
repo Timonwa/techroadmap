@@ -25,7 +25,7 @@ const HomeDescription = () => {
             You can click on one of the career cards below if you have already
             chosen a career path or go to our{" "}
             <Link className="paragraphLinks" href="/careers">
-            <a>careers page </a>
+            careers page 
             </Link>
             if you need help in deciding the one to choose.
           </p>
