@@ -19,12 +19,12 @@ const Footer = () => {
         <div className={styles.sections}>
           <ul className={styles.footerLinks}>
             <li>
-            <Link href="/" className={styles.footerLink}>
+              <Link href="/" className={styles.footerLink}>
                 Home
               </Link>
             </li>
             <li>
-            <Link href="/careers" className={styles.footerLink}>
+              <Link href="/careers" className={styles.footerLink}>
                 Careers
               </Link>
             </li>
@@ -39,18 +39,26 @@ const Footer = () => {
         {/* attribution */}
         <div className={styles.sections}>
           <p>
-          <Link href="/" className={styles.paragraphLinks}>
-              Tech Roadmap 
-            </Link>
+            <Link href="/" className={styles.paragraphLinks}>
+              Developer Roadmap
+            </Link>{" "}
             is created by{" "}
             <a
               className={styles.paragraphLinks}
               target="_blank"
               href="https://twitter.com/timonwa_"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               Timonwa
+            </a>{" "}
+            and{" "}
+            <a
+              className={styles.paragraphLinks}
+              target="_blank"
+              href="https://github.com/Timonwa/techroadmap/graphs/contributors/"
+              rel="noreferrer">
+              friends
             </a>
+            .
           </p>
         </div>
 
@@ -62,9 +70,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="mailto:techcareerroadmap@gmail.com"
-                rel="noreferrer"
-              >
-                <FaEnvelope className={styles.icons} />
+                rel="noreferrer">
+                <FaEnvelope className={styles.icons} title="Email link" />
               </a>
             </li>
             <li>
@@ -72,9 +79,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="https://twitter.com/techroadmap__"
-                rel="noreferrer"
-              >
-                <FaTwitter className={styles.icons} />
+                rel="noreferrer">
+                <FaTwitter className={styles.icons} title="Twitter link" />
               </a>
             </li>
             <li>
@@ -82,9 +88,8 @@ const Footer = () => {
                 className={styles.socialLink}
                 target="_blank"
                 href="https://github.com/Timonwa/techroadmap"
-                rel="noreferrer"
-              >
-                <FaGithub className={styles.icons} />
+                rel="noreferrer">
+                <FaGithub className={styles.icons} title="Github link" />
               </a>
             </li>
           </ul>
@@ -93,8 +98,8 @@ const Footer = () => {
         {/* website quote */}
         <div className={`${styles.sections} ${styles.quote}`}>
           <p>
-            Roadmaps, articles, and useful resources to help you choose a career
-            path, start your journey, and grow in tech.
+            Frontend and Backend roadmaps, along with useful resources to help
+            you start and grow your career in tech.
           </p>
         </div>
 
@@ -103,7 +108,7 @@ const Footer = () => {
           <p>
             <small>
               Copyright <FaRegCopyright className={styles.icons} />
-              {currentYear} Tech Roadmap. All Rights Reserved.
+              {currentYear} Developer Roadmap. All Rights Reserved.
             </small>
           </p>
         </div>

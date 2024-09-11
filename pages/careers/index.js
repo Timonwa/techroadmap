@@ -21,7 +21,8 @@ const CareersPage = () => {
         <link rel="manifest" href="/manifest.json" />
 
         <title>
-          How to choose a career path in tech in {currentYear}. | Tech Roadmap.
+          How to choose a career path in tech in {currentYear}. | Developer
+          Roadmap.
         </title>
 
         {/** Seo Tags */}
@@ -30,7 +31,7 @@ const CareersPage = () => {
         <meta name="author" content="Timonwa Akintokun" />
         <meta
           name="title"
-          content={`How to choose a career path in tech in ${currentYear}. | Tech Roadmap.`}
+          content={`How to choose a career path in tech in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           name="description"
@@ -43,7 +44,7 @@ const CareersPage = () => {
         <meta property="og:url" content="https://www.techroadmap.xyz/careers" />
         <meta
           property="og:title"
-          content={`How to choose a career path in tech in ${currentYear}. | Tech Roadmap.`}
+          content={`How to choose a career path in tech in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="og:description"
@@ -59,7 +60,7 @@ const CareersPage = () => {
         />
         <meta
           property="twitter:title"
-          content={`How to choose a career path in tech in ${currentYear}. | Tech Roadmap.`}
+          content={`How to choose a career path in tech in ${currentYear}. | Developer Roadmap.`}
         />
         <meta
           property="twitter:description"

@@ -29,14 +29,9 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          {/* Plausible Analytics */}
-          <script
-            defer
-            data-domain="roadmaps.timonwa.com"
-            src="https://plausible.io/js/script.js"></script>
-
+          <meta name="view-transition" content="same-origin" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async

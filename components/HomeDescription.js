@@ -8,7 +8,7 @@ const HomeDescription = () => {
         <h2 className="heading">Welcome!</h2>
         <div className="intro__body">
           <p>
-            Tech Roadmap is a free online resource on careers in the tech
+            Developer Roadmap is a free online resource on careers in the tech
             industry. Anyone who wants to break or transition into the tech
             industry or has already broken into it, can use these resources to
             choose and define their career path and learn about the skills
@@ -25,7 +25,7 @@ const HomeDescription = () => {
             You can click on one of the career cards below if you have already
             chosen a career path or go to our{" "}
             <Link className="paragraphLinks" href="/careers">
-            careers page 
+              careers page
             </Link>
             if you need help in deciding the one to choose.
           </p>

@@ -5,7 +5,7 @@ const Intro = () => {
   return (
     <section className="intro">
       <div className="intro-wrapper">
-        <h2 className="heading">Begin Your Backend Developer Journey!</h2>
+        <h1 className="heading">Begin Your Backend Developer Journey!</h1>
         <div className="intro__body">
           <p>
             Congratulations on choosing this career path. You are one step

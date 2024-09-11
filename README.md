@@ -10,18 +10,18 @@
 [![GitHub issues](https://img.shields.io/github/issues/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/issues/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Timonwa/techroadmap.svg)](https://github.com/Timonwa/techroadmap/pull/)
 
-# Tech Roadmap
+# Developer Roadmap
 
 ⭐ Please click the star above on this repo, it keeps me motivated. You can also
 follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
 
-[Tech Roadmap](https://www.techroadmap.xyz) is a free online resource on careers
-in the tech industry. Anyone who wants to break or transition into the tech
-industry or has already broken into it can use these resources to choose and
-define their career path and learn about the skills needed to build themselves
-in the chosen career.
+[Developer Roadmap](https://www.techroadmap.xyz) is a free online resource on
+careers in the tech industry. Anyone who wants to break or transition into the
+tech industry or has already broken into it can use these resources to choose
+and define their career path and learn about the skills needed to build
+themselves in the chosen career.
 
-![Tech Roadmap](https://user-images.githubusercontent.com/63044364/167291834-be8ee3cb-2901-4a3b-8171-daec5f469f4b.png)
+![Developer Roadmap](https://user-images.githubusercontent.com/63044364/167291834-be8ee3cb-2901-4a3b-8171-daec5f469f4b.png)
 
 ## Table of Content
 
@@ -34,24 +34,24 @@ in the chosen career.
 
 ## About The Project
 
-Tech Roadmap lets you have access to collections of ebooks, videos, articles,
-guides, etc on different careers in the tech industry including no-code jobs. So
-if you are looking for resources either for yourself or someone else who is
-about to begin or start growing a tech career, then Tech Roadmap is the place to
-start.
+Developer Roadmap lets you have access to collections of ebooks, videos,
+articles, guides, etc on different careers in the tech industry including
+no-code jobs. So if you are looking for resources either for yourself or someone
+else who is about to begin or start growing a tech career, then Developer
+Roadmap is the place to start.
 
 These roadmaps or step-by-step guides are carefully curated for the different
 Tech Careers listed on our websites. The collections of resources are carefully
 arranged so that the learner has a guided learning path.
 
-<!-- You can read more about what inspired Tech Roadmap in my [article](https://blog.timonwa.com/tech-roadmap-everything-you-need-to-help-you-choose-and-learn-a-career-in-tech). -->
+<!-- You can read more about what inspired Developer Roadmap in my [article](https://blog.timonwa.com/tech-roadmap-everything-you-need-to-help-you-choose-and-learn-a-career-in-tech). -->
 
 [⬆ Back to Top](#table-of-content)
 
 ## Project Status
 
-Tech Roadmap is live and you can check out the list of available careers on our
-[Careers Page](https://www.techroadmap.xyz/careers).
+Developer Roadmap is live and you can check out the list of available careers on
+our [Careers Page](https://www.techroadmap.xyz/careers).
 
 More quality roadmap will be added on other Tech Careers over time. Anticipate!
 😁
@@ -104,7 +104,7 @@ git clone https://github.com/your-username/techroadmap.git
 ```
 
 where `your-username` is your GitHub username. Here you're copying the contents
-of the Tech Roadmap repository on GitHub to your computer.
+of the Developer Roadmap repository on GitHub to your computer.
 
 ### Create a branch
 
