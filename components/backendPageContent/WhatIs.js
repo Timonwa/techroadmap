@@ -19,7 +19,7 @@ const WhatIs = () => {
       <ResourceSectionBody>
         <p>
           Backend development, also called server-side development, is the
-          process of creating everything that the users don&apos; see and
+          process of creating everything that the users don&apos;t see and
           contains behind-the-scenes activities that occur when performing any
           action on a website. It focuses primarily on databases, backend logic,
           APIs, and Servers. Backend development can be done in almost any
