@@ -1,3 +1,5 @@
+Thank you for your interest in contributing to this project! 🎉 However, we are no longer accepting contributions to this project. Thank you for your support! 👋
+
 <a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
 <a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 [![Buy me a coffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)
