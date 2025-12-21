@@ -1,10 +1,10 @@
 >This project is archived. While learning never ends, keeping roadmaps fully up to date across rapidly evolving technologies proved unsustainable. The repository remains available for reference and community learning.
 
-<a href="https://www.twitter.com/techroadmap__"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
-<a href="mailto:techcareerroadmap@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
+<a href="https://www.x.com/timonwa_"><img alt="Twitter" src="https://img.shields.io/badge/Twitter%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/></a>
+<a href="mailto:me@timonwa.com"><img alt="Email" src="https://img.shields.io/badge/Email%20-%23DDDDDD.svg?&style=for-the-badge&logo=Gmail&logoColor=red"/></a>
 [![Buy me a coffee](https://badgen.net/badge/icon/buymeacoffee?icon=buymeacoffee&label)](https://www.buymeacoffee.com/timonwa)
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-blue.svg)](mailto:techcareerroadmap@gmail.com)
+[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-blue.svg)](mailto:me@timonwa.com)
 [![GitHub license](https://badgen.net/github/license/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/blob/main/LICENSE)
 [![GitHub forks](https://badgen.net/github/forks/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/network/members)
 [![GitHub stars](https://badgen.net/github/stars/Timonwa/techroadmap)](https://github.com/Timonwa/techroadmap/stargazers/)
@@ -15,9 +15,9 @@
 # Developer Roadmap
 
 ⭐ Please click the star above on this repo, it keeps me motivated. You can also
-follow TechRoadmap on [Twitter](https://twitter.com/techroadmap__).🙂
+follow TechRoadmap on [Twitter]([https://twitter.com/techroadmap__](https://www.x.com/timonwa_)).🙂
 
-[Developer Roadmap](https://www.techroadmap.xyz) is a free online resource on
+[Developer Roadmap](https://roadmaps.timonwa.com/) is a free online resource on
 careers in the tech industry. Anyone who wants to break or transition into the
 tech industry or has already broken into it can use these resources to choose
 and define their career path and learn about the skills needed to build
@@ -53,7 +53,7 @@ arranged so that the learner has a guided learning path.
 ## Project Status
 
 Developer Roadmap is live and you can check out the list of available careers on
-our [Careers Page](https://www.techroadmap.xyz/careers).
+our [Careers Page](https://roadmaps.timonwa.com/careers).
 
 More quality roadmap will be added on other Tech Careers over time. Anticipate!
 😁
@@ -64,7 +64,7 @@ The project is built with ReactJs, NextJs, and Styled-Components.
 
 ## Getting Started
 
-Getting started is easy. Our [website](https://www.techroadmap.xyz) is easy to
+Getting started is easy. Our [website](https://roadmaps.timonwa.com) is easy to
 navigate with simplicity but quality as part of our goals.
 
 But if you would like to fork the repository instead either for personal
@@ -211,7 +211,7 @@ been merged.
 ## How to Get Help
 
 If you need more help, feel free to send an email to
-<a href="mailto:techcareerroadmap@gmail.com">techcareerroadmap@gmail.com</a>.
+<a href="mailto:me@timonwa.com">me@timonwa.com</a>.
 
 [⬆ Back to Top](#table-of-content)
 
@@ -241,7 +241,3 @@ details.
 </a>
 
 [⬆ Back to Top](#table-of-content)
-
-<!-- ## Authors
-Timonwa
-Also, please take a look at the list of contributors who participated in this project. -->
