@@ -37,6 +37,14 @@ export default class MyDocument extends Document {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
           />
+
+          {/* Umami Analytics */}
+          <script
+            defer
+            src="https://cloud.umami.is/script.js"
+            data-website-id="4550710a-0c5e-462a-8012-5d3ee2f3769e"
+          />
+
           <script
             dangerouslySetInnerHTML={{
               __html: `
