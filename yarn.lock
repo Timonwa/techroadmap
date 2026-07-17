@@ -2190,9 +2190,9 @@ wrappy@1:
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
 ws@^7.3.1:
-  version "7.5.9"
-  resolved "https://registry.npmjs.org/ws/-/ws-7.5.9.tgz"
-  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
+  version "7.5.12"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.12.tgz#4ca2c04966db4dcd2f9bc4d1419d23cd1e4a18db"
+  integrity sha512-1xGnbYN3zbog9CwuNDQULNRrTCLIn46/WmpR1f0w6PsCYQHkylZr5vkd6kfMZYV6pRnQkcPNRyiA8LsrNKyhpg==
 
 yallist@^4.0.0:
   version "4.0.0"
