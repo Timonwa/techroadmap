@@ -1,6 +1,10 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
+const UMAMI_URL = "https://analytics.timonwa.com";
+const UMAMI_WEBSITE_ID = "8d205901-0d4a-4ee4-a4ab-da678178451f";
+const isProductionDeploy = process.env.VERCEL_ENV === "production";
+
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -32,31 +36,13 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="view-transition" content="same-origin" />
-          {/* Global Site Tag (gtag.js) - Google Analytics */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-          />
-
-          {/* Umami Analytics */}
-          <script
-            defer
-            src="https://cloud.umami.is/script.js"
-            data-website-id="4550710a-0c5e-462a-8012-5d3ee2f3769e"
-          />
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
+          {isProductionDeploy && UMAMI_WEBSITE_ID && (
+            <script
+              defer
+              src={`${UMAMI_URL}/script.js`}
+              data-website-id={UMAMI_WEBSITE_ID}
+            />
+          )}
         </Head>
         <body>
           <Main />
